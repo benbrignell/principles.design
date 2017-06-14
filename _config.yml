@@ -1,0 +1,15 @@
+# Site settings
+title: "Design Principles"
+description: "Design Principles and how to write your own"
+
+url: "https://principles.design"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+    example:
+        output: true

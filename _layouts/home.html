@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        <header class="post-header">
+          <h1 class="post-title">{{ site.title }}</h1>
+        </header>
+        {{ content }}
+
+        {% for example in site.example %}
+          <h2>{{example.title}}</h2>
+          {{example.summary}}
+          <ul>
+          {% for principles in example.principles %}
+            <li>{{principles.dd}}</li>
+          {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
