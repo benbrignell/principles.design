@@ -12,16 +12,22 @@
           <h1 class="post-title">{{ site.title }}</h1>
         </header>
         {{ content }}
-
+        <div class="grid">
         {% for example in site.example %}
-          <h2>{{example.title}}</h2>
+          <div class="tile">
+            <h2><a href="{{example.link}}">{{example.title}}</a></h2>
           {{example.summary}}
-          <ul>
+          <ol class="cards">
           {% for principles in example.principles %}
-            <li>{{principles.dd}}</li>
+            <li>{{principles.principle}}</li>
           {% endfor %}
-          </ul>
+        </ol>
+        </div>
         {% endfor %}
+        <div class="tile" style="border: dashed 1px #ccc;">
+            Add your own
+        </div>
+        </div>
       </div>
     </div>
 

@@ -1,0 +1,42 @@
+// Scratch styles
+// ---------------------------------------/
+
+div.grid {
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+}
+.grid > div {
+  // border: 1px solid #3bc9db;
+  // display: flex; // not sure why this was here
+}
+
+ol.cards {
+margin-left: -2.4em;
+}
+
+ol.cards li {
+  // float: left; // what was I thinking
+  list-style-type: none;
+  counter-increment: step-counter;
+  margin: 0;
+  padding: 0;
+}
+
+ol.cards li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(200,200,200);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 0.2em;
+    text-align: right;
+}
+ol.cards li:before {
+
+}
+
+.tile h2 {display: block; margin: 0;}

@@ -1,12 +1,8 @@
 ---
-title: GOV UK
-summary: Gov UK Design Principles
+title: Pigeons
+summary: Cheese principles
 link: https://www.gov.uk/design-principles
 principles:
-- principle: Start with user needs
-- principle: Do less
-- principle: Design with data
-- principle: Do the hard work to make it simple
 - principle: Iterate. Then iterate again.
 - principle: This is for everyone
 - principle: Understand context
