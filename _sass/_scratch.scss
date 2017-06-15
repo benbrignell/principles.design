@@ -21,6 +21,8 @@ div.grid {
 
 ol.cards {
 margin-left: -2.4em;
+position: relative;
+margin-left: 0.2em;
 }
 
 ol.cards li {
@@ -28,7 +30,7 @@ ol.cards li {
   list-style-type: none;
   counter-increment: step-counter;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0.2em 0;
 }
 
 ol.cards li::before {
@@ -40,6 +42,8 @@ ol.cards li::before {
     font-weight: bold;
     padding: 3px 8px;
     border-radius: 0.2em;
+    position: absolute;
+    left: 0.6em;
 
 }
 ol.cards li:before {
