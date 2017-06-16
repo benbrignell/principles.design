@@ -10,8 +10,10 @@
 // Generic site base & layout styles
 @import "base";
 @import "layout";
+@import "typography";
 
 // Layouts
 @import "home";
 // temporary styles while I figure out design ideas
 @import "scratch";
+@import "mediaqueries";

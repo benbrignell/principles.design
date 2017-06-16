@@ -1,4 +1,4 @@
-// Scratch styles
+// Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works
 // ---------------------------------------/
 body, html {
   height: 100%;
@@ -23,7 +23,8 @@ p {max-width: 40em;} // test for legibility
   background-size: 100% auto;
 }
 .site-nav {
-  font-size: 2em;
+  font-size: $m;
+  padding-bottom: $padding-l;
 }
 body.home header.site-header {
   background: $primary;
@@ -94,7 +95,7 @@ ol.cards li:before {
   display: inline-block;
 }
 .ghost:hover {
-  border: solid;
+  // border: solid;
 }
 
 .tile h2 {display: block; margin: 0;}
@@ -104,5 +105,5 @@ ol.cards li:before {
   border-top: solid 1em $secondary;
   background: $white;
   font-size: $m;
-  padding: $padding-l;
+  padding: $padding-l 0;
 }
