@@ -3,4 +3,48 @@
   h1.intro {
     font-size: 6em;
   }
+
+  body.home header .site-title {
+      animation: fadeIn 1.6s;
+      // -moz-animation: fadeIn 1.6s; /* Firefox */
+      -webkit-animation: fadeIn 1.6s; /* Safari and Chrome */
+      // -o-animation: fadeIn 1.6s; /* Opera */
+      position: relative;
+  }
+
+  body.home a.page-link {
+      animation: fadeInUp 1s;
+      // -moz-animation: fadeInUp 1s; /* Firefox */
+      -webkit-animation: fadeInUp 1s; /* Safari and Chrome */
+      // -o-animation: fadeInUp 1s; /* Opera */
+      position: relative;
+      display: inline-block;
+  }
+  body.home header h1 {
+      animation: fadeInUp 1.4s;
+      // -moz-animation: fadeInUp 1.4s; /* Firefox */
+      -webkit-animation: fadeInUp 1.4s; /* Safari and Chrome */
+      // -o-animation: fadeInUp 1.4s; /* Opera */
+      position: relative;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 }
