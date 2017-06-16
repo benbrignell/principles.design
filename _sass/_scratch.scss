@@ -5,6 +5,25 @@ body, html {
 }
 body {background: $primary;}
 
+body.home header * {
+    animation: fadeInUp .8s;
+    -moz-animation: fadeInUp .8s; /* Firefox */
+    -webkit-animation: fadeInUp .8s; /* Safari and Chrome */
+    -o-animation: fadeInUp .8s; /* Opera */
+    position: relative;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 a {
   color: $black;
   text-decoration-skip: ink;
@@ -21,6 +40,10 @@ p {max-width: 40em;} // test for legibility
   margin: 2em 0 1em 0;
   background: url(/images/design-principles-logo.svg) no-repeat top left;
   background-size: 100% auto;
+}
+.site-title:hover {
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
 }
 .site-nav {
   font-size: $m;
