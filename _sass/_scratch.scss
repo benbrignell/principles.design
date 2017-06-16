@@ -15,12 +15,12 @@ a:hover {
 
 p {max-width: 40em;} // test for legibility
 .site-title {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   display: block;
   margin: 2em 0 1em 0;
   background: url(/images/design-principles-logo.svg) no-repeat top left;
-  background-size: 80px auto;
+  background-size: 100% auto;
 }
 .site-nav {
   font-size: 2em;
@@ -84,5 +84,8 @@ ol.cards li:before {
 
 
 .site-footer {
-  background: $secondary;
+  border-top: solid 1em $secondary;
+  background: $white;
+  font-size: $m;
+  padding: $padding-l;
 }

@@ -4,7 +4,7 @@
 $container-width: 40em !default;
 $grid-gutter:     10px !default;
 
-$max-width: 68em;
+$max-width: 1080px;
 
 // Colors
 $white:             #fff;
@@ -16,8 +16,16 @@ $red:               red;
 
 $background:        silver;
 
+// font sizes
+$s:                 1em;
+$m:                 1.8em;
+$l:                 4em;
 // Styles
 $text_color:        $black;
+
+$padding-s:         0.1em;
+$padding-m:         0.3em;
+$padding-l:         1.6em;
 
 @font-face {
   font-family: system;
