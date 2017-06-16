@@ -5,17 +5,22 @@ body, html {
 }
 body {background: $primary;}
 
-a {text-decoration-skip: ink;}
+a {
+  color: $black;
+  text-decoration-skip: ink;
+}
+a:hover {
+  text-decoration-color: $red;
+}
 
 p {max-width: 40em;} // test for legibility
 .site-title {
   width: 80px;
   height: 80px;
   display: block;
-  background: black;
   margin: 2em 0 1em 0;
-  color: white;
-  text-align: center;
+  background: url(/images/design-principles-logo.svg) no-repeat top left;
+  background-size: 80px auto;
 }
 .site-nav {
   font-size: 2em;
