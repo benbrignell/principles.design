@@ -9,12 +9,22 @@ $max-width: 68em;
 // Colors
 $white:             #fff;
 $black:             #333;
+$primary:           yellow;
+
+$background:        #ccc;
 
 // Styles
 $text_color:        $black;
 
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
 // Font stack
-$body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$body-font: "system", sans-serif;
+
 
 // The base body size
 $body-font-size: 1em !default;

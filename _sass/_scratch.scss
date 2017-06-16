@@ -1,9 +1,27 @@
 // Scratch styles
 // ---------------------------------------/
+body, html {
+  height: 100%;
+}
+body {background: $primary;}
 
-body {background: #efefef;}
-.site-header {
+a {text-decoration-skip: ink;}
+
+.site-title {
+  width: 80px;
+  height: 80px;
+  display: block;
+  background: black;
+  margin: 2em 0 1em 0;
+  color: white;
+  text-align: center;
+}
+.site-nav {
+  font-size: 2em;
+}
+body.home header.site-header {
   background: yellow;
+  height: 100%;
 }
 div.grid {
   display: grid;
@@ -14,9 +32,12 @@ div.grid {
 .grid > div {
   // border: 1px solid #3bc9db;
   // display: flex; // not sure why this was here
-  background: #fff;
+  background: $white;
   padding: 0.4em 1em;
   // border-radius: 0.4em;
+}
+div.page-content {
+  background: $background;
 }
 
 ol.cards {
