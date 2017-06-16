@@ -104,6 +104,8 @@ ol.cards li:before {
 .site-footer {
   border-top: solid 1em $secondary;
   background: $white;
-  font-size: $m;
   padding: $padding-l 0;
+}
+.site-footer p:first-child {
+  font-size: $m;
 }
