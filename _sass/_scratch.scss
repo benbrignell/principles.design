@@ -51,8 +51,7 @@ ol.cards li {
   // float: left; // what was I thinking
   list-style-type: none;
   counter-increment: step-counter;
-  margin: 0;
-  padding: 0 0 0.2em 0;
+  margin: 0 0 0.4em 0;
 }
 
 ol.cards li::before {
@@ -62,10 +61,12 @@ ol.cards li::before {
     background-color: rgb(200,200,200);
     color: white;
     font-weight: bold;
-    padding: 3px 8px;
+    padding: 4px;
     border-radius: 0.2em;
     position: absolute;
     left: 0.6em;
+    width: 1.6em;
+    text-align: center;
 
 }
 ol.cards li:before {
