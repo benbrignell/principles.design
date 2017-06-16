@@ -26,7 +26,7 @@ p {max-width: 40em;} // test for legibility
   font-size: 2em;
 }
 body.home header.site-header {
-  background: yellow;
+  background: $primary;
   height: 100%;
 }
 div.grid {
@@ -43,7 +43,7 @@ div.grid {
   // border-radius: 0.4em;
 }
 div.page-content {
-  background: $background;
+  background: $silver;
 }
 
 ol.cards {
@@ -65,8 +65,8 @@ ol.cards li::before {
     margin-right: 0.6em;
     // font-size: 80%;
     font-size: 0.9em;
-    background-color: rgb(200,200,200);
-    color: white;
+    background-color: $mid-grey;
+    color: $white;
     font-weight: bold;
     border-radius: 0.2em;
     position: absolute;
@@ -78,6 +78,23 @@ ol.cards li::before {
 }
 ol.cards li:before {
 
+}
+
+.ghost {
+  border: dashed 4px $light-grey;
+  background: $silver!important;
+  text-align: center;
+  position: relative;
+}
+.ghost * {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: $m;
+  display: inline-block;
+}
+.ghost:hover {
+  border: solid;
 }
 
 .tile h2 {display: block; margin: 0;}

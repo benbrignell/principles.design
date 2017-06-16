@@ -13,7 +13,7 @@ html {
 body{
   @include sans;
   color: $text_color;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5;
   font-family: $body-font;
 }
