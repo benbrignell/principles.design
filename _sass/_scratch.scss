@@ -42,31 +42,33 @@ div.page-content {
 }
 
 ol.cards {
-margin-left: -2.4em;
 position: relative;
-margin-left: 0.2em;
+margin-left: -0.6em;
 }
 
 ol.cards li {
   // float: left; // what was I thinking
   list-style-type: none;
   counter-increment: step-counter;
-  margin: 0 0 0.4em 0;
+  margin: 0 0 0.125em 0;
+  padding-left: 0.2em;
+  line-height: 1.4;
 }
 
 ol.cards li::before {
     content: counter(step-counter);
     margin-right: 0.6em;
-    font-size: 80%;
+    // font-size: 80%;
+    font-size: 0.9em;
     background-color: rgb(200,200,200);
     color: white;
     font-weight: bold;
-    padding: 4px;
     border-radius: 0.2em;
     position: absolute;
     left: 0.6em;
     width: 1.6em;
     text-align: center;
+    padding: 0.05em;
 
 }
 ol.cards li:before {
@@ -77,5 +79,5 @@ ol.cards li:before {
 
 
 .site-footer {
-  background: #ccc;
+  background: $secondary;
 }
