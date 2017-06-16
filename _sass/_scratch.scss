@@ -7,6 +7,7 @@ body {background: $primary;}
 
 a {text-decoration-skip: ink;}
 
+p {max-width: 40em;} // test for legibility
 .site-title {
   width: 80px;
   height: 80px;
