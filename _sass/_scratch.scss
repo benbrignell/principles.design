@@ -113,3 +113,14 @@ ol.cards li:before {
 .site-footer p:first-child {
   font-size: $m;
 }
+
+.what {
+  background: lighten($primary, 20%);
+}
+.why {
+  background: lighten($primary, 30%);
+}
+.who {
+  background: lighten($primary, 40%);
+
+}
