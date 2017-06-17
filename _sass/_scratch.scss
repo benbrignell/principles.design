@@ -84,10 +84,12 @@ ol.cards li::before {
 ol.cards li:before {
 
 }
-
+.tile:last-child {
+  background: transparent;
+}
 .ghost {
-  border: dashed 4px $light-grey;
-  background: $silver!important;
+  border: dashed 4px $white;
+  background: transparent;
   text-align: center;
   position: relative;
 }
@@ -115,12 +117,12 @@ ol.cards li:before {
 }
 
 .what {
-  background: lighten($primary, 20%);
+  background: lighten($primary, 10%);
 }
 .why {
-  background: lighten($primary, 30%);
+  background: lighten($primary, 15%);
 }
 .who {
-  background: lighten($primary, 40%);
+  background: lighten($primary, 20%);
 
 }
