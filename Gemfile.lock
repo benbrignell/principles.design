@@ -172,8 +172,8 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
     rb-fsevent (0.9.8)
-    rb-inotify (0.9.8)
-      ffi (>= 0.5.0)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.24)
@@ -196,4 +196,4 @@ DEPENDENCIES
   github-pages
 
 BUNDLED WITH
-   1.14.6
+   1.15.1

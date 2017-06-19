@@ -55,7 +55,7 @@
 // type utilities
 
 @mixin sans {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'aller_lightregular', Helvetica, Arial, sans-serif;
 }
 
 @mixin sans_light {
@@ -74,8 +74,7 @@
 }
 
 @mixin sans_bold {
-  @include sans;
-  font-weight: 700;
+  font-family: 'allerbold', Helvetica, Arial, sans-serif;
 }
 
 @mixin sans_extrabold {
