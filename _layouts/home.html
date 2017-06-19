@@ -24,10 +24,10 @@
       <div class="wrapper">
           <h2>Who use them?</h2>
           <p>Big companies, individuals and products have benefitted from following their principles.</p>
-          <h3>Here are some recommended examples</h3>
+          <h3>Here are a few examples</h3>
         {{ content }}
         <div class="grid">
-        {% for example in site.example %}
+        {% for example in site.examples %}
           <div class="tile">
             <h2><a href="{{example.link}}">{{example.title}}</a></h2>
           {{example.summary}}

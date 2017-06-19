@@ -11,5 +11,5 @@ sass:
   style: compressed
 
 collections:
-    example:
+    examples:
         output: true
