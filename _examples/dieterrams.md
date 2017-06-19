@@ -13,4 +13,5 @@ principles:
 - principle: Good design is thorough down to the last detail
 - principle: Good design is environmentally friendly
 - principle: Good design is as little design as possible
+tags: [github, github-pages, jekyll]
 ---
