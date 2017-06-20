@@ -98,19 +98,21 @@ h2.intro {font-size: 3em;}
   position: relative;
 }
 
-div.indent-block {
-  background: lighten($primary, 35%);
-  padding: 2em;
-  float: right;
-  font-size: 1.4em;
-  max-width: 32em;
-  -webkit-box-shadow: 10px 10px 0px 0px $primary;
-  -moz-box-shadow: 10px 10px 0px 0px $primary;
-  box-shadow: 10px 10px 0px 0px $primary;
-}
-div.indent-block-left {
-  float: left;
-}
+// div.indent-block {
+//   background: lighten($primary, 35%);
+//   padding: 2em;
+//   float: right;
+//   font-size: 1.4em;
+//   max-width: 32em;
+//   -webkit-box-shadow: 10px 10px 0px 0px $primary;
+//   -moz-box-shadow: 10px 10px 0px 0px $primary;
+//   box-shadow: 10px 10px 0px 0px $primary;
+// }
+// div.indent-block-left {
+//   float: left;
+// }
+
+.gradient-block p {font-size: 2em; max-width: 24em;}
 
 .ghost * {
   position: relative;
