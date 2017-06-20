@@ -79,6 +79,8 @@ ol.cards li::before {
     width: 1.6em;
     text-align: center;
     padding: 0.05em;
+    // font-family: Georgia, sans-serif;
+    // font-weight: normal;
 
 }
 ol.cards li:before {
@@ -87,11 +89,21 @@ ol.cards li:before {
 .tile:last-child {
   background: transparent;
 }
+
+h2.intro {font-size: 3em;}
 .ghost {
   border: dashed 4px $white;
   background: transparent;
   text-align: center;
   position: relative;
+}
+
+div.indent-block {
+  background: lighten($primary, 35%);
+  padding: 1em;
+  float: right;
+  font-size: 1.2em;
+  max-width: 44em;
 }
 .ghost * {
   position: relative;
