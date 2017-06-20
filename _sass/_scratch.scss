@@ -100,11 +100,18 @@ h2.intro {font-size: 3em;}
 
 div.indent-block {
   background: lighten($primary, 35%);
-  padding: 1em;
+  padding: 2em;
   float: right;
   font-size: 1.2em;
-  max-width: 42em;
+  max-width: 38em;
+  -webkit-box-shadow: 10px 10px 0px 0px $primary;
+  -moz-box-shadow: 10px 10px 0px 0px $primary;
+  box-shadow: 10px 10px 0px 0px $primary;
 }
+div.indent-block-left {
+  float: left;
+}
+
 .ghost * {
   position: relative;
   top: 50%;
