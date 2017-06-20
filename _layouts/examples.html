@@ -1,42 +1,8 @@
 ---
 layout: default
 ---
-  <div class="page-content">
-    <!-- via https://talk.jekyllrb.com/t/get-all-tags-uniques-in-multiple-collection-pages-without-a-plugin/1221/3 -->
-<!-- Create empty arrays -->
-{% assign tags = '' | split: ',' %}
-{% assign unique_tags = '' | split: ',' %}
-<!-- Map and flatten -->
-{% assign article_tags =  section | map: 'tags' | join: ',' | join: ',' | upcase | split: ','   %}
-<!-- Push to tags -->
-{% for tag in article_tags %}
-  {% assign tags = tags | push: tag %}
-{% endfor %}
-<!-- Uniq -->
-{% assign tags = tags | sort %}
-{% for tag in tags %}
-  {% comment %} <!-- If not equal to previous then it must be unique as sorted --> {% endcomment %}
-  {% unless tag == previous %}
-    {% comment %} <!-- Push to unique_tags --> {% endcomment %}
-    {% assign unique_tags = unique_tags | push: tag %}
-  {% endunless %}
 
-  {% assign previous = tag %}
-{% endfor %}
-<div class="tags">
-  <ul class="tag">
-    <li class="tag__item">
-      <input class="tag__item__checkbox show-all" type="checkbox" value="show-all" checked id="show-all"/>
-      <label class="tag__item__label" for="show-all">Show All</label>
-    </li>
-    {% for tag in unique_tags %}
-    <li class="tag__item">
-      <input class="tag__item__checkbox" type="checkbox" value="{{tag | downcase}}" id="{{tag | downcase}}" />
-      <label class="tag__item__label" for="{{tag | downcase}}">{{tag}}</label>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+  <div class="page-content">
       <header class="post-header">
         {% for post in site.examples %}
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
@@ -49,7 +15,7 @@ layout: default
           <h2><a href="{{example.link}}">{{example.title}}</a></h2>
         {{example.summary}}
         <ol class="cards">
-        {% for principles in example.principles %}
+        {% for principles in example.principles %}``
           <li>{{principles.principle}}</li>
         {% endfor %}
       </ol>
