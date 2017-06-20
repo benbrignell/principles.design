@@ -103,7 +103,7 @@ div.indent-block {
   padding: 1em;
   float: right;
   font-size: 1.2em;
-  max-width: 44em;
+  max-width: 42em;
 }
 .ghost * {
   position: relative;
@@ -116,6 +116,15 @@ div.indent-block {
   // border: solid;
 }
 
+.gradient-block {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7d708+0,f9e352+40,fae76b+100 */
+background: #f7d708; /* Old browsers */
+background: -moz-linear-gradient(top, #f7d708 0%, #f9e352 40%, #fae76b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f7d708 0%,#f9e352 40%,#fae76b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f7d708 0%,#f9e352 40%,#fae76b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d708', endColorstr='#fae76b',GradientType=0 ); /* IE6-9 */
+height: auto;
+}
 .tile h2 {display: block; margin: 0;}
 
 
@@ -128,12 +137,12 @@ div.indent-block {
   font-size: $m;
 }
 
-.what {
-  background: lighten($primary, 10%);
-}
-.why {
-  background: lighten($primary, 15%);
-}
+// .what {
+//   background: lighten($primary, 10%);
+// }
+// .why {
+//   background: lighten($primary, 15%);
+// }
 .who {
   background: lighten($primary, 20%);
 
