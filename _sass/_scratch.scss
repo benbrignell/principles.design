@@ -15,7 +15,7 @@ a:hover {
 }
 
 p {max-width: 40em;} // test for legibility
-.site-title {
+.site-logo {
   width: 120px;
   height: 120px;
   display: block;
@@ -23,31 +23,38 @@ p {max-width: 40em;} // test for legibility
   background: url(/images/design-principles-logo.svg) no-repeat top left;
   background-size: 100% auto;
 }
-.site-title:hover {
+.site-logo:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
 }
+
 .site-nav {
   font-size: $m;
-  padding-bottom: $padding-l;
+  grid-column: auto / span 12;
+  background: blue;
+}
+
+.info-block {
+  background: blue;
+  grid-column: auto / span 8;
 }
 body.home header.site-header {
   background: $primary;
   height: 100%;
 }
-div.grid {
-  display: grid;
-  grid-gap: 2.2em;
-  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-  grid-auto-rows: minmax(100px, auto);
-}
-.grid > div {
-  // border: 1px solid #3bc9db;
-  // display: flex; // not sure why this was here
-  background: $white;
-  padding: 0.4em 1em;
-  // border-radius: 0.4em;
-}
+// div.grid {
+//   display: grid;
+//   grid-gap: 2.2em;
+//   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+//   grid-auto-rows: minmax(100px, auto);
+// }
+// .grid > div {
+//   // border: 1px solid #3bc9db;
+//   // display: flex; // not sure why this was here
+//   background: $white;
+//   padding: 0.4em 1em;
+//   // border-radius: 0.4em;
+// }
 div.page-content {
   background: $silver;
 }
@@ -89,6 +96,7 @@ ol.cards li:before {
 }
 .tile:last-child {
   background: transparent;
+  grid-column: auto / span 4;
 }
 
 h2.intro {font-size: 3em;}

@@ -7,35 +7,37 @@
 
     {% include header.html %}
     <div class="gradient-block">
-    <div class="what">
       <div class="wrapper">
-        <img src="/images/design-principles-logo.svg" class="icon">
-        <h2 class="intro">What are Design Principles?</h2>
-        <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
-        <!-- <p>They can help you with your personal objectives. They </p>
-        <p>Principles are far more powerful and flexible than fixed rules. Principles force you to understand the "why?"</p> -->
+        <div class="what">
+          <div class="info-block">
+            <img src="/images/design-principles-logo.svg" class="icon">
+            <h2 class="intro">What are Design Principles?</h2>
+            <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
+            <!-- <p>They can help you with your personal objectives. They </p>
+            <p>Principles are far more powerful and flexible than fixed rules. Principles force you to understand the "why?"</p> -->
+          </div>
+        </div>
+        <div class="why">
+          <div class="info-block">
+            <img src="/images/design-principles-logo.svg" class="icon">
+            <h2 class="intro">Why use Design Principles?</h2>
+            <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
+          </div>
+        </div>
+        <div class="who">
+          <div class="info-block">
+            <img src="/images/design-principles-logo.svg" class="icon">
+              <h2 class="intro">Who use them?</h2>
+              <p>Big companies, individuals and products have benefitted from following their principles.</p>
+              <h3 style="clear:both;">Here are a few examples</h3>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="why">
-      <div class="wrapper">
-        <img src="/images/design-principles-logo.svg" class="icon">
-        <h2 class="intro">Why use Design Principles?</h2>
-        <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
-      </div>
-    </div>
-  </div>
-    <div class="who">
-      <div class="wrapper">
-        <img src="/images/design-principles-logo.svg" class="icon">
-
-          <h2 class="intro">Who use them?</h2>
-          <p>Big companies, individuals and products have benefitted from following their principles.</p>
-          <h3 style="clear:both;">Here are a few examples</h3>
-        {{ content }}
-        <div class="grid">
-        {% for example in site.examples %}
+        <!-- <div class="examples">
+          {% for example in site.examples %}
           <div class="tile">
-            <h2><a href="{{example.url}}">{{example.title}}</a></h2>
+          <h2><a href="{{example.url}}">{{example.title}}</a></h2>
           {{example.summary}}
           <ol class="cards">
           {% for principles in example.principles %}
@@ -47,15 +49,13 @@
         <div class="tile ghost">
             <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
         </div>
-        </div>
         {% for post in site.example %}
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
         {% endfor %}
         <p><a href="#">See all {{ post_count }} examples</a></p>
-      </div>
-    </div>
+    </div> -->
 
-    {% include footer.html %}
+    <!-- {% include footer.html %} -->
 
   </body>
 

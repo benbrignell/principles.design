@@ -18,18 +18,26 @@ body{
   font-family: $body-font;
 }
 
-.wrapper:before,
-.wrapper:after { content:""; display:table; }
-.wrapper:after { clear: both; }
-.wrapper {
+// .wrapper:before,
+// .wrapper:after { content:""; display:table; }
+// .wrapper:after { clear: both; }
+.wrapper { // change to site-grid
   // max-width: 1084px;
   // padding: 0 30px;
   width: 85%;
   max-width: $max-width;
   margin: 0 auto;
   zoom: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
 }
 
+
+h1.intro {
+  grid-column: auto / span 10;
+  background: green;
+}
 // clearfix (now called group,
 // via http://css-tricks.com/snippets/css/clear-fix/)
 .group:before,
