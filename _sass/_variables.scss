@@ -36,12 +36,18 @@ $padding-l:         1.6em;
 
 
 // Font stack
-$body-font:       'aller_lightregular';
-$font-bold:       'allerbold';
+// $body-font:       'aller_lightregular';
+// $font-bold:       'allerbold';
+
+$body-font:         'Source Serif Pro', serif;
+
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:    $font-bold;
+  // font-family:    $font-bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
+
 
 // The base body size
 $body-font-size: 1em !default;

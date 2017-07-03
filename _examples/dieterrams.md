@@ -1,4 +1,5 @@
 ---
+layout: example
 title: Dieter Rams
 summary: Ten Principles of Good Design
 link: https://www.gov.uk/design-principles

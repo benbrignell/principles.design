@@ -1,4 +1,5 @@
 ---
+layout: example
 title: Pigeons
 summary: Cheese principles
 link: https://www.gov.uk/design-principles

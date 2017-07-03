@@ -9,6 +9,7 @@
     <div class="gradient-block">
     <div class="what">
       <div class="wrapper">
+        <img src="/images/design-principles-logo.svg" class="icon">
         <h2 class="intro">What are Design Principles?</h2>
         <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
         <!-- <p>They can help you with your personal objectives. They </p>
@@ -17,6 +18,7 @@
     </div>
     <div class="why">
       <div class="wrapper">
+        <img src="/images/design-principles-logo.svg" class="icon">
         <h2 class="intro">Why use Design Principles?</h2>
         <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
       </div>
@@ -24,6 +26,8 @@
   </div>
     <div class="who">
       <div class="wrapper">
+        <img src="/images/design-principles-logo.svg" class="icon">
+
           <h2 class="intro">Who use them?</h2>
           <p>Big companies, individuals and products have benefitted from following their principles.</p>
           <h3 style="clear:both;">Here are a few examples</h3>
@@ -31,7 +35,7 @@
         <div class="grid">
         {% for example in site.examples %}
           <div class="tile">
-            <h2><a href="{{example.link}}">{{example.title}}</a></h2>
+            <h2><a href="{{example.url}}">{{example.title}}</a></h2>
           {{example.summary}}
           <ol class="cards">
           {% for principles in example.principles %}

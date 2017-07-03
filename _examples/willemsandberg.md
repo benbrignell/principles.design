@@ -1,4 +1,5 @@
 ---
+layout: example
 title: Willem Sandberg
 summary: Things
 link: http://cheese.com

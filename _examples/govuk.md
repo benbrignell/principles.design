@@ -1,4 +1,5 @@
 ---
+layout: example
 title: GOV UK
 summary: Gov UK Design Principles
 link: https://www.gov.uk/design-principles

@@ -1,4 +1,5 @@
 ---
+layout: example
 title: Tim Berners Lee
 summary: Personal Design Principles
 link: https://www.gov.uk/design-principles

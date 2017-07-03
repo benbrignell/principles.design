@@ -1,4 +1,5 @@
 ---
+layout: example
 title: Joshua Porter
 summary: Principles of User Interface Design
 link: http://cheese.com

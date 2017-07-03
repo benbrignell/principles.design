@@ -1,4 +1,5 @@
 ---
+layout: example
 title: Evan Williams
 summary: Ten Rules for Web Startups
 link: http://cheese.com
