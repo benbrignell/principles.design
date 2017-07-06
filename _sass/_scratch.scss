@@ -98,7 +98,11 @@ ol.cards li:before {
 }
 .tile {
   background: $white;
-  grid-column: auto / span 4;
+  padding: 0.6em 1em;
+  grid-column: auto / span 12;
+  @media (min-width: 920px) {
+      grid-column: auto / span 4;
+    }
 }
 .tile:last-child {
   background: transparent;
@@ -182,9 +186,9 @@ height: auto;
   margin-bottom: -2.8em;
 }
 .site-footer {
-  border-top: solid 1em $secondary;
   background: $white;
   padding: $padding-l 0;
+  grid-column: auto / span 12;
 }
 .site-footer p:first-child {
   font-size: $m;
@@ -196,8 +200,10 @@ height: auto;
 // .why {
 //   background: lighten($primary, 15%);
 // }
-.who {
+.examples {
   background: lighten($primary, 20%);
+  padding: 1em;
+  border-bottom: solid 1em $secondary;
 
 
 }
