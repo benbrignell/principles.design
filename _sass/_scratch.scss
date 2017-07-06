@@ -2,6 +2,7 @@
 // ---------------------------------------/
 body, html {
   height: 100%;
+  background: darken($primary, 2%);
 }
 body {background: $primary;}
 
@@ -32,7 +33,9 @@ a:hover {
   font-size: $m;
   grid-column: auto / span 12;
 }
-
+.full {
+  grid-column: auto / span 12;
+}
 .info-block {
   grid-column: auto / span 12;
   @media (min-width: 700px) {

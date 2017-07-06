@@ -54,8 +54,9 @@
         {% for post in site.example %}
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
         {% endfor %}
-        <p><a href="#">See all {{ post_count }} examples</a></p>
+        <p class="full"><a href="#">See all {{ post_count }} examples</a></p>
     </div>
+
   </div>
 
     {% include footer.html %}
