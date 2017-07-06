@@ -2,10 +2,13 @@
 // ---------------------------------------/
 body, html {
   height: 100%;
-  background: darken($primary, 2%);
+  // background: darken($primary, 2%);
+  background: $secondary;
 }
 body {background: $primary;}
-
+.footer {
+  background: $white;
+}
 a {
   color: $black;
   text-decoration-skip: ink; // this is pretty ugly
@@ -16,6 +19,14 @@ a:hover {
   text-decoration-color: darken($secondary, 5%);
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid lighten($secondary, 20%);
+    margin: 1em 0;
+    padding: 0;
+}
 // p {max-width: 40em;} // test for legibility
 .site-logo {
   width: 80px;
@@ -37,6 +48,7 @@ a:hover {
 .site-nav {
   grid-column: auto / span 12;
   font-size: $s;
+  padding-bottom: 1em;
   @media (min-width: 700px) {
       font-size: $m;
     }
@@ -49,8 +61,13 @@ a:hover {
   grid-column: auto / span 12;
   @media (min-width: 700px) {
     grid-column: auto / span 8;
+    margin-bottom: 5em;
     }
 }
+.info-block:last-child
+  {
+    margin-bottom: 0em;
+  }
 
 body.home header.site-header {
   background: $primary;
@@ -137,6 +154,7 @@ h2.intro {font-size: 3em;}
   border: dashed 4px $white;
   background: transparent;
   position: relative;
+  border-radius: 0.8em; // different to the tile radius for _reasons_
 }
 
 // div.indent-block {
@@ -177,14 +195,7 @@ height: auto;
 
 }
 
-.gradient-block {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7d708+0,ffe122+100 */
-  background: rgb(247,215,8); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(247,215,8,1) 0%, rgba(255,225,34,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(247,215,8,1) 0%,rgba(255,225,34,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(247,215,8,1) 0%,rgba(255,225,34,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7d708', endColorstr='#ffe122',GradientType=0 ); /* IE6-9 */
-}
+
 
 
 .alt-idea {

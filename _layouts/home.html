@@ -48,10 +48,11 @@
         </div>
         {% endfor %}
         <div class="tile ghost">
-          <h2>Want to see more principles?</h2>
+          <h2>Want to see more examples?</h2>
             <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
         </div>
-        {% for post in site.example %}
+
+        {% for post in site.examples %}
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
         {% endfor %}
         <p class="full"><a href="#">See all {{ post_count }} examples</a></p>
