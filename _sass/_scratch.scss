@@ -2,7 +2,7 @@
 // ---------------------------------------/
 body, html {
   height: 100%;
-  // background: darken($primary, 2%);
+  // background: lighten($primary, 6%);
   background: $secondary;
 }
 body {background: $primary;}
@@ -187,10 +187,10 @@ h2.intro {font-size: 3em;}
 .gradient-block {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$primary+0,f9e352+40,fae76b+100 */
 background: $primary; /* Old browsers */
-background: -moz-linear-gradient(top, $primary 0%, lighten($primary, 15%) 40%, lighten($primary, 20%) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, $primary 0%,lighten($primary, 15%) 40%,lighten($primary, 20%) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, $primary 0%,lighten($primary, 15%) 40%,lighten($primary, 20%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='lighten($primary, 20%)',GradientType=0 ); /* IE6-9 */
+background: -moz-linear-gradient(top, $primary 0%,  lighten($secondary, 15%) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, $primary 0%, lighten($secondary, 15%) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, $primary 0%, lighten($secondary, 15%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='lighten($secondary, 15%)',GradientType=0 ); /* IE6-9 */
 height: auto;
 
 }
@@ -222,10 +222,10 @@ height: auto;
 //   background: lighten($primary, 10%);
 // }
 // .why {
-//   background: lighten($primary, 15%);
+//   background: lighten($primary, 6%);
 // }
 .examples {
-  background: lighten($primary, 20%);
+  background: lighten($secondary, 15%);
   padding: 1em 0;
   border-bottom: solid 1em $secondary;
 
