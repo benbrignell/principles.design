@@ -14,7 +14,7 @@ a:hover {
   text-decoration-color: darken($secondary, 5%);
 }
 
-p {max-width: 40em;} // test for legibility
+// p {max-width: 40em;} // test for legibility
 .site-logo {
   width: 120px;
   height: 120px;
@@ -35,9 +35,9 @@ p {max-width: 40em;} // test for legibility
 }
 
 .info-block {
-  background: white;
-  grid-column: auto / span 8;
+  grid-column: auto / span 12;
 }
+
 body.home header.site-header {
   background: $primary;
   height: 100%;
@@ -120,7 +120,7 @@ h2.intro {font-size: 3em;}
 //   float: left;
 // }
 
-.gradient-block p {font-size: 2em; max-width: 24em;}
+.gradient-block p {font-size: 2em; }
 
 // .ghost * {
 //   position: relative;

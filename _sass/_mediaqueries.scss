@@ -3,6 +3,9 @@
     font-size: 6em;
   }
 
+  .info-block {
+    grid-column: auto / span 8;
+  }
   body.home header .site-title {
       animation: fadeIn 1.6s;
       // -moz-animation: fadeIn 1.6s; /* Firefox */
