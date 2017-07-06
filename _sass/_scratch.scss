@@ -31,7 +31,6 @@ a:hover {
 .site-nav {
   font-size: $m;
   grid-column: auto / span 12;
-  background: blue;
 }
 
 .info-block {
@@ -93,6 +92,10 @@ ol.cards li::before {
 }
 ol.cards li:before {
 
+}
+.tile {
+  background: $white;
+  grid-column: auto / span 4;
 }
 .tile:last-child {
   background: transparent;

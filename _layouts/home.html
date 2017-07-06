@@ -34,7 +34,8 @@
         <!-- </div> -->
       </div>
     </div>
-        <!-- <div class="examples">
+        <div class="examples">
+          <div class="wrapper">
           {% for example in site.examples %}
           <div class="tile">
           <h2><a href="{{example.url}}">{{example.title}}</a></h2>
@@ -53,9 +54,10 @@
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
         {% endfor %}
         <p><a href="#">See all {{ post_count }} examples</a></p>
-    </div> -->
+    </div>
+  </div>
 
-    <!-- {% include footer.html %} -->
+    {% include footer.html %}
 
   </body>
 
