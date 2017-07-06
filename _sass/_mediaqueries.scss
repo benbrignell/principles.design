@@ -1,27 +1,27 @@
 @media (min-width: 700px) {
+  h1.intro {
+    font-size: 6em;
+  }
 
-
-
-  body.home header .site-title {
-      animation: fadeIn 1.6s;
+  body.home header .site-nav {
+      animation: fadeIn 1s;
       // -moz-animation: fadeIn 1.6s; /* Firefox */
-      -webkit-animation: fadeIn 1.6s; /* Safari and Chrome */
+      -webkit-animation: fadeIn 1s; /* Safari and Chrome */
       // -o-animation: fadeIn 1.6s; /* Opera */
       position: relative;
   }
 
-  body.home a.page-link {
-      animation: fadeInUp 1s;
+  body.home a.site-logo {
+      animation: fadeInUp 1.2s;
       // -moz-animation: fadeInUp 1s; /* Firefox */
-      -webkit-animation: fadeInUp 1s; /* Safari and Chrome */
+      -webkit-animation: fadeInUp 1.2s; /* Safari and Chrome */
       // -o-animation: fadeInUp 1s; /* Opera */
       position: relative;
-      display: inline-block;
   }
   body.home header h1 {
-      animation: fadeInUp 1.2s;
+      animation: fadeInUp 1.4s;
       // -moz-animation: fadeInUp 1.2s; /* Firefox */
-      -webkit-animation: fadeInUp 1.2s; /* Safari and Chrome */
+      -webkit-animation: fadeInUp 1.4s; /* Safari and Chrome */
       // -o-animation: fadeInUp 1.2s; /* Opera */
       position: relative;
   }
