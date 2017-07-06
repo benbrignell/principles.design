@@ -54,6 +54,8 @@ hr {
     }
 }
 
+.site-nav a {margin-right: 0.4em; font-family: $font-bold; font-weight: 700;}
+
 .full, .post-header {
   grid-column: auto / span 12;
 }
