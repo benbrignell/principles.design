@@ -112,6 +112,7 @@ ol.cards li:before {
   background: $white;
   padding: 0.6em 1em;
   grid-column: auto / span 12;
+  border-radius: 0.4em;
   @media (min-width: 920px) {
       grid-column: auto / span 4;
     }
