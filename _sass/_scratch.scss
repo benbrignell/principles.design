@@ -9,6 +9,7 @@ body {background: $primary;}
 a {
   color: $black;
   text-decoration-skip: ink; // this is pretty ugly
+
 }
 a:hover {
   color: $secondary;
@@ -17,12 +18,16 @@ a:hover {
 
 // p {max-width: 40em;} // test for legibility
 .site-logo {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   display: block;
-  margin: 2em 0 1em 0;
   background: url(/images/design-principles-logo.svg) no-repeat top left;
   background-size: 100% auto;
+  margin: 0.6em 0 1em -0.6em;
+  @media (min-width: 700px) {
+    width: 120px;
+    height: 120px;
+    }
 }
 .site-logo:hover {
   transform: scale(1.05);
@@ -30,13 +35,17 @@ a:hover {
 }
 
 .site-nav {
-  font-size: $m;
+  grid-column: auto / span 12;
+  font-size: $s;
+  @media (min-width: 700px) {
+      font-size: $m;
+    }
+}
+
+.full, .post-header {
   grid-column: auto / span 12;
 }
-.full {
-  grid-column: auto / span 12;
-}
-.info-block {
+.info-block, .post-content {
   grid-column: auto / span 12;
   @media (min-width: 700px) {
     grid-column: auto / span 8;
