@@ -1,8 +1,8 @@
 ---
 layout: example
 title: Willem Sandberg
-summary: Things
-link: http://cheese.com
+summary: Things and chickens
+link : http://cheese.com
 principles:
 - principle: A poster has to be joyous, unless it has to arouse compassion.
 - principle: Red has to be in every poster.

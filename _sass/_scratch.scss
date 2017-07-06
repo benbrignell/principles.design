@@ -60,7 +60,7 @@ hr {
 .full, .post-header {
   grid-column: auto / span 12;
 }
-.info-block, .post-content {
+.info-block, .post-content, article {
   grid-column: auto / span 12;
   @media (min-width: 700px) {
     grid-column: auto / span 8;

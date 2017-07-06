@@ -2,11 +2,16 @@
 layout: default
 ---
 
-  <div class="page-content">
+
       <header class="post-header">
-
-        <h1><a href="{{page.link}}"{{page.title}}</a<</h1>
+        <h1>{{page.title}}</h1>
       </header>
-      <p>{{content}}</p>
+      <article>
+        <p>{{page.link}}</p>
+        <p>{{page.summary}}</p>
 
-    </div>
+
+          {% for principles in page.principles %}
+            <h2>{{principles.principle}}</h2>
+          {% endfor %}
+        </article>
