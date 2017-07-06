@@ -7,7 +7,7 @@ body {background: $primary;}
 
 a {
   color: $black;
-  text-decoration-skip: ink;
+  text-decoration-skip: ink; // this is pretty ugly
 }
 a:hover {
   color: $secondary;
@@ -35,6 +35,9 @@ a:hover {
 
 .info-block {
   grid-column: auto / span 12;
+  @media (min-width: 700px) {
+    grid-column: auto / span 8;
+    }
 }
 
 body.home header.site-header {
@@ -101,6 +104,16 @@ ol.cards li:before {
   background: transparent;
   grid-column: auto / span 4;
 }
+
+h1.intro {
+  grid-column: auto / span 10;
+
+  @media (min-width: 700px) {
+      font-size: 6em;
+    }
+}
+
+
 
 h2.intro {font-size: 3em;}
 .ghost {
