@@ -11,7 +11,8 @@ body {background: $primary;}
 }
 a {
   color: $black;
-  text-decoration-skip: ink; // this is pretty ugly
+  text-decoration: underline; // text-decoration-skip fallback
+  text-decoration-skip: ink; // although this is pretty ugly
 
 }
 a:hover {
@@ -136,7 +137,7 @@ p.source {
   left: 0;
   // height: 0.375em;
   height: 0.8em;
-  width: 30%;
+  width: 12em;
 }
 body.home header.site-header {
   background: $primary;

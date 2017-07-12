@@ -10,8 +10,16 @@ layout: default
         <h1>{{page.title}}</h1>
         <p>{{page.summary}}</p>
         <ol class="cards">
+          {% for principles in page.principles %}
+            <li>
+              <a href="#{{principles.principle | slugify}}">{{principles.principle}}</a>
+            </li>
+          {% endfor %}
+        </ol>
+        <hr>
+        <ol class="cards">
         {% for principles in page.principles %}
-          <li><h2 class="list">{{principles.principle}}</h2>
+          <li id="{{principles.principle | slugify}}"><h2 class="list">{{principles.principle}}</h2>
           {% for chicken in principles.principle %}
             <p>{{principle.chicken}}</p>
           </li>
@@ -21,6 +29,6 @@ layout: default
       </article>
       <aside>
         <p class="source">Source:</p>
-        <p><a href="{{page.link}}">{{page.link | remove: 'https://'  }}</a></p> <!--need to figure out how to pass 3 arguments, 'https://', 'http://', 'www.' isn't working (but should)-->
+        <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
 
       </aside>
