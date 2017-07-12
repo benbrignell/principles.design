@@ -50,7 +50,7 @@
             {{example.summary}}
             <ol class="cards">
             {% for principles in example.principles %}
-              <li>{{principles.principle}}</li>
+              <li><a href="{{example.url}}/#{{principles.principle | slugify}}">{{principles.principle}}</a></li>
             {% endfor %}
           </ol>
           </div>

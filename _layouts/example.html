@@ -19,8 +19,11 @@ layout: default
         <hr>
         <ol class="cards">
         {% for principles in page.principles %}
-          <li id="{{principles.principle | slugify}}"><h2 class="list">{{principles.principle}}</h2>
-          {% for chicken in principles.principle %}
+          <li id="{{principles.principle | slugify}}">
+            <h2 class="list">
+              {{principles.principle}}
+            </h2>
+            {% for chicken in principles.principle %}
             <p>{{principle.chicken}}</p>
           </li>
           {% endfor %}
