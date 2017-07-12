@@ -60,6 +60,9 @@ hr {
 .full, .post-header {
   grid-column: auto / span 12;
 }
+.info-block {
+  min-height: 24em;
+}
 .info-block, .post-content, article {
   grid-column: auto / span 12;
   position: relative;
@@ -88,7 +91,7 @@ body.home header.site-header {
   background: $primary;
   height: 100%;
   // background-image: url(/images/triangle-white.svg);
-  // background-position: -1em;
+  // background-position: left top;
 }
 // div.grid {
 //   display: grid;
@@ -217,6 +220,7 @@ background: linear-gradient(to bottom, $primary 0%, lighten($secondary, 15%) 100
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='lighten($secondary, 15%)',GradientType=0 ); /* IE6-9 */
 height: auto;
 
+
 }
 
 
@@ -246,12 +250,9 @@ height: auto;
 //   background: lighten($primary, 10%);
 // }
 // .why {
-//   background: lighten($primary, 6%);
+//   background-image: url(/images/triangle-white.svg);
+//   background-size: 8em;
 // }
-.examples {
-  background: lighten($secondary, 15%);
-  padding: 1em 0;
-  border-bottom: solid 1em $secondary;
-
-
-}
+// .who {
+//   background-image: url(/images/triangle-grid.svg);
+// }
