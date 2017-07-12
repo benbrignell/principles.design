@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="149px" viewBox="0 0 149 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>triangle-grid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="triangle-grid" stroke="#FFFFFF">
+            <rect id="Rectangle" x="0.5" y="0.5" width="149" height="149"></rect>
+            <path d="M150,0 L-5.68434189e-14,150" id="Line" stroke-linecap="square"></path>
+            <path d="M150,150 L0,0" id="Line" stroke-linecap="square"></path>
+            <path d="M75,0 L75,150" id="Line-2" stroke-width="0.5" stroke-linecap="square"></path>
+            <path d="M150,75 L0,75" id="Line-2" stroke-width="0.5" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
