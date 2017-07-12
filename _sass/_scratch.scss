@@ -62,16 +62,28 @@ hr {
 }
 .info-block, .post-content, article {
   grid-column: auto / span 12;
+  position: relative;
   @media (min-width: 700px) {
     grid-column: auto / span 8;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
     }
 }
+
 .info-block:last-child
   {
     margin-bottom: 0em;
   }
 
+.info-block:after {
+  content:"";
+  background: $black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  // height: 0.375em;
+  height: 0.8em;
+  width: 30%;
+}
 body.home header.site-header {
   background: $primary;
   height: 100%;
