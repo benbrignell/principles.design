@@ -3,16 +3,24 @@ layout: default
 ---
 
 
-      <header class="post-header">
-        <h1>{{page.title}}</h1>
-        <p>Source: <a href="{{page.link}}">{{page.link}}</a></p>
-      </header>
+      <!-- <header class="post-header">
+
+      </header> -->
       <article>
+        <h1>{{page.title}}</h1>
         <p>{{page.summary}}</p>
+        <ol class="cards">
         {% for principles in page.principles %}
-          <h2>{{principles.principle}}</h2>
+          <li><h2 class="list">{{principles.principle}}</h2>
           {% for chicken in principles.principle %}
-            <h1>{{principle.chicken}}</h1>
+            <p>{{principle.chicken}}</p>
+          </li>
           {% endfor %}
         {% endfor %}
+      </ol>
       </article>
+      <aside>
+        <p class="source">Source:</p>
+        <p><a href="{{page.link}}">{{page.link | remove: 'https://'  }}</a></p> <!--need to figure out how to pass 3 arguments, 'https://', 'http://', 'www.' isn't working (but should)-->
+
+      </aside>

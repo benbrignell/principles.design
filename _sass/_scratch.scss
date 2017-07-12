@@ -3,7 +3,7 @@
 body, html {
   height: 100%;
   // background: lighten($primary, 6%);
-  background: $secondary;
+  background: $primary;
 }
 body {background: $primary;}
 .footer {
@@ -60,9 +60,7 @@ hr {
 .full, .post-header {
   grid-column: auto / span 12;
 }
-.info-block {
-  min-height: 24em;
-}
+
 .info-block, .post-content, article {
   grid-column: auto / span 12;
   position: relative;
@@ -72,6 +70,59 @@ hr {
     }
 }
 
+aside {
+  grid-column: auto / span 12;
+  @media (min-width: 700px) {
+    grid-column: auto / span 4;
+    }
+}
+
+p.source {
+  display: block;
+  border-bottom: solid 1px $black;
+}
+// .what .info-icon {
+//   grid-column: auto / span 12;
+//   background: red;
+//   border-radius: 50%;
+//   // will figure out what to do with small screens when I can figure out row swapping
+//   @media (min-width: 700px) {
+//     grid-column: auto / span 4;
+//     width: 500px;
+//     height: 500px;
+//     bottom: -280px;
+//     position: relative;
+//     }
+// }
+//
+// .why .info-icon {
+//   grid-column: auto / span 12;
+//   background: green;
+//   // will figure out what to do with small screens when I can figure out row swapping
+//   @media (min-width: 700px) {
+//     grid-column: auto / span 4;
+//     height: 60%;
+//     position: relative;
+//     top: 0;
+//     left: -10%;
+//     }
+// }
+
+// .who .info-icon {
+//   grid-column: auto / span 12;
+//   // will figure out what to do with small screens when I can figure out row swapping
+//   @media (min-width: 700px) {
+//     grid-column: auto / span 4;
+//     border-style: solid;
+//     border-width: 200px 200px 0 200px;
+//     border-color: yellow transparent transparent transparent;
+//     margin-top: 65%;
+//     }
+// }
+
+.info-block {
+  padding-top: 2em;
+}
 .info-block:last-child
   {
     margin-bottom: 0em;
@@ -81,7 +132,7 @@ hr {
   content:"";
   background: $black;
   position: absolute;
-  top: 0;
+  top: 2em;
   left: 0;
   // height: 0.375em;
   height: 0.8em;
@@ -129,7 +180,7 @@ ol.cards li::before {
     margin-right: 0.6em;
     // font-size: 80%;
     font-size: 0.9em;
-    background-color: lighten($mid-grey, 50%);
+    background-color: lighten($mid-grey, 40%);
     color: lighten($dark-grey, 20%);
     font-weight: bold;
     border-radius: 0.2em;
@@ -142,12 +193,17 @@ ol.cards li::before {
     // font-weight: normal;
 
 }
+
+
 ol.cards li:before {
 
 }
+
+
+
 .tile {
   background: $white;
-  padding: 0.6em 1em;
+  padding: 1em 1.4em;
   grid-column: auto / span 12;
   border-radius: 0.4em;
   @media (min-width: 920px) {
@@ -164,14 +220,16 @@ h1.intro {
   font-size: 3em;
   line-height: 1.0;
   display: block;
-  background: url('../images/triangle.svg') no-repeat;
-  background-position: 1.25em 0.15em;
-  background-size: 1.6em;
 
-  @media (min-width: 700px) {
-      font-size: 6em;
-      background-position: 1.25em 0.15em;
-    }
+  //what?
+  // background: url('../images/triangle.svg') no-repeat;
+  // background-position: 1.25em 0.15em;
+  // background-size: 1.6em;
+  //
+  // @media (min-width: 700px) {
+  //     font-size: 6em;
+  //     background-position: 1.25em 0.15em;
+  //   }
 }
 
 
@@ -245,7 +303,9 @@ height: auto;
 .site-footer p:first-child {
   font-size: 1.6em;
 }
-
+.what, .who, .why {
+  overflow: hidden;
+}
 // .what {
 //   background: lighten($primary, 10%);
 // }

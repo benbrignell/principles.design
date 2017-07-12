@@ -15,6 +15,7 @@
               <!-- <p>They can help you with your personal objectives. They </p>
               <p>Principles are far more powerful and flexible than fixed rules. Principles force you to understand the "why?"</p> -->
             </div>
+            <div class="info-icon"></div>
           </div>
         </div>
         <div class="why">
@@ -24,17 +25,20 @@
               <h2 class="intro">Why use Design Principles?</h2>
               <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
             </div>
+            <div class="info-icon"></div>
+
           </div>
         </div>
         <div class="who">
           <div class="wrapper">
-            <div class="info-block">
+            <div class="info-block" style="margin-bottom: 1em;">
               <!-- <img src="/images/design-principles-logo.svg" class="icon"> -->
                 <h2 class="intro">Who use them?</h2>
                 <p>Large organisations, individuals and product teams have benefitted from writing and following their principles.</p>
-                <h3 style="clear:both;">Here are a few examples:</h3>
+                <h3>Here are a few examples:</h3>
 
           </div>
+          <div class="info-icon"></div>
         </div>
       </div>
 
@@ -59,7 +63,7 @@
           {% for post in site.examples %}
           {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
           {% endfor %}
-          <p class="full"><a href="#">See all {{ post_count }} examples</a></p>
+          <p class="full"><a href="{{site.baseurl}}/examples/">See all {{ post_count }} examples</a></p>
           </div>
         </div>
     {% include footer.html %}
