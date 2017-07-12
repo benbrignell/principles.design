@@ -1,7 +1,7 @@
 ---
 layout: example
-title: Evan Williams
-summary: Ten Rules for Web Startups
+title: Ten Rules for Web Startups
+author: Evan Williams
 link: http://cheese.com
 principles:
 - principle: Be narrow

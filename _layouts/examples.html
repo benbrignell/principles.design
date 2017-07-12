@@ -8,18 +8,18 @@ layout: default
         {% endfor %}
         <p>This repository contains {{ post_count }} examples</p>
       </header>
-      {% for example in site.examples %}
+        {% for example in site.examples %}
         <div class="tile">
-          <h2><a href="{{example.url}}">{{example.title}}</a></h2>
+        <h2><a href="{{example.url}}">{{example.title}}</a></h2>
         {{example.summary}}
         <ol class="cards">
         {% for principles in example.principles %}
-          <li>{{principles.principle}}</li>
+          <li><a href="{{example.url}}/#{{principles.principle | slugify}}">{{principles.principle}}</a></li>
         {% endfor %}
       </ol>
       </div>
       {% endfor %}
       <div class="tile ghost">
-          <h2>Want to see some more stuff?</h2>
+        <h2>Want to see more examples?</h2>
           <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
       </div>

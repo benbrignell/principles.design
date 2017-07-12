@@ -23,15 +23,16 @@ layout: default
             <h2 class="list">
               {{principles.principle}}
             </h2>
-            {% for chicken in principles.principle %}
-            <p>{{principle.chicken}}</p>
+            <p style="font-size: 0.9em">There is no summary for this example. If it's missing <a href="{{site.contribute-url}}">you can update this set of principles</a>.</p>
           </li>
-          {% endfor %}
         {% endfor %}
       </ol>
       </article>
       <aside>
+        <p class="source">Author:</p>
+        <p>{{page.author}}</p>
         <p class="source">Source:</p>
-        <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
+        <p><a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
+
 
       </aside>
