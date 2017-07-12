@@ -129,8 +129,8 @@ ol.cards li::before {
     margin-right: 0.6em;
     // font-size: 80%;
     font-size: 0.9em;
-    background-color: $mid-grey;
-    color: $white;
+    background-color: lighten($mid-grey, 50%);
+    color: lighten($dark-grey, 20%);
     font-weight: bold;
     border-radius: 0.2em;
     position: absolute;
