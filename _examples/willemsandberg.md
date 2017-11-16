@@ -1,13 +1,27 @@
 ---
 layout: example
 title: Willem Sandberg
-summary: Things and chickens
+overview: Things and chickens
 link : http://cheese.com
 principles:
-- principle: A poster has to be joyous, unless it has to arouse compassion.
-- principle: Red has to be in every poster.
-- principle: A poster has to provoke a closer look, otherwise it doesn’t endure.
-- principle: With a respect for society, designer and director both are responsible for the street scene.
-- principle: A poster does not only have to revive the street, it also has to be human.
-- principle: Every poster has to be an artwork.   
+ - principle: A poster has to be joyous, unless it has to arouse compassion.
+   summary: Value value value
+ - principle: Monkeys are nice
+ - principle: Chickens are good
+   summary: I agree
 ---
+
+
+<!-- comic:
+
+    rows:
+        - row:
+          panels:
+              - panel:
+                s-colsize: 6
+                l-colsize: 4
+                m-colsize: 4
+                image: "01"
+                title: Title of image
+                alt: Eyes in a dark space look left
+              - panel: -->

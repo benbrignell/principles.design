@@ -1,7 +1,7 @@
 ---
 layout: example
 title: Pigeons
-summary: Cheese principles
+overview: Cheese principles
 link: https://www.gov.uk/design-principles
 principles:
 - principle: Iterate. Then iterate again.

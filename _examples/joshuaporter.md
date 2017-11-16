@@ -1,7 +1,7 @@
 ---
 layout: example
 title: Joshua Porter
-summary: Principles of User Interface Design
+overview: Principles of User Interface Design
 link: http://cheese.com
 principles:
 - principle: Interfaces exist to enable interaction

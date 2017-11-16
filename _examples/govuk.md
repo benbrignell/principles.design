@@ -1,7 +1,7 @@
 ---
 layout: example
 title: GOV UK
-summary: Gov UK Design Principles
+overview: Gov UK Design Principles
 link: https://www.gov.uk/design-principles
 principles:
 - principle: Start with user needs

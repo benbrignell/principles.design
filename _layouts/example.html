@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-
-
-      <!-- <header class="post-header">
-
-      </header> -->
       <article>
         <h1>{{page.title}}</h1>
-        <p>{{page.summary}}</p>
+        <p>{{page.overview}}</p>
         <ol class="cards">
           {% for principles in page.principles %}
             <li>
@@ -18,14 +13,19 @@ layout: default
         </ol>
         <hr>
         <ol class="cards">
-        {% for principles in page.principles %}
-          <li id="{{principles.principle | slugify}}">
-            <h2 class="list">
-              {{principles.principle}}
-            </h2>
-            <p style="font-size: 0.9em">There is no summary for this example. If it's missing <a href="{{site.contribute-url}}">you can update this set of principles</a>.</p>
+
+            {% for principle in page.principles %}
+              <li id="{{principle.principle | slugify}}">
+              {{ principle.principle }}
+              <p>{% for summary in principle.summary %}
+                {{principle.summary}}
+
+                {% else %}
+                <p style="font-size: 0.9em">There is no summary for this example. If it's missing <a href="{{site.contribute-url}}">you can update this set of principles</a>.</p>
+              </p>
+              {% endfor%}
+              {% endfor %}
           </li>
-        {% endfor %}
       </ol>
       </article>
       <aside>
