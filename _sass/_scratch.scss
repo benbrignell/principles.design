@@ -317,3 +317,8 @@ height: auto;
 // .who {
 //   background-image: url(/images/triangle-grid.svg);
 // }
+
+
+header.example-header {
+  grid-column: 1 / -1;
+}
