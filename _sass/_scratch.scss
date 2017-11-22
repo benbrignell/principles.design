@@ -81,6 +81,7 @@ aside {
 p.source {
   display: block;
   border-bottom: solid 1px $black;
+  font-weight: bold;
 }
 // .what .info-icon {
 //   grid-column: auto / span 12;
@@ -321,6 +322,6 @@ height: auto;
 
 header.example-header {
   grid-column: 1 / -1;
-  border-bottom: solid 1px #000;
+  border-bottom: solid 3px $black;
   padding-bottom: 1em;
 }
