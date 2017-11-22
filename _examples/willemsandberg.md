@@ -1,12 +1,14 @@
 ---
 layout: example
 title: Willem Sandberg
+author: done
 overview: Things and chickens
 link : http://cheese.com
 principles:
  - principle: A poster has to be joyous, unless it has to arouse compassion.
    summary: Value value value
  - principle: Monkeys are nice
+   summary: sjsj
  - principle: Chickens are good
    summary: I agree
 ---

@@ -52,7 +52,7 @@ layout: default
       </ol>
       </article>
 
-      {% if page.author or page.link or page.overview or page.principle.summary == null%}
+      {% if page.author or page.link or page.overview or principle.summary == null%}
 
         <footer class="help-footer">
           <p class="f1">Help wanted for {{page.title}}!</p>
@@ -69,7 +69,9 @@ source: http://example.com
           <p><strong>Overview:</strong> e.g. <pre>
 overview: This set of principles is designed to promote inclusivity and accessibility…</pre></p>
           {% endif %}
-          {% if page.principle.summary == null %}
+
+          {% if principles.summary == null %}
+
           <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.
             <pre>
 - principle: A poster has to be joyous, unless it has to arouse compassion.
