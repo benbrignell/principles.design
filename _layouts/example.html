@@ -5,22 +5,7 @@ layout: default
         <h1>{{page.title}}</h1>
         <p style="max-width: 40em; ">{{page.overview}}</p>
       </header>
-      <article>
-        <ol class="cards">
-            {% for principle in page.principles %}
-              <li id="{{principle.principle | slugify}}">
-                <h2>{{ principle.principle }}</h2>
-              <p>
-              {% for summary in principle.summary %}
-                {{principle.summary}}
 
-                {% else %}
-              </p>
-              {% endfor%}
-            {% endfor %}
-          </li>
-      </ol>
-      </article>
       <aside>
 
 
@@ -50,11 +35,27 @@ layout: default
         </ol>
       </aside>
 
+      <article>
+        <ol class="cards">
+            {% for principle in page.principles %}
+              <li id="{{principle.principle | slugify}}">
+                <h2>{{ principle.principle }}</h2>
+              <p>
+              {% for summary in principle.summary %}
+                {{principle.summary}}
+
+                {% else %}
+              </p>
+              {% endfor%}
+            {% endfor %}
+          </li>
+      </ol>
+      </article>
 
       {% if page.author or page.link or page.overview or page.principle.summary == null%}
 
         <footer class="help-footer">
-          <p class="f1">Help wanted!</p>
+          <p class="f1">Help wanted for {{page.title}}!</p>
           <p>The following is missing from this set of principles: </p>
           {% if page.author == null %}
           <p><strong>Author:</strong> e.g. <pre>author: Margaret Attwood</pre></p>

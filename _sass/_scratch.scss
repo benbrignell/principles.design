@@ -160,7 +160,7 @@ body.home header.site-header {
 //   // border-radius: 0.4em;
 // }
 div.page-content {
-  background: $silver;
+  background: $white;
 }
 
 ol.cards {
@@ -354,4 +354,8 @@ ul.logos li {
 ul.logos img {
   width: 100%;
   height: auto;
+}
+
+.grey-bg {
+  background-color: $silver!important; // this is an ugly way to do this
 }
