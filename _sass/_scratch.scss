@@ -17,7 +17,7 @@ a {
 }
 a:hover {
   color: $secondary;
-  text-decoration-color: darken($secondary, 5%);
+  text-decoration: none;
 }
 
 hr {
