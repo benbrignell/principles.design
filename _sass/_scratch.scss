@@ -41,7 +41,7 @@ hr {
     height: 120px;
     }
 }
-.site-logo:hover {
+.site-logo:hover, .logo:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
 }
