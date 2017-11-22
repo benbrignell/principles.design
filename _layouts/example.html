@@ -3,6 +3,7 @@ layout: default
 ---
       <header class="example-header">
         <h1>{{page.title}}</h1>
+        <p>{{page.overview}}</p>
       </header>
       <aside>
         <p class="source"><strong>Author:</strong><br>
@@ -31,7 +32,6 @@ layout: default
         </ol>
       </aside>
       <article>
-        <p>{{page.overview}}</p>
         <ol class="cards">
             {% for principle in page.principles %}
               <li id="{{principle.principle | slugify}}">
