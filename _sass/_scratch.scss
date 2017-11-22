@@ -325,3 +325,14 @@ header.example-header {
   border-bottom: solid 3px $black;
   padding-bottom: 1em;
 }
+
+footer.help-footer {
+  grid-column: 1 / -1;
+  background: lighten($primary, 40%);
+  border: solid 1px $primary;
+  padding: 1em;
+}
+
+pre code {
+  display: block;
+}
