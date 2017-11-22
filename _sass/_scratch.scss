@@ -335,4 +335,23 @@ footer.help-footer {
 
 pre, code {
   display: block;
+  background: $silver;
+  padding: 1em;
+}
+
+ul.logos {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.logos li {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 0;
+  margin-bottom: 1em;
+}
+ul.logos img {
+  width: 100%;
+  height: auto;
 }
