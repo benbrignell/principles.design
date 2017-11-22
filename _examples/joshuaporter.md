@@ -2,6 +2,7 @@
 layout: example
 title: Joshua Porter
 overview: Principles of User Interface Design
+author: Jimmy Nail
 link: http://cheese.com
 principles:
 - principle: Interfaces exist to enable interaction

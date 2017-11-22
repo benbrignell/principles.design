@@ -1,9 +1,24 @@
 ---
 layout: default
 ---
-      <article>
-        <h1>{{page.title}}</h1>
-        <p>{{page.overview}}</p>
+      <aside>
+        <p class="source"><strong>Author:</strong><br>
+          {% if page.author %}
+          {{page.author}}
+          {% else %}
+          Add author
+          {% endif %}
+        </p>
+
+        <p class="source"><strong>Source:</strong><br>
+          {% if page.link %}
+          <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
+          {% else %}
+          Add source
+          {% endif %}
+        </p>
+
+        <h4>Principles</h4>
         <ol class="cards">
           {% for principles in page.principles %}
             <li>
@@ -11,9 +26,12 @@ layout: default
             </li>
           {% endfor %}
         </ol>
+      </aside>
+      <article>
+        <h1>{{page.title}}</h1>
+        <p>{{page.overview}}</p>
         <hr>
         <ol class="cards">
-
             {% for principle in page.principles %}
               <li id="{{principle.principle | slugify}}">
                 {{ principle.principle }}
@@ -29,11 +47,3 @@ layout: default
           </li>
       </ol>
       </article>
-      <aside>
-        <p class="source">Author:</p>
-        <p>{{page.author}}</p>
-        <p class="source">Source:</p>
-        <p><a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
-
-
-      </aside>
