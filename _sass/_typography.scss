@@ -1,29 +1,3 @@
-@font-face {
-    font-family: 'allerbold';
-    src: url('/assets/fonts/aller_bd-webfont.woff2') format('woff2'),
-         url('/assets/fonts/aller_bd-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'aller_lightregular';
-    src: url('/assets/fonts/aller_lt-webfont.woff2') format('woff2'),
-         url('/assets/fonts/aller_lt-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'aller_displayregular';
-    src: url('/assets/fonts/allerdisplay-webfont.woff2') format('woff2'),
-         url('/assets/fonts/allerdisplay-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 h1 {
   font-size: $l;
 }
