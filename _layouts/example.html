@@ -54,23 +54,27 @@ layout: default
 
         <footer class="help-footer">
           <h3>Help wanted!</h3>
-          <p>The following is missing from this set of principles. It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
+          <p>The following is missing from this set of principles: </p>
           {% if page.author == null %}
-          <p><strong>Author:</strong> e.g. <code>author: Margaret Attwood</code></p>
+          <p><strong>Author:</strong> e.g. <pre>author: Margaret Attwood</pre></p>
           {% endif %}
           {% if page.link == null %}
-          <p><strong>Source:</strong> e.g. <code>source: http://example.com</code></p>
+          <p><strong>Source:</strong> e.g. <pre>
+source: http://example.com
+          </pre></p>
           {% endif %}
           {% if page.overview == null %}
-          <p><strong>Overview:</strong> e.g. <code>overview: This set of principles is designed to promote inclusivity and accessibility…</code></p>
+          <p><strong>Overview:</strong> e.g. <pre>
+overview: This set of principles is designed to promote inclusivity and accessibility…</pre></p>
           {% endif %}
           {% if page.principle.summary == null %}
-          <p><strong>Summary</strong> Each design principle can have a brief summary, e.g.
-            <code>
-              - principle: A poster has to be joyous, unless it has to arouse compassion.
-                summary: Something something
-            </code>
+          <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.
+            <pre>
+- principle: A poster has to be joyous, unless it has to arouse compassion.
+  summary: Something something
+            </pre>
           </p>
+          <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
           {% endif %}
         {% endif %}
 
