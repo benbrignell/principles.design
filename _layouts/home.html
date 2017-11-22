@@ -47,7 +47,6 @@
             {% for example in site.examples %}
             <div class="tile">
             <h2><a href="{{example.url}}">{{example.title}}</a></h2>
-            {{example.summary}}
             <ol class="cards">
             {% for principles in example.principles %}
               <li><a href="{{example.url}}/#{{principles.principle | slugify}}">{{principles.principle}}</a></li>
