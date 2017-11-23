@@ -3,7 +3,7 @@ layout: default
 ---
       <header class="example-header">
         <h1>{{page.title}}</h1>
-        <p style="max-width: 40em; ">{{page.overview}}</p>
+        <div style="max-width: 40em;">{{page.content}}</div>
       </header>
 
       <article>
@@ -55,7 +55,7 @@ layout: default
 
 
 
-      {% if page.author or page.link or page.overview or principle.summary == null%}
+      {% if page.author or page.link or page.content or principle.summary == null%}
 
         <div class="help-footer">
           <p class="h3">Help needed for "{{page.title}}" Design Principles!</p>
@@ -68,7 +68,7 @@ layout: default
 source: http://example.com
           </pre></p>
           {% endif %}
-          {% if page.overview == null %}
+          {% if page.content == null %}
           <p><strong>Overview:</strong> e.g. <pre>
 overview: This set of principles is designed to promote inclusivity and accessibility…</pre></p>
           {% endif %}
