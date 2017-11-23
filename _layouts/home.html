@@ -11,7 +11,7 @@
             <div class="info-block">
               <!-- <img src="/images/design-principles-logo.svg" class="icon"> -->
               <h2 class="intro">What are Design Principles?</h2>
-              <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
+              <p class="h3">Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
               <!-- <p>They can help you with your personal objectives. They </p>
               <p>Principles are far more powerful and flexible than fixed rules. Principles force you to understand the "why?"</p> -->
             </div>
@@ -23,7 +23,7 @@
             <div class="info-block">
               <!-- <img src="/images/design-principles-logo.svg" class="icon"> -->
               <h2 class="intro">Why use Design Principles?</h2>
-              <p>Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
+              <p class="h3">Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
             </div>
             <div class="info-icon"></div>
 
@@ -34,8 +34,8 @@
             <div class="info-block" style="margin-bottom: 1em;">
               <!-- <img src="/images/design-principles-logo.svg" class="icon"> -->
                 <h2 class="intro">Who use them?</h2>
-                <p>Large organisations, individuals and product teams have benefitted from writing and following their principles.</p>
-                <p>Here are a few examples:</p>
+                <p class="h3">Organisations, individuals and product teams have benefitted from writing and following their principles.</p>
+                <p class="h3">Here are a few examples:</p>
 
           </div>
           <div class="info-icon"></div>
@@ -44,7 +44,10 @@
 
         <div class="examples">
           <div class="wrapper">
-            {% for example in site.examples %}
+
+
+            {% assign featured_posts = (site.examples|where:"featured","true") %}
+            {% for example in featured_posts %}
             <div class="tile" style="min-height: 8em; position: relative;">
               <div tabindex="0" class="onclick-menu">
                 <ul class="onclick-menu-content">
@@ -63,6 +66,9 @@
           </ol> -->
           </div>
           {% endfor %}
+
+
+
           <div class="tile ghost">
             <h2 class="h3">Do you have Design Principles to add?</h2>
               <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
@@ -71,7 +77,7 @@
           {% for post in site.examples %}
           {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
           {% endfor %}
-          <p class="full h3"><a href="{{site.baseurl}}/examples/">See all <strong>{{ post_count }}</strong> examples</a></p>
+          <p class="full h3 arrow"><a class="tdn" href="{{site.baseurl}}/examples/">See all <strong>{{ post_count }}</strong> examples</a></p>
           </div>
         </div>
     {% include footer.html %}

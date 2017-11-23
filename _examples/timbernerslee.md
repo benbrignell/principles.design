@@ -3,6 +3,7 @@ layout: example
 title: Tim Berners Lee
 overview: Personal Design Principles
 link: https://www.gov.uk/design-principles
+featured: true
 principles:
 - principle: Simplicity
 - principle: Modular Design

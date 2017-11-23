@@ -62,6 +62,9 @@ hr {
   grid-column: auto / span 12;
 }
 
+.tdn {
+  text-decoration: none;
+}
 .info-block, .post-content, article {
   grid-column: auto / span 12;
   position: relative;
@@ -121,9 +124,16 @@ p.source {
 //     margin-top: 65%;
 //     }
 // }
+.arrow:after {
+  content: "❯";
+  padding: 1em 0.2em;
+  font-size: 120%;
+  position: relative;
+  top: 0.1em;
+}
 
 .info-block {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 .info-block:last-child
   {
@@ -137,7 +147,7 @@ p.source {
   top: 2em;
   left: 0;
   // height: 0.375em;
-  height: 0.8em;
+  height: 12px;
   width: 12em;
 }
 body.home header.site-header {
@@ -277,7 +287,6 @@ h2.intro {font-size: 3em;}
 //   float: left;
 // }
 
-.info-block p {font-size: 1.6em; }
 
 // .ghost * {
 //   position: relative;
@@ -345,10 +354,11 @@ header.example-header {
 
 }
 
-footer.help-footer {
+.help-footer {
   grid-column: 1 / -1;
   background: lighten($primary, 40%);
-  border: solid 1px $primary;
+  border-top: solid 12px $primary;
+  border-bottom: solid 2px $primary;
   padding: 1em;
 }
 

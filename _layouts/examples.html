@@ -2,11 +2,12 @@
 layout: default
 ---
       <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
         {% for post in site.examples %}
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
         {% endfor %}
-        <p>This repository contains {{ post_count }} examples</p>
+
+        <h1 class="post-title">{{ post_count }} {{ page.title }}</h1>
+
       </header>
         {% for example in site.examples %}
         <div class="tile">
