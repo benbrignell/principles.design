@@ -359,3 +359,56 @@ ul.logos img {
 .grey-bg {
   background-color: $silver!important; // this is an ugly way to do this
 }
+
+.onclick-menu {
+    position: absolute;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.onclick-menu:before {
+    content: "…";
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+    min-width: 8em;
+    position: absolute;
+    right: 0;
+}
+.onclick-menu-content li {
+  background: none;
+  padding: 0.4em;
+  border-top: 1px $silver solid;
+  background: $white;
+}
+.onclick-menu-content li:first-child {
+  border-top: none;
+}
+
+input, button, submit { border:none; }
