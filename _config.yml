@@ -16,3 +16,5 @@ sass:
 collections:
     examples:
         output: true
+gems:
+  - jekyll-last-modified-at

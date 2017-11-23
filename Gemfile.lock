@@ -97,6 +97,9 @@ GEM
     jekyll-github-metadata (2.3.1)
       jekyll (~> 3.1)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-last-modified-at (1.0.1)
+      jekyll (~> 3.3)
+      posix-spawn (~> 0.3.9)
     jekyll-mentions (1.2.0)
       activesupport (~> 4.0)
       html-pipeline (~> 2.3)
@@ -170,6 +173,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
+    posix-spawn (0.3.11)
     public_suffix (2.0.5)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.10)
@@ -194,6 +198,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-last-modified-at
 
 BUNDLED WITH
    1.15.1

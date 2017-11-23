@@ -4,6 +4,7 @@ layout: default
       <header class="example-header">
         <h1>{{page.title}}</h1>
         <p style="max-width: 40em; ">{{page.overview}}</p>
+
       </header>
 
       <article>
@@ -25,6 +26,12 @@ layout: default
       <aside>
 
 
+            <p class="source">
+              Last modified:
+            </p>
+            <p>
+              {{ page.last_modified_at | date: '%d %B %Y' }}
+            </p>
             {% if page.author %}
               <p class="source">
                 Author:
