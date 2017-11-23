@@ -10,10 +10,12 @@ layout: default
 
 
             {% if page.author %}
-            <p class="source">Author:</p>
-            <p>
-            {{page.author}}
-            </p>
+              <p class="source">
+                Author:
+              </p>
+              <p>
+                {{page.author}}
+              </p>
             {% endif %}
 
 
@@ -70,7 +72,7 @@ source: http://example.com
 overview: This set of principles is designed to promote inclusivity and accessibility…</pre></p>
           {% endif %}
 
-          {% if principles.summary == null %}
+          {% if principle.summary == null %}
 
           <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.
             <pre>
