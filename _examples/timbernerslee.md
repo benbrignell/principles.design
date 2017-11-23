@@ -1,6 +1,6 @@
 ---
 layout: example
-title: Tim Berners Lee
+title: Principles of Design
 author: Tim Berners Lee
 link: https://www.w3.org/DesignIssues/Principles.html
 featured: true
