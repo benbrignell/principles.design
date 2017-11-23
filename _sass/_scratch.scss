@@ -203,15 +203,27 @@ ol.cards li:before {
 
 
 
+// .tile {
+//   background: $white;
+//   padding: 1em 1.4em;
+//   grid-column: auto / span 12;
+//   border-radius: 0.4em;
+//   @media (min-width: 920px) {
+//       grid-column: auto / span 4;
+//     }
+// }
+
 .tile {
-  background: $white;
-  padding: 1em 1.4em;
+  padding: 0.6em 0;
+  border-top: solid 8px $black;
   grid-column: auto / span 12;
-  border-radius: 0.4em;
   @media (min-width: 920px) {
-      grid-column: auto / span 4;
-    }
+        grid-column: auto / span 4;
+      }
 }
+
+.tile a {text-decoration: none;}
+
 .tile:last-child {
   background: transparent;
   grid-column: auto / span 4;
@@ -237,13 +249,18 @@ h1.intro {
 
 
 h2.intro {font-size: 3em;}
+// .ghost {
+//   border: dashed 4px $white;
+//   background: transparent;
+//   position: relative;
+//   border-radius: 0.8em; // different to the tile radius for _reasons_
+//   padding: 1em;
+// }
 .ghost {
-  border: dashed 4px $white;
-  background: transparent;
+  border: dotted 8px $black;
   position: relative;
-  border-radius: 0.8em; // different to the tile radius for _reasons_
+  padding: 1em;
 }
-
 // div.indent-block {
 //   background: lighten($primary, 35%);
 //   padding: 2em;
