@@ -12,14 +12,11 @@ layout: default
         {% for example in site.examples %}
         <div class="tile">
         <h2 class="h3"><a href="{{example.url}}">{{example.title}}</a></h2>
-        <ol class="cards">
-        {% for principles in example.principles %}
-          <li><a href="{{example.url}}/#{{principles.principle | slugify}}">{{principles.principle}}</a>
-        {% endfor %}
-      </ol>
+        <p>{{ page.last_modified_at | date: '%d %B %Y' }}</p>
+        <p>{{example.author}}</p>
       </div>
       {% endfor %}
       <div class="tile ghost">
-        <h2>Do you have Design Principles to add?</h2>
+        <h2 class="h3">Noticed anything missing?</h2>
           <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
       </div>

@@ -49,12 +49,12 @@
             {% assign featured_posts = (site.examples|where:"featured","true") %}
             {% for example in featured_posts %}
             <div class="tile" style="min-height: 8em; position: relative;">
-              <div tabindex="0" class="onclick-menu">
+              <!-- <div tabindex="0" class="onclick-menu">
                 <ul class="onclick-menu-content">
                     <li><button onclick="alert('click 1')">Twitter</button></li>
                     <li><button onclick="alert('click 2')">Copy link</button></li>
                 </ul>
-              </div>
+              </div> -->
             <h2><a href="{{example.url}}">{{example.title}}</a></h2>
             <p>{{ page.last_modified_at | date: '%d %B %Y' }}</p>
             <p>{{example.author}}</p>
@@ -63,14 +63,14 @@
             {% for principles in example.principles %}
               <li><a href="{{example.url}}/#{{principles.principle | slugify}}">{{principles.principle}}</a></li>
             {% endfor %}
-          </ol> -->
+            </ol> -->
           </div>
           {% endfor %}
 
 
 
           <div class="tile ghost">
-            <h2 class="h3">Do you have Design Principles to add?</h2>
+            <h2 class="h3">Noticed anything missing?</h2>
               <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
           </div>
 
