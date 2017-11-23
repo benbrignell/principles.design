@@ -16,3 +16,5 @@ sass:
 collections:
     examples:
         output: true
+    components:
+        output: false
