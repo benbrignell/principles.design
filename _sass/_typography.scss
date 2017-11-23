@@ -1,11 +1,66 @@
-h1 {
-  font-size: $l;
+html, .root {
+  font-size: 19px;
+  line-height: 29px;
+}
+body, .article {
+  font-size: 1em;
+  line-height: 1.52631579em;
+}
+h1, .h1 {
+  font-size: 4.21052632em;
+  line-height: 1.0875em;
+  margin-top: 0.3625em;
+  margin-bottom: 0.725em;
+}
+h2, .h2 {
+  font-size: 2.63157895em;
+  line-height: 1.16em;
+  margin-top: 0.58em;
+  margin-bottom: 0.58em;
+}
+h3, .h3 {
+  font-size: 1.63157895em;
+  line-height: 1.87096774em;
+  margin-top: 0.93548387em;
+  margin-bottom: 0em;
+}
+h4, .h4 {
+  font-size: 1em;
+  line-height: 1.52631579em;
+  margin-top: 1.52631579em;
+  margin-bottom: 0em;
+}
+h5, .h5 {
+  font-size: 1em;
+  line-height: 1.52631579em;
+  margin-top: 1.52631579em;
+  margin-bottom: 0em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0em;
+  margin-bottom: 1.52631579em;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
-// h2 {
-//   font-size: $m;
-// }
-
-// p {
-//   font-size: $s;
-// }
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}

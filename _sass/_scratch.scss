@@ -162,7 +162,9 @@ body.home header.site-header {
 div.page-content {
   background: $white;
 }
-
+ol.principles {
+  padding-left: 1em;
+}
 ol.cards {
 position: relative;
 margin-left: -0.6em;
@@ -340,7 +342,7 @@ height: auto;
 header.example-header {
   grid-column: 1 / -1;
   border-bottom: solid 3px $black;
-  padding-bottom: 1em;
+
 }
 
 footer.help-footer {

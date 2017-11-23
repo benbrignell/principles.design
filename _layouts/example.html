@@ -4,11 +4,10 @@ layout: default
       <header class="example-header">
         <h1>{{page.title}}</h1>
         <p style="max-width: 40em; ">{{page.overview}}</p>
-
       </header>
 
       <article>
-        <ol class="">
+        <ol class="principles">
             {% for principle in page.principles %}
               <li id="{{principle.principle | slugify}}">
                 <h2>{{ principle.principle }}</h2>
@@ -26,28 +25,22 @@ layout: default
       <aside>
 
 
-            <p class="source">
-              Last modified:
-            </p>
             <p>
+              <strong>Last modified:</strong><br>
               {{ page.last_modified_at | date: '%d %B %Y' }}
             </p>
+
             {% if page.author %}
-              <p class="source">
-                Author:
-              </p>
-              <p>
+              <p><strong>Author:</strong><br>
                 {{page.author}}
               </p>
             {% endif %}
 
-
-        {% if page.link %}
-        <p class="source">Source:</p>
-        <p>
-          <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
-          </p>
-          {% endif %}
+            {% if page.link %}
+              <p><strong>Source:</strong><br>
+                <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
+              </p>
+            {% endif %}
 
 
         <!-- <p class="source">Principles:</p>
