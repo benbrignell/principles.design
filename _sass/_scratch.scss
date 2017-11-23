@@ -170,31 +170,31 @@ margin-left: -0.6em;
 
 ol.cards li {
   // float: left; // what was I thinking
-  list-style-type: none;
+  // list-style-type: lower-latin;
   counter-increment: step-counter;
   margin: 0 0 0.125em 0;
-  padding-left: 0.2em;
+  // padding-left: 0.2em;
   line-height: 1.4;
 }
 
-ol.cards li::before {
-    content: counter(step-counter);
-    margin-right: 0.6em;
-    // font-size: 80%;
-    font-size: 0.9em;
-    background-color: lighten($mid-grey, 40%);
-    color: lighten($dark-grey, 20%);
-    font-weight: bold;
-    border-radius: 0.2em;
-    position: absolute;
-    left: 0.6em;
-    width: 1.6em;
-    text-align: center;
-    padding: 0.05em;
-    // font-family: Georgia, sans-serif;
-    // font-weight: normal;
-
-}
+// ol.cards li::before {
+//     content: counter(step-counter);
+//     // margin-right: 0.6em;
+//     // font-size: 80%;
+//     font-size: 0.9em;
+//     // background-color: lighten($mid-grey, 40%);
+//     // color: lighten($dark-grey, 20%);
+//     // font-weight: bold;
+//     // border-radius: 0.2em;
+//     position: absolute;
+//     left: 0.6em;
+//     width: 1.6em;
+//     text-align: right;
+//     padding: 0.05em;
+//     // font-family: Georgia, sans-serif;
+//     // font-weight: normal;
+//
+// }
 
 
 ol.cards li:before {

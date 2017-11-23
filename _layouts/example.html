@@ -6,6 +6,22 @@ layout: default
         <p style="max-width: 40em; ">{{page.overview}}</p>
       </header>
 
+      <article>
+        <ol class="">
+            {% for principle in page.principles %}
+              <li id="{{principle.principle | slugify}}">
+                <h2>{{ principle.principle }}</h2>
+              <p>
+              {% for summary in principle.summary %}
+                {{principle.summary}}
+
+                {% else %}
+              </p>
+              {% endfor%}
+            {% endfor %}
+          </li>
+      </ol>
+      </article>
       <aside>
 
 
@@ -27,32 +43,17 @@ layout: default
           {% endif %}
 
 
-        <p class="source">Principles:</p>
+        <!-- <p class="source">Principles:</p>
         <ol class="cards">
           {% for principles in page.principles %}
             <li>
               <a href="#{{principles.principle | slugify}}">{{principles.principle}}</a>
             </li>
           {% endfor %}
-        </ol>
+        </ol> -->
       </aside>
 
-      <article>
-        <ol class="cards">
-            {% for principle in page.principles %}
-              <li id="{{principle.principle | slugify}}">
-                <h2>{{ principle.principle }}</h2>
-              <p>
-              {% for summary in principle.summary %}
-                {{principle.summary}}
 
-                {% else %}
-              </p>
-              {% endfor%}
-            {% endfor %}
-          </li>
-      </ol>
-      </article>
 
       {% if page.author or page.link or page.overview or principle.summary == null%}
 
