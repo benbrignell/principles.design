@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+body-class: about
 ---
 ## [principles.design](https://principles.design) is an open source resource designed to help you understand and create Design Principles.
 

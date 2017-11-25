@@ -464,3 +464,11 @@ ul.logos img {
 }
 
 input, button, submit { border:none; }
+
+// active nav highlighting
+
+body.about nav a.about,
+body.create nav a.create,
+body.examples nav a.examples {
+  text-decoration: underline;
+}
