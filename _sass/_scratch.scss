@@ -30,6 +30,7 @@ hr {
 }
 // p {max-width: 40em;} // test for legibility
 .site-logo {
+  float: left;
   width: 80px;
   height: 80px;
   display: block;
@@ -48,16 +49,30 @@ hr {
 
 .site-nav {
   grid-column: auto / span 12;
-  font-size: $s;
   padding-bottom: 1em;
   @media (min-width: 700px) {
       font-size: $m;
       padding-bottom: 1.4em;
     }
 }
-
-.site-nav a {margin-right: 0.3em; font-weight: bold; text-decoration: none;}
-
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.8em;
+  float: left;}
+.site-nav li {
+  margin-right: 0.6em;
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+}
+.site-nav a {
+  text-decoration: none;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+  color: $black;
+}
 .full, .post-header {
   grid-column: auto / span 12;
 }
@@ -155,6 +170,11 @@ body.home header.site-header {
   height: 100%;
   // background-image: url(/images/triangle-white.svg);
   // background-position: left top;
+}
+
+.site-header {
+  height: 4em;
+  min-height: 4em;
 }
 // div.grid {
 //   display: grid;

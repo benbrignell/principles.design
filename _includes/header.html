@@ -4,12 +4,14 @@
 
     <nav class="site-nav">
       <a class="site-logo" href="/"></a>
+      <ul>
       {% for page in site.pages %}
         {% if page.title %}
-        <a class="site-nav__link" href="{{ page.url }}">{{ page.title }}</a>
+        <li><a class="site-nav__link" href="{{ page.url }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
-        <a class="site-nav__link" href="https://github.com/benbrignell/design-principles">Contribute</a>
+        <li><a class="site-nav__link" href="https://github.com/benbrignell/design-principles">Contribute</a></li>
+      </ul>
 
     </nav>
     {% if page.layout == "home" %}
