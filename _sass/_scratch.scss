@@ -31,15 +31,16 @@ hr {
 // p {max-width: 40em;} // test for legibility
 .site-logo {
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 4em;
+  height: 4em;
   display: block;
   background: url(/images/design-principles-logo.svg) no-repeat top left;
   background-size: 100% auto;
-  margin: 0.6em 0 1em -0.6em;
+
   @media (min-width: 700px) {
-    width: 120px;
-    height: 120px;
+    width: 2.6em;
+    height: 2.6em;
+    margin: 0em 0 1em -0.6em;
     }
 }
 .site-logo:hover, .logo:hover {
@@ -58,8 +59,13 @@ hr {
 .site-nav ul {
   list-style: none;
   padding: 0;
-  margin-top: 0.8em;
-  float: left;}
+  margin-top: 0.6em;
+  float: none;
+  @media (min-width: 700px) {
+     padding-left: 1.6em;
+     margin: 0.8em;
+    }
+}
 .site-nav li {
   margin-right: 0.6em;
   font-weight: bold;
