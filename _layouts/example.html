@@ -3,7 +3,13 @@ layout: default
 ---
       <header class="example-header">
         <h1>{{page.title}}</h1>
-        <div style="max-width: 40em;">{{page.content}}</div>
+        <div style="max-width: 40em;">
+          {% if page.content %}
+          {{page.content}}
+          {% else %}
+          {% assign missingOverview = true %}
+          {% endif %}
+        </div>
       </header>
 
       <article>
@@ -11,13 +17,15 @@ layout: default
             {% for principle in page.principles %}
               <li id="{{principle.principle | slugify}}">
                 <h2>{{ principle.principle }}</h2>
-              <p>
-              {% for summary in principle.summary %}
-                {{principle.summary}}
 
-                {% else %}
-              </p>
-              {% endfor%}
+              {% if principle.summary %}
+                <p>
+                  {{ principle.summary }}
+                </p>
+              {% else %}
+              {% assign missingSummary = true %}
+              {% endif %}
+
             {% endfor %}
           </li>
       </ol>
@@ -31,15 +39,19 @@ layout: default
             </p>
 
             {% if page.author %}
-              <p><strong>Author:</strong><br>
-                {{page.author}}
-              </p>
+            <p><strong>Author:</strong><br>
+              {{page.author}}
+            </p>
+            {% else %}
+            {% assign missingAuthor = true %}
             {% endif %}
 
             {% if page.link %}
-              <p><strong>Source:</strong><br>
-                <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
-              </p>
+            <p><strong>Source:</strong><br>
+              <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
+            </p>
+            {% else %}
+            {% assign missingSource = true %}
             {% endif %}
 
 
@@ -55,25 +67,25 @@ layout: default
 
 
 
-      {% if page.author or page.link or page.content or principle.summary == null%}
+      {% if missingOverview or missingSummary or missingAuthor or missingSource %}
 
         <div class="help-footer">
           <p class="h3">Help needed for "{{page.title}}" Design Principles!</p>
           <p>The following is missing from this set of principles: </p>
-          {% if page.author == null %}
+          {% if missingAuthor %}
           <p><strong>Author:</strong> e.g. <pre>author: Margaret Attwood</pre></p>
           {% endif %}
-          {% if page.link == null %}
+          {% if missingSource %}
           <p><strong>Source:</strong> e.g. <pre>
 source: http://example.com
           </pre></p>
           {% endif %}
-          {% if page.content == null %}
+          {% if missingOverview %}
           <p><strong>Overview:</strong> e.g. <pre>
-overview: This set of principles is designed to promote inclusivity and accessibility…</pre></p>
+This set of principles is designed to promote inclusivity and accessibility…</pre></p>
           {% endif %}
 
-          {% if principle.summary == null %}
+          {% if missingSummary %}
 
           <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.
             <pre>
