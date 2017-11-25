@@ -4,6 +4,7 @@ title: airbnb
 link : https://airbnb.design/the-way-we-build/
 author: airbnb
 status: recommended
+overview: 
 principles:
  - principle: Unified
    summary: Each piece is part of a greater whole and should contribute positively to the system at scale. There should be no isolated features or outliers.

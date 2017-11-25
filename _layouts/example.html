@@ -4,8 +4,8 @@ layout: default
       <header class="example-header">
         <h1>{{page.title}}</h1>
         <div style="max-width: 40em;">
-          {% if page.content %}
-          {{page.content}}
+          {% if page.overview %}
+          {{page.overview}}
           {% else %}
           {% assign missingOverview = true %}
           {% endif %}
@@ -53,16 +53,6 @@ layout: default
             {% else %}
             {% assign missingSource = true %}
             {% endif %}
-
-
-        <!-- <p class="source">Principles:</p>
-        <ol class="cards">
-          {% for principles in page.principles %}
-            <li>
-              <a href="#{{principles.principle | slugify}}">{{principles.principle}}</a>
-            </li>
-          {% endfor %}
-        </ol> -->
       </aside>
 
 
@@ -72,28 +62,30 @@ layout: default
         <div class="help-footer">
           <p class="h3">Help needed for "{{page.title}}" Design Principles!</p>
           <p>The following is missing from this set of principles: </p>
-          {% if missingAuthor %}
-          <p><strong>Author:</strong> e.g. <pre>author: Margaret Attwood</pre></p>
-          {% endif %}
-          {% if missingSource %}
-          <p><strong>Source:</strong> e.g. <pre>
-source: http://example.com
-          </pre></p>
-          {% endif %}
+
           {% if missingOverview %}
           <p><strong>Overview:</strong> e.g. <pre>
 This set of principles is designed to promote inclusivity and accessibility…</pre></p>
           {% endif %}
 
-          {% if missingSummary %}
+          {% if missingAuthor %}
+          <p><strong>Author:</strong> e.g. <pre>author: Margaret Attwood</pre></p>
+          {% endif %}
 
+          {% if missingSource %}
+          <p><strong>Source:</strong> e.g. <pre>
+source: http://example.com
+          </pre></p>
+          {% endif %}
+
+          {% if missingSummary %}
           <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.
             <pre>
 - principle: A poster has to be joyous, unless it has to arouse compassion.
   summary: Something something</pre>
           </p>
-          <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
           {% endif %}
 
+          <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
       </div>
       {% endif %}
