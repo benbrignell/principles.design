@@ -1,0 +1,11 @@
+<nav class="site-nav">
+  <a class="site-logo" href="/"></a>
+  <ul>
+  {% for page in site.pages %}
+    {% if page.title %}
+    <li><a class="site-nav__link" href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+    <li><a class="site-nav__link" href="https://github.com/benbrignell/design-principles">Contribute</a></li>
+  </ul>
+</nav>
