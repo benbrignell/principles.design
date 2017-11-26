@@ -11,7 +11,7 @@ layout: default
       </header>
         {% for example in site.examples %}
         <div class="tile">
-        <h2 class="h3"><a href="{{example.url}}">{{example.title}}</a></h2>
+        <h2><a href="{{example.url}}">{{example.title}}</a></h2>
         <p>{{ page.last_modified_at | date: '%d %B %Y' }}</p>
         <p>{{example.author}}</p>
       </div>
