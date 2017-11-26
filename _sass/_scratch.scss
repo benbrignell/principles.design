@@ -38,9 +38,6 @@ hr {
   background-size: 100% auto;
 
   @media (min-width: 700px) {
-    width: 2.6em;
-    height: 2.6em;
-    margin: 0em 0 1em -0.6em;
     }
 }
 .site-logo:hover, .logo:hover {
@@ -50,20 +47,15 @@ hr {
 
 .site-nav {
   grid-column: auto / span 12;
-  padding-bottom: 1em;
-  @media (min-width: 700px) {
-      font-size: $m;
-      padding-bottom: 1.4em;
-    }
 }
 .site-nav ul {
   list-style: none;
   padding: 0;
-  margin-top: 0.6em;
+  margin-top: 0.5em;
   float: none;
   @media (min-width: 700px) {
      padding-left: 1.6em;
-     margin: 0.8em;
+     margin: 0.4em;
     }
 }
 .site-nav li {
@@ -336,9 +328,6 @@ height: auto;
 
 
 }
-
-
-
 
 .alt-idea {
   color: #04ff86;
