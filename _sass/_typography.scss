@@ -7,38 +7,97 @@ body, .article {
   line-height: 1.52631579em;
 }
 
-$heading1: (
-  font-size: 4.21052632em,
-  line-height: 1.0875em,
-  margin-top: 0.3625em,
-  margin-bottom: 0.725em
-);
 
-$heading2: (
-  font-size: 2.63157895em,
-  line-height: 1.16em,
-  margin-top: 0.58em,
-  margin-bottom: 0.58em
-);
-$heading3: (
-  font-size: 1.63157895em,
-  line-height: 1.87096774em,
-  margin-top: 0.93548387em,
-  margin-bottom: 0em
-);
-$heading4: (
-  font-size: 1em,
-  line-height: 1.52631579em,
-  margin-top: 1.52631579em,
-  margin-bottom: 0em
-);
 
-$heading5: (
-  font-size: 1em,
-  line-height: 1.52631579em,
-  margin-top: 1.52631579em,
-  margin-bottom: 0em
-);
+h1, .h1 {
+  //  l h2
+  font-size: 2.63157895em;
+  line-height: 1.16em;
+  margin-top: 0.58em;
+  margin-bottom: 0.58em;
+  @media (min-width: 920px) {
+    // l h1
+    font-size: 4.21052632em;
+    line-height: 1.0875em;
+    margin-top: 0.3625em;
+    margin-bottom: 0.725em;
+      }
+}
+h2, .h2 {
+  // l h3
+  font-size: 1.63157895em;
+  line-height: 1.87096774em;
+  margin-top: 0.93548387em;
+  margin-bottom: 0em;
+  @media (min-width: 920px){
+    // l h2
+    font-size: 2.63157895em;
+    line-height: 1.16em;
+    margin-top: 0.58em;
+    margin-bottom: 0.58em;
+  }
+}
+h3, .h3 {
+    // l h4
+    font-size: 1em;
+    line-height: 1.52631579em;
+    margin-top: 1.52631579em;
+    margin-bottom: 0em;
+  @media (min-width: 920px){
+    // l h3
+    font-size: 1.63157895em;
+    line-height: 1.87096774em;
+    margin-top: 0.93548387em;
+    margin-bottom: 0em;
+  }
+}
+h4, .h4{
+  // l h5
+  font-size: 1em;
+  line-height: 1.52631579em;
+  margin-top: 1.52631579em;
+  margin-bottom: 0em;
+  @media (min-width: 920px){
+    // l h4
+    font-size: 1em;
+    line-height: 1.52631579em;
+    margin-top: 1.52631579em;
+    margin-bottom: 0em;
+  }
+}
+
+
+//
+// h1, .h1 {
+//   font-size: 4.21052632em;
+//   line-height: 1.0875em;
+//   margin-top: 0.3625em;
+//   margin-bottom: 0.725em;
+// }
+// h2, .h2 {
+//   font-size: 2.63157895em;
+//   line-height: 1.16em;
+//   margin-top: 0.58em;
+//   margin-bottom: 0.58em;
+// }
+// h3, .h3 {
+//   font-size: 1.63157895em;
+//   line-height: 1.87096774em;
+//   margin-top: 0.93548387em;
+//   margin-bottom: 0em;
+// }
+// h4, .h4 {
+//   font-size: 1em;
+//   line-height: 1.52631579em;
+//   margin-top: 1.52631579em;
+//   margin-bottom: 0em;
+// }
+// h5, .h5 {
+//   font-size: 1em;
+//   line-height: 1.52631579em;
+//   margin-top: 1.52631579em;
+//   margin-bottom: 0em;
+// }
 p, ul, ol, pre, table, blockquote {
   margin-top: 0em;
   margin-bottom: 1.52631579em;
