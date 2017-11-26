@@ -17,4 +17,9 @@
     {% endif %}
     {% endif %}
     {% endfor %}
+    {% for example in site.examples %}
+    <url>
+        <loc>{{ site.url }}{{ example.url }}</loc>
+    </url>
+    {% endfor %}
 </urlset>
