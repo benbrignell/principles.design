@@ -10,13 +10,13 @@ html {
   background: $white;
 }
 
-body{
-  @include sans;
-  color: $text_color;
-  font-size: 1em;
-  line-height: 1.5;
-  font-family: $body-font;
-}
+// body{
+//   @include sans;
+//   color: $text_color;
+//   font-size: 1em;
+//   line-height: 1.5;
+//   font-family: $body-font;
+// }
 
 // .wrapper:before,
 // .wrapper:after { content:""; display:table; }
