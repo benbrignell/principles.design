@@ -5,9 +5,9 @@ layout: default
         <h1>{{page.title}}</h1>
         <div style="max-width: 40em;">
           {% if page.overview %}
-          {{page.overview}}
+            {{page.overview}}
           {% else %}
-          {% assign missingOverview = true %}
+            {% assign missingOverview = true %}
           {% endif %}
         </div>
       </header>
@@ -60,7 +60,7 @@ layout: default
       {% if missingOverview or missingSummary or missingAuthor or missingSource %}
 
         <div class="help-footer">
-          <p class="h3">Help needed for "{{page.title}}" Design Principles!</p>
+          <p class="h3 bold" style="margin-top: 0;">Help needed for "{{page.title}}" Design Principles!</p>
           <p>The following is missing from this set of principles: </p>
 
           {% if missingOverview %}

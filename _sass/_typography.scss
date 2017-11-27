@@ -102,6 +102,9 @@ p, ul, ol, pre, table, blockquote {
   margin-top: 0em;
   margin-bottom: 1.52631579em;
 }
+p {
+  max-width: 40em;
+}
 ul ul, ol ol, ul ol, ol ul {
   margin-top: 0em;
   margin-bottom: 0em;
