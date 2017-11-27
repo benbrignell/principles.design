@@ -13,7 +13,7 @@ $primary:           #f7d708; //yellow
 $secondary:         #0015dd; //blue
 
 $green:             #9ccf31;
-$red:               #ce0000;
+$red:                #ce0000;
 $orange:            #ff9e00;
 
 $dark-grey:         #333;
@@ -21,12 +21,12 @@ $mid-grey:          #666;
 $light-grey:        #999;
 $silver:            #e6e6e6;
 
-$background:        silver;
+$background:        $silver;
 
 // font sizes
-$s:                 1.25em;
-$m:                 1.8em;
-$l:                 4em;
+$s:                 20px;
+$m:                 30px;
+$l:                 90px;
 // Styles
 $text_color:        $black;
 

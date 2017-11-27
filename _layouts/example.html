@@ -3,84 +3,89 @@ layout: default
 ---
       <header class="example-header">
         <h1>{{page.title}}</h1>
-        <p style="max-width: 40em; ">{{page.overview}}</p>
+        <div style="max-width: 40em;">
+          {% if page.overview %}
+            {{page.overview}}
+          {% else %}
+            {% assign missingOverview = true %}
+          {% endif %}
+        </div>
       </header>
 
-      <aside>
-
-
-            {% if page.author %}
-              <p class="source">
-                Author:
-              </p>
-              <p>
-                {{page.author}}
-              </p>
-            {% endif %}
-
-
-        {% if page.link %}
-        <p class="source">Source:</p>
-        <p>
-          <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a></p>
-          </p>
-          {% endif %}
-
-
-        <p class="source">Principles:</p>
-        <ol class="cards">
-          {% for principles in page.principles %}
-            <li>
-              <a href="#{{principles.principle | slugify}}">{{principles.principle}}</a>
-            </li>
-          {% endfor %}
-        </ol>
-      </aside>
-
       <article>
-        <ol class="cards">
+        <ol class="principles">
             {% for principle in page.principles %}
               <li id="{{principle.principle | slugify}}">
                 <h2>{{ principle.principle }}</h2>
-              <p>
-              {% for summary in principle.summary %}
-                {{principle.summary}}
 
-                {% else %}
-              </p>
-              {% endfor%}
+              {% if principle.summary %}
+                <p>
+                  {{ principle.summary }}
+                </p>
+              {% else %}
+              {% assign missingSummary = true %}
+              {% endif %}
+
             {% endfor %}
           </li>
       </ol>
       </article>
+      <aside>
 
-      {% if page.author or page.link or page.overview or principle.summary == null%}
 
-        <footer class="help-footer">
-          <p class="f1">Help wanted for {{page.title}}!</p>
+            <p>
+              <strong>Last modified:</strong><br>
+              {{ page.last_modified_at | date: '%d %B %Y' }}
+            </p>
+
+            {% if page.author %}
+            <p><strong>Author:</strong><br>
+              {{page.author}}
+            </p>
+            {% else %}
+            {% assign missingAuthor = true %}
+            {% endif %}
+
+            {% if page.link %}
+            <p><strong>Source:</strong><br>
+              <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
+            </p>
+            {% else %}
+            {% assign missingSource = true %}
+            {% endif %}
+      </aside>
+
+
+
+      {% if missingOverview or missingSummary or missingAuthor or missingSource %}
+
+        <div class="help-footer">
+          <p class="h3 bold" style="margin-top: 0;">Help needed for "{{page.title}}" Design Principles!</p>
           <p>The following is missing from this set of principles: </p>
-          {% if page.author == null %}
+
+          {% if missingOverview %}
+          <p><strong>Overview:</strong> e.g. <pre>
+This set of principles is designed to promote inclusivity and accessibility…</pre></p>
+          {% endif %}
+
+          {% if missingAuthor %}
           <p><strong>Author:</strong> e.g. <pre>author: Margaret Attwood</pre></p>
           {% endif %}
-          {% if page.link == null %}
+
+          {% if missingSource %}
           <p><strong>Source:</strong> e.g. <pre>
 source: http://example.com
           </pre></p>
           {% endif %}
-          {% if page.overview == null %}
-          <p><strong>Overview:</strong> e.g. <pre>
-overview: This set of principles is designed to promote inclusivity and accessibility…</pre></p>
-          {% endif %}
 
-          {% if principle.summary == null %}
-
+          {% if missingSummary %}
           <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.
             <pre>
 - principle: A poster has to be joyous, unless it has to arouse compassion.
   summary: Something something</pre>
           </p>
-          <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
           {% endif %}
-        {% endif %}
 
-      </footer>
+          <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
+      </div>
+      {% endif %}

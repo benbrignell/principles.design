@@ -1,9 +1,10 @@
 # Site settings
 title: "Design Principles"
-description: "Design Principles and how to write your own"
+description: "An Open Source repository of Design Principles and methods"
 twitter: "@dsgnprinciples"
 twitter-url: "https://twitter.com/dsgnprinciples"
 contribute-url: "https://github.com/benbrignell/design-principles"
+gitter-url: "https://gitter.im/design-principles"
 
 url: "https://principles.design"
 

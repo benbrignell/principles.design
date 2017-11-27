@@ -30,15 +30,14 @@ hr {
 }
 // p {max-width: 40em;} // test for legibility
 .site-logo {
-  width: 80px;
-  height: 80px;
+  float: left;
+  width: 4em;
+  height: 4em;
   display: block;
   background: url(/images/design-principles-logo.svg) no-repeat top left;
   background-size: 100% auto;
-  margin: 0.6em 0 1em -0.6em;
+
   @media (min-width: 700px) {
-    width: 120px;
-    height: 120px;
     }
 }
 .site-logo:hover, .logo:hover {
@@ -48,20 +47,37 @@ hr {
 
 .site-nav {
   grid-column: auto / span 12;
-  font-size: $s;
-  padding-bottom: 1em;
+}
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5em;
+  float: none;
   @media (min-width: 700px) {
-      font-size: $m;
-      padding-bottom: 1.4em;
+     padding-left: 1.6em;
+     margin: 0.4em;
     }
 }
-
-.site-nav a {margin-right: 0.3em; font-weight: bold;}
-
+.site-nav li {
+  margin-right: 0.6em;
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+}
+.site-nav a {
+  text-decoration: none;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+  color: $black;
+}
 .full, .post-header {
   grid-column: auto / span 12;
 }
 
+.tdn {
+  text-decoration: none;
+}
 .info-block, .post-content, article {
   grid-column: auto / span 12;
   position: relative;
@@ -121,9 +137,16 @@ p.source {
 //     margin-top: 65%;
 //     }
 // }
+.arrow:after {
+  content: "❯";
+  padding: 1em 0.2em;
+  font-size: 120%;
+  position: relative;
+  top: 0.1em;
+}
 
 .info-block {
-  padding-top: 2em;
+  padding-top: 3em;
 }
 .info-block:last-child
   {
@@ -137,7 +160,7 @@ p.source {
   top: 2em;
   left: 0;
   // height: 0.375em;
-  height: 0.8em;
+  height: 12px;
   width: 12em;
 }
 body.home header.site-header {
@@ -145,6 +168,11 @@ body.home header.site-header {
   height: 100%;
   // background-image: url(/images/triangle-white.svg);
   // background-position: left top;
+}
+
+.site-header {
+  height: 4em;
+  min-height: 4em;
 }
 // div.grid {
 //   display: grid;
@@ -162,7 +190,9 @@ body.home header.site-header {
 div.page-content {
   background: $white;
 }
-
+ol.principles {
+  padding-left: 1em;
+}
 ol.cards {
 position: relative;
 margin-left: -0.6em;
@@ -170,48 +200,64 @@ margin-left: -0.6em;
 
 ol.cards li {
   // float: left; // what was I thinking
-  list-style-type: none;
+  // list-style-type: lower-latin;
   counter-increment: step-counter;
   margin: 0 0 0.125em 0;
-  padding-left: 0.2em;
-  line-height: 1.4;
+  // padding-left: 0.2em;
+  // line-height: 1.4;
 }
 
-ol.cards li::before {
-    content: counter(step-counter);
-    margin-right: 0.6em;
-    // font-size: 80%;
-    font-size: 0.9em;
-    background-color: lighten($mid-grey, 40%);
-    color: lighten($dark-grey, 20%);
-    font-weight: bold;
-    border-radius: 0.2em;
-    position: absolute;
-    left: 0.6em;
-    width: 1.6em;
-    text-align: center;
-    padding: 0.05em;
-    // font-family: Georgia, sans-serif;
-    // font-weight: normal;
-
-}
+// ol.cards li::before {
+//     content: counter(step-counter);
+//     // margin-right: 0.6em;
+//     // font-size: 80%;
+//     font-size: 0.9em;
+//     // background-color: lighten($mid-grey, 40%);
+//     // color: lighten($dark-grey, 20%);
+//     // font-weight: bold;
+//     // border-radius: 0.2em;
+//     position: absolute;
+//     left: 0.6em;
+//     width: 1.6em;
+//     text-align: right;
+//     padding: 0.05em;
+//     // font-family: Georgia, sans-serif;
+//     // font-weight: normal;
+//
+// }
 
 
 ol.cards li:before {
 
 }
+img.circle {
+  border-radius: 50%;
+}
+.bold {
+  font-weight: bold;
+}
 
-
+// .tile {
+//   background: $white;
+//   padding: 1em 1.4em;
+//   grid-column: auto / span 12;
+//   border-radius: 0.4em;
+//   @media (min-width: 920px) {
+//       grid-column: auto / span 4;
+//     }
+// }
 
 .tile {
-  background: $white;
-  padding: 1em 1.4em;
+  padding: 0.6em 0;
+  border-top: solid 8px $black;
   grid-column: auto / span 12;
-  border-radius: 0.4em;
   @media (min-width: 920px) {
-      grid-column: auto / span 4;
-    }
+        grid-column: auto / span 4;
+      }
 }
+
+.tile a {text-decoration: none;}
+
 .tile:last-child {
   background: transparent;
   grid-column: auto / span 4;
@@ -237,13 +283,18 @@ h1.intro {
 
 
 h2.intro {font-size: 3em;}
+// .ghost {
+//   border: dashed 4px $white;
+//   background: transparent;
+//   position: relative;
+//   border-radius: 0.8em; // different to the tile radius for _reasons_
+//   padding: 1em;
+// }
 .ghost {
-  border: dashed 4px $white;
-  background: transparent;
+  border: dotted 8px $black;
   position: relative;
-  border-radius: 0.8em; // different to the tile radius for _reasons_
+  padding: 1em;
 }
-
 // div.indent-block {
 //   background: lighten($primary, 35%);
 //   padding: 2em;
@@ -258,7 +309,6 @@ h2.intro {font-size: 3em;}
 //   float: left;
 // }
 
-.info-block p {font-size: 1.6em; }
 
 // .ghost * {
 //   position: relative;
@@ -283,9 +333,6 @@ height: auto;
 
 }
 
-
-
-
 .alt-idea {
   color: #04ff86;
 }
@@ -302,9 +349,9 @@ height: auto;
   padding: $padding-l 0;
   grid-column: auto / span 12;
 }
-.site-footer p:first-child {
-  font-size: 1.6em;
-}
+// .site-footer p:first-child {
+//   font-size: 1.6em;
+// }
 .what, .who, .why {
   overflow: hidden;
 }
@@ -323,13 +370,14 @@ height: auto;
 header.example-header {
   grid-column: 1 / -1;
   border-bottom: solid 3px $black;
-  padding-bottom: 1em;
+
 }
 
-footer.help-footer {
+.help-footer {
   grid-column: 1 / -1;
   background: lighten($primary, 40%);
-  border: solid 1px $primary;
+  border-top: solid 12px $primary;
+  border-bottom: solid 2px $primary;
   padding: 1em;
 }
 
@@ -356,9 +404,6 @@ ul.logos img {
   height: auto;
 }
 
-.grey-bg {
-  background-color: $silver!important; // this is an ugly way to do this
-}
 
 .onclick-menu {
     position: absolute;
@@ -412,3 +457,21 @@ ul.logos img {
 }
 
 input, button, submit { border:none; }
+
+// active nav highlighting
+
+body.about nav a.about,
+body.create nav a.create,
+body.examples nav a.examples {
+  text-decoration: underline;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}

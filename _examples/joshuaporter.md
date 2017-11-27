@@ -4,6 +4,7 @@ title: Joshua Porter
 overview: The following principles are fundamental to the design and implementation of effective interfaces, whether for traditional GUI environments or the web. Of late, many web applications have reflected a lack of understanding of many of these principles of interaction design, to their great detriment. Because an application or service appears on the web, the principles do not change. If anything, applying these principles become even more important.
 author: Jimmy Nail
 link: http://cheese.com
+featured: true
 principles:
 - principle: Interfaces exist to enable interaction
 - principle: "Clarity is job #1"

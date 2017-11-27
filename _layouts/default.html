@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
-  <body>
+  <body {% if page.body-class %}class="{{page.body-class}}"{%endif%}>
 
     {% include header.html %}
 
-    <div class="page-content {{page.body-class}}">
+<main role="main">
+    <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
-
+</main>
     {% include footer.html %}
 
   </body>
