@@ -6,7 +6,14 @@ link: https://www.w3.org/DesignIssues/Principles.html
 featured: true
 principles:
 - principle: Simplicity
-  summary: Simplicity is easily to quote but often ignored in strange ways. Perhaps this is because it is the eye of the beholder.<br><br>A language which uses fewer basic elements to achieve the same power is simpler.<br><br>Sometimes simplicity is confused with 'easy to understand". For example, a two-line solution which uses recursion is a pretty simple, even though some people might find it easier to work though a 10-line solution which avoids recursion.<br><br>In XML, "Processing Instructions", those things which start with "&#60?" are not simple. They look simple, just an extra sort of thing in the language, but the complicate what was a very clean design of elements and attributes, and a complication in the underlying syntax is has great effect. All specifications which refer to XML processing will have to figure out what to do about processing instructions as well as elements.
+  summary: |
+    Simplicity is easily to quote but often ignored in strange ways. Perhaps this is because it is the eye of the beholder.
+
+    A language which uses fewer basic elements to achieve the same power is simpler.
+
+    Sometimes simplicity is confused with 'easy to understand". For example, a two-line solution which uses recursion is a pretty simple, even though some people might find it easier to work though a 10-line solution which avoids recursion.
+
+    In XML, "Processing Instructions", those things which start with "&#60?" are not simple. They look simple, just an extra sort of thing in the language, but the complicate what was a very clean design of elements and attributes, and a complication in the underlying syntax is has great effect. All specifications which refer to XML processing will have to figure out what to do about processing instructions as well as elements.
 - principle: Modular Design
   summary: When you design a system, or a language, then if the features can be broken into relatively loosely bound groups of relatively closely bound features, then that division is a good thing to be made a part of the design. This is just good engineering. It means that when you want to change the system, you can with luck in the future change only one part, which will only require you to understand (and test) that part. This will allow other people to independently change other parts at the same time. This is just classic good software design and books have been written about it. The corollary, the TOII is less frequently met.<br><br>Modular design hinges on the simplicity and abstract nature of the interface definition between the modules. A design in which the insides of each module need to know all about each other is not a modular design but an arbitrary partitioning of the bits.
 - principle: Being part of a Modular Design
