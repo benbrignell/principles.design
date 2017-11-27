@@ -36,9 +36,6 @@ hr {
   display: block;
   background: url(/images/design-principles-logo.svg) no-repeat top left;
   background-size: 100% auto;
-
-  @media (min-width: 700px) {
-    }
 }
 .site-logo:hover, .logo:hover {
   transform: scale(1.05);
@@ -53,9 +50,10 @@ hr {
   padding: 0;
   margin-top: 0.5em;
   float: none;
-  @media (min-width: 700px) {
+  @media (min-width: 500px) {
      padding-left: 1.6em;
      margin: 0.4em;
+     float: right;
     }
 }
 .site-nav li {
@@ -63,6 +61,9 @@ hr {
   font-weight: bold;
   float: left;
   display: inline-block;
+}
+.site-nav li:last-child {
+  margin-right: 0;
 }
 .site-nav a {
   text-decoration: none;
