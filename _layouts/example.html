@@ -5,7 +5,7 @@ layout: default
         <h1>{{page.title}}</h1>
         <div style="max-width: 40em;">
           {% if page.overview %}
-            {{page.overview}}
+            <p>{{page.overview}}</p>
           {% else %}
             {% assign missingOverview = true %}
           {% endif %}
