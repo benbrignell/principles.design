@@ -19,3 +19,7 @@ collections:
         output: true
     components:
         output: false
+gems:
+- jekyll-last-modified-at
+liquid:
+    error_mode: lax # because of featured loop on homepage throwing minor validation error

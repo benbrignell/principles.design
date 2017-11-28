@@ -294,7 +294,8 @@ h2.intro {font-size: 3em;}
 .ghost {
   border: dotted 8px $black;
   position: relative;
-  padding: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 // div.indent-block {
 //   background: lighten($primary, 35%);
