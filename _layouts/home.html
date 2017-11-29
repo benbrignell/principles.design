@@ -47,22 +47,10 @@
 
             {% assign featured_posts = (site.examples|where:"featured","true") %}
             {% for example in featured_posts %}
-            <div class="tile" style="min-height: 8em; position: relative;">
-              <!-- <div tabindex="0" class="onclick-menu">
-                <ul class="onclick-menu-content">
-                    <li><button onclick="alert('click 1')">Twitter</button></li>
-                    <li><button onclick="alert('click 2')">Copy link</button></li>
-                </ul>
-              </div> -->
-            <h3 class="h2" style="margin-top: 0;"><a href="{{example.url}}">{{example.title}}</a></h3>
+            <div class="tile">
+            <h3 class="h2" style="margin-top: 0; margin-bottom: 0;"><a href="{{example.url}}">{{example.title}}</a></h3>
             <p>{{ page.last_modified_at | date: '%d %B %Y' }}</p>
             <p><strong>{{example.author}}</strong></p>
-
-            <!-- <ol class="cards">
-            {% for principles in example.principles %}
-              <li><a href="{{example.url}}/#{{principles.principle | slugify}}">{{principles.principle}}</a></li>
-            {% endfor %}
-            </ol> -->
           </div>
           {% endfor %}
 

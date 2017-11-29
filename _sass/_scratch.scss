@@ -50,10 +50,13 @@ hr {
   padding: 0;
   margin-top: 0.5em;
   float: none;
-  @media (min-width: $mq-m) {
+  width: 300px; // forces nav to break onto two lines
+  overflow: visible; // allows localised text to overflow if longer
+  @media (min-width: $mq-l) {
      padding-left: 1.6em;
      margin: 0.4em;
      float: right;
+     width: auto;
     }
 }
 .site-nav li {
