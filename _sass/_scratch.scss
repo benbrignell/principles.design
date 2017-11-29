@@ -50,7 +50,7 @@ hr {
   padding: 0;
   margin-top: 0.5em;
   float: none;
-  @media (min-width: 500px) {
+  @media (min-width: $mq-m) {
      padding-left: 1.6em;
      margin: 0.4em;
      float: right;
@@ -82,7 +82,7 @@ hr {
 .info-block, .post-content, article {
   grid-column: auto / span 12;
   position: relative;
-  @media (min-width: 700px) {
+  @media (min-width: $mq-m) {
     grid-column: auto / span 8;
     }
 }
@@ -251,7 +251,10 @@ img.circle {
   padding: 0.6em 0;
   border-top: solid 8px $black;
   grid-column: auto / span 12;
-  @media (min-width: 920px) {
+  @media (min-width: $mq-m) {
+        grid-column: auto / span 6;
+      }
+  @media (min-width: $mq-l) {
         grid-column: auto / span 4;
       }
 }
@@ -268,7 +271,7 @@ h1.intro {
   font-size: 3em;
   line-height: 1.0;
   display: block;
-
+  margin-top: 24%;
   //what?
   // background: url('../images/triangle.svg') no-repeat;
   // background-position: 1.25em 0.15em;
@@ -282,7 +285,6 @@ h1.intro {
 
 
 
-h2.intro {font-size: 3em;}
 // .ghost {
 //   border: dashed 4px $white;
 //   background: transparent;

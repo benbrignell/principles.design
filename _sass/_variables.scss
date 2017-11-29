@@ -4,7 +4,6 @@
 $container-width: 40em !default;
 $grid-gutter:     10px !default;
 
-$max-width: 1080px;
 
 // Colors
 $white:             #fff;
@@ -13,7 +12,7 @@ $primary:           #f7d708; //yellow
 $secondary:         #0015dd; //blue
 
 $green:             #9ccf31;
-$red:                #ce0000;
+$red:               #ce0000;
 $orange:            #ff9e00;
 
 $dark-grey:         #333;
@@ -34,6 +33,11 @@ $padding-s:         0.1em;
 $padding-m:         0.3em;
 $padding-l:         1.6em;
 
+// Media Queries
+$mq-s:              400px;
+$mq-m:              700px;
+$mq-l:              920px;
+$max-width:         1080px;
 
 // Font stack
 $body-font:       Helvetica, "Helvetica Neue", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
