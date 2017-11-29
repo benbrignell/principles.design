@@ -19,7 +19,7 @@ h1, .h1 {
   line-height: 1.16em;
   margin-top: 0.58em;
   margin-bottom: 0.58em;
-  @media (min-width: 920px) {
+  @media (min-width: $mq-l) {
     // L h1
     font-size: 4.21052632em;
     line-height: 1.0875em;
@@ -33,7 +33,7 @@ h2, .h2 {
   line-height: 1.87096774em;
   margin-top: 0.93548387em;
   margin-bottom: 0em;
-  @media (min-width: 920px){
+  @media (min-width: $mq-l){
     // L h2
     font-size: 2.63157895em;
     line-height: 1.16em;
@@ -47,7 +47,7 @@ h3, .h3 {
     line-height: 1.52631579em;
     margin-top: 1.52631579em;
     margin-bottom: 0em;
-  @media (min-width: 920px){
+  @media (min-width: $mq-l){
     // L h3
     font-size: 1.63157895em;
     line-height: 1.87096774em;
@@ -61,7 +61,7 @@ h4, .h4{
   line-height: 1.52631579em;
   margin-top: 1.52631579em;
   margin-bottom: 0em;
-  @media (min-width: 920px){
+  @media (min-width: $mq-l){
     // L h4
     font-size: 1em;
     line-height: 1.52631579em;

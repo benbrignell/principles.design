@@ -89,7 +89,7 @@ hr {
 
 aside {
   grid-column: auto / span 12;
-  @media (min-width: 700px) {
+  @media (min-width: $mq-m) {
     grid-column: auto / span 4;
     }
 }
