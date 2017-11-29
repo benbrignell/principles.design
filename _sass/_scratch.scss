@@ -266,7 +266,6 @@ img.circle {
 
 .tile:last-child {
   background: transparent;
-  grid-column: auto / span 4;
 }
 
 h1.intro {
@@ -297,7 +296,6 @@ h1.intro {
 // }
 .ghost {
   border: dotted 8px $black;
-  position: relative;
   padding-left: 1em;
   padding-right: 1em;
 }

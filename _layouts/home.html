@@ -36,25 +36,9 @@
       </div>
 
         <div class="examples">
-          <div class="wrapper">
-            {% assign featured_posts = (site.examples|where:"featured","true") %}
-            {% for example in featured_posts %}
-            <div class="tile">
-            <h3 class="h2" style="margin-top: 0; margin-bottom: 0;"><a href="{{example.url}}">{{example.title}}</a></h3>
-            <p>{{ page.last_modified_at | date: '%d %B %Y' }}</p>
-            <p><strong>{{example.author}}</strong></p>
-          </div>
-          {% endfor %}
-          <div class="tile ghost">
-            <h2 class="h3">Got something <br>to add?</h2>
-              <a href="https://github.com/benbrignell/design-principles">Submit an example</a>
-          </div>
-          {% for post in site.examples %}
-          {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
-          {% endfor %}
-          
-          <p class="full h3 arrow"><a class="tdn" href="{{site.baseurl}}/examples/">See all <strong>{{ post_count }}</strong> examples</a></p>
-          </div>
+
+          {% include grid-block-featured.html %}
+
         </div>
 
     {% include footer.html %}
