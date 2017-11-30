@@ -8,6 +8,7 @@ Please note: This repo is a work in progress, I've pushed it public for testing 
 
 There are two ways to contribute. You don't need to be able to code but you will need a (free) [GitHub](https://github.com) account in order to contribute.
 
+### The easy ish-way
 Navigate to the `_examples` folder
 
 Create new file
@@ -23,6 +24,9 @@ Give a brief message, e.g. "Added example blah design principles"
 Create a new branch (needs testing)
 
 Create new pull request
+
+### The harder-ish way
+Checkout the this repo and fire up jekyll (more instructions to follow in the next few days)
 
 ## Features
 
