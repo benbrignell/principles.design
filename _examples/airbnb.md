@@ -3,7 +3,7 @@ layout: example
 title: airbnb
 link : https://airbnb.design/the-way-we-build/
 author: airbnb
-status: recommended
+featured: true
 overview:
 principles:
  - principle: Unified

@@ -1,9 +1,10 @@
 ---
 layout: example
-title: Joshua Porter
-overview: The following principles are fundamental to the design and implementation of effective interfaces, whether for traditional GUI environments or the web. Of late, many web applications have reflected a lack of understanding of many of these principles of interaction design, to their great detriment. Because an application or service appears on the web, the principles do not change. If anything, applying these principles become even more important.
-author: Jimmy Nail
-link: http://cheese.com
+title: Principles of User Interface Design
+overview: |
+  Interfaces exist to enable interaction between humans and our world. They can help clarify, illuminate, enable, show relationships, bring us together, pull us apart, manage our expectations, and give us access to services. The act of designing interfaces is not art and they are not monuments unto themselves. Interfaces do a job and their effectiveness can be measured. They are not just utilitarian, however. The best interfaces can inspire, evoke, mystify, and intensify our relationship with the world.
+author: Joshua Porter
+link: http://bokardo.com/principles-of-user-interface-design/
 featured: true
 principles:
 - principle: Interfaces exist to enable interaction

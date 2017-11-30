@@ -1,8 +1,8 @@
 ---
 layout: example
-title: Ten Principles of Good Design
+title: Ten Principles for Good Design
 author: Dieter Rams
-link: https://www.gov.uk/design-principles
+link: https://en.wikipedia.org/wiki/Dieter_Rams#Rams.27_ten_principles_to_.22good_design.22
 principles:
 - principle: Good design is innovative
 - principle: Good design makes a product useful

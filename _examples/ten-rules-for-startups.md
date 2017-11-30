@@ -2,7 +2,7 @@
 layout: example
 title: Ten Rules for Web Startups
 author: Evan Williams
-link: http://cheese.com
+link: 
 principles:
 - principle: Be narrow
 - principle: Be different
