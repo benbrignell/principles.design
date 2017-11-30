@@ -3,7 +3,8 @@ Please note: This repo is a work in progress, I've pushed it public for performa
 ## in progress
 
 - [ ] breaking up `scratch.scss` into partials
-- [ ] updating documentation with front-matter templates and examples for contributors to work from
+- [ ] updating documentation with front-matter templates and examples for contributors via github UI to work from
+- [ ] updating documentation with front-matter templates and examples for contributors via jekyll to work from
 - [ ] testing testing testing
 
 # Contributing
