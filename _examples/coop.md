@@ -2,9 +2,10 @@
 layout: example
 title: Principles
 author: Co-op
-overview: Our digital design principles reflect how we think about design. They provide a way for us to look at the work we create and how we create it: building the right thing; building the thing right.
+overview: |
+    Our digital design principles reflect how we think about design. They provide a way for us to look at the work we create and how we create it: building the right thing; building the thing right.
 featured: true
-link :
+link: https://coop-design-manual.herokuapp.com/principles.html
 principles:
  - principle: We design in context
  - principle: We design with purpose
