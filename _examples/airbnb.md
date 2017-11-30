@@ -1,8 +1,8 @@
 ---
 layout: example
-title: airbnb
+title: Airbnb's Design Principles
 link : https://airbnb.design/the-way-we-build/
-author: airbnb
+author: Airbnb
 featured: true
 overview:
 principles:
