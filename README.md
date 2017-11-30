@@ -1,4 +1,10 @@
-Please note: This repo is a work in progress, I've pushed it public for testing and feedback. Over the next week or so I will finalise the content in the /create and /about sections. Feel free to report any bugs or issues. Feedback welcome. Just remember it's not finished.
+Please note: This repo is a work in progress, I've pushed it public for performance testing and feedback. Over the next week or so I will finalise the content in the /create and /about sections. Feel free to report any bugs or issues. Feedback welcome. Just remember it's not finished.
+
+## in progress
+
+[ ] breaking up `scratch.scss` into partials
+[ ] updating documentation with front-matter templates and examples for contributors to work from
+[ ] testing testing testing
 
 # Contributing
 
