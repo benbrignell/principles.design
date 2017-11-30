@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body class="home">
+
+    {% include header.html %}
+        <div class="wrapper">
+        {% include info-block.html title="What are Design Principles?" description="Design Principles are a set of considerations that form the basis of any good product." %}
+
+        {% include info-block.html title="Why use them?" description="Design Principles help teams with decision making. A few simple principles or constructive questions will guide you towards making appropriate decisions." %}
+
+        {% include info-block.html title="Who use them?" description="Organisations, individuals and product teams have benefitted from writing and following their principles.<br>Here are a few examples:" %}
+      </div>
+
+          {% include block-grid-featured.html%}
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

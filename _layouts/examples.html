@@ -1,0 +1,12 @@
+---
+layout: default
+---
+      <header class="post-header">
+        {% for post in site.examples %}
+        {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+        {% endfor %}
+
+        <h1 class="post-title">{{ post_count }} {{ page.title }}</h1>
+
+      </header>
+      {% include block-grid.html %}

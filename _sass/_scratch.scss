@@ -1,0 +1,485 @@
+// Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works
+// ---------------------------------------/
+body, html {
+  height: 100%;
+  // background: lighten($primary, 6%);
+  background: $primary;
+}
+body {background: $primary;}
+.footer {
+  background: $white;
+}
+a {
+  color: $black;
+  text-decoration: underline; // text-decoration-skip fallback
+  text-decoration-skip: ink; // although this is pretty ugly
+
+}
+a:hover {
+  color: $secondary;
+  text-decoration: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $black;
+    margin: 1em 0;
+    padding: 0;
+}
+// p {max-width: 40em;} // test for legibility
+.site-logo {
+  float: left;
+  width: 4em;
+  height: 4em;
+  display: block;
+  background: url(/images/design-principles-logo.svg) no-repeat top left;
+  background-size: 100% auto;
+}
+.site-logo:hover, .logo:hover {
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
+}
+
+.site-nav {
+  grid-column: auto / span 12;
+}
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5em;
+  float: none;
+  width: 300px; // forces nav to break onto two lines
+  overflow: visible; // allows localised text to overflow if longer
+  @media (min-width: $mq-l) {
+     padding-left: 1.6em;
+     margin: 0.4em;
+     float: right;
+     width: auto;
+    }
+}
+.site-nav li {
+  margin-right: 0.6em;
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+}
+.site-nav li:last-child {
+  margin-right: 0;
+}
+.site-nav a {
+  text-decoration: none;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+  color: $black;
+}
+.full, .post-header {
+  grid-column: auto / span 12;
+}
+
+.tdn {
+  text-decoration: none;
+}
+.info-block, .post-content, article {
+  grid-column: auto / span 12;
+  position: relative;
+  @media (min-width: $mq-m) {
+    grid-column: auto / span 8;
+    }
+}
+
+aside {
+  grid-column: auto / span 12;
+  @media (min-width: $mq-m) {
+    grid-column: auto / span 4;
+    }
+}
+
+p.source {
+  display: block;
+  border-bottom: solid 1px $black;
+  font-weight: bold;
+}
+// .what .info-icon {
+//   grid-column: auto / span 12;
+//   background: red;
+//   border-radius: 50%;
+//   // will figure out what to do with small screens when I can figure out row swapping
+//   @media (min-width: 700px) {
+//     grid-column: auto / span 4;
+//     width: 500px;
+//     height: 500px;
+//     bottom: -280px;
+//     position: relative;
+//     }
+// }
+//
+// .why .info-icon {
+//   grid-column: auto / span 12;
+//   background: green;
+//   // will figure out what to do with small screens when I can figure out row swapping
+//   @media (min-width: 700px) {
+//     grid-column: auto / span 4;
+//     height: 60%;
+//     position: relative;
+//     top: 0;
+//     left: -10%;
+//     }
+// }
+
+// .who .info-icon {
+//   grid-column: auto / span 12;
+//   // will figure out what to do with small screens when I can figure out row swapping
+//   @media (min-width: 700px) {
+//     grid-column: auto / span 4;
+//     border-style: solid;
+//     border-width: 200px 200px 0 200px;
+//     border-color: yellow transparent transparent transparent;
+//     margin-top: 65%;
+//     }
+// }
+.arrow:after {
+  content: "❯";
+  padding: 1em 0.2em;
+  font-size: 120%;
+  position: relative;
+  top: 0.1em;
+}
+
+.info-block {
+  padding-top: 3em;
+}
+.info-block:last-child
+  {
+    margin-bottom: 0em;
+  }
+
+.info-block:after {
+  content:"";
+  background: $black;
+  position: absolute;
+  top: 2em;
+  left: 0;
+  // height: 0.375em;
+  height: 12px;
+  width: 12em;
+}
+body.home header.site-header {
+  background: $primary;
+  height: 100%;
+  // background-image: url(/images/triangle-white.svg);
+  // background-position: left top;
+}
+
+.site-header {
+  height: 4em;
+  min-height: 4em;
+}
+// div.grid {
+//   display: grid;
+//   grid-gap: 2.2em;
+//   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+//   grid-auto-rows: minmax(100px, auto);
+// }
+// .grid > div {
+//   // border: 1px solid #3bc9db;
+//   // display: flex; // not sure why this was here
+//   background: $white;
+//   padding: 0.4em 1em;
+//   // border-radius: 0.4em;
+// }
+div.page-content {
+  background: $white;
+}
+ol.principles {
+  padding-left: 1em;
+}
+ol.cards {
+position: relative;
+margin-left: -0.6em;
+}
+
+ol.cards li {
+  // float: left; // what was I thinking
+  // list-style-type: lower-latin;
+  counter-increment: step-counter;
+  margin: 0 0 0.125em 0;
+  // padding-left: 0.2em;
+  // line-height: 1.4;
+}
+
+// ol.cards li::before {
+//     content: counter(step-counter);
+//     // margin-right: 0.6em;
+//     // font-size: 80%;
+//     font-size: 0.9em;
+//     // background-color: lighten($mid-grey, 40%);
+//     // color: lighten($dark-grey, 20%);
+//     // font-weight: bold;
+//     // border-radius: 0.2em;
+//     position: absolute;
+//     left: 0.6em;
+//     width: 1.6em;
+//     text-align: right;
+//     padding: 0.05em;
+//     // font-family: Georgia, sans-serif;
+//     // font-weight: normal;
+//
+// }
+
+
+ol.cards li:before {
+
+}
+img.circle {
+  border-radius: 50%;
+}
+.bold {
+  font-weight: bold;
+}
+
+// .tile {
+//   background: $white;
+//   padding: 1em 1.4em;
+//   grid-column: auto / span 12;
+//   border-radius: 0.4em;
+//   @media (min-width: 920px) {
+//       grid-column: auto / span 4;
+//     }
+// }
+
+.tile {
+  padding: 0.6em 0;
+  border-top: solid 8px $black;
+  grid-column: auto / span 12;
+  @media (min-width: $mq-m) {
+        grid-column: auto / span 6;
+      }
+  @media (min-width: $mq-l) {
+        grid-column: auto / span 4;
+      }
+}
+
+.tile a {text-decoration: none;}
+
+.tile:last-child {
+  background: transparent;
+}
+
+h1.intro {
+  grid-column: auto / span 10;
+  font-size: 3em;
+  line-height: 1.0;
+  display: block;
+  margin-top: 24%;
+  //what?
+  // background: url('../images/triangle.svg') no-repeat;
+  // background-position: 1.25em 0.15em;
+  // background-size: 1.6em;
+  //
+  // @media (min-width: 700px) {
+  //     font-size: 6em;
+  //     background-position: 1.25em 0.15em;
+  //   }
+}
+
+
+
+// .ghost {
+//   border: dashed 4px $white;
+//   background: transparent;
+//   position: relative;
+//   border-radius: 0.8em; // different to the tile radius for _reasons_
+//   padding: 1em;
+// }
+.ghost {
+  border: dotted 8px $black;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+// div.indent-block {
+//   background: lighten($primary, 35%);
+//   padding: 2em;
+//   float: right;
+//   font-size: 1.4em;
+//   max-width: 32em;
+//   -webkit-box-shadow: 10px 10px 0px 0px $primary;
+//   -moz-box-shadow: 10px 10px 0px 0px $primary;
+//   box-shadow: 10px 10px 0px 0px $primary;
+// }
+// div.indent-block-left {
+//   float: left;
+// }
+
+
+// .ghost * {
+//   position: relative;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   font-size: $m;
+//   display: inline-block;
+// }
+.ghost:hover {
+  // border: solid;
+}
+
+.gradient-block {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$primary+0,f9e352+40,fae76b+100 */
+background: $primary; /* Old browsers */
+background: -moz-linear-gradient(top, $primary 0%,  lighten($secondary, 15%) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, $primary 0%, lighten($secondary, 15%) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, $primary 0%, lighten($secondary, 15%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='lighten($secondary, 15%)',GradientType=0 ); /* IE6-9 */
+height: auto;
+
+
+}
+
+.alt-idea {
+  color: #04ff86;
+}
+.tile h2 {display: block; margin: 0;}
+
+
+.icon {
+  width: 120px;
+  height: auto;
+  margin-bottom: -2.8em;
+}
+.site-footer {
+  background: $white;
+  padding: $padding-l 0;
+  grid-column: auto / span 12;
+}
+// .site-footer p:first-child {
+//   font-size: 1.6em;
+// }
+// .what, .who, .why {
+//   overflow: hidden;
+// }
+// .what {
+//   background: lighten($primary, 10%);
+// }
+// .why {
+//   background-image: url(/images/triangle-white.svg);
+//   background-size: 8em;
+// }
+// .who {
+//   background-image: url(/images/triangle-grid.svg);
+// }
+
+
+header.example-header {
+  grid-column: 1 / -1;
+  border-bottom: solid 3px $black;
+
+}
+
+.help-footer {
+  grid-column: 1 / -1;
+  background: lighten($primary, 40%);
+  border-top: solid 12px $primary;
+  border-bottom: solid 2px $primary;
+  padding: 1em;
+}
+
+pre, code {
+  display: block;
+  background: $silver;
+  padding: 1em;
+}
+
+ul.logos {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.logos li {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+ul.logos img {
+  width: 100%;
+  height: auto;
+}
+
+
+.onclick-menu {
+    position: absolute;
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.onclick-menu:before {
+    content: "…";
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    z-index: 1;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+    min-width: 8em;
+    position: absolute;
+    right: 0;
+}
+.onclick-menu-content li {
+  background: none;
+  padding: 0.4em;
+  border-top: 1px $silver solid;
+  background: $white;
+}
+.onclick-menu-content li:first-child {
+  border-top: none;
+}
+
+input, button, submit { border:none; }
+
+// active nav highlighting
+
+body.about nav a.about,
+body.create nav a.create,
+body.examples nav a.examples {
+  text-decoration: underline;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+header h1 {
+  margin-top: 0.6em;
+}

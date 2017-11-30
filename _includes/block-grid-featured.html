@@ -1,0 +1,12 @@
+<div class="wrapper">
+  {% assign featured_posts = (site.examples|where:"featured","true") %}
+  {% for example in featured_posts %}
+  {% include block-tile.html %}
+  {% endfor %}
+  {% include block-tile-ghost.html %}
+
+{% for post in site.examples %}
+{% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
+{% endfor %}
+<p class="full h3 arrow"><a class="tdn" href="{{site.baseurl}}/examples/">See all <strong>{{ post_count }}</strong> examples</a></p>
+</div>

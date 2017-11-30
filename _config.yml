@@ -1,0 +1,24 @@
+# Site settings
+title: "Design Principles"
+description: "An Open Source repository of Design Principles and methods"
+twitter: "@dsgnprinciples"
+twitter-url: "https://twitter.com/dsgnprinciples"
+contribute-url: "https://github.com/benbrignell/design-principles"
+gitter-url: "https://gitter.im/design-principles"
+url: "https://principles.design"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+    examples:
+        output: true
+    components:
+        output: false
+gems:
+- jekyll-last-modified-at
+liquid:
+    error_mode: lax # because of featured loop on homepage throwing minor validation error
