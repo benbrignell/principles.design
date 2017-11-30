@@ -6,38 +6,17 @@
   <body class="home">
 
     {% include header.html %}
-        <div class="what">
-          <div class="wrapper">
-            <div class="info-block">
-              <h2>What are Design Principles?</h2>
-              <p class="h3">Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
-            </div>
-            <div class="info-icon"></div>
-          </div>
-        </div>
-        <div class="why">
-          <div class="wrapper">
-            <div class="info-block">
-              <h2>Why use them?</h2>
-              <p class="h3">Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track.</p>
-            </div>
-            <div class="info-icon"></div>
-          </div>
-        </div>
-        <div class="who">
-          <div class="wrapper">
-            <div class="info-block" style="margin-bottom: 1em;">
-                <h2>Who use them?</h2>
-                <p class="h3">Organisations, individuals and product teams have benefitted from writing and following their principles.</p>
-                <p class="h3">Here are a few examples:</p>
-          </div>
-          <div class="info-icon"></div>
-        </div>
-      </div>
+
+        {% include info-block.html title="What are Design Principles?" description="Design Principles are the foundation of any good product." %}
+
+        {% include info-block.html title="Why use them?" description="Design Principles will help you with decision making. A few simple principles will guide you, keep you focused and on-track." %}
+
+        {% include info-block.html title="Why use them?" description="Organisations, individuals and product teams have benefitted from writing and following their principles.<br>Here are a few examples:" %}
+
 
         <div class="examples">
 
-          {% include block-grid-featured.html %}
+          {% include block-grid-featured.html%}
 
         </div>
 
