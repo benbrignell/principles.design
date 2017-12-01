@@ -19,7 +19,18 @@ a:hover {
   color: $secondary;
   text-decoration: none;
 }
-
+.tile:hover {
+  background: lighten($primary, 10%);
+}
+a.full-link {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  line-height: inherit;
+}
+body.examples .tile:hover {
+  background: lighten($primary, 45%);
+}
 hr {
     display: block;
     height: 1px;
