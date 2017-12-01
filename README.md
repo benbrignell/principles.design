@@ -61,3 +61,10 @@ New features and improvements are welcome but please submit a discussion thread 
 - Accessibility
 - Universal
 - Specific
+
+
+Notes:
+Troubleshooting - when bundle update throws ```An error occurred while installing commonmarker (0.17.6), and Bundler cannot continue.
+Make sure that `gem install commonmarker -v '0.17.6'` succeeds before bundling.```
+
+`brew install cmake`
