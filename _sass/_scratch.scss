@@ -254,6 +254,7 @@ img.circle {
   padding: 0.6em 0;
   border-top: solid 8px $black;
   grid-column: auto / span 12;
+  overflow: hidden;
   @media (min-width: $mq-m) {
         grid-column: auto / span 6;
       }
@@ -261,6 +262,7 @@ img.circle {
         grid-column: auto / span 4;
       }
 }
+
 
 .tile a {text-decoration: none;}
 
