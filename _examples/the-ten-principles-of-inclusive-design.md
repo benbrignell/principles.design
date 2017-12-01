@@ -2,6 +2,7 @@
 layout: example
 title: First Principles of Interaction Design
 author: Sandi Wassmer
+featured: true
 overview: |
     Inclusive Design is where innovation and imagination flourish. Meeting the needs of the widest variety of people does not inhibit creativity. It opens our minds and inspires excellence.
 link: http://sandiwassmer.co.uk/resources/the-ten-principles-of-inclusive-web-design
