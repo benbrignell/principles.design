@@ -48,7 +48,7 @@ layout: default
 
             {% if page.link %}
             <p><strong>Source:</strong><br>
-              <a href="{{page.link}}">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
+              <a href="{{page.link}}" class="wrap-string">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
             </p>
             {% else %}
             {% assign missingSource = true %}
