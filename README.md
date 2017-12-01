@@ -59,4 +59,5 @@ New features and improvements are welcome but please submit a discussion thread 
 - AI
 - UX
 - Accessibility
-- Blah
+- Universal
+- Specific
