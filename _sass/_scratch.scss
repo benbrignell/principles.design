@@ -159,6 +159,10 @@ p.source {
   top: 0.1em;
 }
 
+.arrow:hover:after {
+  color: $secondary;
+}
+
 .info-block {
   padding-top: 1em;
   padding-bottom: 1.6em;
