@@ -53,16 +53,16 @@ New features and improvements are welcome but please submit a discussion thread 
 
  ` — principle:` Each principle on a new line
 
- `tags:` Add tags, separated by a comma. Tags aren't available on the site yet but will be soon. It's a good idea to add them in preparation. The available tags are:
+ `tags:` Add tags, separated by a comma. Tags aren't available on the site yet but will be soon. It's a good idea to add them in preparation. The proposed tags are:
 
-- Organistion
-- Personal
-- Product
-- AI
-- UX
-- Accessibility
-- Universal
-- Specific
+- `Organistion`
+- `Personal`
+- `Product`
+- `AI`
+- `UX`
+- `Accessibility`
+- `Universal`
+- `Specific`
 
 
 Notes:
