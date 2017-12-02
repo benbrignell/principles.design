@@ -178,9 +178,11 @@ p.source {
   position: absolute;
   top: 0;
   left: 0;
-  // height: 0.375em;
   height: 12px;
-  width: 12em;
+  width: 8em;
+  @media (min-width: $mq-m) {
+    width: 12em;
+    }
 }
 body.home header.site-header {
   background: $primary;
