@@ -1,0 +1,32 @@
+{% if missingOverview or missingSummary or missingAuthor or missingSource %}
+
+  <div class="help-footer">
+    <p class="h3 bold" style="margin-top: 0;">Help needed for "{{page.title}}" Design Principles!</p>
+    <p>The following is missing from this set of principles: </p>
+
+    {% if missingOverview %}
+    <p><strong>Overview:</strong> e.g. </p><pre>
+This set of principles is designed to promote inclusivity and accessibility…</pre>
+    {% endif %}
+
+    {% if missingAuthor %}
+    <p><strong>Author:</strong> e.g. </p><pre>author: Margaret Attwood</pre>
+    {% endif %}
+
+    {% if missingSource %}
+    <p><strong>Source:</strong> e.g. </p><pre>
+source: http://example.com
+    </pre>
+    {% endif %}
+
+    {% if missingSummary %}
+    <p><strong>Summary:</strong> Each design principle can have a brief summary, e.g.</p>
+      <pre>
+- principle: A poster has to be joyous, unless it has to arouse compassion.
+summary: Something something</pre>
+
+    {% endif %}
+
+    <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
+</div>
+{% endif %}
