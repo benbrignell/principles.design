@@ -20,7 +20,10 @@ a:hover {
   text-decoration: none;
 }
 .tile:hover {
-  background: lighten($primary, 10%);
+  background: lighten($primary, 20%);
+}
+.tile a:hover {
+  color: $black;
 }
 a.full-link {
   display: inline-block;
@@ -29,7 +32,7 @@ a.full-link {
   line-height: inherit;
 }
 body.examples .tile:hover {
-  background: lighten($primary, 45%);
+  background: $primary;
 }
 hr {
     display: block;
@@ -273,6 +276,7 @@ img.circle {
   border-top: solid 8px $black;
   grid-column: auto / span 12;
   overflow: hidden;
+  transition: background-color 0.3s ease;
   @media (min-width: $mq-m) {
         grid-column: auto / span 6;
       }
