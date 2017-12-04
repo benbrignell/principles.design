@@ -11,7 +11,7 @@ There are two ways to contribute. You don't need to be able to code but you will
 #### Take a look at the template
 Firstly you'll have to format your design principles a certain way. Not all fields are necessary, if something is missing (for example `author:` or `summary:`) just leave it blank.
 
-Here's the template, copy it from here into a simple text editor of your choice. Replace the things you want to add where described below:
+Here's the template, copy it from here into a simple text editor of your choice. Replace the things you want to add as described below:
 
 ```
 ---
