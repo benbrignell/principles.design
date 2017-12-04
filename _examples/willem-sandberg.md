@@ -3,7 +3,7 @@ layout: example
 title: Willem Sandberg
 author: Willem Sandberg
 overview:
-link :
+link:
 principles:
  - principle: A poster has to be joyous, unless it has to arouse compassion.
  - principle: Red has to be in every poster.
