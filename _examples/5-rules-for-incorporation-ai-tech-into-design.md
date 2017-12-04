@@ -3,7 +3,7 @@ layout: example
 title: 5 rules for incorporating AI tech into design
 author: Tom Castle
 overview: #Work in progress
-link: https://twitter.com/tom_greenwich/status/934766167738191872
+link: http://tom-castle.com/2017/11/design-artificial-intelligence/
 principles:
  - principle: Design for People, not AI
  - principle: Design for Delight
