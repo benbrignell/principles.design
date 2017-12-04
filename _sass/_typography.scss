@@ -70,6 +70,20 @@ h4, .h4{
   }
 }
 
+// homepage hero h1
+h1.intro {
+  grid-column: auto / span 10;
+  font-size: 3em;
+  line-height: 1.0;
+  display: block;
+  margin-top: 24%;
+}
+
+@media (min-width: $mq-m) {
+  h1.intro {
+    font-size: 6em;
+  }
+}
 
 .wrap-string {
 
