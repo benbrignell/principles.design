@@ -16,6 +16,7 @@ sass:
 collections:
     examples:
         output: true
+        permalink: /examples/:name
     components:
         output: false
 gems:
