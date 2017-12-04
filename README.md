@@ -1,44 +1,50 @@
-Please note: This repo is a work in progress, I've pushed it public for performance testing and feedback. Over the next week or so I will finalise the content in the /create and /about sections. Feel free to report any bugs or issues. Feedback welcome. Just remember it's not finished.
-
-## in progress
-
-- [ ] breaking up `scratch.scss` into partials
-- [ ] updating documentation with front-matter templates and examples for contributors via github UI to work from
-- [ ] updating documentation with front-matter templates and examples for contributors via jekyll to work from
-- [ ] testing testing testing
+Please note: This repo is a work in progress, I've pushed it public for performance testing and feedback. Over the next week or so I will finalise the content in the /create and /about sections. Feel free to report any bugs or issues. Feedback welcome. Just remember it's not finished. [There's stuff on the roadmap… ](https://github.com/benbrignell/principles.design/issues)
 
 # Contributing
 
-## Content
-
-## How to contribute
+## Add a Design Principles example
 
 There are two ways to contribute. You don't need to be able to code but you will need a (free) [GitHub](https://github.com) account in order to contribute.
 
 ### The easy ish-way
-Navigate to the `_examples` folder
+
+#### Take a look at the template
+Firstly you'll have to format your design principles a certain way. Not all fields are necessary, if something is missing (for example `author:` or `summary:`) just leave it blank.
+
+Download the template and edit it in a simple text editor of your choice.
+
+#### Navigate to the `_examples` folder at the top of [this page](https://github.com/benbrignell/principles.design).
+
 ![screenshot-2017-12-04 11 27 37](https://user-images.githubusercontent.com/362340/33551370-19ec9dba-d8e9-11e7-9db8-fa517f9e8ffa.png)
 
-Create new file
+#### Create a new file
+Click on "Create file" at the top right
+
 ![screenshot-2017-12-04-11 29 20](https://user-images.githubusercontent.com/362340/33551617-d9427932-d8e9-11e7-92a5-8e1928194a38.png)
 
-You'll see an empty text area to paste your design principles into
-Give it a descriptive file name (for example here I'm adding Design Well Inc's design principles and have called the file `design-well-in.md`)
+#### Name your file
+You'll see an empty text area to paste your design principles into. At the top is a field for you to name your file. Give it a descriptive file name (for example here I'm adding the example "Design Well Inc's" design principles and have called the file `design-well-in.md`)
+
 <img width="998" alt="screenshot 2017-12-04 11 30 54" src="https://user-images.githubusercontent.com/362340/33551408-348d1744-d8e9-11e7-818d-83a4d307dc03.png">
 
-Paste in your design principles. You'll need to format them based on a template which can be found here:
+#### Paste in your Design Principles
+Paste in your design principles. You'll need to format them based on a template which if you don't have it yet can be found here:
+
 <img width="991" alt="screenshot 2017-12-04 11 36 07" src="https://user-images.githubusercontent.com/362340/33551412-372172c0-d8e9-11e7-83ac-3661db303560.png">
+
+#### Add your new file
 
 Scroll down to the bottom of the text area and 'Propose new file'. Give this a message, for example `added example design-well-inc.md`
 
 <img width="990" alt="screenshot 2017-12-04 11 36 58" src="https://user-images.githubusercontent.com/362340/33551415-39128a6a-d8e9-11e7-8074-7c8ab3d6a958.png">
 
-Create pull request
+#### Create pull request
+A pull request is something that's created for somebody to review your contribution and check everything is ok. If it's ok it will be merged into the site, if there's a problem somebody will fix it or let you know.
 
 <img width="1000" alt="screenshot 2017-12-04 11 37 21" src="https://user-images.githubusercontent.com/362340/33551422-3b685812-d8e9-11e7-89ea-67639e8f0893.png">
 
-Confirm pull request
-Give it a quick check, make sure everything looks ok
+#### Confirm pull request
+Give it a quick glance, make sure everything looks ok
 
 <img width="997" alt="screenshot 2017-12-04 11 37 38" src="https://user-images.githubusercontent.com/362340/33551432-3e86e5f4-d8e9-11e7-93b6-0fd5ea9c5d65.png">
 
