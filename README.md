@@ -11,14 +11,56 @@ There are two ways to contribute. You don't need to be able to code but you will
 #### Take a look at the template
 Firstly you'll have to format your design principles a certain way. Not all fields are necessary, if something is missing (for example `author:` or `summary:`) just leave it blank.
 
-Download the template and edit it in a simple text editor of your choice.
+Here's the template, copy it from here into a simple text editor of your choice. Replace the things you want to add where described below:
+
+```
+---
+layout: example #ignore layout! :)
+title: #add title#
+author: #add author#
+overview:
+link: #add full url#
+principles:
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+- principle: #add a principle#
+  summary: |
+    #add a summary (optional)#
+---
+
+```
 
 #### Navigate to the `_examples` folder at the top of [this page](https://github.com/benbrignell/principles.design).
 
 ![screenshot-2017-12-04 11 27 37](https://user-images.githubusercontent.com/362340/33551370-19ec9dba-d8e9-11e7-9db8-fa517f9e8ffa.png)
 
 #### Create a new file
-Click on "Create file" at the top right
+Click on "Create new file" at the top right
 
 ![screenshot-2017-12-04-11 29 20](https://user-images.githubusercontent.com/362340/33551617-d9427932-d8e9-11e7-92a5-8e1928194a38.png)
 

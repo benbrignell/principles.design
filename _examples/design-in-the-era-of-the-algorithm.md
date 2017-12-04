@@ -1,6 +1,6 @@
 ---
 layout: example
-title: Design in the Era of the Algorithm 
+title: Design in the Era of the Algorithm
 author: Josh Clark
 overview: Here are ten design principles for conceiving, designing, and managing data-driven products.
 featured: true
