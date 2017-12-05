@@ -26,7 +26,11 @@ source: http://example.com
 summary: Our aim is to be a resource that is helpful to everyone. We do this by strictly adhering to principles of progressive enhancement…</pre>
 
     {% endif %}
-
+    {% if page.link %}
+    <p><strong>Tip!</strong> You may be able to find the missing information at the source URL: <br><a href="{{page.link}}">{{page.link}}</a>.
+    </p>
+    {% endif %}
     <p>It would be great if you could contribute and <a href="{{site.contribute-url}}">update this set of principles</a> with anything that's missing!</p>
+
 </div>
 {% endif %}
