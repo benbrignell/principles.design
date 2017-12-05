@@ -8,8 +8,13 @@ link: http://www.punchcut.com/perspectives/ecology-multi-device-design/
 principles:
 - principle: Recognize Interdependence
 - principle: Embrace Diversity
+- principle: Embrace Diversity
+- principle: Support Exchanges
 - principle: Support Exchanges
 - principle: Ensure Resiliency
+- principle: Ensure Resiliency
 - principle: Integrate Naturally
+- principle: Integrate Naturally
+- principle: Expect Evolution
 - principle: Expect Evolution
 ---
