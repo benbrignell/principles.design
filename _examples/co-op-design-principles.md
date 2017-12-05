@@ -7,10 +7,10 @@ overview: |
 featured: true
 link: https://coop-design-manual.herokuapp.com/principles.html
 principles:
- - principle: We design in context
- - principle: We design with purpose
- - principle: We design for everyone
- - principle: We design with honesty
- - principle: We design in the open
- - principle: We design iteratively
+- principle: We design in context
+- principle: We design with purpose
+- principle: We design for everyone
+- principle: We design with honesty
+- principle: We design in the open
+- principle: We design iteratively
 ---
