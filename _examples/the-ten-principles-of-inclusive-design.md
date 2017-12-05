@@ -1,6 +1,6 @@
 ---
 layout: example
-title: First Principles of Interaction Design
+title: The Ten Principles of Interaction Design
 author: Sandi Wassmer
 featured: true
 overview: |
