@@ -2,7 +2,7 @@
 layout: example
 title: iOS 7 Design Principles
 author: Apple
-overview: 
+overview:
 link:
 principles:
 - principle: Aesthetic Integrity
