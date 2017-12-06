@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="wrapper">
       <header class="post-header">
         {% for post in site.examples %}
         {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %}
@@ -9,4 +10,13 @@ layout: default
         <h1 class="post-title">{{ post_count }} {{ page.title }}</h1>
 
       </header>
-      {% include block-grid.html %}
+
+</div>
+<div id="search-list">
+  <div class="wrapper">
+    <input class="search" placeholder="Search by title or creator" />
+  </div>
+  <div class="wrapper list">
+        {% include block-grid.html %}
+  </div>
+</div>
