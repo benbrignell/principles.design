@@ -286,6 +286,25 @@ img.circle {
 }
 
 
+input.search  {
+  height: 2.6em;
+  color: $black;
+  font-weight: bold;
+  border: solid 2px $black;
+  padding-left: 1em;
+  width: 100%;
+  grid-column: auto / span 12;
+  @media (min-width: $mq-m) {
+        grid-column: auto / span 6;
+      }
+  @media (min-width: $mq-l) {
+        grid-column: auto / span 8;
+      }
+}
+input.search::placeholder {
+  color: $black;
+  font-weight: normal;
+}
 .tile a {text-decoration: none;}
 
 .tile:last-child {
