@@ -9,22 +9,16 @@ principles:
 - principle: Longevity
   summary: |
     With occasional maintenance, the clock should reasonably be expected to display the correct time for the next 10,000 years.
-
 - principle: Maintainability
   summary: |
     The clock should be maintainable with bronze-age technology.
-
 - principle: Transparency
   summary: |
     It should be possible to determine operational principles of the clock by close inspection.
-
 - principle: Evolvability
   summary: |
     It should be possible to improve the clock with time.
-
 - principle: Scalability
   summary: |
     It should be possible to build working models of the clock from table-top to monumental size using the same design.
-
-
 ---
