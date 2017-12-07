@@ -1,6 +1,6 @@
 ---
 layout: example
-title: 10 Principles of Codecademy.com
+title: 10 Principles of Codecademy
 author: Codecademy.com
 overview: Codecademy spent three months developing this set of principles. The source contains additional contextual screenshots and videos.
 
