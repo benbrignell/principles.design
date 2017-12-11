@@ -1,6 +1,6 @@
 ---
 layout: example
-title: The 10,000 Year Clock
+title: The Ten Tenets of Chindogu
 author: International Chindogu Society
 overview: |
     Every Chindogu is an almost useless object, but not every almost useless object is a Chindogu. In order to transcend the realms of the merely almost useless, and join the ranks of the really almost useless, certain vital criteria must be met. It is these criteria, a set of ten vital tenets, that define the gentle art and philosophy of Chindogu. Here they are:
