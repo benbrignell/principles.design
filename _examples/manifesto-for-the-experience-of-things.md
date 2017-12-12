@@ -2,9 +2,10 @@
 layout: example
 title: Manifesto for the Experience of Things
 author: Dan Frost
-overview: The Internet of Things is the convergence of many technologies. Technologies change our lives when the experience of them fits.  
-This Manifesto learns from the best physical and digital product design to inform good design in the coming generation of connected products.  
-While this is informed by the many IoT standards and platforms, this is not a technical document. It is a description of the experience - how the technology will fit into our lives. This is, we believe, how the IoT ecosystem of technologies should be experienced.  
+overview: |
+    The Internet of Things is the convergence of many technologies. Technologies change our lives when the experience of them fits.  
+    This Manifesto learns from the best physical and digital product design to inform good design in the coming generation of connected products.  
+    While this is informed by the many IoT standards and platforms, this is not a technical document. It is a description of the experience - how the technology will fit into our lives. This is, we believe, how the IoT ecosystem of technologies should be experienced.  
 link:
 principles:
 - principle: My. Your. Our. The.
