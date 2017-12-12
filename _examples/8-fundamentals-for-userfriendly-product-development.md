@@ -1,6 +1,6 @@
 ---
 layout: example
-title: 8 fundamentals for userfriendly product development
+title: 8 fundamentals for user friendly product development
 author: Devhouse Spindle / Luuk Hartsema
 overview:
 link: https://wearespindle.com/
