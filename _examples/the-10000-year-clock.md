@@ -1,6 +1,6 @@
 ---
 layout: example
-title: The 10,000 Year Clock
+title: The Ten Tenets of Chindogu
 author: Danny Hillis
 overview: |
     These are the principles that Danny Hillis used in the initial stages of designing a 10,000 Year Clock. We have found these are generally good principles for designing anything to last a long time.
