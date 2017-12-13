@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 body-class: about
 ---
-## This is an open source resource created to help you understand and create Design Principles.
+## This is an open source resource created to help us understand and create Design Principles.
 
 The project is managed by [Ben Brignell](https://benbrignell.com) an independent product designer from London, England. If you or your organisation want to book a one or two-day workshop to help your team write Design Principles then [please get in touch](https://brignell.uk).
 
