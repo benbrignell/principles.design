@@ -3,7 +3,6 @@ layout: example
 title: Manifesto for service and product design
 link : https://www.designmanifesto.org/
 author: Niklaus Gerber
-featured: true
 overview:
 principles:
  - principle: We focus on our user's needs
