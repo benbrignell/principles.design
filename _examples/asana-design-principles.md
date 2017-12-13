@@ -3,7 +3,6 @@ layout: example
 title: Asana's Design Principles
 author: Asana
 overview:
-featured: true
 link: https://medium.com/@dehfne/aligning-your-team-through-design-principles-a1d39bd1f55e
 principles:
  - principle: Allow users to focus on their work without interference.
