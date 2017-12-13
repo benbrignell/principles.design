@@ -4,6 +4,7 @@ title: Government Design Principles
 author: Government Digital Service
 overview: The UK government's design principles.
 link: https://www.gov.uk/design-principles
+featured: true
 principles:
 - principle: Start with user needs
   summary: |
@@ -32,7 +33,7 @@ principles:
 - principle: Be consistent, not uniform
   summary: |
     We should use the same language and the same design patterns wherever possible. This helps people get familiar with our services, but when this isn’t possible we should make sure our approach is consistent. This isn’t a straitjacket or a rule book. Every circumstance is different. When we find patterns that work we should share them, and talk about why we use them. But that shouldn’t stop us from improving or changing them in the future when we find better ways of doing things or the needs of users change.
-- principle: Make things open: it makes things better
+- principle: "Make things open: it makes things better"
   summary: |
     We should share what we’re doing whenever we can. With colleagues, with users, with the world. Share code, share designs, share ideas, share intentions, share failures. The more eyes there are on a service the better it gets - howlers are spotted, better alternatives are pointed out, the bar is raised. Much of what we’re doing is only possible because of open source code and the generosity of the web design community. We should pay that back.
 ---
