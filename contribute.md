@@ -26,7 +26,7 @@ sidebar: |
 
 You don't need to be a giant organisation or a famous designer and author with 72.4 million followers on Twitter to submit a set of personal Design Principles.
 
-The objective of this community is to build a resource we can learn from. There's not much value in a repository filled with 100s of examples of vague and generic principles so here are some basic guidelines:
+The objective of this community is to build a resource we can learn from. There's not much value in a repository filled with 100s of examples of generic principles so here are some basic guidelines:
 
 ### Guidelines
 
