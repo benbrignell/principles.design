@@ -493,7 +493,8 @@ input, button, submit { border:none; }
 
 body.about nav a.about,
 body.create nav a.create,
-body.examples nav a.examples {
+body.examples nav a.examples,
+body.contribute nav a.contribute {
   text-decoration: underline;
 }
 .sr-only {

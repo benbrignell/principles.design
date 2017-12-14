@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 1
 body-class: about
 ---
 ## This is an open source resource created to help us understand and create Design Principles.
