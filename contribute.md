@@ -17,6 +17,10 @@ sidebar: |
     Community</strong>
     <br>
     <a href="https://gitter.im/design-principles">Join the conversation on Gitter</a></p>
+    <p><strong><img src="/images/twitter-icon.svg" style="height: 1em; width: auto;" alt="Twitter">
+    Follow & Share</strong>
+    <br>
+    <a href="https://twitter.com/dsgnprinciples">@dsgnprinciples on Twitter</a></p>
 ---
 ## There are many ways to contribute to this website
 
