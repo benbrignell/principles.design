@@ -3,11 +3,7 @@ layout: example
 title: 10 Usability Heuristics for User Interface Design
 author: Jakob Nielsen
 overview: |
-    As with any design organization, there are certain beliefs we hold at Facebook, certain qualities that we strive for in our work. It's what enables us to debate whether something "Is Facebook" or "Isn't Facebook," it's what allows us to evaluate whether anything we're designing could be improved. It's our Design Principles, and today we're excited to share them with you.
-
-    Those of you familiar with Facebook's design over the years will likely not find any of our principles surprising. All the same, we've found it helpful to have these defined and written out in words, to tell the story of how our design team works and how it may be different from other design organizations. Over time we hope to go more in-depth into each principle listed here and give examples of how we've used them in our day-to-day.
-
-    The following are our Design Principles. At Facebook, our design is...
+    
 link: https://www.nngroup.com/articles/ten-usability-heuristics/
 principles:
 - principle: Visibility of system status
