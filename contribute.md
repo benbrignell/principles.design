@@ -17,7 +17,6 @@ sidebar: |
     Community</strong>
     <br>
     <a href="https://gitter.im/design-principles">Join the conversation on Gitter</a></p>
-
 ---
 ## There are many ways to contribute to this website
 
