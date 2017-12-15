@@ -1,7 +1,7 @@
 ---
 layout: example
 title: Mercedes-Benz Design Philosophy
-author: #add author#
+author: Mercedes-Benz
 overview: |
     To create fascination and brand identity: that's the objective of the Mercedes-Benz design philosophy, oriented towards long-term effect rather than short-lived trends, it taps into a “gene pool” of brand-typical style elements in the sense of a living tradition. At the end of this process is the car as an individual space for living.
 link: http://media.daimler.com/marsMediaSite/en/instance/ko.xhtml?oid=9904420
