@@ -6,7 +6,7 @@ layout: default
         <h1>{{page.title}}</h1>
         <div style="max-width: 40em;">
           {% if page.overview %}
-            <p>{{page.overview}}</p>
+            <p>{{page.overview | newline_to_br}}</p>
           {% else %}
             {% assign missingOverview = true %}
           {% endif %}
@@ -21,7 +21,7 @@ layout: default
 
               {% if principle.summary %}
                 <p>
-                  {{ principle.summary }}
+                  {{ principle.summary  | newline_to_br}}
                 </p>
               {% else %}
               {% assign missingSummary = true %}
