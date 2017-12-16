@@ -5,7 +5,7 @@ description: "An Open Source repository of Design Principles and methods"
 twitter: "@dsgnprinciples"
 twitter:
   username: dsgnprinciples
-logo: /images/design-principles-logo.svg
+
 # Custom variables
 twitter-url: "https://twitter.com/dsgnprinciples"
 contribute-url: "https://github.com/benbrignell/principles.design#contributing"
