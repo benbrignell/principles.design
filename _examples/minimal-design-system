@@ -1,0 +1,20 @@
+title: #Minimal Design System#
+author: #Michael Lai (thetoohardbasket@gmail.com)#
+overview: A design system that attempts to describe the principles of all design systems - based on an article first published in Medium Jun 9, 2015
+link: #https://medium.com/a-think-tank-institute-publication/design-experience-language-b4db23df2e16#
+principles:
+- principle: #There are three fundamental elements of abstract interface design: view, content and trigger#
+  summary: |
+    #Astract interface elements allow us to create flexible and dynamic systems that can be adapated to any type of user interface design, whether it is touch, voice or AI#
+- principle: #There are three fundamental elements of concrete interface design: page, section and action#
+  summary: |
+    #Concrete interface elements allow us to define how an abstract design element is to be implemented, by giving it a look & feel that is specific to a use case, context or technology#
+- principle: #A view (abstract) specifies what a user can see, while a page (concrete) specifies what a user actually sees#
+  summary: |
+    #What a user can see is determined by things such as their roles, permissions, personas and anything that gives an overall picture of what the user's goals and needs are; a page is a snapshot in time of that overall view.#
+- principle: #A content (abstract) specifies a logical unit contained within a view, while a section (concrete) specifies a logical unit contained within a page#
+  summary: |
+    #Contents help organize concepts and ideas within a view, just as sections help organize information and user interface elements within a page. Contents and sections can be nested within a view or page respectively.#
+- principle: #A trigger (abstract) specifies a source of change to the view or content, while an action (concrete) specifies the source of change to the page or section#
+  summary: |
+    #Triggers help us understand the need for a view or content to vary (e.g. switching user accounts) and actions help us initiate the change (e.g. a switch account button followed by selection of account to switch to)#
