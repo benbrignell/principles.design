@@ -1,16 +1,16 @@
 @font-face{
-	font-family: $body-font;
-	src: 	url('/assets/fonts/HKGrotesk.eot');
-	src: 	url('/assets/fonts/HKGrotesk.eot?#iefix') format('embedded-opentype'),
-				url('/assets/fonts/HKGrotesk.woff2') format('woff2'),
-				url('/assets/fonts/HKGrotesk.woff') format('woff'),
-	    	url('/assets/fonts/HKGrotesk.ttf') format('truetype'),
-	    	url('/assets/fonts/HKGrotesk.svg#webfont') format('svg');
+	font-family: "HK Grotesk";
+	src: 	url('/assets/fonts/HKGrotesk-Regular.eot');
+	src: 	url('/assets/fonts/HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+				url('/assets/fonts/HKGrotesk-Regular.woff2') format('woff2'),
+				url('/assets/fonts/HKGrotesk-Regular.woff') format('woff'),
+	    	url('/assets/fonts/HKGrotesk-Regular.ttf') format('truetype'),
+	    	url('/assets/fonts/HKGrotesk-Regular.svg#webfont') format('svg');
 				font-weight: normal;
 				font-style: normal;
 }
 @font-face{
-	font-family: $body-font-bold;
+	font-family: "HK Grotesk Bold";
 	src: url('/assets/fonts/HKGrotesk-Bold.eot');
 	src: url('/assets/fonts/HKGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
 				url('/assets/fonts/HKGrotesk-Bold.woff2') format('woff2'),
@@ -34,6 +34,7 @@ body, .article {
 
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $body-font-bold;
   font-weight: bold;
 }
 
