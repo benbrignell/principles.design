@@ -1,25 +1,24 @@
-@font-face{
-	font-family: "Montserrat";
-	src: 	url('/assets/fonts/montserrat-regular-webfont.eot');
-	src: 	url('/assets/fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-				url('/assets/fonts/montserrat-regular-webfont.woff2') format('woff2'),
-				url('/assets/fonts/montserrat-regular-webfont.woff') format('woff'),
-	    	url('/assets/fonts/montserrat-regular-webfont.ttf') format('truetype'),
-	    	url('/assets/fonts/montserrat-regular-webfont.svg#webfont') format('svg');
-				font-weight: normal;
-				font-style: normal;
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 300;
+	src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Segoe UI Light"), local("Ubuntu Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
-@font-face{
-	font-family: "Montserrat Bold";
-	src: url('/assets/fonts/montserrat-bold-webfont.eot');
-	src: url('/assets/fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-				url('/assets/fonts/montserrat-bold-webfont.woff2') format('woff2'),
-			 url('/assets/fonts/montserrat-bold-webfont.woff') format('woff'),
-	     url('/assets/fonts/montserrat-bold-webfont.ttf') format('truetype'),
-	     url('/assets/fonts/montserrat-bold-webfont.svg#webfont') format('svg');
-			 font-weight: normal;
-			 font-style: normal;
+
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 400;
+	src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
 }
+
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 700;
+	src: local(".SFNSText-Bold"), local(".HelveticaNeueDeskInterface-Bold"), local(".LucidaGrandeUI"), local("Segoe UI Bold"), local("Ubuntu Bold"), local("Roboto-Bold"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
 
 html, .root {
   font-size: 19px;
@@ -34,7 +33,6 @@ body, .article {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $body-font-bold;
   font-weight: bold;
 }
 
