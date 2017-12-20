@@ -2,7 +2,7 @@
 layout: example #ignore layout! :)
 title: Principles of Design with Watson
 author: Rob Harrigan
-overview:
+overview: Basic tenets that can be applied when working with IBM Watson — or any AI system and how to think through using them.
 link: https://medium.com/@robharrigan/principles-of-design-with-ibm-watson-c4ce71760122
 principles:
 - principle: Know your data.
