@@ -1,3 +1,26 @@
+@font-face{
+	font-family: $body-font;
+	src: 	url('/assets/fonts/HKGrotesk.eot');
+	src: 	url('/assets/fonts/HKGrotesk.eot?#iefix') format('embedded-opentype'),
+				url('/assets/fonts/HKGrotesk.woff2') format('woff2'),
+				url('/assets/fonts/HKGrotesk.woff') format('woff'),
+	    	url('/assets/fonts/HKGrotesk.ttf') format('truetype'),
+	    	url('/assets/fonts/HKGrotesk.svg#webfont') format('svg');
+				font-weight: normal;
+				font-style: normal;
+}
+@font-face{
+	font-family: $body-font-bold;
+	src: url('/assets/fonts/HKGrotesk-Bold.eot');
+	src: url('/assets/fonts/HKGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+				url('/assets/fonts/HKGrotesk-Bold.woff2') format('woff2'),
+			 url('/assets/fonts/HKGrotesk-Bold.woff') format('woff'),
+	     url('/assets/fonts/HKGrotesk-Bold.ttf') format('truetype'),
+	     url('/assets/fonts/HKGrotesk-Bold.svg#webfont') format('svg');
+			 font-weight: normal;
+			 font-style: normal;
+}
+
 html, .root {
   font-size: 19px;
   line-height: 29px;
@@ -6,6 +29,7 @@ body, .article {
   font-size: 1em;
   line-height: 1.52631579em;
   color: $black;
+  font-family: $body-font;
 }
 
 
