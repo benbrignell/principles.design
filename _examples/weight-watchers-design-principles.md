@@ -10,7 +10,7 @@ principles:
   summary: Design for Weight Watchers members illustrated by product personas 
 
 - principle: Experience
-  summary: Design for the the entire product experience rather than isolated needs 
+  summary: Design for the entire product experience rather than isolated needs 
 
 - principle: Context
   summary: Keep context in mind – where’s the member coming from and where are they going 
