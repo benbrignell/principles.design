@@ -1,4 +1,6 @@
-
+---
+# Dashes allow Jekyll goodness
+---
 
 var options = {
     valueNames: [ 'title', 'author' ]
