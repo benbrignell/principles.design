@@ -15,6 +15,13 @@ a {
   text-decoration-skip: ink; // although this is pretty ugly
 
 }
+
+.mbn {
+  margin-bottom: 0;
+}
+.mtn {
+  margin-top: 0;
+}
 a:hover {
   color: $secondary;
   text-decoration: none;
@@ -95,6 +102,15 @@ hr {
 
 .tdn {
   text-decoration: none;
+}
+
+.three-up {
+  grid-column: auto / span 6;
+  position: relative;
+  @media (min-width: $mq-m) {
+    grid-column: auto / span 4;
+    margin-bottom: 1.6em;
+    }
 }
 .info-block, .post-content, article {
   grid-column: auto / span 12;

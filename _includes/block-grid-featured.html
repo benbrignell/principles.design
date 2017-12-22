@@ -6,8 +6,6 @@
   {% include block-tile-ghost.html %}
 
 
-  {% assign authors =  site.examples | map: 'author' | uniq %}
-  {% assign principles =  site.examples | map: 'principles' | join: '- principle:'  | split: '- principle:' | uniq %}
-  <p class="full h3 arrow"><a class="tdn" href="{{site.baseurl}}/examples/">See all <strong>{{ site.examples.size }}</strong> examples containing <strong>{{ principles.size }}</strong> principles from <strong>{{ authors.size }}</strong> creators</a></p>
+  <p class="full h3 arrow"><a class="tdn" href="{{site.baseurl}}/examples/">See all <strong>{{ site.examples.size }}</strong> examples</a></p>
 
 </div>
