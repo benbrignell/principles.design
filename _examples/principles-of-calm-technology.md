@@ -8,7 +8,7 @@ overview: |
 
     When we design products, we aim to choose the best position for user interface components, placing the most important ones in the most accessible places on the screen.
 
-    Equally important is the design of communication. How many are notifications are necessary? How and when should they be displayed? To answer this, we can be inspired by the principles of calm technology.
+    Equally important is the design of communication. How many notifications are necessary? How and when should they be displayed? To answer this, we can be inspired by the principles of calm technology.
 featured: true
 link: https://calmtech.com/
 principles:
