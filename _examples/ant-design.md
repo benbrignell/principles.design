@@ -25,7 +25,7 @@ principles:
     Solve most of problems on the same page and avoid a new one, because the page refresh and forwarding can lead to change blindness, in addition to disrupting the user’s mental flow.
 - principle: Keep it Lightweight
   summary: |
-    Fitts’s Law is an ergonomic principle that ties the size of a target and its contextual proximity to ease of use.In other words, if a tool is close at hand and large enough to target, then we can improve the user’s interaction. Putting tools in context makes for lightweight interaction.
+    Fitts’s Law is an ergonomic principle that ties the size of a target and its contextual proximity to ease of use. In other words, if a tool is close at hand and large enough to target, then we can improve the user’s interaction. Putting tools in context makes for lightweight interaction.
 - principle: Provide an Invitation
   summary: |
     A common problem with many of these rich interactions (e.g. Drag and Drop, Inline Editing, and Contextual Tools) is their lack of discoverability. Providing an invitation to the user is one of the keys to successful interactive interfaces.
@@ -33,7 +33,7 @@ principles:
     Invitations are the prompts and cues that lead users through an interaction. They often include just-in-time tips or visual affordances that hint at what will happen next in the interface.
 - principle: Use Transition
   summary: |
-    Our Gray Matter are wired to react to dynamic things like movement,shape change and colour change. Transitions smooth out the jarring world of the Web, making changes appear more natural. The main purpose for Transitions is to provide an engaging interface and reinforce communication.
+    Our Gray Matter are wired to react to dynamic things like movement, shape change and colour change. Transitions smooth out the jarring world of the Web, making changes appear more natural. The main purpose for Transitions is to provide an engaging interface and reinforce communication.
 - principle: React Immediately
   summary: |
     Invitations are powerful because they directly address discoverability and provide feedback before an interaction happens. Transitions are useful because they provide visual feedback during an interaction. But another class of feedback exists. It is the feedback that happens immediately after each interaction with the system, an immediate reaction paired with the user’s action.

@@ -8,7 +8,7 @@ link: https://jonyablonski.com/2015/design-principles-for-reducing-cognitive-loa
 principles:
 - principle: Avoid unnecessary elements
 - principle: Leverage common design patterns
-- principle: Eliminate unnescessary tasks
+- principle: Eliminate unnecessary tasks
 - principle: Minimize choices
 - principle: Display choices as a group
 - principle: Strive for readability

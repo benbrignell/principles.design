@@ -10,7 +10,7 @@ principles:
 - principle: Build tools for users without experience
 - principle: Users needs are not always the same as the features they ask for
 - principle: One action per page
-- principle: Context is more important than consistancy
+- principle: Context is more important than consistency
 - principle: Optimise for average user's return rate
 - principle: Make pages functionally readable
 - principle: Only tell people things once per page
