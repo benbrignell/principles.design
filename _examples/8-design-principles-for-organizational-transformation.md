@@ -13,5 +13,5 @@ principles:
 - principle: Action
 - principle: Transparency
 - principle: Harmony
-- principle: Resilence
+- principle: Resilience
 ---
