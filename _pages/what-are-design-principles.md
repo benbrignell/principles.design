@@ -3,5 +3,4 @@ layout: page
 title: What are Design Principles?
 permalink: /what-are-design-principles/
 ---
-Who knows sdfsdf
-## sdfsdf
+## Design Principles are a set of considerations that form the basis of any good product.
