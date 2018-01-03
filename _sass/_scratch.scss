@@ -68,8 +68,10 @@ hr {
   width: 4em;
   height: 4em;
   display: block;
-  background: url(/images/design-principles-logo.svg) no-repeat top left;
-  background-size: 100% auto;
+}
+.site-logo a img {
+  width: 4em;
+  height: 4em;
 }
 .site-logo:hover, .logo:hover {
   transform: scale(1.05);
