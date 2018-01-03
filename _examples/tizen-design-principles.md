@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Tizen Design Principles
 author: Tizen
 overview:

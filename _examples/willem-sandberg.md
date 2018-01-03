@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Willem Sandberg
 author: Willem Sandberg
 overview:

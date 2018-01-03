@@ -1,5 +1,4 @@
 ---
-layout: example
 title: 8 Design Principles for Organizational Transformation
 author: Xplane
 overview: |

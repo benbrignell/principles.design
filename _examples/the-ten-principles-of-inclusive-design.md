@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Ten Principles of Interaction Design
 author: Sandi Wassmer
 featured: true

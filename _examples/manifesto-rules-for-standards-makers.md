@@ -1,5 +1,4 @@
 ---
-layout: example
 title: "Manifesto: Rules for standards-makers"
 author: Dave Winer
 overview: |

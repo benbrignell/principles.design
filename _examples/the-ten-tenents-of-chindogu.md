@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Ten Tenets of Chindogu
 author: International Chindogu Society
 overview: |

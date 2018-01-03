@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Amazon's Leadership Principles
 author: Amazon
 source: https://www.amazon.jobs/principles

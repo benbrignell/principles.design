@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Six Universal IBM experiences
 author: IBM Design
 overview: |

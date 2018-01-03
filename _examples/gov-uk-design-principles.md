@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Government Design Principles
 author: Government Digital Service
 overview: The UK government's design principles.

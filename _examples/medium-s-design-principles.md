@@ -1,9 +1,8 @@
 ---
-layout: example
 title: Early Design Principles at Medium
 author: Medium
 overview: |
-    When medium was small the team wrote down some initial principles. They created a framework that listed two positive thought-provoking words in opposition. 
+    When medium was small the team wrote down some initial principles. They created a framework that listed two positive thought-provoking words in opposition.
 link: https://medium.com/@dustin/thanks-for-writing-the-article-julie-8362fd235ae0
 principles:
 - principle: Direction over Choice

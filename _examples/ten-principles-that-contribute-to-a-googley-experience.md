@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Ten Principles that Contribute to a Googley Experience
 author: Google
 overview:

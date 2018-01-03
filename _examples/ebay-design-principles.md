@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Ebay Design Principles
 author: Ebay
 overview: |

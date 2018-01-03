@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Salesforce Lightning Design Principles
 author: Salesforce
 overview: |

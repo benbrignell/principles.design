@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of Bot Design
 author: Intercom
 overview:

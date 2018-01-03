@@ -1,5 +1,4 @@
 ---
-layout: example
 title: 5 Principles for the wearable revolution
 author: Fjord
 overview: |

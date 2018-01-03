@@ -1,8 +1,7 @@
 ---
-layout: example
 title: Ten Rules for Web Startups
 author: Evan Williams
-link: 
+link:
 principles:
 - principle: Be narrow
 - principle: Be different
@@ -14,5 +13,5 @@ principles:
 - principle: Be tiny
 - principle: Be agile
 - principle: Be balanced
-- principle: (bonus!) Be wary     
+- principle: (bonus!) Be wary
 ---

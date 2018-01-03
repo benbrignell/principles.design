@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Ten Tenets of Chindogu
 author: Danny Hillis
 overview: |

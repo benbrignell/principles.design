@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Voice User Interface Principles
 author: Stephen Gay
 overview:

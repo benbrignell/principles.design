@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Introduction to Understanding WCAG 2.0
 author: W3C
 overview: |

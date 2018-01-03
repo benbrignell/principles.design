@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Ten Principles of Simplicity
 author: Jay Selway
 overview: |

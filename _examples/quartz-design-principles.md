@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Quartz Design Principles
 author: Quartz
 overview:

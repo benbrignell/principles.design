@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Microsoft Design Principles
 author: Microsoft
 overview: |

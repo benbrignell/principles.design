@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Four C's of Form Design
 author: Jessica Enders
 overview: |

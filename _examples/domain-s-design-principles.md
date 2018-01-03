@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Domain's Design Principles
 author: Domain
 overview:

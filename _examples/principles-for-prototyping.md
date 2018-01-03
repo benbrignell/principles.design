@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles for Prototyping
 author: Todd Zaki Warfel
 overview:

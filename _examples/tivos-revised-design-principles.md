@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Tivo's Revised Design Principles
 author: Tivo
 overview:

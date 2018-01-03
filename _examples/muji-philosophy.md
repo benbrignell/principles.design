@@ -1,5 +1,4 @@
 ---
-layout: example
 title: MUJI Philosophy
 author: MUJI
 overview: |

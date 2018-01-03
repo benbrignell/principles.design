@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Ecology of Multi-Device Design
 author: Punchcut
 overview: |

@@ -1,5 +1,4 @@
----
-layout: example #ignore layout! :)
+--- #ignore layout! :)
 title: Principles of Design with Watson
 author: Rob Harrigan
 overview: Basic tenets that can be applied when working with IBM Watson — or any AI system and how to think through using them.
@@ -20,5 +19,5 @@ principles:
     Visualizations within the experience should address misconceptions, add to the end user outcome, and make the data easier to comprehend — visualizations are never the deliverable. The deliverable is an insight within it — but never a visualization alone. Watson is amazing when it is finding patterns and teasing those out in massive amounts of data — what we have to keep in mind is what our users need to take away — we are leading them to the needle in the noisy data haystack.
 - principle: Always in service of people never in lieu of them.
   summary: |
-    The user and Watson are partners working towards mutual goals through an experience. We have to solve the user’s need which is central to success but we also have to enable human and computer cooperation — not only interaction. Building empathy, trust, and cooperation with our users is the goal. We should be focused on removing limitations and addressing pain points. Watson never makes a decision for a person — it finds, augment and educates.  
+    The user and Watson are partners working towards mutual goals through an experience. We have to solve the user’s need which is central to success but we also have to enable human and computer cooperation — not only interaction. Building empathy, trust, and cooperation with our users is the goal. We should be focused on removing limitations and addressing pain points. Watson never makes a decision for a person — it finds, augment and educates.
 ---

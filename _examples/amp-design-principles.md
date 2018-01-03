@@ -1,5 +1,4 @@
 ---
-layout: example
 title: AMP Design Principles
 author: AMP Project
 overview: |

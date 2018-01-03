@@ -1,9 +1,8 @@
 ---
-layout: example
 title: Service Design Principles
 author: Tim Manning
 overview: |
-    
+
 link: http://design4services.com/methods/enterprise-architecture/design-principles/
 principles:
 - principle: General Principles

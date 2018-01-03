@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles for Accessibility
 author: Sarah Horton & Whitney Quesenbery
 overview: |

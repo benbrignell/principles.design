@@ -1,5 +1,4 @@
 ---
-layout: example
 title: What the Heck Is Inclusive Design?
 author: Heydon Pickering
 overview: |

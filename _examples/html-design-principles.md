@@ -1,5 +1,4 @@
 ---
-layout: example
 title: HTML Design Principles
 author: W3C
 overview: |

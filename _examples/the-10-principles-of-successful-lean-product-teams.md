@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The 10 Principles of Successful Lean Product Teams
 author: Luxr
 overview:

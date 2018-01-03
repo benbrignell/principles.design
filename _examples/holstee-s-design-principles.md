@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Holstee's Design Principles
 author: Holstee
 overview: Glass is fundamentally different than existing mobile platforms in both design and use. Follow these principles when building Glassware to give users the best experience.

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Manifesto for service and product design
 link : https://www.designmanifesto.org/
 author: Niklaus Gerber

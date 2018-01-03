@@ -1,5 +1,4 @@
 ---
-layout: example
 title: HTC Hero
 author: HTC
 overview:

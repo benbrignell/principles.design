@@ -1,5 +1,4 @@
 ---
-layout: example
 title: iOS User Experience Guidelines
 author: Apple
 overview:

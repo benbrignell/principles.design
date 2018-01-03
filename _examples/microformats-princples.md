@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Microformats Principles
 author: microformats.org
 overview: |

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of pervasive retail application design
 author: Jonathan Morgan
 overview: The findings presented on this site identify fundamental principles for designing applications for computationally-enhanced retail environments. These principles are distilled from over two hundred research studies and papers on pervasive technology, human-computer interaction, ubiquitous computing, retail strategy, inclusive design, and related fields.
