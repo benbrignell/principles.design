@@ -70,8 +70,8 @@ hr {
   display: block;
 }
 .site-logo a img {
-  width: 4em;
-  height: 4em;
+  width: 4em!important;
+  height: 4em!important;
 }
 .site-logo:hover, .logo:hover {
   transform: scale(1.05);
