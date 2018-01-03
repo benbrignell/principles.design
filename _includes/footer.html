@@ -1,21 +1,27 @@
 <div class="footer">
-  <div class="wrapper">
-    <footer class="site-footer">
-      <div class="credit">
-        <p style="max-width: 26em;" class="h3"><a href="https://twitter.com/benbrignell"><strong>Ben Brignell</strong></a> maintains <a href="/">principles.design</a> as an open source resource. To submit a new example take a look at the <a href="https://github.com/benbrignell/design-principles">GitHub repository</a>.</p>
+    <div class="wrapper">
+      <div class="credit full">
+        <p class="h3 bold"><a href="https://twitter.com/benbrignell"><strong>Ben Brignell</strong></a> maintains <a href="/">principles.design</a> as an open source resource.</p>
       </div>
+
+      <div class="two-up">
+        <p class="h3 bold">Newsletter</p>
+        <p><strong>Sign up</strong> for infrequent but super-useful resources, articles and updates</p>
+        <form action="https://tinyletter.com/designprinciples" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/designprinciples', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+          <p><input type="text" style="width:80%;" name="email" id="tlemail" placeholder="Enter your email address" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+      </div>
+      <div class="two-up">
         <p class="h3 bold">Join the community</p>
-          <p>The Design Principles community is for everyone. <a href="{{site.gitter-url}}">Join the Design Principles discussion on Gitter</a>. You can also find Design Principles on <a href="{{site.twitter-url}}">Twitter</a> & <a href="{{site.contribute-url}}">GitHub</a>.
+          <p><a href="{{site.gitter-url}}">Join the Design Principles discussion on Gitter</a>. You can also find Design Principles on <a href="{{site.twitter-url}}">Twitter</a> & <a href="{{site.contribute-url}}">GitHub</a>.
           </p>
         <ul class="logos">
           <li><a href="{{site.gitter-url}}"><img src="/images/gitter.svg" class="logo circle" alt="Talk about Design Principles on Gitter"></a></li>
           <li><a href="https://twitter.com/dsgnprinciples"><img src="/images/twitter-icon.svg" class="logo" alt="Follow Design Principles on Twitter @dsngprinciples"></a></li>
           <li><a href="{{site.contribute-url}}"><img src="/images/github-icon.svg" class="logo" alt="Contribute to this project on GitHub"></a><li>
         </ul>
-        <p style="clear:both;">Thanks to the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors to this project</a> ❤️</p>
-
-      </footer>
-  </div>
+        <p style="clear:both;">Many thanks to the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors to this project</a>.</p>
+      </div>
+    </div>
 </div>
 
 {% if page.layout == 'examples' %}
