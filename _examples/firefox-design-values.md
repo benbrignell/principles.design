@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Firefox Design Values
 author: Firefox
 overview:

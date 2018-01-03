@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The UX Axioms
 author: Erik Dahl
 overview: |

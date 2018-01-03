@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Arch Way
 author: Arch Linux
 overview: |

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Basic Principles of NUI Design
 author: Dan Saffer
 overview:

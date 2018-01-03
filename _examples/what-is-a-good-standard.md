@@ -1,5 +1,4 @@
 ---
-layout: example
 title: What is a good standard?
 author: Bert Bos
 overview: |

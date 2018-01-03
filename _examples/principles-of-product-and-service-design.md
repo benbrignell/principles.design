@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of product and service design
 author: Niklaus Gerber
 overview: A simple but essential core set of rules to guide us towards better solutions.

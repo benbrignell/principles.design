@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Airbnb's Design Principles
 link : https://airbnb.design/the-way-we-build/
 author: Airbnb

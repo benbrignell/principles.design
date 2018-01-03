@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles
 author: Co-op
 overview: |

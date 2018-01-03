@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Etsy Design Principles
 author: Etsy Design
 overview: |

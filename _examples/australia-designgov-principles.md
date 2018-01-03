@@ -1,10 +1,9 @@
 ---
-layout: example
 title: Australia DesignGov Principles
 author: DesignGov Australia
 overview: |
 
-link: 
+link:
 principles:
 - principle: Connected, Customer and Community Centric
 - principle: Courageous

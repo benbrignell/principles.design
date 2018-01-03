@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles for Independent Archives
 author: Luke Bacon
 overview: |

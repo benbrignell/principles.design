@@ -1,5 +1,4 @@
 ---
-layout: example
 title: UNIX philosophy
 author: Doug McIlroy
 overview: |
@@ -16,7 +15,7 @@ principles:
 - principle: Build a prototype as soon as possible.
   summary: |
     Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.
-    
+
 - principle: Build software tools.
   summary: |
     Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.

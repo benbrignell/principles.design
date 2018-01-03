@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Uber Design Principles
 author: Uber Design
 overview: |

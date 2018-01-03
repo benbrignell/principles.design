@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Ten Principles for Good Design
 author: Dieter Rams
 overview: |

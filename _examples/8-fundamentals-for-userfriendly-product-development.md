@@ -1,9 +1,8 @@
 ---
-layout: example
 title: 8 fundamentals for user friendly product development
 author: Devhouse Spindle / Luuk Hartsema
 overview:
-link: 
+link:
 principles:
 - principle: Consistency
   summary: Embrace patterns and recognize that our usability is greatly improved when similar parts are expressed in similar ways. Interfaces that are consistent are more predictable, which means that they are easier to learn. Learnable interfaces feel more usable since less friction is involved.

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles for Designing Systems for Expert Users
 author: Natalia Rozycka
 overview: |

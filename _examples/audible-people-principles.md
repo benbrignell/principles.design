@@ -1,5 +1,4 @@
 ---
-layout: example 
 title: Audible's People Principles
 author: Audible
 overview:

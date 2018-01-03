@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Design Principles of Android Wear
 author: Android Developers
 overview:

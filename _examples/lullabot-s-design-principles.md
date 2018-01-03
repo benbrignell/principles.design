@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Lullabots Design Principles
 author: Lullabot
 overview:

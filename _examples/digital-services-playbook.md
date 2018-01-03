@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Digital Services Playbook
 author: U.S. Digital Services
 overview: |

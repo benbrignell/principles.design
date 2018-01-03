@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Elegant, efficient and sophisticated
 author: Jeff Gothelf
 overview:

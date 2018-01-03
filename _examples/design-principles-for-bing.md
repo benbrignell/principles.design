@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Design Principles for Bing
 author: Microsoft
 overview: |

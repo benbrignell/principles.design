@@ -1,5 +1,4 @@
 ---
-layout: example
 title: BBC Design Philosophy
 author: BBC
 overview:

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Windows User Experience Design Principles
 author: Microsoft
 overview:

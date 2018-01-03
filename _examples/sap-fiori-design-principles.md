@@ -1,5 +1,4 @@
 ---
-layout: example
 title: SAP Fiori Design Principles
 author: SAP
 overview: |

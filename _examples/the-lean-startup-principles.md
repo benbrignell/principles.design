@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Lean Startup Principles
 author: Eric Ries
 overview: Startup success can be engineered by following the process, which means it can be learned, which means it can be taught.

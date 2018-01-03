@@ -1,5 +1,4 @@
 ---
-layout: example
 title: |
   Shneiderman's "Eight Golden Rules of Interface Design"
 author: Ben Shneiderman

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: iOS 7 Design Principles
 author: Apple
 overview:

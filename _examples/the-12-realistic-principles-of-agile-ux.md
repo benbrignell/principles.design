@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The 12 Realistic Principles of Agile UX
 author: Guiseppe Getto
 overview:

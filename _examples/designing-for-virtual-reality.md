@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Designing for Virtual Reality
 author: Google
 overview: |

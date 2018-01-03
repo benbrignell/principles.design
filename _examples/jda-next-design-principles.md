@@ -1,5 +1,4 @@
 ---
-layout: example
 title: JDA NEXT Design Principles
 author: JDA Labs
 overview:

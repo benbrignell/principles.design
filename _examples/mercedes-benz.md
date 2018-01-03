@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Mercedes-Benz Design Philosophy
 author: Mercedes-Benz
 overview: |

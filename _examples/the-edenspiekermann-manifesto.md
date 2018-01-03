@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Edenspiekermann Manifesto
 author: Edenspiekermann
 overview:

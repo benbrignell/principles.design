@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Intuit's Design Principles
 author: Intuit
 overview: |

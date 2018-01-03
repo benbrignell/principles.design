@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Nine Principles Of Design Implementation
 author: Tom Greever
 overview: |

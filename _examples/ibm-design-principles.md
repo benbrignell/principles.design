@@ -1,5 +1,4 @@
 ---
-layout: example
 title: IBM Design Principles
 author: IBM Design
 overview:

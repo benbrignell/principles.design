@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Asana's Design Principles
 author: Asana
 overview:

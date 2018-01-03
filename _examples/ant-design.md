@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Ant Design
 author: Alibaba
 overview: Ant Design is created for improving the experience of users, designers and developers in enterprise internal desktop applications.
