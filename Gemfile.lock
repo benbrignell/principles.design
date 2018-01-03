@@ -196,12 +196,12 @@ GEM
     mini_portile2 (2.3.0)
     minima (2.1.1)
       jekyll (~> 3.3)
-    minitest (5.10.3)
+    minitest (5.11.1)
     multipart-post (2.0.0)
     net-dns (0.8.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
-    octokit (4.7.0)
+    octokit (4.8.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
@@ -240,4 +240,4 @@ DEPENDENCIES
   jekyll-last-modified-at
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

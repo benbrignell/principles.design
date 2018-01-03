@@ -7,7 +7,7 @@ body, html {
 }
 body {background: $primary;}
 .footer {
-  background: $white;
+  background: $linen;
 }
 a {
   color: $black;
@@ -15,6 +15,14 @@ a {
   text-decoration-skip: ink; // although this is pretty ugly
 
 }
+
+.two-up {
+  grid-column: auto / span 12;
+  @media (min-width: $mq-m) {
+    grid-column: auto / span 6;
+    }
+}
+
 .mbm {
   margin-bottom: 0.6em;
 }
@@ -107,6 +115,13 @@ hr {
 
 .tdn {
   text-decoration: none;
+}
+
+.two-thirds {
+  grid-column: auto / span 12;
+  @media (min-width: $mq-m) {
+    grid-column: auto / span 8;
+    }
 }
 
 .three-up {
@@ -332,7 +347,27 @@ input.search::placeholder {
   background: transparent;
 }
 
+input[type=text] {
+    padding: 0.4em 1em;
+    border: solid 2px $black;
+    color: $black;
 
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding: 0.4em 0.6em;
+    background:$primary;
+    border:0 none;
+    cursor:pointer;
+    border: solid 1px $black;
+}
+input[type=submit]:hover {
+  background: darken($primary, 5%);
+}
 
 
 // .ghost {
@@ -398,8 +433,7 @@ height: auto;
 }
 .site-footer {
   background: $white;
-  grid-column: auto / span 12;
-  margin-top: 1.6em;
+
 }
 // .site-footer p:first-child {
 //   font-size: 1.6em;
@@ -534,7 +568,6 @@ header h1 {
 }
 
 .credit {
-  border-top: solid 4px $black;
   border-bottom: solid 4px $black;
-  padding-bottom: 1.4em;
+  padding-bottom: 1em;
 }
