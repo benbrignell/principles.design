@@ -18,7 +18,7 @@ a {
 
 .two-up {
   grid-column: auto / span 12;
-  @media (min-width: $mq-m) {
+  @media (min-width: $mq-l) {
     grid-column: auto / span 6;
     }
 }
