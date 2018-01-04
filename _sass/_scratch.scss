@@ -337,6 +337,17 @@ input.search  {
         grid-column: auto / span 8;
       }
 }
+
+div.toggle {
+  display: none; //hidden on mob
+  @media (min-width: $mq-m) {
+        grid-column: auto / span 6;
+        display: block;
+      }
+  @media (min-width: $mq-l) {
+        grid-column: auto / span 4;
+      }
+}
 input.search::placeholder {
   color: $black;
   font-weight: normal;

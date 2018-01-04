@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>grid-view</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="grid-view" fill="#333333">
+            <rect id="Rectangle" x="0" y="0" width="22" height="8"></rect>
+            <rect id="Rectangle-Copy-6" x="26" y="0" width="22" height="8"></rect>
+            <rect id="Rectangle-Copy" x="0" y="10" width="14" height="4"></rect>
+            <rect id="Rectangle-Copy-7" x="26" y="10" width="14" height="4"></rect>
+            <rect id="Rectangle-Copy-8" x="0" y="17" width="22" height="8"></rect>
+            <rect id="Rectangle-Copy-12" x="0" y="34" width="22" height="8"></rect>
+            <rect id="Rectangle-Copy-9" x="26" y="17" width="22" height="8"></rect>
+            <rect id="Rectangle-Copy-13" x="26" y="34" width="22" height="8"></rect>
+            <rect id="Rectangle-Copy-10" x="0" y="27" width="14" height="4"></rect>
+            <rect id="Rectangle-Copy-14" x="0" y="44" width="14" height="4"></rect>
+            <rect id="Rectangle-Copy-11" x="26" y="27" width="14" height="4"></rect>
+            <rect id="Rectangle-Copy-15" x="26" y="44" width="14" height="4"></rect>
+        </g>
+    </g>
+</svg>
