@@ -6,18 +6,30 @@
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="grid-view" fill="#333333">
-            <rect id="Rectangle" x="0" y="0" width="22" height="8"></rect>
-            <rect id="Rectangle-Copy-6" x="26" y="0" width="22" height="8"></rect>
-            <rect id="Rectangle-Copy" x="0" y="10" width="14" height="4"></rect>
-            <rect id="Rectangle-Copy-7" x="26" y="10" width="14" height="4"></rect>
-            <rect id="Rectangle-Copy-8" x="0" y="17" width="22" height="8"></rect>
-            <rect id="Rectangle-Copy-12" x="0" y="34" width="22" height="8"></rect>
-            <rect id="Rectangle-Copy-9" x="26" y="17" width="22" height="8"></rect>
-            <rect id="Rectangle-Copy-13" x="26" y="34" width="22" height="8"></rect>
-            <rect id="Rectangle-Copy-10" x="0" y="27" width="14" height="4"></rect>
-            <rect id="Rectangle-Copy-14" x="0" y="44" width="14" height="4"></rect>
-            <rect id="Rectangle-Copy-11" x="26" y="27" width="14" height="4"></rect>
-            <rect id="Rectangle-Copy-15" x="26" y="44" width="14" height="4"></rect>
+            <g id="Group">
+                <rect id="Rectangle" x="0" y="0" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy" x="0" y="10" width="8.90909091" height="4"></rect>
+                <rect id="Rectangle-Copy-8" x="0" y="17" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy-12" x="0" y="34" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy-10" x="0" y="27" width="8.90909091" height="4"></rect>
+                <rect id="Rectangle-Copy-14" x="0" y="44" width="8.90909091" height="4"></rect>
+            </g>
+            <g id="Group-Copy" transform="translate(34.000000, 0.000000)">
+                <rect id="Rectangle" x="0" y="0" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy" x="0" y="10" width="8.90909091" height="4"></rect>
+                <rect id="Rectangle-Copy-8" x="0" y="17" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy-12" x="0" y="34" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy-10" x="0" y="27" width="8.90909091" height="4"></rect>
+                <rect id="Rectangle-Copy-14" x="0" y="44" width="8.90909091" height="4"></rect>
+            </g>
+            <g id="Group-Copy-2" transform="translate(17.000000, 0.000000)">
+                <rect id="Rectangle" x="0" y="0" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy" x="0" y="10" width="8.90909091" height="4"></rect>
+                <rect id="Rectangle-Copy-8" x="0" y="17" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy-12" x="0" y="34" width="14" height="8"></rect>
+                <rect id="Rectangle-Copy-10" x="0" y="27" width="8.90909091" height="4"></rect>
+                <rect id="Rectangle-Copy-14" x="0" y="44" width="8.90909091" height="4"></rect>
+            </g>
         </g>
     </g>
 </svg>
