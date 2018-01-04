@@ -39,10 +39,10 @@ a:hover {
   color: $secondary;
   text-decoration: none;
 }
-.tile:hover {
+.tile:hover,.tile-list a:hover  {
   background: lighten($primary, 20%);
 }
-.tile a:hover {
+.tile a:hover, .tile-list a:hover {
   color: $black;
 }
 a.full-link {
@@ -321,6 +321,14 @@ img.circle {
       }
 }
 
+.tile-list {
+  padding: 0.6em 0.2em;
+  border-top: solid 8px $black;
+  grid-column: auto / span 12;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
 
 input.search  {
   height: 2.6em;
@@ -352,7 +360,7 @@ input.search::placeholder {
   color: $black;
   font-weight: normal;
 }
-.tile a {text-decoration: none;}
+.tile a, .tile-list a {text-decoration: none;}
 
 .tile:last-child {
   background: transparent;
