@@ -71,7 +71,7 @@ hr {
   width: 4em;
   height: 4em;
 }
-.site-logo:hover, .logo:hover {
+.site-logo:hover, .logo:hover, .view-toggle:hover, .view-toggle-list:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
 }
