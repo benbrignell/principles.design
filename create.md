@@ -5,6 +5,6 @@ permalink: /create/
 order: 2
 body-class: create
 ---
-[principles.design](https://principles.design) has only just launched. We're in the process of making some super-useful guides and resources to help you workshop and create design principles for you or your team.
+[principles.design](https://principles.design) is currently in Beta. We're in the process of making some super-useful guides and resources to help you workshop and create design principles for you or your team.
 
-Check back soon or follow [@dsgnprinciples](https://twitter.com/dsgnprinciples) on twitter for updates.
+Follow [@dsgnprinciples](https://twitter.com/dsgnprinciples) on twitter for updates or take a look at the <a href="/examples/"><strong>{{ site.examples.size }}</strong> examples</a> in the collection so far.
