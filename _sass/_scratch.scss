@@ -42,7 +42,7 @@ a:hover {
 .tile:hover {
   background: lighten($primary, 20%);
 }
-.tile a:hover {
+.tile a:hover, .tile-list a:hover {
   color: $black;
 }
 a.full-link {
@@ -71,7 +71,7 @@ hr {
   width: 4em;
   height: 4em;
 }
-.site-logo:hover, .logo:hover {
+.site-logo:hover, .logo:hover, .view-toggle:hover, .view-toggle-list:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
 }
@@ -320,6 +320,25 @@ img.circle {
         grid-column: auto / span 4;
       }
 }
+a.view-toggle {
+  width: 48px;
+  height: 48px;
+  float: right;
+  background: url(/images/list-view.svg) no-repeat top left;
+}
+a.view-toggle-list {
+  width: 48px;
+  height: 48px;
+  float: right;
+  background: url(/images/grid-view.svg) no-repeat top left;
+}
+.tile-list {
+  padding: 0.6em 0.2em;
+  border-top: solid 8px $black;
+  grid-column: auto / span 12;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
 
 
 input.search  {
@@ -337,11 +356,22 @@ input.search  {
         grid-column: auto / span 8;
       }
 }
+
+div.toggle {
+  display: none; //hidden on mob
+  @media (min-width: $mq-m) {
+        grid-column: auto / span 6;
+        display: block;
+      }
+  @media (min-width: $mq-l) {
+        grid-column: auto / span 4;
+      }
+}
 input.search::placeholder {
   color: $black;
   font-weight: normal;
 }
-.tile a {text-decoration: none;}
+.tile a, .tile-list a {text-decoration: none;}
 
 .tile:last-child {
   background: transparent;

@@ -12,7 +12,13 @@ layout: default
 <div id="search-list">
   <div class="wrapper">
     <input class="search" placeholder="Search all {{ site.examples.size }} examples" />
+    <div class="toggle" style="text-align: right;">
+      <a href="javascript:return false;" class="view-toggle">
+      </a>
+
+    </div>
   </div>
+
 
   <div class="wrapper list tiles">
     {% include block-grid.html %}
