@@ -429,7 +429,7 @@ input[type=text]:focus {
     border: solid 2px $black;
 }
 input[type=submit]:hover, .btn:hover {
-  background: lighten($primary, 5%);
+  background: lighten($primary, 10%);
 }
 
 
