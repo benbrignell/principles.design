@@ -286,6 +286,37 @@ ol.cards li {
 //
 // }
 
+.sort {
+  margin-top: 0.6em;
+  display:inline-block;
+  float: left;
+  cursor: pointer;
+  user-select: none;
+}
+.sort-arrow {
+  height: 0.8em;
+  width: auto;
+  display: none;
+}
+.sort:hover {
+
+}
+.sort:focus {
+}
+
+.sort.asc .sort-arrow{
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.sort.desc .sort-arrow{
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+  display: inline-block;
+
+}
+
 
 ol.cards li:before {
 
@@ -325,6 +356,7 @@ a.view-toggle {
   height: 48px;
   float: right;
   background: url(/images/list-view.svg) no-repeat top left;
+  float: right;
 }
 a.view-toggle-list {
   width: 48px;

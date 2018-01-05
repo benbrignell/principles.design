@@ -5,17 +5,17 @@ layout: default
 <div class="wrapper">
   <header class="post-header">
     {% for post in site.examples %} {% capture post_count %} {{ post_count | plus: 1 }} {% endcapture %} {% endfor %}
-    <h1 class="post-title" style="margin-bottom: 0.2em;">{{ page.title }}</h1>
+    <h1 class="post-title h2" style="margin-bottom: 0.2em;">{{ page.title }}</h1>
   </header>
 </div>
 
 <div id="search-list">
   <div class="wrapper">
     <input class="search" placeholder="Search all {{ site.examples.size }} examples" />
-    <div class="toggle" style="text-align: right;">
-      <button class="sort" data-sort="title">
-        Sort by title
-      </button>
+    <div class="toggle">
+      <span class="sort" data-sort="title">
+        Sort order by title <img src="{{site.baseurl}}/images/sort-arrow.svg" class="sort-arrow" alt="arrow indicating sort order">
+      </span>
       <a href="javascript:return false;" class="view-toggle">
       </a>
 
