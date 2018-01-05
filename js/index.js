@@ -5,6 +5,7 @@
 var options = {
     valueNames: [ 'title', 'author' ]
 };
+var userList = new List('title', options);
 
 var examplesList = new List('search-list', options);
 var noItems = '<div class="tile" id="#resultNotFoundTile">' +

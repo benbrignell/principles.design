@@ -13,6 +13,9 @@ layout: default
   <div class="wrapper">
     <input class="search" placeholder="Search all {{ site.examples.size }} examples" />
     <div class="toggle" style="text-align: right;">
+      <button class="sort" data-sort="title">
+        Sort by title
+      </button>
       <a href="javascript:return false;" class="view-toggle">
       </a>
 
@@ -20,7 +23,11 @@ layout: default
   </div>
 
 
-  <div class="wrapper list tiles">
+  <div class="wrapper tiles">
+    <div class="list">
     {% include block-grid.html %}
+    </div>
+    {% include block-tile-ghost.html %}
+
   </div>
 </div>
