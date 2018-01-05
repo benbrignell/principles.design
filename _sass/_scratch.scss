@@ -428,8 +428,8 @@ input[type=text]:focus {
     cursor:pointer;
     border: solid 2px $black;
 }
-input[type=submit]:hover {
-  background: darken($primary, 5%);
+input[type=submit]:hover, .btn {
+  background: lighten($primary, 5%);
 }
 
 
