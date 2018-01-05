@@ -286,6 +286,37 @@ ol.cards li {
 //
 // }
 
+.sort {
+  display:inline-block;
+  float: left;
+  cursor: pointer;
+  user-select: none;
+  transition: width 0.3s ease;
+}
+.sort-arrow {
+  height: 0.8em;
+  width: auto;
+  display: none;
+}
+.sort:hover {
+
+}
+.sort:focus {
+}
+
+.sort.asc .sort-arrow{
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.sort.desc .sort-arrow{
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+  display: inline-block;
+
+}
+
 
 ol.cards li:before {
 
@@ -325,6 +356,7 @@ a.view-toggle {
   height: 48px;
   float: right;
   background: url(/images/list-view.svg) no-repeat top left;
+  float: right;
 }
 a.view-toggle-list {
   width: 48px;
@@ -389,15 +421,15 @@ input[type=text]:focus {
     border-color:#333;
 }
 
-input[type=submit] {
+.btn, input[type=submit] {
     padding: 0.4em 0.6em;
     background:$primary;
     border:0 none;
     cursor:pointer;
-    border: solid 1px $black;
+    border: solid 2px $black;
 }
-input[type=submit]:hover {
-  background: darken($primary, 5%);
+input[type=submit]:hover, .btn:hover {
+  background: lighten($primary, 5%);
 }
 
 
