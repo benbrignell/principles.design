@@ -287,11 +287,11 @@ ol.cards li {
 // }
 
 .sort {
-  margin-top: 0.6em;
   display:inline-block;
   float: left;
   cursor: pointer;
   user-select: none;
+  transition: width 0.3s ease;
 }
 .sort-arrow {
   height: 0.8em;
@@ -421,12 +421,12 @@ input[type=text]:focus {
     border-color:#333;
 }
 
-input[type=submit] {
+.btn, input[type=submit] {
     padding: 0.4em 0.6em;
     background:$primary;
     border:0 none;
     cursor:pointer;
-    border: solid 1px $black;
+    border: solid 2px $black;
 }
 input[type=submit]:hover {
   background: darken($primary, 5%);
