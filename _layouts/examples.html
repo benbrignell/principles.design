@@ -13,8 +13,12 @@ layout: default
   <div class="wrapper">
     <input class="search" placeholder="Search all {{ site.examples.size }} examples" />
     <div class="toggle">
-      <span class="sort btn btn-secondary" data-sort="title">
-        Sort order by title <img src="{{site.baseurl}}/images/sort-arrow.svg" class="sort-arrow" alt="arrow indicating sort order">
+      <span class="h4 sort-label">Sort</span>
+      <span class="sort btn btn-secondary" style="margin-right: 0.4em;" data-sort="title">
+        Title <img src="{{site.baseurl}}/images/sort-arrow.svg" class="sort-arrow" alt="arrow indicating title sort order">
+      </span>
+      <span class="sort btn btn-secondary" data-sort="author">
+        Creator <img src="{{site.baseurl}}/images/sort-arrow.svg" class="sort-arrow" alt="arrow indicating creator sort order">
       </span>
       <a href="javascript:return false;" class="view-toggle">
       </a>

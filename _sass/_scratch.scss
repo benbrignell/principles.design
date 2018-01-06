@@ -285,13 +285,18 @@ ol.cards li {
 //     // font-weight: normal;
 //
 // }
+.sort-label {
+  display: block;
+  margin-top: -1.6em;
+  float: left;
+}
 
 .sort {
   display:inline-block;
   float: left;
   cursor: pointer;
   user-select: none;
-  transition: width 0.3s ease;
+  transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }
 .sort-arrow {
   height: 0.8em;
