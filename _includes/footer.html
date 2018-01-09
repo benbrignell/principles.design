@@ -9,20 +9,21 @@
       </div>
       <div class="two-up">
         <p class="h3 bold">Newsletter</p>
-        <p><strong>Sign up</strong> for infrequent but super-useful resources, articles and updates. No spam, ever. Handled by <a href="https://tinyletter.com/designprinciples">tinyletter.</a></p>
+        <p>Infrequent but useful resources, articles & updates. </p>
         <form action="https://tinyletter.com/designprinciples" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/designprinciples', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-          <p><input type="text" style="width:80%;" name="email" id="tlemail" placeholder="Enter your email address" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+          <p>
+            <input type="text" class="subscribe-input" name="email" id="tlemail" placeholder="Enter your email address" /><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" class="subscribe-btn" /></form>
+          </p>
       </div>
       <div class="two-up">
-        <p class="h3 bold">Join the community</p>
-          <p><a href="{{site.gitter-url}}">Join the Design Principles discussion on Gitter</a>. You can also find Design Principles on <a href="{{site.twitter-url}}">Twitter</a> & <a href="{{site.contribute-url}}">GitHub</a>.
-          </p>
+        <p class="h3 bold">Community</p>
         <ul class="logos">
+          <p>Talk on <a href="{{gitter.url}}">Gitter</a>, <a href="https://twitter.com/dsgnprinciples">Twitter</a> & contribute on <a href="{{contribute-url}}">Github</a>.</p>
           <li><a href="{{site.gitter-url}}"><img src="/images/gitter.svg" class="logo circle" alt="Talk about Design Principles on Gitter"></a></li>
           <li><a href="https://twitter.com/dsgnprinciples"><img src="/images/twitter-icon.svg" class="logo" alt="Follow Design Principles on Twitter @dsngprinciples"></a></li>
           <li><a href="{{site.contribute-url}}"><img src="/images/github-icon.svg" class="logo" alt="Contribute to this project on GitHub"></a><li>
         </ul>
-        <p style="clear:both;">Many thanks to the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors to this project</a>.</p>
+        <p style="clear:both;">Thanks to the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors to this project</a>.</p>
       </div>
     </div>
 </div>

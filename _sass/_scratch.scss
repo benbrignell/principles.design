@@ -616,6 +616,29 @@ ul.logos img {
 
 input, button, submit { border:none; }
 
+
+.subscribe-input, .subscribe-btn {
+  display: block;
+  width: 100%;
+  @media (min-width: $mq-m) {
+    display: inline-block;
+    }
+}
+@media (min-width: $mq-m) {
+  .subscribe-input {
+  width: 64%;
+  border-right: 0!important;
+  }
+}
+.subscribe-btn {
+  height: 48px;
+  margin-top: 0.4em;
+  @media (min-width: $mq-m) {
+      width: auto;
+      margin-top: 0;
+    }
+}
+
 // active nav highlighting
 
 body.about nav a.about,
