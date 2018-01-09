@@ -416,7 +416,7 @@ input.search::placeholder {
   background: transparent;
 }
 
-input[type=text] {
+input[type=text], .subscribe-input {
     padding: 0.4em 1em;
     border: solid 2px $black;
     color: $black;
@@ -636,6 +636,7 @@ input, button, submit { border:none; }
   @media (min-width: $mq-m) {
       width: auto;
       margin-top: 0;
+      margin-left: -0.4em;
     }
 }
 
