@@ -5,7 +5,6 @@ overview: |
   -Paul Rand
 author: Joshua Porter
 link: http://bokardo.com/principles-of-user-interface-design/
-featured: true
 principles:
 - principle: Interfaces exist to enable interaction
   summary: |
