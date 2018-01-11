@@ -10,6 +10,9 @@ layout: default
           {% else %}
             {% assign missingOverview = true %}
           {% endif %}
+          {% if page.overview-author %}
+            <p>Overview by {{overview-author}}</p>
+          {% endif %}
         </div>
       </header>
 
