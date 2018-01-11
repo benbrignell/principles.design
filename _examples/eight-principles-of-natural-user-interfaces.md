@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Eight Principles of Natural User Interfaces
 author: Rachel Hinman
 overview:

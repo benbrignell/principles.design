@@ -1,5 +1,4 @@
 ---
-layout: example
 title: React Design Principles
 author: React
 overview: |

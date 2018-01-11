@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Designing for vision impaired people
 author: Wayfindr
 overview: |

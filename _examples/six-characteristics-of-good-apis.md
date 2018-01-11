@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Six Characteristics of Good APIs
 author: Google
 overview:

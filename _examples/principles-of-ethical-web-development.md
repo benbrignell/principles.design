@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of Ethical Web Development
 author: Adam Scott
 overview: |

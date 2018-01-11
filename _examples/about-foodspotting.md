@@ -1,5 +1,4 @@
 ---
-layout: example
 title: About Foodspotting
 author: Foodspotting
 overview: |

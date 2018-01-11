@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Facebook Design Principles
 author: Facebook
 overview: |
@@ -28,7 +27,7 @@ principles:
 
 - principle: Useful
   summary: |
-    Our product is more utility than entertainment, meant for repeated daily use, providing value efficiently. This is why our core interactions, the ones users engage daily, are streamlined, purged of unnecessary clicks and wasted space. 
+    Our product is more utility than entertainment, meant for repeated daily use, providing value efficiently. This is why our core interactions, the ones users engage daily, are streamlined, purged of unnecessary clicks and wasted space.
 
 - principle: Fast
   summary: |

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: 37 Signals Principles
 author: 37 Signals
 overview:

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Drupal 7 User Experience Project
 author: Drupal
 overview: |

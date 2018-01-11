@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Building Blocks of Sustainable Web Design
 author: Mightybytes
 overview: |

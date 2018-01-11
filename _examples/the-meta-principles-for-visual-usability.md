@@ -1,5 +1,4 @@
 ---
-layout: example
 title: The Meta Principles for Visual Usability
 author: Tania Schlatter
 overview: Glass is fundamentally different than existing mobile platforms in both design and use. Follow these principles when building Glassware to give users the best experience.

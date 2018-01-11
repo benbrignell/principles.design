@@ -1,9 +1,8 @@
 ---
-layout: example
 title: Google Calendar's design principles
 author: Google
 overview:
-link: 
+link:
 principles:
 - principle: Fast, visually appealing, and joyous to use
 - principle: Drop-dead simple to get information into the calendar

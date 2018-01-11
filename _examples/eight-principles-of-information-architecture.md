@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Eight Principles of Information Architecture
 author: Dan Brown
 overview: |

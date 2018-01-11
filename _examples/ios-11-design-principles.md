@@ -1,5 +1,4 @@
 ---
-layout: example
 title: iOS 11 Design Principles
 author: Apple
 overview:

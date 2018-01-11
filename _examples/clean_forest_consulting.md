@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Clean Forest Consulting
 author: Noam Eppel
 overview:

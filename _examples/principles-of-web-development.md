@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of Web Development
 author: Jens Meiert
 overview:

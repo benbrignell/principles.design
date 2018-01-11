@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Responsive Principles
 author: Paul Robert Lloyd
 overview: |

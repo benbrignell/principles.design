@@ -1,5 +1,4 @@
 ---
-layout: example
 title: First Principles of Interaction Design
 author: Bruce Tognazzini
 overview: |

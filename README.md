@@ -15,7 +15,6 @@ Here's the template, copy it from here into a simple text editor of your choice.
 
 ```
 ---
-layout: example #ignore layout! :)
 title: #add title#
 author: #add author#
 overview:

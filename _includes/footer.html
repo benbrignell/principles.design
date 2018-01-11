@@ -1,25 +1,32 @@
 <div class="footer">
     <div class="wrapper">
-      <div class="credit full">
+      <div class="two-up">
         <p class="h3 bold"><a href="https://twitter.com/benbrignell"><strong>Ben Brignell</strong></a> maintains <a href="/">principles.design</a> as an open source resource.</p>
       </div>
-
       <div class="two-up">
-        <p class="h3 bold">Newsletter</p>
-        <p><strong>Sign up</strong> for infrequent but super-useful resources, articles and updates. No spam, ever. Handled by <a href="https://tinyletter.com/designprinciples">tinyletter.</a></p>
-        <form action="https://tinyletter.com/designprinciples" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/designprinciples', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-          <p><input type="text" style="width:80%;" name="email" id="tlemail" placeholder="Enter your email address" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+      <p class="h3 bold">Sponsor:</p>
+      <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&serve=CVYD42T&placement=principlesdesign" id="_carbonads_js"></script>
       </div>
       <div class="two-up">
-        <p class="h3 bold">Join the community</p>
-          <p><a href="{{site.gitter-url}}">Join the Design Principles discussion on Gitter</a>. You can also find Design Principles on <a href="{{site.twitter-url}}">Twitter</a> & <a href="{{site.contribute-url}}">GitHub</a>.
-          </p>
+        <p class="h3 bold">Newsletter</p>
+        <p>Infrequent but useful resources, articles & updates. </p>
+        <p>
+          <form action='https://designprinciples.curated.co/email_subscribers' id='embedded-subscribe-form' method='post'>
+          <input class="subscribe-input" id='subscribe-email' name='email' type='email' placeholder="Enter your email address" autocorrect="off" autocapitalize="none" />
+          <input name='form_dom_id' value='embedded-subscribe-form' type='hidden' /><input class="subscribe-btn" type='submit' onclick="this.form.submit(); this.disabled=true; this.value='Sending...';" value='Subscribe'/>
+          </form>
+        </p>
+
+      </div>
+      <div class="two-up">
+        <p class="h3 bold">Community</p>
         <ul class="logos">
+          <p>Talk on <a href="{{gitter.url}}">Gitter</a>, <a href="https://twitter.com/dsgnprinciples">Twitter</a> & contribute on <a href="{{contribute-url}}">Github</a>.</p>
           <li><a href="{{site.gitter-url}}"><img src="/images/gitter.svg" class="logo circle" alt="Talk about Design Principles on Gitter"></a></li>
           <li><a href="https://twitter.com/dsgnprinciples"><img src="/images/twitter-icon.svg" class="logo" alt="Follow Design Principles on Twitter @dsngprinciples"></a></li>
           <li><a href="{{site.contribute-url}}"><img src="/images/github-icon.svg" class="logo" alt="Contribute to this project on GitHub"></a><li>
         </ul>
-        <p style="clear:both;">Many thanks to the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors to this project</a>.</p>
+        <p style="clear:both;">Thanks to the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors to this project</a>.</p>
       </div>
     </div>
 </div>
@@ -28,4 +35,21 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/list.min.js"></script>
   <script src="{{site.baseurl}}/js/index.js"></script>
+
+  <script>
+  $(document).ready(function(){
+      $("view-toggle").click(function(){
+          $("tile").toggleClass("tile-list");
+          $("view-toggle").toggleClass("view-toggle-list");
+      });
+  });
+  </script>
+  <script>
+  $(document).ready(function(){
+      $("a.view-toggle").click(function(){
+          $("div.tile").toggleClass("tile-list");
+          $("a.view-toggle").toggleClass("view-toggle-list");
+      });
+  });
+  </script>
 {% endif %}

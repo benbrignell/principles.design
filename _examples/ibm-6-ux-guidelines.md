@@ -1,9 +1,8 @@
 ---
-layout: example
 title: IBM 6 UX Guidelines
 author: IBM Design
 overview: |
-    
+
 link:
 principles:
 - principle: Discover, Try and Buy

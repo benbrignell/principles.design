@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Front-End Principles for Designers
 author: Jon Yablonski
 overview: |

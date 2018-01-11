@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Material Design
 author: Google
 overview: |

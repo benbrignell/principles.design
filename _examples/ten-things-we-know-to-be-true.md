@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Ten Things We Know to be True
 author: Google
 overview:

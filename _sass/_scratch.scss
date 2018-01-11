@@ -42,7 +42,7 @@ a:hover {
 .tile:hover {
   background: lighten($primary, 20%);
 }
-.tile a:hover {
+.tile a:hover, .tile-list a:hover {
   color: $black;
 }
 a.full-link {
@@ -65,13 +65,13 @@ hr {
 // p {max-width: 40em;} // test for legibility
 .site-logo {
   float: left;
+  display: block;
+}
+.site-logo a img {
   width: 4em;
   height: 4em;
-  display: block;
-  background: url(/images/design-principles-logo.svg) no-repeat top left;
-  background-size: 100% auto;
 }
-.site-logo:hover, .logo:hover {
+.site-logo:hover, .logo:hover, .view-toggle:hover, .view-toggle-list:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
 }
@@ -285,6 +285,43 @@ ol.cards li {
 //     // font-weight: normal;
 //
 // }
+.sort-label {
+  display: block;
+  margin-top: -1.6em;
+  float: left;
+}
+
+.sort {
+  display:inline-block;
+  float: left;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+  max-width: 40%;
+}
+.sort-arrow {
+  height: 0.8em;
+  width: auto;
+  display: none;
+}
+.sort:hover {
+
+}
+.sort:focus {
+}
+
+.sort.asc .sort-arrow{
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.sort.desc .sort-arrow{
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+  display: inline-block;
+
+}
 
 
 ol.cards li:before {
@@ -320,6 +357,26 @@ img.circle {
         grid-column: auto / span 4;
       }
 }
+a.view-toggle {
+  width: 48px;
+  height: 48px;
+  float: right;
+  background: url(/images/list-view.svg) no-repeat top left;
+  float: right;
+}
+a.view-toggle-list {
+  width: 48px;
+  height: 48px;
+  float: right;
+  background: url(/images/grid-view.svg) no-repeat top left;
+}
+.tile-list {
+  padding: 0.6em 0.2em;
+  border-top: solid 8px $black;
+  grid-column: auto / span 12;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
 
 
 input.search  {
@@ -337,17 +394,29 @@ input.search  {
         grid-column: auto / span 8;
       }
 }
+@supports (display: grid) {
+  div.toggle {
+    display: none; //hidden on mob
+    @media (min-width: $mq-m) {
+          grid-column: auto / span 6;
+          display: block;
+        }
+    @media (min-width: $mq-l) {
+          grid-column: auto / span 4;
+        }
+  }
+}
 input.search::placeholder {
   color: $black;
   font-weight: normal;
 }
-.tile a {text-decoration: none;}
+.tile a, .tile-list a {text-decoration: none;}
 
 .tile:last-child {
   background: transparent;
 }
 
-input[type=text] {
+input[type=text], .subscribe-input {
     padding: 0.4em 1em;
     border: solid 2px $black;
     color: $black;
@@ -358,15 +427,18 @@ input[type=text]:focus {
     border-color:#333;
 }
 
-input[type=submit] {
+.btn, input[type=submit] {
     padding: 0.4em 0.6em;
     background:$primary;
     border:0 none;
     cursor:pointer;
-    border: solid 1px $black;
+    border: solid 2px $black;
 }
-input[type=submit]:hover {
-  background: darken($primary, 5%);
+.btn-secondary {
+  background: $silver;
+}
+input[type=submit]:hover, .btn:hover {
+  background: lighten($primary, 10%);
 }
 
 
@@ -544,6 +616,30 @@ ul.logos img {
 
 input, button, submit { border:none; }
 
+
+.subscribe-input, .subscribe-btn {
+  display: block;
+  width: 100%;
+  @media (min-width: $mq-m) {
+    display: inline-block;
+    }
+}
+@media (min-width: $mq-m) {
+  .subscribe-input {
+  width: 64%;
+  border-right: 0!important;
+  }
+}
+.subscribe-btn {
+  height: 48px;
+  margin-top: 0.4em;
+  @media (min-width: $mq-m) {
+      width: auto;
+      margin-top: 0;
+      margin-left: -0.4em;
+    }
+}
+
 // active nav highlighting
 
 body.about nav a.about,
@@ -570,4 +666,19 @@ header h1 {
 .credit {
   border-bottom: solid 4px $black;
   padding-bottom: 1em;
+}
+// carbon
+
+div#carbonads a {
+  text-decoration: none;
+}
+.carbon-img {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.6em
+}
+.carbon-poweredby {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.8em;
 }

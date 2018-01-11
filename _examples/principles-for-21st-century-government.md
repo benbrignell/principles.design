@@ -1,10 +1,9 @@
 ---
-layout: example
 title: Principles for 21st Century Government
 author: Code for America
 overview: |
 
-link: 
+link:
 principles:
 - principle: Design for people's needs
 - principle: Make it easy for everyone to participate

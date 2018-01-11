@@ -25,6 +25,14 @@ collections:
         permalink: /examples/:name
     components:
         output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "examples"
+    values:
+      layout: "example"
+
 plugins:
 - jekyll-last-modified-at # doesn't work with collections
 - jekyll-seo-tag

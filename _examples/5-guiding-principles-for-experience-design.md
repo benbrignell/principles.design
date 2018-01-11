@@ -1,5 +1,4 @@
 ---
-layout: example
 title: 5 Guiding Principles for Experience Designers
 author: Whitney Hess
 overview: |

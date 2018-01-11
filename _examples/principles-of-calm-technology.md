@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of Calm Technology
 author: Amber Case
 overview: |

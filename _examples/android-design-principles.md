@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Android Design Principles
 author: Android Developers
 overview: |

@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Opower - Design Principles
 author: Opower
 overview:

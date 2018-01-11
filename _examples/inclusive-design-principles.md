@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Inclusive Design Principles
 author: The Paciello Group
 overview: |

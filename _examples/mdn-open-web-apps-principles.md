@@ -1,5 +1,4 @@
 ---
-layout: example
 title: MDN Open Web Apps principles
 author: Mozilla Developer Network
 overview: |

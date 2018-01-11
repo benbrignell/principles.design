@@ -1,5 +1,4 @@
----
-layout: example #ignore layout! :)
+--- #ignore layout! :)
 title: |
     User Central (Dutch: Gebruiker Centraal)
 author: Actieteam Gebruiker Centraal

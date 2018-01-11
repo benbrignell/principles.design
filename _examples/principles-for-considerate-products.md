@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles for Considerate Products
 author: Alan Cooper
 overview: |

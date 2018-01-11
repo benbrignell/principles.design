@@ -1,5 +1,4 @@
 ---
-layout: example
 title: WikiHouse 10 Design Principles
 author: WikiHouse
 overview: |

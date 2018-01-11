@@ -1,5 +1,4 @@
 ---
-layout: example
 title: OCC’s design principles
 author: Niklaus Gerber
 overview: |

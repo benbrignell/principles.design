@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Design Principles for Windows Store apps
 author: Microsoft
 overview: |

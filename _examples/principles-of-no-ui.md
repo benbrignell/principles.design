@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Principles of No UI
 author: Golden Krishna
 overview: |

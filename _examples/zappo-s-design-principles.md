@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Zappo's Design Principles
 author: Zappo
 overview: |

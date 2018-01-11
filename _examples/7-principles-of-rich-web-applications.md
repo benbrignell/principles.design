@@ -1,5 +1,4 @@
 ---
-layout: example
 title: 7 Principles of Rich Web Applications
 author: Guillermo Rauch
 overview: |

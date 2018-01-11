@@ -1,5 +1,4 @@
 ---
-layout: example
 title: Moo.com UX rules
 author: Richard Pope
 overview: |

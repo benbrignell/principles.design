@@ -1,5 +1,4 @@
 ---
-layout: example
 title: D.Mindsets
 author: d.school
 overview: |
