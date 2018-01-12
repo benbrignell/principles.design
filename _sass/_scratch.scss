@@ -537,6 +537,7 @@ header.example-header {
   border-top: solid 12px $primary;
   border-bottom: solid 2px $primary;
   padding: 1em;
+  overflow: hidden;
 }
 
 pre, code {
