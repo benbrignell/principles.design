@@ -3,7 +3,6 @@ title: Government Design Principles
 author: Government Digital Service
 overview: The UK government's design principles.
 link: https://www.gov.uk/design-principles
-featured: true
 principles:
 - principle: Start with user needs
   summary: |
