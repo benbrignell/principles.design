@@ -1,4 +1,4 @@
-// Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works
+// Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works. It's supposed to be a mess.
 // ---------------------------------------/
 body, html {
   height: 100%;
@@ -152,44 +152,7 @@ p.source {
   border-bottom: solid 1px $black;
   font-weight: bold;
 }
-// .what .info-icon {
-//   grid-column: auto / span 12;
-//   background: red;
-//   border-radius: 50%;
-//   // will figure out what to do with small screens when I can figure out row swapping
-//   @media (min-width: 700px) {
-//     grid-column: auto / span 4;
-//     width: 500px;
-//     height: 500px;
-//     bottom: -280px;
-//     position: relative;
-//     }
-// }
-//
-// .why .info-icon {
-//   grid-column: auto / span 12;
-//   background: green;
-//   // will figure out what to do with small screens when I can figure out row swapping
-//   @media (min-width: 700px) {
-//     grid-column: auto / span 4;
-//     height: 60%;
-//     position: relative;
-//     top: 0;
-//     left: -10%;
-//     }
-// }
 
-// .who .info-icon {
-//   grid-column: auto / span 12;
-//   // will figure out what to do with small screens when I can figure out row swapping
-//   @media (min-width: 700px) {
-//     grid-column: auto / span 4;
-//     border-style: solid;
-//     border-width: 200px 200px 0 200px;
-//     border-color: yellow transparent transparent transparent;
-//     margin-top: 65%;
-//     }
-// }
 .arrow:after {
   content: "❯";
   padding: 1em 0.2em;
@@ -226,27 +189,12 @@ p.source {
 body.home header.site-header {
   background: $primary;
   height: 100%;
-  // background-image: url(/images/triangle-white.svg);
-  // background-position: left top;
 }
 
 .site-header {
   height: 4em;
   min-height: 4em;
 }
-// div.grid {
-//   display: grid;
-//   grid-gap: 2.2em;
-//   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-//   grid-auto-rows: minmax(100px, auto);
-// }
-// .grid > div {
-//   // border: 1px solid #3bc9db;
-//   // display: flex; // not sure why this was here
-//   background: $white;
-//   padding: 0.4em 1em;
-//   // border-radius: 0.4em;
-// }
 div.page-content {
   background: $white;
 }
@@ -259,32 +207,11 @@ margin-left: -0.6em;
 }
 
 ol.cards li {
-  // float: left; // what was I thinking
-  // list-style-type: lower-latin;
   counter-increment: step-counter;
   margin: 0 0 0.125em 0;
-  // padding-left: 0.2em;
-  // line-height: 1.4;
 }
 
-// ol.cards li::before {
-//     content: counter(step-counter);
-//     // margin-right: 0.6em;
-//     // font-size: 80%;
-//     font-size: 0.9em;
-//     // background-color: lighten($mid-grey, 40%);
-//     // color: lighten($dark-grey, 20%);
-//     // font-weight: bold;
-//     // border-radius: 0.2em;
-//     position: absolute;
-//     left: 0.6em;
-//     width: 1.6em;
-//     text-align: right;
-//     padding: 0.05em;
-//     // font-family: Georgia, sans-serif;
-//     // font-weight: normal;
-//
-// }
+
 .sort-label {
   display: block;
   margin-top: -1.6em;
@@ -333,16 +260,6 @@ img.circle {
 .bold {
   font-weight: bold;
 }
-
-// .tile {
-//   background: $white;
-//   padding: 1em 1.4em;
-//   grid-column: auto / span 12;
-//   border-radius: 0.4em;
-//   @media (min-width: 920px) {
-//       grid-column: auto / span 4;
-//     }
-// }
 
 .tile {
   padding: 0.6em 0.2em;
@@ -442,55 +359,13 @@ input[type=submit]:hover, .btn:hover {
 }
 
 
-// .ghost {
-//   border: dashed 4px $white;
-//   background: transparent;
-//   position: relative;
-//   border-radius: 0.8em; // different to the tile radius for _reasons_
-//   padding: 1em;
-// }
+
 .ghost {
   border: dotted 8px $black;
   padding-left: 1em;
   padding-right: 1em;
 }
-// div.indent-block {
-//   background: lighten($primary, 35%);
-//   padding: 2em;
-//   float: right;
-//   font-size: 1.4em;
-//   max-width: 32em;
-//   -webkit-box-shadow: 10px 10px 0px 0px $primary;
-//   -moz-box-shadow: 10px 10px 0px 0px $primary;
-//   box-shadow: 10px 10px 0px 0px $primary;
-// }
-// div.indent-block-left {
-//   float: left;
-// }
 
-
-// .ghost * {
-//   position: relative;
-//   top: 50%;
-//   transform: translateY(-50%);
-//   font-size: $m;
-//   display: inline-block;
-// }
-.ghost:hover {
-  // border: solid;
-}
-
-.gradient-block {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$primary+0,f9e352+40,fae76b+100 */
-background: $primary; /* Old browsers */
-background: -moz-linear-gradient(top, $primary 0%,  lighten($secondary, 15%) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, $primary 0%, lighten($secondary, 15%) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, $primary 0%, lighten($secondary, 15%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary', endColorstr='lighten($secondary, 15%)',GradientType=0 ); /* IE6-9 */
-height: auto;
-
-
-}
 
 .alt-idea {
   color: #04ff86;
@@ -507,22 +382,6 @@ height: auto;
   background: $white;
 
 }
-// .site-footer p:first-child {
-//   font-size: 1.6em;
-// }
-// .what, .who, .why {
-//   overflow: hidden;
-// }
-// .what {
-//   background: lighten($primary, 10%);
-// }
-// .why {
-//   background-image: url(/images/triangle-white.svg);
-//   background-size: 8em;
-// }
-// .who {
-//   background-image: url(/images/triangle-grid.svg);
-// }
 
 
 header.example-header {
