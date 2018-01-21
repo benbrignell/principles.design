@@ -6,11 +6,12 @@ link: http://lawsofsimplicity.com/
 principles:
 - principle: Reduce
   summary: The simplest way to achieve simplicity is through thoughtful reduction.
+  
 - principle: Organize
   summary: Organization makes a system of many appear fewer.
 
 - principle: Time
-  summary: Saving in time feel like simplicity.
+  summary: Savings in time feel like simplicity.
 
 - principle: Learn
   summary: Knowledge makes everything simpler.
@@ -25,7 +26,7 @@ principles:
   summary: More emotions are better than less.
 
 - principle: Trust
-  summary: In simplicity trust.
+  summary: In simplicity we trust.
 
 - principle: Failure
   summary: Some things can never be made simple.
