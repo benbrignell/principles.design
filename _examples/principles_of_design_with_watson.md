@@ -1,4 +1,4 @@
---- #ignore layout! :)
+---
 title: Principles of Design with Watson
 author: Rob Harrigan
 overview: Basic tenets that can be applied when working with IBM Watson — or any AI system and how to think through using them.
