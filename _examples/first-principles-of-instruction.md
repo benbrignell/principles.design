@@ -2,7 +2,7 @@
 title: First Principles of Instruction
 author: M. David Merrillˇ
 overview: An instructional theory based on a broad review of many instructional models and theories.
-link: http://www.mdavidmerrill.com/Papers/firstprinciplesbymerrill.pdf
+link: https://en.wikipedia.org/wiki/First_Principles_of_Instruction
 principles:
 - principle: Task/Problem-Centered
   summary: |
