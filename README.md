@@ -3,12 +3,11 @@ Please note: This repo is a work in progress, I've pushed it public for performa
 # Contributing
 You don't need to be able to code but you will need a (free) [GitHub](https://github.com) account in order to contribute.
 
-## Contributing
-### Adding an example
+## Adding an example
 * [Getting Started](https://github.com/benbrignell/principles.design/wiki/Adding-an-example#getting-started)
 * [Adding an example the easy way](https://github.com/benbrignell/principles.design/wiki/Adding-an-example#adding-an-example-the-easy-way)
 * [Adding an example the hard way](https://github.com/benbrignell/principles.design/wiki/Adding-an-example#adding-an-example-the-hard-way)
-### Features
+## Features
 Please discuss any new features before working on them
 
 ## Meta data and terminology
