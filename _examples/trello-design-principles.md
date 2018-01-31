@@ -5,13 +5,13 @@ overview:
 link: https://design.trello.com/principles
 principles:
 - principle: Universal
-Easy
-Personal
-Visual and Tactile
-Familiar
-Succinct
-Direct
-Flexible
-Collaborative
-Fun
+- principle: Easy
+- principle: Personal
+- principle: Visual and Tactile
+- principle: Familiar
+- principle: Succinct
+- principle: Direct
+- principle: Flexible
+- principle: Collaborative
+- principle: Fun
 ---
