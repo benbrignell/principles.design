@@ -100,28 +100,86 @@ New features and improvements are welcome but please submit a discussion thread 
 
 # Data types
 
- `layout:` ignore this
 
- `title:` The title of this example, e.g. "The Five Principles of Design"
+## Required
 
- `author:` The company, team or individual that created these principles
+### title
+The title of the set of principles
 
- `link:` A link to a source article or somewhere the original principles were created.
+Example:
+```
+title: The Five Principles of Design
+```
+***
 
- `principles:`
+### author
+The company, team or individual that created these principles.
 
- ` — principle:` Each principle on a new line
+Example:
+```
+author: Design Inc.
+```
+***
 
- `tags:` Add tags, separated by a comma. Tags aren't available on the site yet but will be soon. It's a good idea to add them in preparation. The proposed tags are:
+### link
+A link to a source article or somewhere the original principles were created.
 
-- `Organistion`
-- `Personal`
-- `Product`
-- `AI`
-- `UX`
-- `Accessibility`
-- `Universal`
-- `Specific`
+Example:
+```
+link: http://example.com
+```
+***
+### principles
+Each design principle on a new line under `principles:`
+
+Example:
+```
+principles:
+- principle: Accessible
+- principle: Simple
+- principle: Fast
+```
+***
+
+## Optional
+
+### overview
+A brief introduction to give the example some context. Ideally the overview could cover questions such as, what kind of team was involved? What sort of challenges did they face? How did they choose their design principles? How did they measure their goals? What positive gains were there?
+
+Example:
+```
+overview: Design Inc are a small design agency who have built a tool to help other designers prototype and validate their ideas. They spent 3 months choosing and refining their design principles by…
+```
+***
+
+### overview-author
+If you've written an overview yourself you can add your twitter name as a credit.
+
+Example:
+```
+overview-author: @benbrignell
+```
+***
+
+### summary
+A brief summary of each design principle, what it means, how it's achieved…
+
+Note: Please pay attention to how each line is indented, copy and edit the example below if necessary.
+
+Example:
+```
+principles:
+- principle: Accessible
+  summary: |
+    We strive to support any type of user regardless of ability or browser choice.
+- principle: Simple
+  summary: |
+    Every element of the UI needs to add value and have a place.
+- principle: Fast
+  summary: |
+    Performance is the biggest User Experience killer. Speed should take precedent over…
+```
+***
 
 
 Notes:
