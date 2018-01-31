@@ -12,7 +12,7 @@ You don't need to be able to code but you will need a (free) [GitHub](https://gi
 Please discuss any new features before working on them
 
 ## Meta data and terminology
-Here's an explanation of what an example is comprised of.
+Here's an explanation of what an example page is comprised of.
 ### Required
 * [title](https://github.com/benbrignell/principles.design/wiki/Example-page-meta-data-and-terminology#title)
 * [author](https://github.com/benbrignell/principles.design/wiki/Example-page-meta-data-and-terminology#author)
