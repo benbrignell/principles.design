@@ -1,9 +1,7 @@
 Please note: This repo is a work in progress, I've pushed it public for performance testing and feedback. Feel free to report any bugs or issues. Feedback welcome. Just remember it's not finished. [There's stuff on the roadmap… ](https://github.com/benbrignell/principles.design/issues)
 
 # Contributing
-
-## Add an example
-There are two ways to contribute. You don't need to be able to code but you will need a (free) [GitHub](https://github.com) account in order to contribute.
+You don't need to be able to code but you will need a (free) [GitHub](https://github.com) account in order to contribute.
 
 ## Contributing
 ### Adding an example
