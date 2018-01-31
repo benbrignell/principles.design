@@ -1,0 +1,16 @@
+---
+layout: example #ignore layout! :)
+title: Ad Victorem I.D.E.A. Design Process
+author: Ad Victorem
+overview: Ad Victorem is a strategy and design agency that puts ideas first, because without concepts and creativity, marketing is just noise. The following phases outline how we create the “big idea” of any marketing campaign combining strategy, creativity and execution. And it's not just about technical precision. It also involves emotional impact — the very human factors that can't be measured on a spreadsheet.
+link: #http://www.advictorem.design#
+principles:
+- principle: INSPIRATION
+  summary: Big ideas are multidimensional, so we draw from multiple sources of inspiration: business goals, challenges and pain points. 
+- principle: DESIGN
+  summary: Big ideas go beyond artwork to shape all brand elements, from the message to the media. We base every design decision on a purpose and we make you stand out from the crowd by doing better than "best practices”.
+- principle: EXECUTION
+  summary: Big ideas include deployment and management. Never design and run. Instead, we pay attention to the details and iterate as the market shifts.
+- principle: ANALYSIS
+  summary: Big ideas must perform, we utilize “real metrics” to ensure goals are met. Such as; Is the idea enhancing and differentiating the brand? Is the idea generating buzz? Is the idea motivating desired behavior from the target audience?
+---
