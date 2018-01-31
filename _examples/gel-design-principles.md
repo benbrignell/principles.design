@@ -2,7 +2,7 @@
 title: GEL Design Principles
 author: BBC
 overview:
-link: http://grommet.io/docs/best-practices/
+link: http://www.bbc.co.uk/gel/articles/what-is-gel
 principles:
 - principle: Respect everyone
   summary: |
@@ -18,5 +18,5 @@ principles:
     The journey’s as important as the destination. And if your user veers off in a new, exciting direction along the way, all the better.
 - principle: Further together
   summary: |
-    Upcycle existing designs. It’ll give you more time to innovate. And the greater consistency will encourage greater exploration of the BBC, Online. 
+    Upcycle existing designs. It’ll give you more time to innovate. And the greater consistency will encourage greater exploration of the BBC, Online.
 ---
