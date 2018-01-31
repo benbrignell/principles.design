@@ -1,6 +1,6 @@
 ---
 title: U.S. Web Design System
-author: U.S. Web Design
+author: Technology Transformation Services
 overview:
 link: https://designsystem.digital.gov/design-principles/
 principles:
