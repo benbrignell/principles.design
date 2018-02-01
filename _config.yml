@@ -39,6 +39,7 @@ defaults:
 plugins:
 - jekyll-last-modified-at # doesn't work with collections
 - jekyll-seo-tag
+- jekyll-redirect-from
 
 liquid:
     error_mode: lax # because of featured loop on homepage throwing minor validation error
