@@ -23,6 +23,9 @@ collections:
     examples:
         output: true
         permalink: /examples/:name
+    guide:
+        output: true
+        permalink: /guide/:name
     components:
         output: false
 
