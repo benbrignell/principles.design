@@ -21,6 +21,7 @@ sidebar: |
     Follow & Share</strong>
     <br>
     <a href="https://twitter.com/dsgnprinciples">@dsgnprinciples on Twitter</a></p>
+
 ---
 ## Submissions
 
