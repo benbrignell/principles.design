@@ -6,18 +6,25 @@ order: 2
 
 ---
 
-Design Principles are a set of considerations that form the basis of any good product. Inform decisions. Help.
+Design Principles are a set of considerations that help inform decisions. There are two types. _Universal_ and _Specific_.
 
-**A design principle is comprised of a title or short phrase.**
+## Universal Design Principles
+
+Universal principles tend to be be longer and verbose. They cover broad concepts such as "The Principles of UX" or the "Principles of Design".
+
+## Specific Design Principles
+
+Specific design principles are used to help decision-making with teams on projects/products. Specific design principles are unique to a project, product or team. For example "Examples".
+
+Inform decisions. Help.
+
+## Format
+
+Typically design principles are comprised of two things.
+
+### A title or short phrase
 Example "Conversational" or "Create a conversational environment".
 
-**A brief paragraph or summary describing the motives and objectives behind the principle. **
+### A brief paragraph or summary describing the motives and objectives behind the principle
+
 Example "Blah blah"
-
-## What makes good design principles?
-
-The key to good design principles are that they are clear, actionable and memorable. They're designed to promote discussion and help with decision making. 3-5 principles is the ideal limit. Any more than that may result in them not being fully understood or remembered.
-
-Here are some examples
-
-{{ inc featured tiles }}
