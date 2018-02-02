@@ -8,11 +8,11 @@ order: 2
 
 Design Principles are a set of considerations that help inform decisions. There are two types. _Universal_ and _Specific_.
 
-## Universal Design Principles
+## Universal
 
 Universal principles tend to be be longer and verbose. They cover broad concepts such as "The Principles of UX" or the "Principles of Design".
 
-## Specific Design Principles
+## Specific
 
 Specific design principles are used to help decision-making with teams on projects/products. Specific design principles are unique to a project, product or team. For example "Examples".
 

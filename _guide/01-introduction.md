@@ -1,12 +1,11 @@
 ---
 layout: guide
-title: Guide
+title: Introduction
 permalink: /guide/
 order: 1
 
 ---
 
-## Introduction
 Design Principles form the foundation of any good team and great products. This guide will help us to understand:
 
 * What design principles are
