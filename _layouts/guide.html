@@ -53,20 +53,20 @@ layout: default
       <div class="wrapper" style="width: 100%;">
         <div class="two-up">
           {% if prevurl %}
-            <span class="h3"><strong>Previous</strong></span><br>
+            <span class="h3"><strong>❮</strong></span>
             <span><a href="{{prevurl}}" class="prev">{{prevtitle}}</a></span>
             {% endif %}
         </div>
         <div class="two-up" style="text-align: right;">
           {% if nexturl %}
-            <span class="h3"><strong>Next</strong></span><br>
             <span><a href="{{nexturl}}" class="nxt">{{nexttitle}}</a></span>
+            <span class="h3"><strong>❯</strong></span>
           {% endif %}
         </div>
 
 
     </div>
-
+    <hr>
     </article>
 
 
