@@ -548,7 +548,7 @@ ul.sub-nav {
 }
 ul.sub-nav li {
   margin-left: -2em;
-  padding-left: calc(0.6em + 4px);
+  padding-right: 0.6em;
 }
 body.introduction ul.sub-nav li.introduction,
 body.what ul.sub-nav li.what,
@@ -559,6 +559,5 @@ body.resources ul.sub-nav li.resources
 
  {
   font-weight: bold;
-  border-left: 4px solid $silver;
-  padding-left: 0.6em;
+  border-right: 4px solid $silver;
 }
