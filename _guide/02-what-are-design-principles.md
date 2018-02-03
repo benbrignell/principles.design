@@ -3,7 +3,7 @@ layout: guide
 title: What are Design Principles?
 permalink: /guide/what-are-design-principles/
 order: 2
-body-class: what
+body-class: what guide
 
 ---
 

@@ -3,7 +3,7 @@ layout: guide
 title: Introduction
 permalink: /guide/
 order: 1
-body-class: introduction
+body-class: introduction guide
 
 ---
 

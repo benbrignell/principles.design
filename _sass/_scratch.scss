@@ -503,7 +503,7 @@ input, button, submit { border:none; }
 // active nav highlighting
 
 body.about nav a.about,
-body.create nav a.create,
+body.guide nav a.guide,
 body.examples nav a.examples,
 body.contribute nav a.contribute {
   text-decoration: underline;
@@ -549,7 +549,7 @@ ul.sub-nav {
 }
 ul.sub-nav li {
   margin-left: -2em;
-  padding-left: 0.6em;
+  padding-left: calc(0.6em + 4px);
 }
 body.introduction ul.sub-nav li.introduction,
 body.what ul.sub-nav li.what,
@@ -561,4 +561,5 @@ body.resources ul.sub-nav li.resources
  {
   font-weight: bold;
   border-left: 4px solid $silver;
+  padding-left: 0.6em;
 }
