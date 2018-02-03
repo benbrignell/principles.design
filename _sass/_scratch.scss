@@ -545,7 +545,9 @@ div#carbonads a {
 
 ul.sub-nav {
   list-style: none;
-
+  @media (min-width: $mq-l) {
+    margin-top: 9.2em; // to match height of one-line header p height
+    }
 }
 ul.sub-nav li {
   margin-left: -2em;
