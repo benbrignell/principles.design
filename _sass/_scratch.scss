@@ -542,3 +542,19 @@ div#carbonads a {
   margin-top: 1em;
   font-size: 0.8em;
 }
+
+.ul.sub-nav {
+  list-style: none;
+}
+
+body.introduction li.introduction,
+body.what li.what,
+body.why li.why,
+body.who li.who,
+body.create li.create,
+body.resources li.resources
+
+ {
+  font-weight: bold;
+  border-left: 2px $black;
+}
