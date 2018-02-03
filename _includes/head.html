@@ -12,7 +12,12 @@
       {% endcapture %}
       {{ include_to_scssify | scssify }}
     </style>
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    {% seo %}
+
+  <meta property="og:image" content="https://principles.design/images/design-principles-og.png">
+  <meta name="twitter:image:src" content="https://principles.design/images/design-principles-og.png">
+
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
   <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
@@ -32,9 +37,7 @@
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#F7D708">
 
-  {% seo %}
 
-  <meta itemprop="image" content="{{site.baseurl}}/images/design-principles-og.png">
   <script>
           if (navigator.userAgent.indexOf("Speed Insights") == -1) {
                   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -1,16 +1,20 @@
 # Site settings
-url: "https://principles.design"
-title: "Design Principles"
-description: "An Open Source collection of Design Principles and methods"
+url: https://principles.design
+title: Design Principles
+description: An Open Source collection of Design Principles and methods
 twitter: "@dsgnprinciples"
 twitter:
   username: dsgnprinciples
 logo: /favicon.png
 
-# Custom variables
-twitter-url: "https://twitter.com/dsgnprinciples"
-contribute-url: "https://github.com/benbrignell/principles.design#contributing"
-gitter-url: "https://gitter.im/design-principles"
+twitter:
+  image: https://principles.design/favicon.png
+facebook:
+  image: https://principles.design/favicon.png
+# Custom
+twitter-url: https://twitter.com/dsgnprinciples
+contribute-url: https://github.com/benbrignell/principles.design#contributing
+gitter-url: https://gitter.im/design-principles
 
 # Build settings
 markdown: kramdown
