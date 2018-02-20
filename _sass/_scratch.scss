@@ -350,6 +350,8 @@ input[type=text]:focus {
     background:$primary;
     border:0 none;
     cursor:pointer;
+    -webkit-user-select: none;
+    user-select: none;
     border: solid 2px $black;
 }
 .btn-secondary {
