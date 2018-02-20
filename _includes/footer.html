@@ -31,24 +31,19 @@
 </div>
 
 {% if page.layout == 'examples' %}
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/list.min.js"></script>
   <script src="{{site.baseurl}}/js/index.js"></script>
-
   <script>
-  $(document).ready(function(){
-      $("view-toggle").click(function(){
-          $("tile").toggleClass("tile-list");
-          $("view-toggle").toggleClass("view-toggle-list");
+  if (document.querySelectorAll && window.addEventListener && "classList" in document.documentElement) {
+    var viewToggle = document.querySelector("a.view-toggle"),
+        tiles = document.querySelectorAll("div.tile");
+    viewToggle.addEventListener("click", function(event) {
+      event.preventDefault();
+      viewToggle.classList.toggle("view-toggle-list");
+      tiles.forEach(function(elem) {
+        elem.classList.toggle("tile-list");
       });
-  });
-  </script>
-  <script>
-  $(document).ready(function(){
-      $("a.view-toggle").click(function(){
-          $("div.tile").toggleClass("tile-list");
-          $("a.view-toggle").toggleClass("view-toggle-list");
-      });
-  });
+    });
+  }
   </script>
 {% endif %}
