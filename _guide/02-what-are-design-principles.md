@@ -7,12 +7,11 @@ body-class: what guide
 
 ---
 
-<p class="h3 bold">Design Principles are a set of considerations that help inform decisions. They support an approach to a process. Unlike rigid rules they're designed to be flexible whilst supporting a common goal.</p>
+<p class="h3 bold">Design Principles are a set of considerations that help inform decisions. They guide an approach to a process. Unlike rigid rules they're designed to be flexible in the way they support a common goal.</p>
 
 
-To illustrate; it's important for a website to load quickly. A product team working on a website could enforce the rule "All web pages must load in under 3 seconds". The initial objective may be a positive one. However when expressed as a rule it may not be as effective in decision-making as a principle such as "Make every single kilobyte count".
-
-With a set rule, over time the website may likely end up loading in under 2 seconds, or even in 1 second. That's great. But it would probably be quite easy in time for the page load time to creep back up to 3 seconds as dependencies, features and kilobytes are slowly added. If the site loaded in 2 seconds and a new feature was added to the website that took a second to load… you're still meeting your objective but have you have taken a step backwards?
+---
+To illustrate; it's important for a website to load quickly. A product team working on a website could enforce the rule "All web pages must load in under 3 seconds". The initial objective is a really positive one. However when expressed as a rule is it as effective in decision-making as a principle such as "Make every single kilobyte count"?.
 
 Does the rule "All web pages must load in under 3 seconds" take the real world into context? A site may well load in under 3 seconds on high speed wifi but what if it took 27 seconds to load on a low speed mobile signal? Would this meet your objective?
 
