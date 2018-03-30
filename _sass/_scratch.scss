@@ -304,6 +304,9 @@ input.search  {
   border: solid 2px $black;
   padding-left: 1em;
   width: 100%;
+}
+
+input.search, div.filters {
   grid-column: auto / span 12;
   @media (min-width: $mq-m) {
         grid-column: auto / span 6;
@@ -311,6 +314,7 @@ input.search  {
   @media (min-width: $mq-l) {
         grid-column: auto / span 8;
       }
+
 }
 @supports (display: grid) {
   div.toggle {
