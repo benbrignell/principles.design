@@ -10,6 +10,11 @@ layout: default
 </div>
 
 <div id="search-list">
+  <input type="checkbox" id="universal" value="universal" />
+  <label for="universal">Universal</label>
+  <input type="checkbox" id="specific" value="specific" />
+  <label for="specific">Specific</label>
+
   <div class="wrapper">
     <input class="search" placeholder="Search all {{ site.examples.size }} examples"/>
     <div class="toggle">
@@ -26,7 +31,9 @@ layout: default
   </div>
 
 
+
   <div class="wrapper list tiles">
+
     {% include block-grid.html %}
 
   </div>

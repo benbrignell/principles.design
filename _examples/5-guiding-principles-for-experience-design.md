@@ -24,4 +24,6 @@ principles:
 - principle: Have empathy
   summary: |
     Empathy is the ability to understand and share another person’s perspective and feelings. Step outside your box and try really hard to understand the world from another person’s point of view. Go out of your way to identify with their needs. If certain things just don’t make sense to you, ask more questions. Ask as many questions as you need to until you finally understand. When you really get what makes people tick and why they do what they do, you’ll have a much easier time going to bat to make their lives better. If you aren’t trying to make people’s lives better, what are you even doing here?
+
+tags: [universal, personal, organisational, product]
 ---
