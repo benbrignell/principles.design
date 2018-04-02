@@ -28,16 +28,23 @@ layout: default
   </div>
   <div class="wrapper">
     <div class="filters">
-      <input type="checkbox" id="universal" value="universal" />
-      <label for="universal">Universal</label>
-      <input type="checkbox" id="specific" value="specific" />
-      <label for="specific">Specific</label>
-      <input type="checkbox" id="personal" value="personal" />
-      <label for="personal">Personal</laborganisationalel>
-      <input type="checkbox" id="organisational" value="organisational" />
-      <label for="organisational">Organisational</label>
-      <input type="checkbox" id="language" value="language" />
-      <label for="language">Language</label>
+      <ul>
+      <li>
+        {% include tag-filter.html tag-name="universal"%}
+      </li>
+      <li>
+        {% include tag-filter.html tag-name="specific"%}
+      </li>
+      <li>
+      {% include tag-filter.html tag-name="personal"%}
+      </li>
+      <li>
+        {% include tag-filter.html tag-name="organisational"%}
+      </li>
+      <li>
+      {% include tag-filter.html tag-name="language"%}
+      </li>
+      </ul>
     </div>
   </div>
 
