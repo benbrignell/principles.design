@@ -45,6 +45,13 @@ a:hover {
 .tile a:hover, .tile-list a:hover {
   color: $black;
 }
+body.examples .tile a:visited {
+  color: lighten($black, 20%);
+}
+body.examples .tile a:visited:hover {
+  color: $black;
+}
+
 a.full-link {
   display: inline-block;
   height: 100%;
