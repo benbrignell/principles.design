@@ -15,20 +15,17 @@ layout: default
   <div class="wrapper">
     <input class="search" placeholder="Search all {{ site.examples.size }} examples"/>
     <div class="toggle">
-      <span class="h4 sort-label">Sort</span>
-      <span class="sort btn btn-secondary" style="margin-right: 0.4em;" data-sort="title">
-        Title <img src="{{site.baseurl}}/images/sort-arrow.svg" class="sort-arrow" alt="arrow indicating title sort order">
-      </span>
-      <span class="sort btn btn-secondary" data-sort="author">
-        Creator <img src="{{site.baseurl}}/images/sort-arrow.svg" class="sort-arrow" alt="arrow indicating creator sort order">
-      </span>
-
+      {% include sorting.html %}
       <a class="view-toggle" href="#"></a>
     </div>
   </div>
   <div class="wrapper">
     <div class="filters">
-      <ul>
+      <div class="hide-large">
+        {% include sorting.html %}
+      </div>
+      <span>Filter</span>
+      <ul class="filter-tags">
       <li>
         {% include tag-filter.html tag-name="universal"%}
       </li>
