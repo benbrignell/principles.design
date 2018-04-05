@@ -19,4 +19,5 @@ principles:
 - principle: Look Back And Think Forward
   summary: |
     We look to new materials and methods of production to improve quality while reducing our impact. Looking back and thinking forward - learning from the longest lasting ecosystem: our planet.
+tags: [specific, organisational]
 ---

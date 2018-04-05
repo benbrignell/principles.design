@@ -34,4 +34,5 @@ principles:
 - principle: Don’t make users think
   summary: |
     Observation shows that users do not read instructions. Interactions should be task focused, eliminating decision points and generally use one clear call to action.
+tags: [specific, organisational]    
 ---

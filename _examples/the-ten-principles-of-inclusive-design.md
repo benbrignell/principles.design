@@ -16,4 +16,5 @@ principles:
  - principle: "Effortless: Don’t make demands or place restrictions on your users."
  - principle: "Accommodating: Be approachable, uncluttered and give people room to manoeuvre."
  - principle: "Consistent: Follow standards, guidelines, conventions and best practices."
+tags: [universal]
 ---

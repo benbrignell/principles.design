@@ -21,5 +21,5 @@ principles:
   summary: Our products are intuitive. You’ll pick them up in seconds or minutes, not hours, days or weeks. We don’t sell you training because you don’t need it.
 - principle: Long-term contracts are obscene
   summary: No one likes being locked into something they don’t want anymore. Our customers can cancel at any time, no questions asked. No setup/termination fees either.
-
+tags: [specific, organisational]
 ---

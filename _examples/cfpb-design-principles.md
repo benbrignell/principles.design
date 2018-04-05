@@ -10,4 +10,5 @@ principles:
 - principle: Design with data
 - principle: Inclusion and accessibility
 - principle: Coherent end-to-end user experience
+tags: [specific, organisational]
 ---

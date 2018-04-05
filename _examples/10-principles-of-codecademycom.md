@@ -35,4 +35,5 @@ principles:
 - principle: Design for Edge Cases
   summary: |
     We know how intimidating and lonely an out of the box digital experience can be, where many features might still be disabled for newcomers. As part of our redesign, we wanted to optimize our first time user experience, to feel like a rich, welcoming place, where users feel confident in exploring further. From our Dashboard to our Profile, we want users to always feel welcomed, even if they have just joined us.
+tags: [specific, organisational]    
 ---

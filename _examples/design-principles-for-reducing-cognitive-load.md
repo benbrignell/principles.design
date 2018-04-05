@@ -12,4 +12,5 @@ principles:
 - principle: Display choices as a group
 - principle: Strive for readability
 - principle: Use iconography with caution
+tags: [universal]
 ---

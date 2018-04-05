@@ -11,9 +11,5 @@ principles:
 - principle: Beware of the Data Avalanche
 - principle: Mind the Gaps
 
-tags:
-- specific
-- personal
-- organisational
-- product
+tags: [universal]
 ---

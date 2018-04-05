@@ -17,4 +17,5 @@ principles:
 - principle: Green Hosting
   summary: |
     The servers that store the files that make up web pages require power 24 hours a day, so the single most impactful thing you can do to move toward a more sustainable website is use a hosting provider that runs on 100% renewable energy.
+tags: [specific, organisational]
 ---

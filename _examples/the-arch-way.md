@@ -33,4 +33,5 @@ principles:
     Arch Linux is a general-purpose distribution. Upon installation, only a command-line environment is provided: rather than tearing out unneeded and unwanted packages, the user is offered the ability to build a custom system by choosing among thousands of high-quality packages provided in the official repositories for the x86-64 architecture. Support for i686 will cease in November 2017.
 
     Arch is backed by pacman, a lightweight, simple and fast package manager that allows to upgrade the entire system with one command. Arch also provides the Arch Build System, a ports-like system to make it easy to build and install packages from source, which can also be synchronized with one command. In addition, the Arch User Repository contains many thousands more of community-contributed PKGBUILD scripts for compiling installable packages from source using the makepkg application. It is also possible for users to build and maintain their own custom repositories with ease.
+tags: [specific, organisational]
 ---

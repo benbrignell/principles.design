@@ -14,4 +14,5 @@ principles:
  - principle: Delight the eye without distracting the mind.
  - principle: Be worthy of people’s trust.
  - principle: Add a human touch.
+tags: [specific, organisational]
 ---

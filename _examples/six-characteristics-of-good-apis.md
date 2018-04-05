@@ -10,5 +10,5 @@ principles:
 - principle: Be intuitive
 - principle: Be easy to memorize
 - principle: Lead to readable code
-
+tags: [specific, organisational]
 ---

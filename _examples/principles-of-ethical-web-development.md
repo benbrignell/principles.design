@@ -32,5 +32,5 @@ principles:
     Consume and contribute to open source when possible
     Treat other developers with respect
     Offer, follow, and enforce a code of conduct for open source projects
-
+tags: [universal]
 ---

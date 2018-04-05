@@ -18,5 +18,5 @@ principles:
 - principle: is innovative
 - principle: is long-lasting
 - principle: is a collaborative process
-
+tags: [universal]
 ---

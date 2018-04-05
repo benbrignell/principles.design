@@ -29,5 +29,5 @@ principles:
 - principle: Brevity
 - principle: Stability
 - principle: Robustness
-
+tags: [universal]
 ---

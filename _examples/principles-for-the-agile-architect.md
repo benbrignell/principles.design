@@ -1,6 +1,6 @@
 ---
 title: Principles for the Agile Architect
-author: 
+author:
 overview:
 link: http://www.agilearchitect.org/agile/principles.htm
 principles:
@@ -12,4 +12,5 @@ principles:
 - principle: Choose the Right Solution for the Enterprise
 - principle: Deliver Quality
 - principle: Model and Document in an Agile Fashion
+tags: [universal, specific, organisational]
 ---

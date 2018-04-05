@@ -15,4 +15,5 @@ principles:
 - principle: Limit users interactions with others
 - principle: Be creative with devices
 - principle: Remember that IQ ≠ computer literacy
+tags: [universal]
 ---

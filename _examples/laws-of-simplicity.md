@@ -6,7 +6,7 @@ link: http://lawsofsimplicity.com/
 principles:
 - principle: Reduce
   summary: The simplest way to achieve simplicity is through thoughtful reduction.
-  
+
 - principle: Organize
   summary: Organization makes a system of many appear fewer.
 
@@ -33,4 +33,5 @@ principles:
 
 - principle: The one
   summary: Simplicity is about subtracting the obvious, and adding the meaningful.
+tags: [universal]
 ---

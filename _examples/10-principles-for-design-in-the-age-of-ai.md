@@ -14,4 +14,5 @@ principles:
 - principle: Good technology design learns and predicts human behaviour
 - principle: Good design accelerates new ideas
 - principle: Good design removes complexity from life
+tags: [universal]
 ---

@@ -1,4 +1,4 @@
---- #ignore layout! :)
+---
 title: |
     User Central (Dutch: Gebruiker Centraal)
 author: Actieteam Gebruiker Centraal
@@ -20,4 +20,5 @@ principles:
 - principle: Be open and share your knowledge
   summary: |
     Collaborate and share your knowledge and experience. And welcome feedback.
+tags: [specific, organisational]
 ---

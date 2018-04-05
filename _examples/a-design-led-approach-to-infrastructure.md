@@ -14,4 +14,5 @@ principles:
 - principle: Materials and detailing
 - principle: Sustainability
 - principle: Visitor centre
+tags: [specific, organisational]
 ---

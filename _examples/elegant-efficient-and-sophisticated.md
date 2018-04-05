@@ -15,4 +15,5 @@ principles:
 - principle: Sophisticate
   summary: |
     This is the technology portion of the equation. Build experiences that learn and understand your users. Your products should recognize the user, know they’ve visited before, remember what they did or asked for and provide intuitive information along the way to facilitate an easier process each time they visit. Use the sophistication of the technology to reduce the inhuman nature of the web and bring emotion, empathy, recognition and personal interaction back. Sophistication is not complexity. In fact, it’s the opposite when surfaced on the experience level. The complexity lives behind the scenes and drives what can only be described as “amazing” experiences for your users.
+tags: [universal]    
 ---

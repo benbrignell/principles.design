@@ -46,4 +46,5 @@ principles:
 - principle: Match the complexity of the gesture to the complexity and frequency of the task
   summary: |
     Simple, frequently used tasks should have equally simple gestures to trigger them.
+tags: [specific]
 ---

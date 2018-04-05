@@ -208,5 +208,5 @@ principles:
     Spend the time to design a beautiful, memorable app icon. It’s not unusual for users to base the decision to download an app on the quality of its app icon. For guidelines on how to create an app icon, see “App Icons.”
 
     Remove hard-coded values that identify screen dimensions. This is particularly important if you want your app to run on different iOS devices or external displays.
-
+tags: [specific, organisational]
 ---

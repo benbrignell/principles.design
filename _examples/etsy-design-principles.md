@@ -8,4 +8,5 @@ principles:
 - principle: Create unity
 - principle: Always be thorough
 - principle: Express Etsy
+tags: [specific, organisational]
 ---

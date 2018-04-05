@@ -18,4 +18,5 @@ principles:
  - principle: Manage security and privacy through reusable processes
  - principle: Use data to drive decisions
  - principle: Default to open
+tags: [specific, organisational] 
 ---

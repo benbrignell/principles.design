@@ -36,4 +36,5 @@ principles:
 - principle: Reduce short-term memory load.
   summary: |
     The limitation of human information processing in short-term memory requires that displays be kept simple, multiple page displays be consolidated, window-motion frequency be reduced, and sufficient training time be allotted for codes, mnemonics, and sequences of actions.
+tags: [universal]
 ---

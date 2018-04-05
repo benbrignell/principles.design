@@ -81,4 +81,5 @@ principles:
 - principle: Collaborate with others
   summary: |
     UX design is not a solo sport. You need to learn to play nice with others, because they can extend your capabilities and get things done.
+tags: [universal]
 ---

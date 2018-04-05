@@ -9,4 +9,5 @@ principles:
 - principle: Always lead to action
 - principle: Aim for a long-term relationship, not a one-night stand
 - principle: Build for everyone…who receives a utility bill
+tags: [specific, organisational]
 ---
