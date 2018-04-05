@@ -8,4 +8,5 @@ principles:
 - principle: Join Our Club
 - principle: Optimized Experiences
 - principle: Grandma First
+tags: [specific, organisational]
 ---

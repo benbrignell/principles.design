@@ -15,4 +15,5 @@ principles:
 - principle: Decide Quickly Which To Pursue & Hold Decisions Lightly
 - principle: Recognize hypotheses and validate them
 - principle: Research with users is the best source of information
+tags: [specific, organisational]
 ---

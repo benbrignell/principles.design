@@ -17,5 +17,5 @@ principles:
 - principle: Chindogu cannot be patented.
 - principle: Chindogu are without prejudice.
 
-
+tags: [universal]
 ---

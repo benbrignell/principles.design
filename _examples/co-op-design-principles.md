@@ -12,4 +12,5 @@ principles:
 - principle: We design with honesty
 - principle: We design in the open
 - principle: We design iteratively
+tags: [specific, organisational]
 ---

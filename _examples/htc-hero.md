@@ -13,4 +13,5 @@ principles:
 - principle: Discover the Unexpected
   summary: |
     Many of the most memorable moments in your life are experienced, not explained. HTC Sense is focused on providing a variety of these simple yet innovative experiences on your HTC phone that will sometimes bring you moments of joy and delight. It can be something as basic as turning the phone over to silence a ring or as simple as improving the smart dialler for making calls quicker. HTC Sense also includes "Perspectives', a new way for viewing your content such as email, photos, Twitter, music and more in different ways.
+tags: [specific, organisational]
 ---

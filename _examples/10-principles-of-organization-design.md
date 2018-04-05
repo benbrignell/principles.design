@@ -14,4 +14,5 @@ principles:
 - principle: Let the “lines and boxes” fit your company’s purpose
 - principle: Accentuate the informal
 - principle: Build on your strengths
+tags: [universal, organisational]
 ---

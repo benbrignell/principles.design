@@ -9,4 +9,5 @@ principles:
 - principle: Design for flexibility
 - principle: Showcase benefits for agency and users
 - principle: Reuse, reuse, reuse
+tags: [specific, organisational]
 ---

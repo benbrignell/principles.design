@@ -15,4 +15,5 @@ principles:
     "It is easier to ship recipes than cakes and biscuits" - John Maynard Keynes
 - principle: Design to dismantle
 - principle: Design for mistakes
+tags: [specific, organisational]
 ---

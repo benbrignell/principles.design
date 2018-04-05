@@ -10,4 +10,6 @@ principles:
 - principle: Leverage Non-Visual UI
 - principle: Beware of the Data Avalanche
 - principle: Mind the Gaps
+
+tags: [universal]
 ---

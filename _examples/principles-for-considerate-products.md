@@ -20,4 +20,5 @@ principles:
 - principle: Considerate products know when to bend the rules
 - principle: Considerate products take responsibility
 - principle: Considerate products help you avoid awkward mistakes
+tags: [universal]
 ---

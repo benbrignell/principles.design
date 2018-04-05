@@ -19,5 +19,5 @@ principles:
 - principle: Build software tools.
   summary: |
     Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.
-
+tags: [specific, organisational]
 ---

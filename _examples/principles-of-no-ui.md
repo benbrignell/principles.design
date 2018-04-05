@@ -8,4 +8,5 @@ principles:
 - principle: Embrace Typical Processes Instead of Screens
 - principle: Leverage Computers Instead of Serving Them
 - principle: Adapt to Individuals
+tags: [universal]
 ---

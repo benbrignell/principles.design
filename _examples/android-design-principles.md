@@ -10,4 +10,5 @@ principles:
 - principle: Enchant Me
 - principle: Simplify My Life
 - principle: Make Me Amazing
+tags: [specific]
 ---

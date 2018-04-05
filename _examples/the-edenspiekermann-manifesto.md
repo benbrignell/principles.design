@@ -18,5 +18,5 @@ principles:
   summary: You hired us because we do something you cannot.
 - principle: Pay us.
   summary: Our work adds to your bottom line, so invest in our future.
-
+tags: [specific, organisational]
 ---

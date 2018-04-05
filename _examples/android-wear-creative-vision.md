@@ -12,5 +12,5 @@ principles:
   summary: Make sure your tap targets are well-spaced and easy to tap. Avoid relying on a large amount of user input to use the app.
 - principle: Time-saving
   summary: Create efficient flows that help users complete tasks quickly. Avoid creating complex experiences that rely on multiple steps to get a task done.
-
+tags: [specific]
 ---

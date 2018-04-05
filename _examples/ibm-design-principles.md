@@ -79,5 +79,5 @@ principles:
     Affordance: When users can easily determine the action that should be taken with an object, that object displays good affordance. Objects with good affordance usually mimic actual objects.
 
     Visual scheme: Design a visual scheme that maps to the user model and lets the user customize the interface. Do not eliminate extra space in your image just to save space. Use white space to provide visual "breathing room."
-
+tags: [specific, organisational]
 ---

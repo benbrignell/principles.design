@@ -11,4 +11,5 @@ principles:
 - principle: MUJI, the brand, is rational, and free of agenda, doctrine, and “isms.” The MUJI concept derives from us continuously asking, “What is best from an individual’s point of view?”
 - principle: MUJI aspires to modesty and plainness, the better to adapt and shape itself to the styles, preferences, and practices of as wide a group of people as possible.
 - principle: MUJI – in its deliberate pursuit of the pure and the ordinary – achieves the extraordinary.
+tags: [specific, organisational]
 ---

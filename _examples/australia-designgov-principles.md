@@ -10,4 +10,5 @@ principles:
 - principle: Collaborative, Co-design, Co-creation, Co-production
 - principle: Coherent
 - principle: Co-sponsored
+tags: [specific, organisational]
 ---

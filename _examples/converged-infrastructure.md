@@ -9,4 +9,5 @@ principles:
 - principle: Openness
 - principle: Modularity
 - principle: Orchestration
+tags: [specific, organisational]
 ---

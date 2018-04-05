@@ -29,4 +29,5 @@ principles:
     Design interfaces that use imagery, colloquial voice interactions, and natural gestures.
 
     Focus on a fire-and-forget usage model where users can start actions quickly and continue with what they're doing.
+tags: [specific, organisational]    
 ---

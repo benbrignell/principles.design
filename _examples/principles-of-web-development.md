@@ -11,4 +11,5 @@ principles:
  - principle: Don’t Repeat Yourself (aka One Cannot Not Maintain)
  - principle: Code Responsibly
  - principle: Know Your Field
+tags: [universal]
 ---

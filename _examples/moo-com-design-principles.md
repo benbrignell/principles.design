@@ -21,5 +21,5 @@ principles:
 - principle: Pages make sense before and after action
 - principle: State should always be maintained between pages
 - principle: Make sure pages content can be linked to forever
-
+tags: [specific, organisational]
 ---

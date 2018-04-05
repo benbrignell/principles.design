@@ -11,4 +11,5 @@ principles:
  - principle: Connect users
  - principle: Pioneer design ideas
  - principle: Stay current, stay elegant
+tags: [specific, organisational]
 ---

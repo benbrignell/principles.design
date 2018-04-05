@@ -23,4 +23,5 @@ principles:
   summary: All elements are described for others to use and extend.
 - principle: Accurate
   summary: The final output is an appropriate representation of the intended design.
+tags: [universal]
 ---
