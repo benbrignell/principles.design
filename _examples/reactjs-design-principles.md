@@ -17,5 +17,5 @@ principles:
 - principle: Implementation
 - principle: Optimized for Tooling
 - principle: Dogfooding
-tags: [specific, organisational]
+tags: [specific, organisations, software]
 ---

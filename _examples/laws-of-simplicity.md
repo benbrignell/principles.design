@@ -33,5 +33,5 @@ principles:
 
 - principle: The one
   summary: Simplicity is about subtracting the obvious, and adding the meaningful.
-tags: [universal]
+tags: [universal, people]
 ---

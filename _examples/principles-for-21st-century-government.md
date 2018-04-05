@@ -12,5 +12,5 @@ principles:
 - principle: Use data to make and improve decisions
 - principle: Choose the right technology for the job
 - principle: Organize for results
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

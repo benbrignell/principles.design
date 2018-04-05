@@ -18,5 +18,5 @@ principles:
 - principle: Constant feedback
 - principle: Allow for and anticipate mistakes to be made
 - principle: Active Guidance
-tags: [specific, organisational]
+tags: [specific, organisations, software]
 ---

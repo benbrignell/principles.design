@@ -28,5 +28,5 @@ principles:
 - principle: Everyone sees the same thing
   summary: |
     Bots don’t only appear to the end user. The humans behind the bots need a record of the conversation’s context too – how a bot replied and how end users responded accordingly. Common or lengthy bot messages may be displayed in a collapsed state in the admin view for the sake of neatness. Cases in which bot messages are private to an admin and are only internally visible are an exception.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

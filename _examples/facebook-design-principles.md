@@ -36,5 +36,5 @@ principles:
 - principle: Transparent
   summary: |
     Users trust us with their identity, their photos, their thoughts and conversation. We reciprocate with the utmost honesty and transparency. We are clear and up front about what’s happening and why.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

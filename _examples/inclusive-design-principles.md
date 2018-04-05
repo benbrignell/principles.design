@@ -19,5 +19,5 @@ principles:
   summary: Help users focus on core tasks, features, and information by prioritising them within the content and layout.
 - principle: Add value
   summary: Consider the value of features and how they improve the experience for different users.
-tags: [universal, specific, organisational]
+tags: [universal, specific, organisations]
 ---

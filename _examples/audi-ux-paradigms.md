@@ -10,5 +10,5 @@ principles:
 - principle: Clarity
 - principle: Reliability
 - principle: Details
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

@@ -19,5 +19,5 @@ principles:
 - principle: Integration
   summary: |
     Students learn more when they are encouraged to integrate their new knowledge into their life through reflection, discussion, debate, and/or presentation of new knowledge.
-tags: [universal]
+tags: [universal, people]
 ---

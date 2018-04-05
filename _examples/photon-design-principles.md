@@ -10,5 +10,5 @@ principles:
 - principle: Approachable
 - principle: Supportive
 - principle: Whimsical
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

@@ -11,5 +11,5 @@ principles:
 - principle: A tool should help the user to develop an intuition for the problem space, its inherent constraints and the relationships between properties.
 - principle: A tool should help the user to break the problem down and work through its components while keeping the whole in mind.
 - principle: A tool should be adaptable to the user, capable of being transformed by its own design process.
-tags: [universal]
+tags: [universal, people]
 ---

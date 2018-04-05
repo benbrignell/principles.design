@@ -9,5 +9,5 @@ principles:
 - principle: No Jargon
 - principle: Allow For Misunderstandings
 - principle: Embrace Personality
-tags: [universal]
+tags: [universal, people]
 ---

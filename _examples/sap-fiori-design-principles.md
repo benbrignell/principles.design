@@ -20,5 +20,5 @@ principles:
 - principle: Adaptive
   summary: |
     SAP Fiori enables you to work how and where you want, regardless of the device you use. And, it provides relevant information that allows for instant insight.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

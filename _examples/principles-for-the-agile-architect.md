@@ -12,5 +12,5 @@ principles:
 - principle: Choose the Right Solution for the Enterprise
 - principle: Deliver Quality
 - principle: Model and Document in an Agile Fashion
-tags: [universal, specific, organisational]
+tags: [universal, specific, organisations]
 ---

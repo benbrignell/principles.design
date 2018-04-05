@@ -15,5 +15,5 @@ principles:
 - principle: It's positive.
   summary: |
     Recommend dishes by snapping photos or simply saying “Loved it!” We don’t allow negative ratings because we’re all about foods people love.
-tags: [specific, organisational]    
+tags: [specific, organisations]    
 ---

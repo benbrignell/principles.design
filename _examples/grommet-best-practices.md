@@ -15,5 +15,5 @@ principles:
 - principle: Tell a story and use metaphors
 - principle: There are no user errors
 - principle: Think about the entire user experience
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

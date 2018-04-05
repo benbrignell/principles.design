@@ -12,5 +12,5 @@ principles:
 - principle: Be Mindful Of Process
 - principle: Bias Toward Action
 - principle: Radical Collaboration
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

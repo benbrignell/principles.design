@@ -20,5 +20,5 @@ principles:
 - principle: Scalability
   summary: |
     It should be possible to build working models of the clock from table-top to monumental size using the same design.
-tags: [universal]
+tags: [universal, people, hardware]
 ---

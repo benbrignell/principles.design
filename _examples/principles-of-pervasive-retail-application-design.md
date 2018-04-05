@@ -14,5 +14,5 @@ principles:
 - principle: Put the shoppers in control
 - principle: Design for hyper-relevant experiences
 - principle: Be fun, smart, attentive and efficient
-tags: [universal]
+tags: [universal, people, software]
 ---

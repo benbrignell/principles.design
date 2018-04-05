@@ -25,5 +25,5 @@ principles:
     Making environments easy to use for everyone means considering signage, lighting, visual contrast and materials. Access to buildings isn’t simply a question of their physical layout. It also requires people having sufficient information, often before they leave their house, that makes them feel confident enough to access a building or space. Ensuring this ‘intellectual’ and ‘emotional’ access means considering signage, lighting, visual contrast and materials.
 
     At the beginning of the design process it is important to analyse the transport patterns to and within a development. Roads, parking, walkways, building entrances and other routes should be considered. People’s opportunity to use all elements within the site, including the inside of buildings, is crucial.
-tags: [specific, organisational]
+tags: [specific, organisations, infrastructure]
 ---

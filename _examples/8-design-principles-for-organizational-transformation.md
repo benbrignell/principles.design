@@ -13,5 +13,5 @@ principles:
 - principle: Transparency
 - principle: Harmony
 - principle: Resilience
-tags: [universal, organisational]
+tags: [universal, organisations]
 ---

@@ -15,5 +15,5 @@ principles:
     To improve entrepreneurial outcomes, and to hold entrepreneurs accountable, we need to focus on the boring stuff: how to measure progress, how to setup milestones, how to prioritize work. This requires a new kind of accounting, specific to startups.
 - principle: Build-Measure-Learn
   summary: The fundamental activity of a startup is to turn ideas into products, measure how customers respond, and then learn whether to pivot or persevere. All successful startup processes should be geared to accelerate that feedback loop.
-tags: [universal]
+tags: [universal, people]
 ---

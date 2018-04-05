@@ -20,5 +20,5 @@ principles:
 - principle: Be open and share your knowledge
   summary: |
     Collaborate and share your knowledge and experience. And welcome feedback.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

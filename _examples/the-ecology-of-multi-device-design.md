@@ -16,5 +16,5 @@ principles:
 - principle: Integrate Naturally
 - principle: Expect Evolution
 - principle: Expect Evolution
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

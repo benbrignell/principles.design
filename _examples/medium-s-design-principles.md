@@ -11,5 +11,5 @@ principles:
   summary: This might seem controversial, but when applied across devices, its purpose is clear. We were willing to break consistency if it was more appropriate for the OS, device, or context.
 - principle: Evolving over Finalized
   summary: This is exemplified in the ability to share Medium drafts, write responses, and leave notes. The content on Medium should be antifragile, improving with use and evolving overtime. We did not want to design printed books for the internet.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

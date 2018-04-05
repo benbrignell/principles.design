@@ -48,5 +48,5 @@ principles:
 - principle: It's not just usable
   summary: |
     Just because someone can complete a task, doesn't mean it was a pleasant or easy experience. Be careful not to put too much emphasis on task completion at the expense of a good experience.
-tags: [universal]
+tags: [universal, people]
 ---

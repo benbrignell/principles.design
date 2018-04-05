@@ -15,5 +15,5 @@ principles:
 - principle: Respect the need for speed
 - principle: Give just enough and offer more
 - principle: Present a seamless experience
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

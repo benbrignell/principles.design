@@ -8,5 +8,5 @@ principles:
 - principle: Usability
 - principle: Understanding
 - principle: Quality
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

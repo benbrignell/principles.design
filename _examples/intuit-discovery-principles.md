@@ -7,5 +7,5 @@ principles:
 - principle: We make unbiased, personalized recommendations
 - principle: We’re teachers first
 - principle: We blend right into your life
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

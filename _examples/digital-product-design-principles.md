@@ -40,5 +40,5 @@ principles:
 - principle: Design for change
   summary: |
     No design is ever finished or done. Don’t be afraid of throwing away work, features or designs, good design is always evolving and grows with the business. Design with change in mind will allow us to quickly adapt to new learnings and insights. Every feature or functionality that is introduced needs time to improve. Once something is launched, evaluating performance and iteration should be the focus.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

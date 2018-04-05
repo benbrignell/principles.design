@@ -29,6 +29,6 @@ principles:
   summary: |
     A term used to refer to an attribute of an object that allows people to know how to use it. For example, a mouse button invites pushing (in so doing acting clicking) by the way it is physically constrained in its plastic shell. At a very simple level, to afford means to give a clue (Norman, 1988). When the affordances of a physical object are perceptually obvious it is easy to know how to interact with it.
 
-tags: [universal]
+tags: [universal, people]
 
 ---

@@ -8,5 +8,5 @@ principles:
 - principle: Instructive
 - principle: Non-intrusive
 - principle: Focused and Timely
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

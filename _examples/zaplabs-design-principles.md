@@ -9,5 +9,5 @@ principles:
 - principle: Consistency
 - principle: Efficiency
 - principle: Aesthetics
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

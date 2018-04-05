@@ -16,5 +16,5 @@ principles:
    summary: Everyone at all levels of experience with Asana should feel like they know how to use the product, regardless of how many features they use.
  - principle: Be consistent and standard, and innovate when it’s worth it.
    summary: Users should feel like Asana is familiar, yet modern.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

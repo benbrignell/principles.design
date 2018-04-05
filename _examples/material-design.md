@@ -24,5 +24,5 @@ principles:
     All action takes place in a single environment. Objects are presented to the user without breaking the continuity of experience even as they transform and reorganize.
 
     Motion is meaningful and appropriate, serving to focus attention and maintain continuity. Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.
-tags: [universal, specific, organisational]    
+tags: [universal, specific, organisations]    
 ---

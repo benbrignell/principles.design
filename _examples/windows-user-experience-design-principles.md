@@ -67,5 +67,5 @@ principles:
     Account for starting and stopping (fast return, and do not get in the way of other UX).
     Account for getting and losing connectivity.
     Performance is the universal UX killer.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---
