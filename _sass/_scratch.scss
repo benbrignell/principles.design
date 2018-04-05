@@ -87,7 +87,7 @@ input[type="checkbox"] {
         margin-right: -2px;
         margin-bottom: -2px; /* offsets bottom border when tags wrap */
         &:hover  {
-          background-color: darken($primary, 3%);
+          background-color: darken($silver, 20%);
         }
         &:active, &:focus {
           background-color: $primary;
