@@ -15,5 +15,5 @@ principles:
  - principle: Give people control over their data
  - principle: Be loyal to the user
  - principle: Take responsibility
-tags: [universal]
+tags: [universal, people, software]
 ---

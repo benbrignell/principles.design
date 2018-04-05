@@ -38,7 +38,7 @@ principles:
   summary: |
     GUIs require a keyboard and mouse for interaction with computing systems. Touchscreens, sensors embedded in hardware, and the use of gestural UIs enable NUI interactions to feel seamless for users because the interactions are direct. There are fewer barriers between the user and information.
 
-tags: [universal]
+tags: [universal, people, software]
 
 
 ---

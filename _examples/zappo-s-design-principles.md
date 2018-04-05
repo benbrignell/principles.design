@@ -15,5 +15,5 @@ principles:
 - principle: Do More With Less
 - principle: Be Passionate and Determined
 - principle: Be Humble
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

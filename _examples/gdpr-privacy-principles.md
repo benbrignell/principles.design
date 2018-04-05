@@ -22,5 +22,5 @@ principles:
 - principle: Integrity and confidentiality
   summary: |
     Processed in an appropriate manner to maintain security.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

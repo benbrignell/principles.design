@@ -13,5 +13,5 @@ principles:
 - principle: Unbreakable
   summary: |
     It’s built for exploration. It’s impossible to mis-tap. It’s reversible.
-tags: [specific, organisational]    
+tags: [specific, organisations]    
 ---

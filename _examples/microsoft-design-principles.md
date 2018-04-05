@@ -10,5 +10,5 @@ principles:
 - principle: Fast and fluid
 - principle: Authentically digital
 - principle: Win as one
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

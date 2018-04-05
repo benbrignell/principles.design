@@ -10,5 +10,5 @@ principles:
   summary: Consistent & Transparent
 - principle: Be Unique
   summary: Ownable & Delightful
-tags: [specific, organisational]  
+tags: [specific, organisations]  
 ---

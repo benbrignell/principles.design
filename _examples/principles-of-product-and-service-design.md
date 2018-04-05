@@ -17,5 +17,5 @@ principles:
  - principle: We collaborate
  - principle: We make it shareable and reusable
  - principle: We acknowledge that design never stops
-tags: [universal]
+tags: [universal, people]
 ---

@@ -11,5 +11,5 @@ principles:
 - principle: Manage and upgrade
 - principle: Leverage and extend
 - principle: Get support
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

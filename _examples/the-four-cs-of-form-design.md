@@ -9,5 +9,5 @@ principles:
 - principle: Concise
 - principle: Clever
 - principle: Cooperative
-tags: [universal]
+tags: [universal, people]
 ---

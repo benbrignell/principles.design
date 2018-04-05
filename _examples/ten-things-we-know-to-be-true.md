@@ -14,5 +14,5 @@ principles:
  - principle: The need for information crosses all borders.
  - principle: You can be serious without a suit.
  - principle: Great just isn’t good enough.
-tags: [universal]
+tags: [universal, organisations]
 ---

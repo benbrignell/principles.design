@@ -13,6 +13,6 @@ principles:
 - principle: Provide different techniques for diagonal directions
 - principle: Provide auditory cues
 - principle: Divide the route into clear segments
-tags: [specific, organisational]
+tags: [specific, organisations]
 
 ---

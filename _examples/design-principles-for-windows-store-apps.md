@@ -46,5 +46,5 @@ principles:
     Use the UI model.
     Work with other apps to complete scenarios by participating in app contracts.
     Use our tools and templates to promote consistency.
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

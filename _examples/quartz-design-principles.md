@@ -10,5 +10,5 @@ principles:
  - principle: Remove before adding
  - principle: Pick one thing before another
  - principle: Make small decisions made on data and big decisions with your gut
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

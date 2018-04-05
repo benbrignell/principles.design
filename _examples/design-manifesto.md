@@ -30,5 +30,5 @@ principles:
    summary: If we have found a way of doing something that works, we share it whenever we can instead of reinventing the wheel every time.
  - principle: We acknowledge that design never stops
    summary: Design is an ongoing imperative. We listen to user feedback and make data-driven decisions to refine and improve our product.
-tags: [specific, organisational]   
+tags: [specific, organisations]   
 ---

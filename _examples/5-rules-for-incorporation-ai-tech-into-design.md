@@ -9,5 +9,5 @@ principles:
  - principle: Design for Failure
  - principle: Design for Learning
  - principle: Design for Ethics
-tags: [universal]
+tags: [universal, people]
 ---

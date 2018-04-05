@@ -13,5 +13,5 @@ principles:
 - principle: Balances power and simplicity
 - principle: Makes sense of the web
 - principle: High user-performance
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

@@ -21,5 +21,5 @@ principles:
 - principle: Kind
   summary: |
     If you're kind, you're not tricking people with dark patterns, you're not confusing people with just weird design choices and design patterns. You're not making life hard for people, for mobile users. You're not making people wait around for stuff to appear.
-tags: [personal]
+tags: [specific, people]
 ---

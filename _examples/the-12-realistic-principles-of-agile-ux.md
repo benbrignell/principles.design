@@ -40,5 +40,5 @@ principles:
 - principle: Adaptable, flexible teams
   summary: |
     Self-reflection is great, but can teams adapt to new challenges? Can they roll with the punches? Are they comfortable with discomfort? We need project teams who are hungry to learn what users want and what technologies require. Great design teams are great improvisers.
-tags: [universal]
+tags: [universal, people]
 ---

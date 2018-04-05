@@ -26,5 +26,5 @@ principles:
 - principle: Predict behavior
   summary: |
     Negative latency.
-tags: [universal, language]    
+tags: [universal, software, people]    
 ---

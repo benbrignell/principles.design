@@ -8,5 +8,5 @@ principles:
 - principle: Design for the 80%
 - principle: Privilege the Content Creator
 - principle: Make the default settings smart
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

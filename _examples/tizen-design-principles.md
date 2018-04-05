@@ -8,5 +8,5 @@ principles:
 - principle: Focused
 - principle: |
     Tailored: Delivering Customization and Personalization
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

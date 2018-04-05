@@ -49,5 +49,5 @@ principles:
       Less, but better – because it concentrates on the essential aspects, and the products are not burdened with non-essentials.
 
       Back to purity, back to simplicity.
-tags: [universal]
+tags: [universal, people]
 ---

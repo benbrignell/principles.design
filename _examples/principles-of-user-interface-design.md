@@ -66,5 +66,5 @@ principles:
 - principle: Interfaces exist to be used
   summary: |
     As in most design disciplines, interface design is successful when people are using what you've designed. Like a beautiful chair that is uncomfortable to sit in, design has failed when people choose not to use it. Therefore, interface design can be as much about creating an environment for use as it is creating an artifact worth using. It is not enough for an interface to satisfy the ego of its designer: it must be used!
-tags: [universal]
+tags: [universal, people]
 ---

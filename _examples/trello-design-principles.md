@@ -14,5 +14,5 @@ principles:
 - principle: Flexible
 - principle: Collaborative
 - principle: Fun
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

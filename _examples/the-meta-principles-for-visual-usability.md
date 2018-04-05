@@ -15,5 +15,5 @@ principles:
 - principle: Personality
   summary: |
     Just as people react to other people, people react to applications. First impressions happen automatically, consciously and unconsciously. Other impressions are the result of interactions over time. Personality refers to impressions formed based on appearance and behavior, a concept that applies to applications as well as people.
-tags: [universal]
+tags: [universal, people]
 ---

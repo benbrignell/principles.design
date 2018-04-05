@@ -11,5 +11,5 @@ principles:
 - principle: Privacy
 - principle: Rights preserved
 - principle: Inclusion
-tags: [specific, organisational]
+tags: [specific, organisations]
 ---

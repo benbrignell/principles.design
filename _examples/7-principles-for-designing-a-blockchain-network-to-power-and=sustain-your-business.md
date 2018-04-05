@@ -11,5 +11,5 @@ principles:
 - principle: The network must be scalable for transaction processing and data encryption processing
 - principle: The network must be secure and address new security challenges of a shared network
 - principle: The network must co-exist with existing systems of record and transaction systems
-tags: [universal]
+tags: [specific, organisations]
 ---

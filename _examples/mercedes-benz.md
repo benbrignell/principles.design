@@ -107,5 +107,5 @@ principles:
     But whether a unique research vehicle or series-produced – a motor vehicle is always perceived with one’s senses. No-one can evade its emotional effect. Long before one has any idea about the relevant technical facts or innovations, through its mere appearance – that is, through its design – it awakens desires. It is the responsibility of the designers to awaken and keep alive these emotions. The goal of their work is to create automobiles in the field of ten-sion between technology and design, that are characterized both by technical and emotional intelligence.
 
     The designers’ work is a success if customers buy cars not only for purely rational reasons but also with their heart – and mind.
-tags: [specific, organisational]
+tags: [specific, organisations, hardware]
 ---

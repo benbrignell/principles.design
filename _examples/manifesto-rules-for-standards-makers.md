@@ -22,5 +22,5 @@ principles:
 - principle: Developers are busy
 - principle: Mail lists don’t rule
 - principle: Praise developers who make it easy to interop
-tags: [universal]
+tags: [universal, people]
 ---
