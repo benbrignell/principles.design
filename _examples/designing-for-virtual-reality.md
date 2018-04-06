@@ -27,5 +27,5 @@ principles:
 - principle: Make It Beautiful
   summary: |
     Our final Immersion principle? Make it beautiful. By focusing on the visual beauty of what you’re creating, you’re enhancing the feeling of immersion experienced by the user. At the end of your hike through the lesson-filled forest, the user emerges on a clifftop overlooking the ocean, allowing them to witness the sunrise. We wanted the user to a moment, breathe, and let the inspiration sink in before starting their own VR design journey.
-
+tags: [specific, organisations, software]
 ---

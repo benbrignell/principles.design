@@ -84,6 +84,6 @@ principles:
 - principle: Be credible and trustworthy
   summary: |
     It’s hard to tell who you can trust these days, so the only way to gain the confidence of your customers is to earn it — do what you say you’re going to do, don’t over promise and under deliver, don’t sell someone out to fulfill a business objective. If you set people’s expectations appropriately and follow through in a timely matter, people will give you considerably more leeway than if they’re just waiting for you to screw them over.
-
+tags: [universal, people]
 
 ---

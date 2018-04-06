@@ -12,4 +12,5 @@ principles:
 - principle: If you can't make it, fake it
 - principle: Prototype only what you need
 - principle: Reduce risk—prototype early and often
+tags: [universal, people]
 ---

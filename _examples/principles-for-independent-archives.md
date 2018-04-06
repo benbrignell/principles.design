@@ -12,4 +12,5 @@ principles:
 - principle: Store the original record, present its essence over its resolution
 - principle: Work together
 - principle: Believe in your ideas, an independent perspective is worth a lot
+tags: [universal, people]
 ---

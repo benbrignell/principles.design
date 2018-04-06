@@ -20,4 +20,5 @@ principles:
   summary: The principle of focused navigation – Don’t mix apples and oranges in your navigation scheme.
 - principle: Principle of growth
   summary: Assume the content you have today is a small fraction of the content you will have tomorrow.
+tags: [universal, people]
 ---

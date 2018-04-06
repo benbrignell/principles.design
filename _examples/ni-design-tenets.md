@@ -13,4 +13,5 @@ principles:
 - principle: Encourage Direct Manipulation
 - principle: Provide Batch Operations, and Promote Property Inheritance
 - principle: Provide the Appropriate Level of "Scrappiness"
+tags: [specific, organisations]
 ---

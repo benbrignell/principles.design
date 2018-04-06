@@ -10,4 +10,5 @@ principles:
 - principle: Organisation Design
 - principle: Data Design
 - principle: Technology Design
+tags: [universal, people]
 ---

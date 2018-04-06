@@ -9,4 +9,5 @@ principles:
 - principle: Design for the customer and instill confidence
 - principle: Establish modern and iconic ownable moments
 - principle: Celebrate data while respecting user and device context
+tags: [specific, organisations]
 ---

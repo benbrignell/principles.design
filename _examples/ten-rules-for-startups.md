@@ -14,4 +14,5 @@ principles:
 - principle: Be agile
 - principle: Be balanced
 - principle: (bonus!) Be wary
+tags: [universal, people]
 ---

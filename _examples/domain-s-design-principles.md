@@ -15,5 +15,5 @@ principles:
 - principle: Where Is The Love?
   summary: |
     We are sometimes guilty of taking Minimum Viable Product to its extreme — stripping a product of everything loveable in the name of shipping fast. We want our users to love using our products, so we need to make sure that we deliver loveable products. Meet the Minimum Loveable Product.
-
+tags: [specific, organisations]
 ---

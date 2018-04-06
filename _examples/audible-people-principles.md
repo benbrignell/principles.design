@@ -9,4 +9,5 @@ principles:
 - principle: Articulate the Possible and Move Fast to Make it Real
 - principle: Study and Draw Inspiration from Culture and Technology
 - principle: Activate Caring
+tags: [specific, organisations]
 ---

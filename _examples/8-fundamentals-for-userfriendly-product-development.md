@@ -20,4 +20,5 @@ principles:
   summary: Functions must be intuitive and reliable before it can be fun for users. Delight users in surprising ways without hindering primary tasks. A carefully-placed animation, or a well-timed sound effect can be a joy to experience. Subtle effects contribute to a feeling of effortlessness and brings the interface to life.
 - principle: Human
   summary: Be gentle, be human. Interfaces must respond promptly to users in a human way so that the experience feels fast and like a real conversation. Every person is different. Take into account our products are being used by various type of users with different goals and various levels of knowledge.
+tags: [universal]  
 ---

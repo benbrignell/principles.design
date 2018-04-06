@@ -10,4 +10,5 @@ principles:
 - principle: It's smart and helpful.
 - principle: It's responsive.
 - principle: It's all about entertainment.
+tags: [specific, organisations]
 ---

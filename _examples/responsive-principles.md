@@ -8,4 +8,5 @@ principles:
  - principle: Start from the point of greatest adaptability
  - principle: Reflect the diversity of users within our practice
  - principle: Build using systems that can be reasoned with
+tags: [universal, people, software]
 ---

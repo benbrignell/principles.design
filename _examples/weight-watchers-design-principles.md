@@ -34,5 +34,5 @@ principles:
 
 - principle: Empathy
   summary: Design with member empathy
-
+tags: [specific, organisations]
 ---

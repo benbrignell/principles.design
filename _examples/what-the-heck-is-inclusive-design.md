@@ -19,5 +19,5 @@ principles:
     The virtue of simplicity is difficult to overestimate. The simpler an interface is, the easier it is to use for all kinds of users. Simpler interfaces require less code to make too, so there’s an obvious performance advantage. There are many design decisions that require user research, but keeping things simple is always the right thing to do. Not simplified or simple-seeming or simplistic, but simple.
 
     Do a little and do it well, for as many people as you can.
-
+tags: [universal, people]
 ---

@@ -24,4 +24,5 @@ principles:
 - principle: Responsive Change Management
 - principle: Control Technical Diversity
 - principle: Interoperability
+tags: [specific, organisations]
 ---

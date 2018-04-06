@@ -16,4 +16,5 @@ principles:
   summary: Convey meaning by what you say and how you say it.
 - principle: Adapt your speaking style
   summary: Anticipate what kind of conversation will suit the situation.
+tags: [universal, people]
 ---

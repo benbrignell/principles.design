@@ -17,4 +17,5 @@ principles:
 - principle: Robust
   summary: |
     Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies. This means that users must be able to access the content as technologies advance (as technologies and user agents evolve, the content should remain accessible)
+tags: [specific, organisations, language]
 ---

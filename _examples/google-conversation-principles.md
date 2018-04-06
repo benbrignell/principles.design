@@ -25,6 +25,5 @@ principles:
 - principle: Don't read minds
   summary: |
     Give them the facts and let them decide.
-
-
+tags: [specific, organisations]
 ---

@@ -1,5 +1,6 @@
 // Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works. It's supposed to be a mess.
 // ---------------------------------------/
+
 body, html {
   height: 100%;
   // background: lighten($primary, 6%);
@@ -45,6 +46,13 @@ a:hover {
 .tile a:hover, .tile-list a:hover {
   color: $black;
 }
+body.examples .tile a:visited {
+  color: lighten($black, 30%);
+}
+body.examples .tile a:visited:hover {
+  color: $black;
+}
+
 a.full-link {
   display: inline-block;
   height: 100%;
@@ -54,6 +62,68 @@ a.full-link {
 body.examples .tile:hover {
   background: $primary;
 }
+
+
+/* filter tags */
+ul.filter-tags {
+  padding: 0;
+}
+ul.filter-tags li {
+  list-style: none;
+  float: left;
+}
+// label {
+//   user-select: none!important; /* need to check this */
+// }
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    & + label {
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        transition: all 0.3s ease-in-out;
+        padding: .4em .8em;
+        color: $black;
+        background-color: $silver;
+        border: solid $black;
+        border-width: 2px;
+        margin-right: -2px;
+        margin-bottom: -2px; /* offsets bottom border when tags wrap */
+        &:hover  {
+          background-color: darken($silver, 20%);
+        }
+        &:active, &:focus {
+          background-color: $primary;
+        }
+    }
+    &:checked + label {
+        background-color: $primary;
+        color:  $black;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        &:hover, &:focus {
+          background-color: $primary;
+          color: $black;
+        }
+    }
+    &:active {
+        background-color: red;
+    }
+}
+
 hr {
     display: block;
     height: 1px;
@@ -76,9 +146,14 @@ hr {
   transition: all .2s ease-in-out;
 }
 
-.site-nav {
+.site-nav, div.filters {
   grid-column: auto / span 12;
 }
+div.filters span {
+  display: block;
+  width: 100%;
+}
+
 .site-nav ul {
   list-style: none;
   padding: 0;
@@ -194,6 +269,7 @@ body.home header.site-header {
 .site-header {
   height: 4em;
   min-height: 4em;
+  overflow: hidden;
 }
 div.page-content {
   background: $white;
@@ -214,17 +290,23 @@ ol.cards li {
 
 .sort-label {
   display: block;
-  margin-top: -1.6em;
   float: left;
+  margin-top: 0;
+  user-select: none;
+@media (min-width: $mq-m) {
+  margin-top: -1.6em;
+  display: inline;
+  }
 }
 
-.sort {
+.sort{
   display:inline-block;
   float: left;
   cursor: pointer;
   user-select: none;
   transition: all 0.3s ease-in-out;
-  max-width: 40%;
+  margin-right: -2px;
+  width: auto!important; /* overrides .btn utility class */
 }
 .sort-arrow {
   height: 0.8em;
@@ -303,6 +385,9 @@ input.search  {
   border: solid 2px $black;
   padding-left: 1em;
   width: 100%;
+}
+
+input.search {
   grid-column: auto / span 12;
   @media (min-width: $mq-m) {
         grid-column: auto / span 6;
@@ -310,6 +395,7 @@ input.search  {
   @media (min-width: $mq-l) {
         grid-column: auto / span 8;
       }
+
 }
 @supports (display: grid) {
   div.toggle {
@@ -323,6 +409,12 @@ input.search  {
         }
   }
 }
+div.hide-large {
+  display: inline-block;
+@media (min-width: $mq-m) {
+        display: none;
+    }
+  }
 input.search::placeholder {
   color: $black;
   font-weight: normal;

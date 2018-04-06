@@ -9,4 +9,5 @@ principles:
 - principle: We Simplify
 - principle: We Connect
 - principle: We Go All In
+tags: [specific, organisations]
 ---

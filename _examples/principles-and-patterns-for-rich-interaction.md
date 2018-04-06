@@ -28,5 +28,5 @@ principles:
 - principle: React Immediately
   summary: |
     A responsive interface is an intelligent interface. This principle explores how to make a rich experience by using lively responses.
-
+tags: [universal, people]
 ---

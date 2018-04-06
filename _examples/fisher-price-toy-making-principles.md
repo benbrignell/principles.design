@@ -9,4 +9,5 @@ principles:
 - principle: Strong construction
 - principle: Good value for the money
 - principle: Action
+tags: [specific, organisations, hardware]
 ---

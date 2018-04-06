@@ -22,4 +22,5 @@ principles:
 - principle: Identify performance indicators
 - principle: Report performance data on the Performance Platform
 - principle: Test with the minister
+tags: [specific, organisations]
 ---

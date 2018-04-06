@@ -23,4 +23,5 @@ principles:
 - principle: Build it to last
   summary: |
     Renewal rates differ. Some things will be experienced many years after the protocol or platform has expired. Battery life sees devices continue running for years. Good experience looks beyond today's platforms. How will it adapt to new protocols and platforms?
+tags: [universal, people]
 ---

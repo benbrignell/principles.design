@@ -21,4 +21,5 @@ principles:
  - principle: Readability
  - principle: Track State
  - principle: Visible Navigation
+tags: [universal, people]
 ---

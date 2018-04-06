@@ -11,4 +11,5 @@ principles:
 - principle: Reuse building blocks from widely adopted standards
 - principle: Modularity / embeddability
 - principle: Enable and encourage decentralized and distributed development, content, services
+tags: [specific, organisations, language]
 ---

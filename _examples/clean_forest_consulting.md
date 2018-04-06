@@ -14,6 +14,5 @@ principles:
     It is better to release a great new website today, than a “perfect” website next month. The best websites are released early, and are constantly evolving.
 - principle: |
     What is the secret behind our success? Bad consultants make money off their clients, great consultants make money for their clients. That's it. That's the whole secret.
-
-
+tags: [specific, organisations]
 ---

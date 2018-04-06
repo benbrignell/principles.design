@@ -25,4 +25,5 @@ principles:
       Accessible Media: Supports all senses
  - principle: |
       Universal Usability: Creates delight
+tags: [universal, people]
 ---

@@ -58,4 +58,5 @@ principles:
 - principle: Product/market fit is when people sell for you
   summary: |
     Product market fit is a funny term, but here's a concrete way to think about it. When people understand and use your product enough to recognize it's value that's a huge win. But when they begin to share their positive experience with others, when you can replicate the experience with every new user who your existing users tell, then you have product market fit on your hands. And when this occurs something magical happens. All of a sudden your customers become your salespeople.
+tags: [universal, people]
 ---

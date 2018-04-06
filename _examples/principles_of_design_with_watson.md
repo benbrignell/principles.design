@@ -20,4 +20,5 @@ principles:
 - principle: Always in service of people never in lieu of them.
   summary: |
     The user and Watson are partners working towards mutual goals through an experience. We have to solve the user’s need which is central to success but we also have to enable human and computer cooperation — not only interaction. Building empathy, trust, and cooperation with our users is the goal. We should be focused on removing limitations and addressing pain points. Watson never makes a decision for a person — it finds, augment and educates.
+tags: [specific, organisations]   
 ---

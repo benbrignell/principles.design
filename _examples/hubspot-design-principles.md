@@ -20,4 +20,5 @@ principles:
 - principle: Collaborative
   summary: |
     We devise powerful systems that encourage people to work seamlessly together. Our work helps people create and collaborate with each other in natural, intuitive ways.
+tags: [specific, organisations]
 ---

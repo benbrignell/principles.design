@@ -10,4 +10,5 @@ principles:
 - principle: Design simply
 - principle: Design together
 - principle: Design progressively
+tags: [specific, organisations]
 ---

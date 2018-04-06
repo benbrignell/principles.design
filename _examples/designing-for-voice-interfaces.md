@@ -24,4 +24,5 @@ principles:
     Create context through modality and state:
   summary: |
     If a GUI is available it is essential to take advantage of it to help create a good voice experience. Modality allows the user to go back and forth between using voice and traditional interaction methods and  gives the user visual feedback. It is also important that the user understands what state they are in. Is the system listening? processing? responding? Audibly or visually it’s important to give the user an indication.
+tags: [universal, people, software]
 ---

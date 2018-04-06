@@ -19,4 +19,5 @@ principles:
  - principle: Technology should work even when it fails
  - principle: The right amount of technology is the minimum needed to solve the problem
  - principle: Technology should respect social norms
+tags: [universal, people]
 ---
