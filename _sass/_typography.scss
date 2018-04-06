@@ -104,7 +104,6 @@ h1.intro {
 @supports (display: grid) {
 	h1.intro {
 		grid-column: auto / span 10;
-		margin-top: 24%;
 	}
 }
 
