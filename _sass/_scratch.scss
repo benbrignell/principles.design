@@ -1,5 +1,6 @@
 // Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works. It's supposed to be a mess.
 // ---------------------------------------/
+
 body, html {
   height: 100%;
   // background: lighten($primary, 6%);
@@ -71,13 +72,25 @@ ul.filter-tags li {
   list-style: none;
   float: left;
 }
+// label {
+//   user-select: none!important; /* need to check this */
+// }
 input[type="checkbox"] {
     position: absolute;
     opacity: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
     & + label {
         display: inline-block;
         cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
         user-select: none;
+
         transition: all 0.3s ease-in-out;
         padding: .4em .8em;
         color: $black;
@@ -96,6 +109,11 @@ input[type="checkbox"] {
     &:checked + label {
         background-color: $primary;
         color:  $black;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
         &:hover, &:focus {
           background-color: $primary;
           color: $black;
@@ -275,6 +293,7 @@ ol.cards li {
   display: block;
   float: left;
   margin-top: 0;
+  user-select: none;
 @media (min-width: $mq-m) {
   margin-top: -1.6em;
   display: inline;
