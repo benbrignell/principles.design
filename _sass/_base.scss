@@ -5,25 +5,28 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-html {
-  background: $white;
+body, html {
+  height: 100%;
+  background: $primary;
 }
 
-// body{
-//   @include sans;
-//   color: $text_color;
-//   font-size: 1em;
-//   line-height: 1.5;
-//   font-family: $body-font;
-// }
+.footer {
+  background: $linen;
+}
 
-// .wrapper:before,
-// .wrapper:after { content:""; display:table; }
-// .wrapper:after { clear: both; }
-.wrapper { // change to site-grid
-  // max-width: 1084px;
-  // padding: 0 30px;
+/* Links */
+a {
+  color: $black;
+  text-decoration: underline; // text-decoration-skip fallback
+  text-decoration-skip: ink; // although this is pretty ugly
+
+}
+a:hover {
+  color: $secondary;
+  text-decoration: none;
+}
+
+.wrapper {
   width: 85%;
   max-width: $max-width;
   margin: 0 auto;

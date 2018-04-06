@@ -7,7 +7,11 @@
 
 // Generic site base & layout styles
 @import "base";
+@import "navigation";
+@import "layout";
+@import "utility";
+@import "tile";
 @import "typography";
-
+@import "carbon";
 // temporary styles while I figure out design ideas
 @import "scratch"
