@@ -1,6 +1,6 @@
 ---
 layout: guide
-title: Create
+title: Create your own
 permalink: /guide/create/
 order: 5
 redirect_from: "/create/"
