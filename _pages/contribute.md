@@ -31,7 +31,7 @@ If you want to add a set of design principles to the collection then great, and 
 Submissions need to contain the following:
 
 * A set of **original Design Principles**
-* A **source article**, **blog post** or **canonical page** listing a set of design principles in full detail. Aloing with the principles themselves, a source article would contain something about how you or your team came up with these principles. Consider a few of the following questions:
+* A **source article**, **blog post** or **canonical page** listing a set of design principles in more detail. Aloing with the principles themselves, a source article would contain something about how you or your team came up with these principles. Consider a few of the following questions:
 
   - How did you decide on what your design principles should be?
   - What you did you learn?
