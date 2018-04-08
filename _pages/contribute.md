@@ -54,11 +54,12 @@ For more information and documentation about how to submit [take a look at the G
 
 ## Help needed
 
-Each set of principles in [examples](/examples) is comprised of a number of things. For example:
+Each set of principles in [examples](/examples) should contain the following things:
 * Overview
 * Summary of each principle
 * Source URL
 * Author/creator
+* Tags
 
 If any of these things are missing you'll see a "Help needed" message at the bottom of the page highlighting which things are missing.
 
