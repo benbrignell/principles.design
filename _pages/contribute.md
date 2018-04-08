@@ -24,7 +24,7 @@ sidebar: |
 ---
 ## Submissions
 
-If you want to add a set of design principles to the collection then great, and thanks! However there's not much value in a repository filled with 100s of examples of generic principles so here are some basic guidelines:
+If you want to add a set of design principles to the collection then great, and thanks! To ensure your subission is accepted please consider the following guidelines:
 
 ### Guidelines
 
