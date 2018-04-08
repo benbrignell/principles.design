@@ -17,10 +17,5 @@ principles:
   summary: |
     Teams around the government should easily be able to find inspiration from among their peers. This inspiration can jumpstart many teams own efforts but also lay the groundwork for making the business case for adopting the U.S. Web Design System. We will catalog the successes of the Design System and its users both quantitatively and qualitatively.
 - principle: Reuse, reuse, reuse
-<<<<<<< HEAD
 tags: [specific, organisations]
-=======
-  summary: |
-    Teams should not be burdened with recreating basic components and patterns for every new product they create. The tools, patterns, and components present in the Design System will be a comprehensive collection of tried-and-true assets that reflect industry best practices. This will enable teams to focus on the unique aspects of their product to ensure the general public is getting the best possible service.
->>>>>>> 79dd632fdeb1d2da5fff2633d987dd3e019d10ba
 ---
