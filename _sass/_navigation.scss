@@ -1,0 +1,46 @@
+.site-logo {
+  float: left;
+  display: block;
+}
+.site-logo a img {
+  width: 4em;
+  height: 4em;
+}
+
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5em;
+  float: none;
+  max-width: 400px; // forces nav to break onto two lines
+  overflow: visible; // allows localised text to overflow if longer
+  @media (min-width: $mq-l) {
+     padding-left: 1.6em;
+     margin: 0.4em;
+     float: right;
+     max-width: none;
+     width: auto;
+    }
+}
+.site-nav li {
+  margin-right: 0.6em;
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+}
+.site-nav li:last-child {
+  margin-right: 0;
+}
+.site-nav a {
+  text-decoration: none;
+}
+.site-nav a:hover {
+  text-decoration: underline;
+  color: $black;
+}
+body.about nav a.about,
+body.create nav a.create,
+body.examples nav a.examples,
+body.contribute nav a.contribute {
+  text-decoration: underline;
+}

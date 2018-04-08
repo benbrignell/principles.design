@@ -25,16 +25,23 @@ sidebar: |
 ---
 ## Submissions
 
-You don't need to be a giant organisation or a famous designer and author with 72.4 million followers on Twitter to submit a set of personal Design Principles.
-
-The objective of this community is to build a resource we can learn from. There's not much value in a repository filled with 100s of examples of generic principles so here are some basic guidelines:
+If you want to add a set of design principles to the collection then great, and thanks! To ensure your subission is accepted please consider the following guidelines:
 
 ### Guidelines
 
 Submissions need to contain the following:
 
 * A set of **original Design Principles**
-* A **source article**, **blog post** or **canonical page** listing a set of design principles in full detail. A source article would contain something about how you or your team came up with these principles. What you learnt. What worked, what didn’t work. How do you follow these principles? Have these principles made your process better? If so, how? Overall we want to know the **story behind how you created your principles**.
+* A **source article**, **blog post** or **canonical page** listing a set of design principles in more detail. Along with the principles themselves, a source article would contain something about how you or your team came up with these principles. Consider a few of the following questions:
+
+  - How did you decide on what your design principles should be?
+  - What you did you learn?
+  - What worked, what didn’t work?
+  - How do you follow these principles?
+  - Have these principles made your process better?
+  - If so, how?
+
+You don't need to cover all these things in detail. Overall we want to know the **story behind how you created your principles**.
 
 Here are some great examples of those that do this:
 
@@ -42,17 +49,18 @@ Here are some great examples of those that do this:
 * [Government Design Principles](https://www.gov.uk/guidance/government-design-principles)
 * [Josh Clark's "Design in the Era of the Algorithm"](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 
-You can submit examples from other individuals, companies or teams that you think would be useful to the community as long as you follow these guidelines and provide a source that helps us get more insight into the story behind the principles.
+You can submit examples from other individuals, companies or teams that you think would be useful to the community.
 
 For more information and documentation about how to submit [take a look at the GitHub page](https://github.com/benbrignell/principles.design#contributing).
 
 ## Help needed
 
-Each set of principles in [examples](/examples) is comprised of a number of things. For example:
+Each set of principles in [examples](/examples) should contain the following things:
 * Overview
 * Summary of each principle
 * Source URL
 * Author/creator
+* Tags
 
 If any of these things are missing you'll see a "Help needed" message at the bottom of the page highlighting which things are missing.
 

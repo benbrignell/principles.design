@@ -1,67 +1,6 @@
 // Scratch styles - these are styles I'm quickly throwing together and prototyping with which will be  eventually tidied/consolodated into the relevant partials if the design works. It's supposed to be a mess.
 // ---------------------------------------/
 
-body, html {
-  height: 100%;
-  // background: lighten($primary, 6%);
-  background: $primary;
-}
-body {background: $primary;}
-.footer {
-  background: $linen;
-}
-a {
-  color: $black;
-  text-decoration: underline; // text-decoration-skip fallback
-  text-decoration-skip: ink; // although this is pretty ugly
-
-}
-
-.two-up {
-  grid-column: auto / span 12;
-  @media (min-width: $mq-l) {
-    grid-column: auto / span 6;
-    }
-}
-
-.mbm {
-  margin-bottom: 0.6em;
-}
-.mbn {
-  margin-bottom: 0;
-}
-.mtn {
-  margin-top: 0;
-}
-.lhs {
-  line-height: 1.4;
-}
-a:hover {
-  color: $secondary;
-  text-decoration: none;
-}
-.tile:hover {
-  background: lighten($primary, 20%);
-}
-.tile a:hover, .tile-list a:hover {
-  color: $black;
-}
-body.examples .tile a:visited {
-  color: lighten($black, 30%);
-}
-body.examples .tile a:visited:hover {
-  color: $black;
-}
-
-a.full-link {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  line-height: inherit;
-}
-body.examples .tile:hover {
-  background: $primary;
-}
 
 
 /* filter tags */
@@ -132,15 +71,7 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-// p {max-width: 40em;} // test for legibility
-.site-logo {
-  float: left;
-  display: block;
-}
-.site-logo a img {
-  width: 4em;
-  height: 4em;
-}
+
 .site-logo:hover, .logo:hover, .view-toggle:hover, .view-toggle-list:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
@@ -154,37 +85,7 @@ div.filters span {
   width: 100%;
 }
 
-.site-nav ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 0.5em;
-  float: none;
-  max-width: 400px; // forces nav to break onto two lines
-  overflow: visible; // allows localised text to overflow if longer
-  @media (min-width: $mq-l) {
-     padding-left: 1.6em;
-     margin: 0.4em;
-     float: right;
-     max-width: none;
-     width: auto;
-    }
-}
-.site-nav li {
-  margin-right: 0.6em;
-  font-weight: bold;
-  float: left;
-  display: inline-block;
-}
-.site-nav li:last-child {
-  margin-right: 0;
-}
-.site-nav a {
-  text-decoration: none;
-}
-.site-nav a:hover {
-  text-decoration: underline;
-  color: $black;
-}
+
 .full, .post-header {
   grid-column: auto / span 12;
 }
@@ -263,7 +164,7 @@ p.source {
 }
 body.home header.site-header {
   background: $primary;
-  height: 100%;
+  height: auto;
 }
 
 .site-header {
@@ -454,17 +355,9 @@ input[type=submit]:hover, .btn:hover {
 
 
 
-.ghost {
-  border: dotted 8px $black;
-  padding-left: 1em;
-  padding-right: 1em;
-}
 
 
-.alt-idea {
-  color: #04ff86;
-}
-.tile h2 {display: block; margin: 0;}
+
 
 
 .icon {
@@ -596,22 +489,8 @@ input, button, submit { border:none; }
 
 // active nav highlighting
 
-body.about nav a.about,
-body.guide nav a.guide,
-body.examples nav a.examples,
-body.contribute nav a.contribute {
-  text-decoration: underline;
-}
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}
+
+
 
 header h1 {
   margin-top: 0.6em;
@@ -620,38 +499,4 @@ header h1 {
 .credit {
   border-bottom: solid 4px $black;
   padding-bottom: 1em;
-}
-// carbon
-
-div#carbonads a {
-  text-decoration: none;
-}
-.carbon-img {
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 0.6em
-}
-.carbon-poweredby {
-  display: block;
-  margin-top: 1em;
-  font-size: 0.8em;
-}
-
-ul.sub-nav {
-  list-style: none;
-}
-ul.sub-nav li {
-  margin-left: -2em;
-  padding-right: 0.6em;
-}
-body.introduction ul.sub-nav li.introduction,
-body.what ul.sub-nav li.what,
-body.why ul.sub-nav li.why,
-body.who ul.sub-nav li.who,
-body.create ul.sub-nav li.create,
-body.resources ul.sub-nav li.resources
-
- {
-  font-weight: bold;
-  border-right: 4px solid $silver;
 }
