@@ -4,7 +4,9 @@
   {% include head.html %}
 
   <body {% if page.body-class %}class="{{page.body-class}}"{%endif%}>
-
+    {% if page.sponsor %}
+    <meta http-equiv="refresh" content="0; URL='{{page.redirect}}'" />
+    {% endif %}
     {% include header.html %}
 
 <main>
