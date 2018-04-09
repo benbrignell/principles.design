@@ -24,7 +24,7 @@ layout: default
 
               {% if principle.summary %}
                 <p>
-                  {{ principle.summary  | newline_to_br}}
+                  {{ principle.summary  | newline_to_br | markdownify }}
                 </p>
               {% else %}
               {% assign missingSummary = true %}
