@@ -7,6 +7,9 @@
 body.examples .tile a:visited {
   color: lighten($black, 30%);
 }
+.ghost a:visited {
+  color: $black!important;
+}
 body.examples .tile a:visited:hover {
   color: $black;
 }

@@ -12,9 +12,7 @@ var examplesList = new List('search-list', options);
 var notFound = document.createElement('div');
 notFound.id = 'resultNotFoundTile'
 notFound.className = 'tile'
-notFound.innerHTML = '<a href="{{site.contribute-url}}" class="full-link">' +
-                       '<h3 class="h2 title" style="margin-top: 0; margin-bottom: 0;">Nothing found</h3>' +
-                     '</a>';
+notFound.innerHTML = '<h3 class="h2 title" style="margin-top: 0; margin-bottom: 0;">Nothing found</h3>';
 
 var contribute = document.createElement('div');
 contribute.id = 'contributeTile'
