@@ -14,7 +14,7 @@
   float: none;
   max-width: 400px; // forces nav to break onto two lines
   overflow: visible; // allows localised text to overflow if longer
-  @media (min-width: $mq-l) {
+  @media (min-width: $bp-large) {
      padding-left: 1.6em;
      margin: 0.4em;
      float: right;

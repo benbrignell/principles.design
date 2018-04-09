@@ -26,16 +26,7 @@ a:hover {
   text-decoration: none;
 }
 
-.wrapper {
-  width: 85%;
-  max-width: $max-width;
-  margin: 0 auto;
-  padding-bottom: 1em;
-  zoom: 1;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 1.4em;
-}
+
 
 .tiles {
   grid-row-gap: 0;

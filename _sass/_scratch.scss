@@ -96,7 +96,7 @@ div.filters span {
 
 .two-thirds {
   grid-column: auto / span 12;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
     grid-column: auto / span 8;
     }
 }
@@ -104,7 +104,7 @@ div.filters span {
 .three-up {
   grid-column: auto / span 6;
   position: relative;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
     grid-column: auto / span 4;
     margin-bottom: 1.6em;
     }
@@ -112,14 +112,14 @@ div.filters span {
 .info-block, .post-content, article {
   grid-column: auto / span 12;
   position: relative;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
     grid-column: auto / span 8;
     }
 }
 
 aside {
   grid-column: auto / span 12;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
     grid-column: auto / span 4;
     }
 }
@@ -159,7 +159,7 @@ p.source {
   left: 0;
   height: 12px;
   width: 8em;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
     width: 12em;
     }
 }
@@ -195,7 +195,7 @@ ol.cards li {
   float: left;
   margin-top: 0;
   user-select: none;
-@media (min-width: $mq-m) {
+@media (min-width: $bp-medium) {
   margin-top: -1.6em;
   display: inline;
   }
@@ -251,10 +251,10 @@ img.circle {
   grid-column: auto / span 12;
   overflow: hidden;
   transition: background-color 0.3s ease;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
         grid-column: auto / span 6;
       }
-  @media (min-width: $mq-l) {
+  @media (min-width: $bp-large) {
         grid-column: auto / span 4;
       }
 }
@@ -291,10 +291,10 @@ input.search  {
 
 input.search {
   grid-column: auto / span 12;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
         grid-column: auto / span 6;
       }
-  @media (min-width: $mq-l) {
+  @media (min-width: $bp-large) {
         grid-column: auto / span 8;
       }
 
@@ -302,18 +302,18 @@ input.search {
 @supports (display: grid) {
   div.toggle {
     display: none; //hidden on mob
-    @media (min-width: $mq-m) {
+    @media (min-width: $bp-medium) {
           grid-column: auto / span 6;
           display: block;
         }
-    @media (min-width: $mq-l) {
+    @media (min-width: $bp-large) {
           grid-column: auto / span 4;
         }
   }
 }
 div.hide-large {
   display: inline-block;
-@media (min-width: $mq-m) {
+@media (min-width: $bp-medium) {
         display: none;
     }
   }
@@ -468,11 +468,11 @@ input, button, submit { border:none; }
 .subscribe-input, .subscribe-btn {
   display: block;
   width: 100%;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
     display: inline-block;
     }
 }
-@media (min-width: $mq-m) {
+@media (min-width: $bp-medium) {
   .subscribe-input {
   width: 64%;
   border-right: 0!important;
@@ -481,7 +481,7 @@ input, button, submit { border:none; }
 .subscribe-btn {
   height: 48px;
   margin-top: 0.4em;
-  @media (min-width: $mq-m) {
+  @media (min-width: $bp-medium) {
       width: auto;
       margin-top: 0;
       margin-left: -0.4em;
