@@ -1,3 +1,5 @@
+/* carbonads */
+
 div#carbonads a {
   text-decoration: none;
 }
@@ -10,4 +12,14 @@ div#carbonads a {
   display: block;
   margin-top: 1em;
   font-size: 0.8em;
+}
+
+/* sponsor image */
+
+.sponsor-image {
+  width: 100%;
+  height: auto;
+  @media (min-width: $bp-medium) {
+    width: 60%;
+  }
 }
