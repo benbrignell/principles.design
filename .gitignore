@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .DS_Store
+assets/css
+node_modules
+*.swp
+_config_dev.yml

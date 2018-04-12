@@ -6,14 +6,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.overview %}{{ page.overview | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <style>
-      {% capture include_to_scssify %}
-        {% include main.scss %}
-      {% endcapture %}
-      {{ include_to_scssify | scssify }}
-    </style>
-
-    {% seo %}
+  {% include css.html %}
+  {% seo %}
 
   <meta property="og:image" content="https://principles.design/images/design-principles-og.png">
   <meta name="twitter:image:src" content="https://principles.design/images/design-principles-og.png">

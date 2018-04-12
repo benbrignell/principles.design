@@ -23,6 +23,9 @@ sass:
   style: compressed
 include: ['_pages']
 
+# Current site environment
+environment: production
+
 collections:
     examples:
         output: true
