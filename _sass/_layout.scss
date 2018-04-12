@@ -8,7 +8,8 @@
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 0;
   @media (min-width: $bp-medium) {
-    grid-gap: 1.4em;
+    grid-column-gap: 1.4em;
+    grid-row-gap: 0;
   }
 }
 
@@ -18,4 +19,8 @@
   @media (min-width: $bp-large) {
     grid-column: auto / span 6;
     }
+}
+
+.tiles {
+  grid-row-gap: 0;
 }
