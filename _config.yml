@@ -40,6 +40,8 @@ defaults:
     values:
       layout: "example"
 
+exclude:
+- node_modules
 plugins:
 - jekyll-last-modified-at # doesn't work with collections
 - jekyll-seo-tag
