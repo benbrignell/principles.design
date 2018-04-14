@@ -2,7 +2,6 @@
 title: Kotti Design Principles
 author: Kotti
 overview: |
-
 link: https://3yourmind.github.io/kotti/
 principles:
 - principle: Keen
@@ -20,5 +19,5 @@ principles:
 - principle: Intuitive
   summary: |
     The design should be intuitive and easy to understand, and decrease the learning curve.
-tags: [universal, software, organisation]
+tags: [universal, software, organisations]
 ---

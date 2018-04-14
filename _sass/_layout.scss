@@ -6,13 +6,12 @@
   zoom: 1;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 0;
+  grid-gap: 1.4;
   @media (min-width: $bp-medium) {
     grid-column-gap: 1.4em;
     grid-row-gap: 0;
   }
 }
-
 
 .two-up {
   grid-column: auto / span 12;
