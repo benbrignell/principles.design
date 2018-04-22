@@ -70,12 +70,12 @@ hr {
     padding: 0;
 }
 
-.site-logo img:hover, .logo:hover, .view-toggle:hover, .view-toggle-list:hover {
+.site-logo:hover, .logo:hover, .view-toggle:hover, .view-toggle-list:hover {
   transform: scale(1.05);
   transition: all .2s ease-in-out;
 }
 
-div.filters {
+.site-nav, div.filters {
   grid-column: auto / span 12;
 }
 div.filters span {
@@ -167,7 +167,7 @@ body.home header.site-header {
 }
 
 .site-header {
-  height: auto;
+  height: 4em;
   min-height: 4em;
   overflow: hidden;
 }
