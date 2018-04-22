@@ -1,46 +1,82 @@
-.site-logo {
+.site-logo img {
   float: left;
-  display: block;
-}
-.site-logo a img {
   width: 4em;
   height: 4em;
 }
-
-.site-nav ul {
-  list-style: none;
+nav {
+  grid-column: auto / span 12;
+}
+ul.nav {
+  width: auto;
   padding: 0;
-  margin-top: 0.5em;
-  float: none;
-  max-width: 400px; // forces nav to break onto two lines
-  overflow: visible; // allows localised text to overflow if longer
-  @media (min-width: $bp-large) {
-     padding-left: 1.6em;
-     margin: 0.4em;
-     float: right;
-     max-width: none;
-     width: auto;
-    }
-}
-.site-nav li {
-  margin-right: 0.6em;
+  list-style: none;
   font-weight: bold;
-  float: left;
-  display: inline-block;
+  margin: 0.4em 0 0 4em;
+  max-width: 380px;
+  @media (min-width: $bp-large) {
+    float: right;
+    margin-top: 0;
+    max-width: none;
+  }
 }
-.site-nav li:last-child {
+
+li.nav__item {
+  float: left;
+  margin-right: 0.8em;
+  cursor: pointer;
+  @media (min-width: $bp-large) {
+    height: 4em;
+    padding: 0 0.6em 0 0.6em;
+    margin-right: 0;
+  }
+}
+li.nav__item:last-child {
   margin-right: 0;
 }
-.site-nav a {
-  text-decoration: none;
+li.nav__item:hover {
+  background: lighten($primary, 20%);
+  transition: background-color .3s ease-in-out;
+  @media (min-width: $bp-large) {
+  border-top: solid $black 0.2em;
+  }
 }
-.site-nav a:hover {
-  text-decoration: underline;
+li.nav__item:hover a {
   color: $black;
+    @media (min-width: $bp-large) {
+      margin-top: -0.1em;
+  }
 }
-body.about nav a.about,
-body.create nav a.create,
-body.examples nav a.examples,
-body.contribute nav a.contribute {
-  text-decoration: underline;
+li.nav__item:last-child {
+  margin-right: 0;
+}
+li.nav__item a {
+  text-decoration: none;
+  @media (min-width: $bp-large) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  }
+}
+
+body.about li.about,
+body.create li.create,
+body.examples li.examples,
+body.contribute li.contribute,
+body.book li.book {
+  @media (min-width: $bp-large) {
+  border-top: solid $black 0.2em;
+  }
+}
+body.about li.about a,
+body.create li.create a,
+body.examples li.examples a,
+body.contribute li.contribute a,
+body.book li.book a {
+  @media (min-width: $bp-large) {
+  margin-top: -0.1em;
+  }
+}
+.pbn {
+  padding-bottom: 0!important;
 }
