@@ -161,16 +161,11 @@ p.source {
     width: 12em;
     }
 }
-body.home header.site-header {
+header.site-header {
   background: $primary;
   height: auto;
 }
 
-.site-header {
-  height: 4em;
-  min-height: 4em;
-  overflow: hidden;
-}
 div.page-content {
   background: $white;
 }
