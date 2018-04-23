@@ -37,13 +37,13 @@ li.nav__item:hover {
   background: lighten($primary, 20%);
   transition: background-color .3s ease-in-out;
   @media (min-width: $bp-large) {
-  border-top: solid $black 0.2em;
+  border-top: solid $black 4px;
   }
 }
 li.nav__item:hover a {
   color: $black;
     @media (min-width: $bp-large) {
-      margin-top: -0.1em;
+      margin-top: -2px;
   }
 }
 li.nav__item:last-child {
@@ -56,6 +56,7 @@ li.nav__item a {
   align-items: center;
   justify-content: center;
   height: 100%;
+  font-size: 1.63157895em; // taken from h3 size, need to mix in
   }
 }
 
@@ -65,7 +66,7 @@ body.examples li.examples,
 body.contribute li.contribute,
 body.book li.book {
   @media (min-width: $bp-large) {
-  border-top: solid $black 0.2em;
+  border-top: solid $black 4px;
   }
 }
 body.about li.about a,
@@ -74,7 +75,7 @@ body.examples li.examples a,
 body.contribute li.contribute a,
 body.book li.book a {
   @media (min-width: $bp-large) {
-  margin-top: -0.1em;
+    margin-top: -2px;
   }
 }
 .pbn {
