@@ -6,9 +6,10 @@
 @import "variables";
 
 // Generic site base & layout styles
+@import "typography";
+
 @import "base";
 // temporary styles while I figure out design ideas
-@import "typography";
 
 @import "scratch";
 
@@ -16,4 +17,5 @@
 @import "layout";
 @import "tile";
 @import "carbon";
+
 @import "utility"
