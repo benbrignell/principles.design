@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="wrapper">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    <article class="post-content">
+      {{ content }}
+      <div class="two-up">
+          <form action="https://tinyletter.com/benbrignell" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/benbrignell', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+          <input class="subscribe-input" input type="text" name="email" id="tlemail" placeholder="Enter your email address" autocorrect="off" autocapitalize="none" />
+          <input type="hidden" value="1" name="embed"/><input class="subscribe-btn" type="submit" value="Get book updates" />
+          </form>
+
+      </div>
+    </article>
+</div>
