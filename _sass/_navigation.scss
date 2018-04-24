@@ -44,7 +44,7 @@ li.nav__item:last-child {
   margin-right: 0;
 }
 li.nav__item:hover {
-  background: lighten($primary, 20%);
+  background: lighten($primary, 12.5%);
   transition: background-color .3s ease-in-out;
   @media (min-width: $bp-extra-large) {
   border-bottom: solid $black 4px;
