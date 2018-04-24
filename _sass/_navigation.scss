@@ -1,7 +1,16 @@
-.site-logo img {
+a.site-logo img {
   float: left;
+  width: 100%;
+  height: auto;
+}
+a.site-logo {
   width: 4em;
   height: 4em;
+  float: left;
+}
+a.site-logo:hover {
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
 }
 nav {
   grid-column: auto / span 12;
@@ -23,6 +32,7 @@ ul.nav {
 li.nav__item {
   float: left;
   margin-right: 0.8em;
+  transition: background-color .3s ease-in-out;
   cursor: pointer;
   @media (min-width: $bp-extra-large) {
     height: 4em;
@@ -37,13 +47,13 @@ li.nav__item:hover {
   background: lighten($primary, 20%);
   transition: background-color .3s ease-in-out;
   @media (min-width: $bp-extra-large) {
-  border-top: solid $black 4px;
+  border-bottom: solid $black 4px;
   }
 }
 li.nav__item:hover a {
   color: $black;
     @media (min-width: $bp-extra-large) {
-      margin-top: -2px;
+      margin-top: 2px;
   }
 }
 li.nav__item:last-child {
@@ -66,7 +76,7 @@ body.examples li.examples,
 body.contribute li.contribute,
 body.book li.book {
   @media (min-width: $bp-extra-large) {
-  border-top: solid $black 4px;
+  border-bottom: solid $black 4px;
   }
 }
 body.about li.about a,
@@ -75,7 +85,7 @@ body.examples li.examples a,
 body.contribute li.contribute a,
 body.book li.book a {
   @media (min-width: $bp-extra-large) {
-    margin-top: -2px;
+    margin-top: 2px;
   }
 }
 .pbn {
