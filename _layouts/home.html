@@ -8,33 +8,9 @@
 
 
     {% include header.html %}
-        <div class="wrapper">
-        {% include info-block.html title="This site is an open source resource created to help us understand and write Design Principles." description=""%}
-
-
-
-
-      </div>
-
-          <div class="wrapper">
-
-            {% assign authors =  site.examples | map: 'author' | uniq %}
-            {% assign principles =  site.examples | map: 'principles' | join: '- principle:'  | split: '- principle:' | uniq %}
-            <p class="full h3 mtn">The collection contains:</p>
-            <div class="three-up">
-              <p class="h1 bold mtn mbn">{{ site.examples.size }}</p>
-              <p>Examples</p>
-            </div>
-            <div class="three-up">
-              <p class="h1 bold mtn mbn">{{ principles.size }}</p>
-              <p>Design Principles</p>
-            </div>
-            <div class="three-up">
-              <p class="h1 bold mtn mbn">{{ authors.size }}</p>
-              <p>Creators</p>
-            </div>
-          </div>
-
+<!-- <div style="padding-top: 2em; margin-bottom: 2em; border-bottom: dashed 12px #efefef;"> -->
+          
+<!-- </div> -->
         <div class="wrapper">
         {% include info-block.html title="What are Design Principles?" description="Design Principles are a set of considerations that form the basis of any good product."%}
 

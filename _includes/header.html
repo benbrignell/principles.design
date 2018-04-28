@@ -4,6 +4,26 @@
     {% include nav.html %}
     {% if page.layout == "home" %}
     <h1 class="intro">Design <br>Principles</h1>
+    {% include info-block.html title="An open source collection of Design Principles and methods." description=""%}
+  </div>
+    <div class="wrapper">
+
+      {% assign authors =  site.examples | map: 'author' | uniq %}
+      {% assign principles =  site.examples | map: 'principles' | join: '- principle:'  | split: '- principle:' | uniq %}
+      <p class="full h3 mtn">The collection contains:</p>
+      <div class="three-up">
+        <p class="h1 bold mtn mbn">{{ site.examples.size }}</p>
+        <p>Examples</p>
+      </div>
+      <div class="three-up">
+        <p class="h1 bold mtn mbn">{{ principles.size }}</p>
+        <p>Design Principles</p>
+      </div>
+      <div class="three-up">
+        <p class="h1 bold mtn mbn">{{ authors.size }}</p>
+        <p>Creators</p>
+      </div>
+    </div>
     {% endif %}
   </div>
 </header>

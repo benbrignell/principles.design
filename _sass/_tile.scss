@@ -1,5 +1,5 @@
 .tile:hover {
-  background: lighten($primary, 12.5%);
+  background: $primary;
 }
 .tile a:hover, .tile-list a:hover {
   color: $black;
@@ -18,9 +18,6 @@ a.full-link {
   height: 100%;
   width: 100%;
   line-height: inherit;
-}
-body.examples .tile:hover {
-  background: $primary;
 }
 .ghost {
   border: dotted 8px $black;
