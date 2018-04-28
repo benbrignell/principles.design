@@ -495,3 +495,14 @@ header h1 {
   border-bottom: solid 4px $black;
   padding-bottom: 1em;
 }
+.grid-background {
+  background: url(/images/cross-grid.svg);
+  padding: 1em 0 0.6em 0;
+    @media (min-width: $bp-medium) {
+      height: 158px;
+      padding-bottom: none;
+    }
+    @media (min-width: $bp-large) {
+      height: 236px;
+    }
+}
