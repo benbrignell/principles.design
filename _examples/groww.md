@@ -22,4 +22,5 @@ principles:
 - principle: No spray
   summary: |
     We do not want pesticides, herbicides, or any other ‘-cides’ (from latin -cida, to kill) in Groww. We don’t put any in our gardens, and there is no reason to do otherwise in this app! And beyond: in the garden we should use local ressources – mulch from our clippings instead of cacao beans from the other side of the world, and try reuse and recycle everything that can be used again. This planet is our garden!
+tags: [specific, organisations]    
 ---
