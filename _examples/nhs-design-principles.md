@@ -1,6 +1,8 @@
 ---
 title: NHS Design Principles
 author: NHS
+featured: true
+
 overview: | 
         These principles guide all of our design. Use them to get started on a project and to help with making decisions.
         

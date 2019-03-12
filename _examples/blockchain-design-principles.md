@@ -1,7 +1,6 @@
 ---
 title: Blockchain Design Principles
 author: IBM Design
-featured: true
 overview: |
   The IBM Blockchain Design Team design supply chain flows and open source tools. Most users were new to blockchain. So they needed to be reassured by the principles of trust and consistency. Exposing blockchain transaction data to inform the user's understanding was a way to achieve this. By seeing what was happening a user could understand of what was actually happening. "People want to “see the blockchain” even when they don’t need to."
 
