@@ -30,14 +30,19 @@
   <meta name="msapplication-TileColor" content="#F7D708">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
   <meta name="theme-color" content="#F7D708">
-  <script>
-          if (navigator.userAgent.indexOf("Speed Insights") == -1) {
-                  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-                  ga('create', 'UA-100980700-1', 'auto');
-                  ga('send', 'pageview');
-                }
+<!-- Fathom - simple website analytics - https://usefathom.com -->
+<script>
+  (function(f, a, t, h, o, m){
+  a[h]=a[h]||function(){
+      (a[h].q=a[h].q||[]).push(arguments)
+  };
+  o=f.createElement('script'),
+  m=f.getElementsByTagName('script')[0];
+  o.async=1; o.src=t; o.id='fathom-script';
+  m.parentNode.insertBefore(o,m)
+  })(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
+  fathom('set', 'siteId', 'MFPJBOXE');
+  fathom('trackPageview');
   </script>
+  <!-- / Fathom -->
 </head>
