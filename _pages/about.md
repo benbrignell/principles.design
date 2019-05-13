@@ -9,7 +9,7 @@ body-class: about
 
 The (wip) project is managed by [Ben Brignell](https://twitter.com/benbrignell) an independent product designer from London.
 
-If you or your organisation want to book a one or two-day workshop to help your team write Design Principles then [please get in touch](https://brignell.uk).
+If you or your organisation want to book a one or two-day workshop to help your team write Design Principles then [please get in touch](https://benbrignell.com).
 
 ### What are Design Principles?
 
