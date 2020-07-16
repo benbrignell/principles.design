@@ -1,8 +1,7 @@
 ---
 title: 10 Usability Heuristics for User Interface Design
 author: Jakob Nielsen
-overview: |
-
+overview:
 link: https://www.nngroup.com/articles/ten-usability-heuristics/
 principles:
 - principle: Visibility of system status
