@@ -1,7 +1,12 @@
 ---
 layout: example
 title: Buildit | Wipro Digital's "Gravity" design system principles
-link: http://style.buildit.digital/
+link: https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26
+overview: |
+  Buildit, which is part of the digital transformation consultancy Wipro Digital, maintains its own design system called "Gravity". 
+overview-author: | 
+  @c1rrus
+
 principles:
   - principle: Inclusive
     summary: |
@@ -18,6 +23,4 @@ principles:
   - principle: Progressive
     summary: |
       Gravity is an opportunity for us to constantly try new things. New design directions. New technologies. New approaches towards designing and building user interfaces. We should take full advantage of this and strive to be a leader rather than a follower on all fronts.
-overview: Buildit, which is part of the digital transformation consultancy Wipro Digital, maintains its own design system called "Gravity". The story of how their design system started and how they arrived at this set of principles is chronicled in this article: https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26
-overview-author: @c1rrus
 ---
