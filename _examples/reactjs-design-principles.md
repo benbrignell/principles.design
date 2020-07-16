@@ -24,10 +24,10 @@ principles:
     It is a key goal for React that the amount of the user code that executes before yielding back into React is minimal. If something is offscreen, we can delay any logic related to it. If data is arriving faster than the frame rate, we can coalesce and batch updates. We can prioritize work coming from user interactions over less important background work to avoid dropping frames ensuring that React retains the capability to schedule and split work based on its knowledge about the UI.
 - principle: Developer Experience
   summary: |
-  Providing a good developer experience is important to us. We also try to go an extra mile to provide helpful developer warnings.The usage patterns that we see internally at Facebook help us understand what the common mistakes are, and how to prevent them early. When we add new features, we try to anticipate the common mistakes and warn about them.
+    Providing a good developer experience is important to us. We also try to go an extra mile to provide helpful developer warnings.The usage patterns that we see internally at Facebook help us understand what the common mistakes are, and how to prevent them early. When we add new features, we try to anticipate the common mistakes and warn about them.
 - principle: Debugging
   summary: |
-  When something goes wrong, it is important that you have breadcrumbs to trace the mistake to its source in the codebase. In React, props and state are those breadcrumbs. If the props are wrong, you can trace back to the poisonous component else if the state is wrong, we can monitor setState calls. This ability to trace any UI to the data that produced it is an explicit design goal to ensure that state is not “trapped” in closures and combinators, and is available to React directly.
+    When something goes wrong, it is important that you have breadcrumbs to trace the mistake to its source in the codebase. In React, props and state are those breadcrumbs. If the props are wrong, you can trace back to the poisonous component else if the state is wrong, we can monitor setState calls. This ability to trace any UI to the data that produced it is an explicit design goal to ensure that state is not “trapped” in closures and combinators, and is available to React directly.
 - principle: Configuration
   summary: |
     We find global runtime configuration options to be problematic. Since composition is central to React, we don’t provide global configuration in code.
