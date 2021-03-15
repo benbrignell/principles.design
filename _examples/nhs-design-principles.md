@@ -8,7 +8,7 @@ overview: |
         
         They're inspired by the <a href="https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england">NHS Constitution</a> that's steered the NHS for 70 years.
         
-        <a href="https://beta.nhs.uk/service-manual/assets/NHS_design_principles.pdf">NHS Design Principles poster</a> (PDF, 177kb)
+        <a href="https://service-manual.nhs.uk/assets/nhs-design-principles.pdf">NHS Design Principles poster</a> (PDF, 177kb)
 
 
 link: https://beta.nhs.uk/service-manual/design-principles
