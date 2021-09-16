@@ -2,7 +2,7 @@
 title: Shopify Principles
 author: Shopify
 overview:
-link: https://polaris.shopify.com/principles/principles
+link: https://polaris.shopify.com/foundations/experience-values
 principles:
 - principle: Put merchants first
 - principle: Empower but don’t overwhelm
