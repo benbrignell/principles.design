@@ -16,7 +16,7 @@ principles:
       We reinforce the message and meaning of the Inbound methodology. Our work makes the Inbound path clear to our users and helps them understand why it’s the right thing to do.
 - principle: Integrated
   summary: |
-    We reinforce the message and meaning of the Inbound methodology. Our work makes the Inbound path clear to our users and helps them understand why it’s the right thing to do.
+We simplify the user’s experience by creating a unified system that solves for their needs. Our work helps users achieve great things by offering a streamlined, efficient approach.
 - principle: Collaborative
   summary: |
     We devise powerful systems that encourage people to work seamlessly together. Our work helps people create and collaborate with each other in natural, intuitive ways.
