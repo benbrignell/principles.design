@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/benbrignell/principles.design#readme",
   "devDependencies": {
-    "node-sass": "^4.8.3",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.17.3"
   }
 }
