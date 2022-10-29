@@ -1,7 +1,7 @@
 ---
 title: Atlassian Design Principles
 author: Atlassian
-link : https://www.atlassian.design/guidelines/designPrinciples/design-principles
+link : https://atlassian.design/resources/atlassian-design-principles
 overview: |
    Atlassian is a enterprise software company that develops collaboration software. It is best known for its issue tracking application, Jira, and its team collaboration product, Confluence.
    At Atlassian, we believe that behind every great human achievement, there is a team. We create software to help unlock the power of teamwork and continuously try make our products, websites and integrations better at helping people and teams be more effective.
