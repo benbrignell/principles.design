@@ -1,0 +1,32 @@
+---
+title: Ergonomic criteria for the evaluation of human-computer interfaces
+author: Christian Bastien & Dominique Scapin
+overview: The “ergonomic criteria” are a set of eight design principles aimed at defining and operationalising dimensions of usability. They have been synthesized from a large set of pre-existing principles. They have been thoroughly tested by the authors regarding their reliability/effectiveness and improved accordingly. The linked document also provides subprinciples, definitions, rationales, examples and comments.
+link: https://inria.hal.science/inria-00070012/document
+principles:
+- principle: Guidance
+  summary: |
+    User Guidance refers to the means available to advise, orient, inform, instruct, and guide the users throughout their interactions with a computer (messages, alarms, labels, etc.), including from a lexical point of view. The criterion Guidance is subdivided into four criteria: Prompting, Grouping/Distinction of Items, Immediate Feedback, and Legibility.
+- principle: Workload
+  summary: |
+    The criterion Workload concerns all interface elements that play a role in the reduction of the users' perceptual or cognitive load, and in the increase of the dialogue efficiency. The criterion Workload is subdivided into two criteria: Brevity (which includes Concision and Minimal Actions), and Information Density.
+- principle: Explicit Control
+  summary: |
+    The criterion Explicit Control concerns both the system processing of explicit user actions, and the control users have on the processing of their actions by the system. The criterion Explicit Control is subdivided into two criteria: Explicit User Action, and User Control.
+- principle: Adaptability
+  summary: |
+    The adaptability of a system refers to its capacity to behave contextually and according to the users' needs and preferences. The criterion Adaptability is subdivided into two criteria: Flexibility and User Experience.
+- principle: Error Management
+  summary: |
+    The criterion Error Management refers to the means available to prevent or reduce errors and to recover from them when they occur. Errors are defined in this context as invalid data entry, invalid format for data entry, incorrect command syntax, etc. The criterion Error Management is subdivided into three criteria: Error Protection, Quality of Error Messages, and Error Correction.
+- principle: Consistency
+  summary: |
+    The criterion Consistency refers to the way interface design choices (codes, naming, formats, procedures, etc.) are maintained in similar contexts, and are different when applied to different contexts.
+- principle: Significance of Codes
+  summary: |
+    The criterion Significance of Codes qualifies the relationship between a term and/or a sign and its reference. Codes and names are significant to the users when there is a strong semantic relationship between such codes and the items or actions they refer to.
+- principle: Compatibility
+  summary: |
+    The criterion Compatibility refers to the match between users' characteristics (memory, perceptions, customs, skills, age, expectations, etc.) and task characteristics on the one hand, and the organisation of the output, input, and dialogue for a given application, on the other hand. The criterion Compatibility also concerns the coherence between
+environments and between applications.
+---
