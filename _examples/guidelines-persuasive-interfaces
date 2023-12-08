@@ -1,0 +1,31 @@
+---
+title: 8 Guidelines for Persuasive Interfaces
+author: Alexandra Nemery & Eric Brangier
+overview: The eight guidelines are aimed at assessing the persuasive characteristics of interfaces (web, software, etc.). The guidelines are derived from publications in the field of persuasive technology and went through experimentation validation.
+link: https://uxpajournal.org/set-of-guidelines-for-persuasive-interfaces-organization-and-validation-of-the-criteria/
+principles:
+- principle: Credibility
+  summary: |
+    The ability of the interface to inspire confidence and to make the user trust the veracity of its information.
+- principle: Privacy
+  summary: |
+    The protection of personal data, the preservation of personal integrity and the security of the interaction.
+- principle: Personalization
+  summary: |
+    The concept of customization aiming to adapt the interface to the user.
+- principle: Attractiveness
+  summary: |
+    Use of aesthetics (graphic, art, design) to capture the attention of the user, to support the interaction, and to create positive emotion.
+- principle: Solicitation
+  summary: |
+    The first stage that briefly attract and challenge the user to initiate the relationship.
+- principle: Priming
+  summary: |
+    Elements of the media that triggers the persuasive influence.
+- principle: Commitment
+  summary: |
+    The system continues to involve the user through a process.
+- principle: Ascendency
+  summary: |
+    Submission and obedience appear with the completion of the engaging scenario. The ascendency is the deepest form of technological persuasion.
+---
