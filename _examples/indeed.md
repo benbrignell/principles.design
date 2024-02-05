@@ -1,5 +1,5 @@
 ---
-title: Indeed UX Design Principles
+title: Indeed's UX Design Principles
 author: Indeed
 overview: Four values that guide how Indeed's User Experience team approaches its work, frames product decisions, and organizes itslef.
 link: https://indeed.design/article/indeeds-design-principles-and-how-we-made-them
