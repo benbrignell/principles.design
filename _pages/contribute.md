@@ -4,7 +4,6 @@ title: Contribute
 order: 4
 permalink: /contribute/
 body-class: contribute
-sidebar: 
 ---
 ## Submit 
 Submit design principles [via this short form](https://zursayc0713.typeform.com/to/DTkTul82)
