@@ -32,4 +32,18 @@
   <meta name="theme-color" content="#F7D708">
 <!-- Fathom - simple website analytics - https://usefathom.com -->
 
+  <!-- JavaScript for lazy loading the carbs -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var carbonScript = document.createElement('script');
+      carbonScript.async = true;
+      carbonScript.type = 'text/javascript';
+      carbonScript.src = '//cdn.carbonads.com/carbon.js?serve=CWYIE277&placement=principlesdesign&format=cover';
+      carbonScript.id = '_carbonads_js';
+
+      // Append the script to the container once the DOM is ready
+      document.getElementById('carbs').appendChild(carbonScript);
+    });
+  </script>
+
 </head>
