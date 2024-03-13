@@ -6,7 +6,7 @@ permalink: /contribute/
 body-class: contribute
 ---
 ## Submit 
-Submit design principles [via this short form](https://zursayc0713.typeform.com/to/DTkTul82)
+Submit design principles or suggested changes [via this short form](https://zursayc0713.typeform.com/to/DTkTul82)
 
 To ensure your subission is accepted please consider the following guidelines:
 
