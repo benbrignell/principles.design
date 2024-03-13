@@ -9,7 +9,6 @@ body-class: contribute
 
 Submit design principles or suggested edits **[via this short form](https://zursayc0713.typeform.com/to/DTkTul82)**
 
-
 ### Guidelines
 
 Submissions need to contain the following:
