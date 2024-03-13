@@ -1,6 +1,6 @@
 ---
 title: 10 Psychological Usability Heuristics
-author: Susan Weinschenk
+author: Susan Weinschenk and Jordi Sánchez
 overview:
 link: https://uxmag.com/articles/psychological-usability-heuristics
 principles:
