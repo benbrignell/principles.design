@@ -1,0 +1,10 @@
+    <div class="info-block" id="{{include.title | slugify}}">
+      <h2>{{include.title}}</h2>
+      <p class="h3">
+        {{include.description}}
+        {% if include.url %}
+        <br><a href="{{include.url}}">Read more…</a>
+        {% endif %}
+      </p>
+
+    </div>

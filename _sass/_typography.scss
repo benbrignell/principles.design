@@ -1,0 +1,206 @@
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 300;
+	src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Segoe UI Light"), local("Ubuntu Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 400;
+	src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+	font-family: system-ui;
+	font-style: normal;
+	font-weight: 700;
+	src: local(".SFNSText-Bold"), local(".HelveticaNeueDeskInterface-Bold"), local(".LucidaGrandeUI"), local("Segoe UI Bold"), local("Ubuntu Bold"), local("Roboto-Bold"), local("DroidSans-Bold"), local("Tahoma Bold");
+}
+
+
+html, .root {
+  font-size: 19px;
+  line-height: 29px;
+}
+body, .article {
+  font-size: 1em;
+  line-height: 1.52631579em;
+  color: $black;
+  font-family: $body-font;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+h1, .h1 {
+  //  L h2
+  font-size: 2.63157895em;
+  line-height: 1.16em;
+  margin-top: 0.58em;
+  margin-bottom: 0.58em;
+  @media (min-width: $bp-large) {
+    // L h1
+    font-size: 4.21052632em;
+    line-height: 1.0875em;
+    margin-top: 0.3625em;
+    margin-bottom: 0.725em;
+      }
+}
+h2, .h2 {
+  // L h3
+  font-size: 1.63157895em;
+  // line-height: 1.87096774em;
+  margin-top: 0.93548387em;
+  margin-bottom: 0em;
+  @media (min-width: $bp-large){
+    // L h2
+    font-size: 2.63157895em;
+    line-height: 1.16em;
+    margin-top: 0.58em;
+    margin-bottom: 0.58em;
+  }
+}
+h3, .h3 {
+    // L h4
+    font-size: 1em;
+    // line-height: 1.52631579em;
+    margin-top: 1.52631579em;
+    margin-bottom: 0em;
+  @media (min-width: $bp-large){
+    // L h3
+    font-size: 1.63157895em;
+    line-height: 1.87096774em;
+    margin-top: 0.93548387em;
+    margin-bottom: 0em;
+  }
+}
+h4, .h4{
+  // L h5
+  font-size: 1em;
+  // line-height: 1.52631579em;
+  margin-top: 1.52631579em;
+  margin-bottom: 0em;
+  @media (min-width: $bp-large){
+    // L h4
+    font-size: 1em;
+    line-height: 1.52631579em;
+    margin-top: 1.52631579em;
+    margin-bottom: 0em;
+  }
+}
+
+// homepage hero h1
+h1.intro {
+  font-size: 3em;
+  line-height: 1.0;
+  display: block;
+	float: left;
+}
+
+@supports (display: grid) {
+	h1.intro {
+		grid-column: auto / span 10;
+	}
+}
+
+
+@media (min-width: $bp-medium) {
+  h1.intro {
+    font-size: 6em;
+  }
+}
+
+.wrap-string {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+// original font size/vertical rhythm calculations for reference:
+// h1, .h1 {
+//   font-size: 4.21052632em;
+//   line-height: 1.0875em;
+//   margin-top: 0.3625em;
+//   margin-bottom: 0.725em;
+// }
+// h2, .h2 {
+//   font-size: 2.63157895em;
+//   line-height: 1.16em;
+//   margin-top: 0.58em;
+//   margin-bottom: 0.58em;
+// }
+// h3, .h3 {
+//   font-size: 1.63157895em;
+//   line-height: 1.87096774em;
+//   margin-top: 0.93548387em;
+//   margin-bottom: 0em;
+// }
+// h4, .h4 {
+//   font-size: 1em;
+//   line-height: 1.52631579em;
+//   margin-top: 1.52631579em;
+//   margin-bottom: 0em;
+// }
+// h5, .h5 {
+//   font-size: 1em;
+//   line-height: 1.52631579em;
+//   margin-top: 1.52631579em;
+//   margin-bottom: 0em;
+// }
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0em;
+  margin-bottom: 1.52631579em;
+}
+p {
+  max-width: 40em;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a,b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}

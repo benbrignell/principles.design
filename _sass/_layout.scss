@@ -1,0 +1,25 @@
+.wrapper {
+  width: 85%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  zoom: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1.4;
+  @media (min-width: $bp-medium) {
+    grid-column-gap: 1.4em;
+    grid-row-gap: 0;
+  }
+}
+
+.two-up {
+  grid-column: auto / span 12;
+  @media (min-width: $bp-large) {
+    grid-column: auto / span 6;
+    }
+}
+
+.tiles {
+  grid-row-gap: 0;
+}

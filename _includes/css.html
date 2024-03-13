@@ -1,0 +1,5 @@
+{% if site.environment == 'dev' %}
+    <link rel="stylesheet" href="/assets/css/main.css" />
+{% else %}
+    <style>{% include main.css %}</style>
+{% endif %}
