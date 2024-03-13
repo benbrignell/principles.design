@@ -1,6 +1,6 @@
 ---
 title: Principles of Web Development
-author: Jens Meiert
+author: Jens Oliver Meiert
 overview:
 link: https://meiert.com/en/blog/principles-of-web-development/
 principles:
