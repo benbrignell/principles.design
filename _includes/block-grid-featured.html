@@ -1,0 +1,11 @@
+<div class="wrapper tiles">
+  {% assign featured_posts = (site.examples|where:"featured","true") %}
+  {% for example in featured_posts %}
+  {% include block-tile.html %}
+  {% endfor %}
+  {% include block-tile-ghost.html %}
+
+
+  <p class="full h3 arrow"><a class="tdn" href="{{site.baseurl}}/examples/">See all <strong>{{ site.examples.size }}</strong> examples</a></p>
+
+</div>

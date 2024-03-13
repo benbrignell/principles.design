@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>cross-grid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="cross-grid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#F8DF39" stroke-width="2" x="1" y="1" width="78" height="78"></rect>
+        <path d="M80,0 L0,80" id="Line" stroke="#F8DF39" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M0,0 L80,80" id="Line-2" stroke="#F8DF39" stroke-width="2" stroke-linecap="square"></path>
+        <path d="M40,0 L40,80" id="Line-3" stroke="#F8DF39" stroke-linecap="square"></path>
+        <path d="M0,40 L80,40" id="Line-4" stroke="#F8DF39" stroke-linecap="square"></path>
+    </g>
+</svg>

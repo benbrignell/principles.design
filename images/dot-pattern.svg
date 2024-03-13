@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>dot-pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="dot-pattern" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#E8E6D4" cx="0" cy="0" r="11"></circle>
+        <circle id="Oval-Copy-3" fill="#E8E6D4" cx="78" cy="0" r="11"></circle>
+        <circle id="Oval-Copy" fill="#E8E6D4" cx="0" cy="78" r="11"></circle>
+        <circle id="Oval-Copy-4" fill="#E8E6D4" cx="78" cy="78" r="11"></circle>
+        <circle id="Oval-Copy-2" fill="#E8E6D4" cx="39" cy="39" r="11"></circle>
+    </g>
+</svg>

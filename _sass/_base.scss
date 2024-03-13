@@ -1,0 +1,52 @@
+// Base styles
+// ---------------------------------------/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+}
+
+.footer {
+  background: $linen;
+}
+
+
+/* Links */
+a {
+  color: $black;
+  text-decoration: underline; // text-decoration-skip fallback
+  text-decoration-skip: ink; // although this is pretty ugly
+
+}
+a:hover {
+  color: $secondary;
+  text-decoration: none;
+}
+
+
+
+.tiles {
+  grid-row-gap: 0;
+}
+
+
+// clearfix (now called group,
+// via http://css-tricks.com/snippets/css/clear-fix/)
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+
+::-moz-selection {
+    background: rgba(51,51,51,.8);
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: rgba(51,51,51,.8);
+    color: #fff;
+    text-shadow: none;
+}
