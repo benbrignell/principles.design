@@ -4,10 +4,30 @@ title: Contribute
 order: 4
 permalink: /contribute/
 body-class: contribute
----
-## Submit 
+sidebar: |
+    <p><strong><img src="/images/github-icon.svg" style="height: 1em; width: auto;" alt="Contribute to this project on GitHub">
+    Contribute on GitHub</strong>
+    <br>
+    <a href="https://github.com/benbrignell/principles.design"> Visit the GitHub repository</a>
+    <br>
+    <a href="https://github.com/benbrignell/principles.design#contributing"> Submitting & Editing Design Principles</a>
+    <br>
+    <a href="https://github.com/benbrignell/principles.design/issues">Reporting a bug or issue</a></p>
 
-Submit design principles or suggested edits **[via this short form](https://zursayc0713.typeform.com/to/DTkTul82)**
+    <p><strong><img src="/images/twitter-icon.svg" style="height: 1em; width: auto;" alt="Twitter">
+    Follow & Share</strong>
+    <br>
+    <a href="https://twitter.com/dsgnprinciples">@dsgnprinciples on Twitter</a></p>
+
+---
+## Submitting or editing design principles in the collection
+
+If you wish to submit a new example or edit an existing example there are two ways.
+
+1. [Submit an example or suggested edit **via a short form**](https://zursayc0713.typeform.com/to/DTkTul82)
+2. [Submit an example or make an edit **via pull request on GitHub**](https://github.com/benbrignell/principles.design#contributing). 
+  * **Submissions:** [Follow the guidelines to submitting a new example](https://github.com/benbrignell/principles.design#contributing)
+  * **Edits:** You can make an edit via the GitHub link on a design principles examples page.
 
 ### Guidelines
 
