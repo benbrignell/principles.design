@@ -1,7 +1,8 @@
 ---
 title: Atlassian Design System – Values and Principles
 author: Atlassian Design System, Atlassian
-overview-author: @jenniesyip
+overview-author: > 
+  @jenniesyip
 overview: | 
   We use the Atlassian Design System values and principles to align our team around a clear set of shared beliefs and goals. They embody our team ethos and will evolve as the design system changes and scales over time.
   Values are our fundamental beliefs (what we hold true), and principles exist to guide our behavior (how we achieve those values).
