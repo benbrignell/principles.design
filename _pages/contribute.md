@@ -7,9 +7,7 @@ body-class: contribute
 sidebar: 
 ---
 ## Submit 
-Submit design principles [via this short form](https://zursayc0713.typeform.com/to/DTkTul82)
-
-To ensure your subission is accepted please consider the following guidelines:
+Submit design principles or suggest edits [via this short form](https://zursayc0713.typeform.com/to/DTkTul82)
 
 ### Guidelines
 
