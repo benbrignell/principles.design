@@ -1,0 +1,31 @@
+---
+title: 8 Design Principles for Shared Physical Artefacts
+author: Clement Colin
+overview: The “shareability principles” are a set of eight design principles aimed at defining and operationalising sharing activities. They are specific to shared physical artefacts (e.g., cars, tools). They have been synthesized from elements extracted from reports and scientific papers. They have been tested experimentally regarding their reliability/effectiveness and improved accordingly. The linked document also provides subprinciples and extended definitions.
+link: https://www.theses.fr/en/2023LORR0056
+principles:
+- principle: Cooperativity
+  summary: |
+    Enable the emergence and maintenance of cooperative behaviour among users.
+- principle: Decontamination
+  summary: |
+    Limit feelings of disgust towards the shared artefact and other users.
+- principle: Governance
+  summary: |
+    Organize and regulate stakeholder relations.
+- principle: Maintenance
+  summary: |
+    Monitor the status of shared artefact and organize maintenance operations.
+- principle: Psychological Appropriation
+  summary: |
+    Foster a sense of ownership of the object and service.
+- principle: Risk Mitigation
+  summary: |
+    Limits risks to users' health, activity or data.
+- principle: Support
+  summary: |
+    Support the people who share and start up the service.
+- principle: Value
+  summary: |
+    Highlight the added value to motivate use.
+---
