@@ -1,6 +1,7 @@
 ---
 title: Salesforce Lightning Design Principles
 author: Salesforce
+link: https://www.lightningdesignsystem.com/guidelines/overview/
 overview: |
 
 link:
