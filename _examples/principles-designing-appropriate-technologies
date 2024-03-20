@@ -1,0 +1,28 @@
+---
+title: 7 Principles for Designing Appropriate Technologies
+author: Clement Colin & Antoine Martin
+overview: The seven design principles are aimed at arbitrating the level of technical intensity to be proposed as well as improving the user experience of appropriate technologies (a.k.a. “low-techs”). Appropriate technologies are an interesting alternative when looking for technical solutions that can have a reduced impact on the environment as well as a positive impact on human well-being. Yet, appropriate technologies tend to be user-intensive and suffer from a makeshift appearance, which generates user problems. The seven design principles can guide you toward possible solutions. You can use them to guide you when designing appropriate technologies but also as a way to reflect on your day-to-day practice within the mainstream user experience paradigm (for example, during reflective practice workshops).
+link: https://uxpajournal.org/ux-low-techs-design-principles/
+principles:
+- principle: Identify priority needs to derive necessary functionality
+  summary: |
+    Organize the participative identification and prioritization of the situated needs that the appropriate technology must meet in order to define the appropriate functionalities.
+- principle: Strike the right balance between empowerment and assistance
+  summary: |
+    Define the right level needed for the empowerment of the users and propose the appropriate level of technical assistance and service.
+- principle: Pay attention to nonfunctional features
+  summary: |
+    Define which non-functional features are crucial for the use of the appropriate technology and implement these features.
+- principle: Facilitate discoverability
+  summary: |
+    Enable the autonomy of users who do not have extensive knowledge of the artifact or activity at hand during any first steps they can take through improved discoverability of interaction possibilities.
+- principle: Make artifact and operation transparent
+  summary: |
+    Enable users to efficiently monitor the operation of the appropriate technology.
+- principle: Develop user technical knowledge and skill
+  summary: |
+    Enable the use of appropriate technologies by different users’ skill profiles and support the development of user skills related to their production, installation, and use.
+- principle: Compensate increased material loads and deficits
+  summary: |
+    Pay attention to the material flows that the appropriate technology requires or generates to be usable.
+---
