@@ -9,7 +9,7 @@ body-class: about
 
 This [open source project](https://github.com/benbrignell/principles.design) is managed by [Ben Brignell](https://benbrignell.com), an independent product designer and consultant from the U.K.
 
-Ben has always been interested in design principles and how they can assist when making decisions. He has helped organisations develop their principles and [conducts workshops](https://benbrignell.com/pages/workshops) enabling product teams to build the capabilities to do so in-house. 
+Ben has always been interested in design principles and how they can assist when making decisions. He has helped organisations develop their principles and [conducts workshops](/workshops-and-advice) enabling product teams to build the capabilities to do so in-house. 
 
 The project, launched in December 2017, has won awards and attracted millions of visitors. It serves as a valuable resource for user experience designers, product designers, organisations, schools and universities worldwide helping people understand design principles and their application in design, technology, architecture and infrastructure.
 
