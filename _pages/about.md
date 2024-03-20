@@ -7,17 +7,10 @@ body-class: about
 ---
 ## [principles.design](https://principles.design) is a place to learn about and create Design Principles
 
-The (wip) project is managed by [Ben Brignell](https://twitter.com/benbrignell) an independent product designer from London.
+This [open source project](https://github.com/benbrignell/principles.design) is managed by [Ben Brignell](https://benbrignell.com), an independent product designer and consultant from the U.K.
 
-If you or your organisation want to book a one or two-day workshop to help your team write Design Principles then [please get in touch](https://benbrignell.com).
+Ben has always been interested in design principles and how they can assist when making decisions. He has helped organisations develop their principles and [conducts workshops](https://benbrignell.com/pages/workshops) enabling product teams to build the capabilities to do so in-house. 
 
-### What are Design Principles?
+The project, launched in December 2017, has won awards and attracted millions of visitors. It serves as a valuable resource for user experience designers, product designers, organisations, schools and universities worldwide helping people understand design principles and their application in design, technology, architecture and infrastructure.
 
-[Take a look at our brief explanation about what Design Principles are](https://principles.design#what-are-design-principles) and what value they have. If you prefer to learn by example there's plenty of real-life examples on the [examples page](/examples).
-
-### What's next?
-The aim of the site is to help us analyse what good Design Principles are. How Design Principles are created and measured. How they develop. Design Principles should be improved over time, how can we build a history of Design Principles and their improvements?
-
-There are still a few more things to come which are listed on the [roadmap](https://github.com/benbrignell/design-principles/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap).
-
-Feedback and suggestions welcome!
+If you have found an example or have developed your own principles and they are available to the public then please add them to the [collection](/contribute).
