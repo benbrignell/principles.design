@@ -1,0 +1,22 @@
+---
+title: How To Apply Gestalt Psychology Principles in Data Visualization
+author: Mala Deep Upadhaya
+overview:
+link: https://medium.com/nightingale/how-to-apply-gestalt-psychology-principles-in-data-visualization-6242f4f1a3de
+principles:
+- principle: Law of Simplicity 
+  summary: |
+    The Law of Simplicity refers to the ability to perceive visual meaning with minimum cognitive effort. Therefore, this law is also known as the Law of Good Figure. Humans seek simplicity in complex shapes in order to avoid information overload. Simple charts are better for communicating data. They are easier to process and remember than visually-complex charts. Practitioners should embrace techniques like sorting items, removing the use of multi-color, simplifying or reducing jargon, which can ease the cognitive burden.
+- principle: Law of Proximity
+  summary: |
+    When elements are positioned close to one another, they are seen as part of a group rather than when they are spaced farther apart. This is especially true when the elements are closer to each other than they are to any other elements. Visually-related elements are vital to encourage the viewer to scan the information given and understand it with as little work as possible. The Proximity Principle is used to convey relationships. Practitioners can help viewers structure information and better perceive meaning by organizing the space around each group.
+- principle: Law of Similarity
+  summary: |
+    Practitioners can use similar characteristics and attributes (color, size, shape, etc.) to establish relationships between objects and to reinforce groupings.
+- principle: Law of Figure and Ground
+  summary: |
+    The Figure and Ground Principle describes the capacity to perceive the relationship between form and surrounding space to create meaning. A sense of wholeness or unity depends on how you perceive the relationship between an object and the area in which it is contained. The ‘figure’ is the focus element, while the ‘ground’ is the figure’s background.
+- principle: Law of Focal Point
+  summary: |
+    The Focal Point principle states that whatever stands out visually will be given priority attention by the audience. In other words, elements that are different from their surroundings are more noticeable.
+---
