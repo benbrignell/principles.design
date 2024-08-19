@@ -1,28 +1,28 @@
 ---
 title: 7 Principles for Designing Appropriate Technologies
 author: Clement Colin & Antoine Martin
-overview: The seven design principles are aimed at arbitrating the level of technical intensity to be proposed as well as improving the user experience of appropriate technologies (a.k.a. “low-techs”). Appropriate technologies are an interesting alternative when looking for technical solutions that can have a reduced impact on the environment as well as a positive impact on human well-being. Yet, appropriate technologies tend to be user-intensive and suffer from a makeshift appearance, which generates user problems. The seven design principles can guide you toward possible solutions. You can use them to guide you when designing appropriate technologies but also as a way to reflect on your day-to-day practice within the mainstream user experience paradigm (for example, during reflective practice workshops).
-link: https://uxpajournal.org/ux-low-techs-design-principles/
+overview: The seven design principles are aimed at arbitrating the level of machinal intensity to be proposed as well as improving the user experience of appropriate technologies (a.k.a. “low-techs”). Appropriate technologies are an interesting alternative when looking for technical solutions that can have a reduced impact on the environment as well as a positive impact on human well-being. Yet, appropriate technologies tend to be user-intensive and suffer from a makeshift appearance, which generates user problems. The seven design principles can guide you toward possible solutions. You can use them to guide you when designing appropriate technologies but also as a way to reflect on your day-to-day practice within the mainstream user experience paradigm (for example, during reflective practice workshops).
+link: https://hal.science/hal-04647246
 principles:
-- principle: Identify priority needs to derive necessary functionality
+- principle: Needs and Satisfiers Negotiation
   summary: |
-    Organize the participative identification and prioritization of the situated needs that the appropriate technology must meet in order to define the appropriate functionalities.
-- principle: Strike the right balance between empowerment and assistance
+    Needs and Satisfiers Negotiation is a process encompassing the participative identification, prioritization and dimensioning of the situated needs and satisfiers that the low-tech artefact must meet in order to define the appropriate functionalities.
+- principle: Autonomy-Assistance Arbitration
   summary: |
-    Define the right level needed for the empowerment of the users and propose the appropriate level of technical assistance and service.
-- principle: Pay attention to nonfunctional features
+    Autonomy-Assistance Arbitration refers to the identification of the tasks that should be handled by the artefact/service and those that should be handled by users. This is done using potential human/environmental harms (e.g., dependency) and benefits (e.g., empowerment) as well as relative capacities of human/artefact as arbitration criteria.
+- principle: Non-Functional Aspects
   summary: |
-    Define which non-functional features are crucial for the use of the appropriate technology and implement these features.
-- principle: Facilitate discoverability
+    Non-Functional Aspects are cultural, legal and aesthetic features that are important for the experience of the low-tech artefact without playing a direct functional role in the artefact’s operations.
+- principle: Discoverability
   summary: |
-    Enable the autonomy of users who do not have extensive knowledge of the artifact or activity at hand during any first steps they can take through improved discoverability of interaction possibilities.
-- principle: Make artifact and operation transparent
+    Discoverability is the easiness with which lowtechs’ users can identify interaction possibilities and the current state of the device.
+- principle: Operative Transparency
   summary: |
-    Enable users to efficiently monitor the operation of the appropriate technology.
-- principle: Develop user technical knowledge and skill
+    Operative Transparency is the degree of accessibility for users to the knowledge, procedures and models underlying the artefact’s operation. It minimizes the distance that the artefact places between users and reality and enable them to efficiently monitor the operation of the low-tech artefact.
+- principle: Information, Education and Training
   summary: |
-    Enable the use of appropriate technologies by different users’ skill profiles and support the development of user skills related to their production, installation, and use.
-- principle: Compensate increased material loads and deficits
+    Information, Education and Training is the development of user skills and knowledge related to the production, installation, and use of low-tech artefacts. It enables the use of low-techs by different users’ skill profiles and the improvement of their technological literacy.
+- principle: Compensation
   summary: |
-    Pay attention to the material flows that the appropriate technology requires or generates to be usable.
+    Compensation is the process that counterbalances the new material flows that the low-tech artefact requires or generates to be usable compared to an alternative of higher machinal intensity.
 ---
