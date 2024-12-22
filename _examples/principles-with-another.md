@@ -1,0 +1,20 @@
+---
+title: principles with another
+author: Pumla Maswanganyi edited by Cherné Africa, from with another.
+overview: with another is an art, design and research led consultancy and studio. We believe in creation that acknowledges histories and contributes to creating empowered future heritages. Through our end-to-end offerings, we embrace inclusivity across physical, digital and intellectual realms. We collaborate closely with organisations and communities to develop propositions that honour methodical processes and tangible regenerative outcomes. As a team of creators, strategists, researchers etc, halling from South Africa; we have realised that it is important to honour our diversity, and multi-layered histories in order to proactively contribute to our futures. There is no room to simply copy and paste methodologies we have been fed from globally recognised ‘design centers’. Instead we focus on identifying our own methods in an iterative fashion, in order to create in a way that is not only restorative, but is also regenerative. Our ethos (as seen in our principles) underscores our commitment to shaping the future of design by championing a recognition of the importance of process, rooting design within its context, centering inclusivity through multi-sensoriality, and celebrating partnership over ownership.
+link: (https://www.linkedin.com/company/with-another/)
+principles:
+- principle: Course and Effect
+  summary: |
+    The journey of a methodical process (course) leads to a defined outcome (effect). We recognise that each process step contributes to the final result, and bears the imprint and purpose of the design. Taxonomy of Essentials-We undergo a deliberate design process that identifies and prioritises only that which is truly beneficial, incorporating intentional breathing space to allow room for modularity and for one to continue to shape the proposition in the best fit way. This approach ensures that each element serves a distinct purpose, guided by ethical principles and a deep respect for context.
+- principle: Acknowledgment or Furtherance
+  summary: |
+    When assessing context, we reflect on the inherited foundations and present experiences-celebrating and (furthering) what is due, while (acknowledging) that which needs to be changed. This exploration is governed by the question ‘What kind of ancestor do you want to be?’. Developing (Upon) Canons-We recognise that archives exist in a multiplicity of formats, some visceral, others ephemeral—but all living. As a result, we are adding to present lexicons, archives, and indices, in turn contributing to future heritages we can be proud of.
+- principle: Multi-sensory Materialism
+  summary: |
+    We recognise that the material from which we shape our worlds, comes in a diverse array of forms, extending beyond the merely physical. Whether we are engaging materials and elements we cannot physically grasp such as ideas or air, or more tactile matter, it is crucial to acknowledge and appreciate the full spectrum of materiality. Multidimensional experiences-Our approach emphasises multisensoriality, embracing the sensory richness inherent in the lived experience. We reject the trend towards a sensory ‘flattening’ that only privileges the visible or the ‘tangible’, therefore shaping inclusive imaginaries.
+- principle: Joint Wisdom and Custodianship in Practice
+  summary: |
+    We value a reciprocal exchange of knowledge, recognising the omnipresence of expertise. Wisdom exists all around us, and is also especially embedded in the land, culture, experiences, and reflections of those we collaborate with. In partnership, we prioritise joint wisdom, fostering a cyclical relationship of knowledge exchange. This mutual learning process empowers all parties to confidently assume custodianship over the proposition.
+licensing: with another manifesto and principles © 2024 by Pumla Maswanganyi and Cherné Africa of with another is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+---
