@@ -47,7 +47,6 @@ You don't need to cover all these things in detail. Overall we want to know the 
 
 Here are some great examples of those that do this:
 
-* [Airbnb](https://airbnb.design/the-way-we-build/)
 * [Government Design Principles](https://www.gov.uk/guidance/government-design-principles)
 * [Josh Clark's "Design in the Era of the Algorithm"](https://bigmedium.com/speaking/design-in-the-era-of-the-algorithm.html)
 
