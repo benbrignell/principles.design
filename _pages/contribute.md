@@ -14,10 +14,10 @@ sidebar: |
     <br>
     <a href="https://github.com/benbrignell/principles.design/issues">Reporting a bug or issue</a></p>
 
-    <p><strong><img src="/images/twitter-icon.svg" style="height: 1em; width: auto;" alt="Twitter">
-    Follow & Share</strong>
+    <p><strong>Thank you!</strong>
     <br>
-    <a href="https://twitter.com/dsgnprinciples">@dsgnprinciples on Twitter</a></p>
+
+    Thanks to all the <a href="https://github.com/benbrignell/design-principles/graphs/contributors">contributors</a> who have submitted examples to the collection.</p>
 
 ---
 ## Submitting or editing design principles in the collection
