@@ -1,6 +1,6 @@
 ---
 title: Airbnb's Design Principles
-link : https://airbnb.design/the-way-we-build/
+link : http://web.archive.org/web/20240516053655/https://airbnb.design/the-way-we-build/
 author: Airbnb
 featured: true
 overview:
