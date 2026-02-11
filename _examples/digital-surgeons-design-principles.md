@@ -1,6 +1,6 @@
 ---
 title: Digital Surgeon's Design Principles
-link: https://www.digitalsurgeons.com/what/design-principles/
+link: http://web.archive.org/web/20210920151827/https://www.digitalsurgeons.com/what/design-principles/
 author: Digital Surgeons
 overview:
 principles:

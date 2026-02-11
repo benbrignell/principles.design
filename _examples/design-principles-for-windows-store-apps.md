@@ -3,7 +3,7 @@ title: Design Principles for Windows Store apps
 author: Microsoft
 overview: |
 
-link: https://docs.microsoft.com/en-us/windows/uwp/design/basics/design-and-ui-intro
+link: http://web.archive.org/web/20210506013825/https://docs.microsoft.com/en-us/windows/uwp/design/basics/design-and-ui-intro
 principles:
 - principle: Pride in craftsmanship
   summary: |

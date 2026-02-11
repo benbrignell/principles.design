@@ -3,6 +3,7 @@ title: GEL Westpac
 author: GEL Team @ Westpac
 overview:
 link: https://gel.westpacgroup.com.au/principles/
+link-dead: true
 principles:
 - principle: Customer centricity
   summary: |

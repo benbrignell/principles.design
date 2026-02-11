@@ -3,6 +3,7 @@ title: Designing for Virtual Reality
 author: Google
 overview: |
 link: http://ustwo.com/blog/designing-for-virtual-reality-google-cardboard/
+link-dead: true
 principles:
 - principle: Head Tracking
   summary: |

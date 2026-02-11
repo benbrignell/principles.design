@@ -3,7 +3,7 @@ title: Ebay Experience Principles
 author: Ebay
 overview: |
 
-link: https://pages.ebay.com/design/about/
+link: http://web.archive.org/web/20210624115645/https://pages.ebay.com/design/about/
 principles:
 - principle: Original but familiar
   summary: |
