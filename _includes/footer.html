@@ -176,6 +176,7 @@ checks.map(function (check) {
 });
 </script>
 {% endif %}
+{% if site.environment == 'production' %}
 <script>
   (function(f, a, t, h, o, m){
   a[h]=a[h]||function(){
@@ -189,4 +190,5 @@ checks.map(function (check) {
   fathom('set', 'siteId', 'MFPJBOXE');
   fathom('trackPageview');
   </script>
+{% endif %}
   <!-- / Fathom -->
