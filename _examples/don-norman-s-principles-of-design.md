@@ -1,5 +1,5 @@
 ---
-title: Don Normans Principles of Design
+title: Don Norman's Principles of Design
 author: Don Norman
 overview: |
 
