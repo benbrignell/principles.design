@@ -3,7 +3,7 @@ title: The Building Blocks of Sustainable Web Design
 author: Mightybytes
 overview: |
   According to the March 1, 2015 run of the HTTP Archive, the average web page is now over 2 megabytes (2008 kb, to be precise). Bloated websites lead to slow load times, frustrated users and wasted energy. Mightybytes has identified four key areas where sustainability principles can be applied to the process of creating websites that are speedy, user-friendly and energy-efficient.
-link: https://sustainablewebdesign.org/
+link: http://web.archive.org/web/20260131222242/https://sustainablewebdesign.org/
 principles:
 - principle: Findability
   summary: |

@@ -3,7 +3,7 @@ title: SAP Fiori Design Principles
 author: SAP
 overview: |
   The design philosophy of SAP Fiori is based on five core principles. SAP Fiori user experience is role-based, adaptive, simple, coherent, and delightful.
-link: https://experience.sap.com/fiori-design-web/design-principles/
+link: http://web.archive.org/web/20250316132706/https://experience.sap.com/fiori-design-web/design-principles/
 principles:
 - principle: Role-based
   summary: |

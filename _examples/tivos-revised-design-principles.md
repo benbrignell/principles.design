@@ -2,7 +2,7 @@
 title: Tivo's Revised Design Principles
 author: Tivo
 overview:
-link: http://www.pvrblog.com/2004/12/the_pvrblog_int.html
+link: http://web.archive.org/web/20240705003536/https://www.pvrblog.com/2004/12/the_pvrblog_int.html
 principles:
 - principle: It is reliable.
 - principle: It puts me in control.

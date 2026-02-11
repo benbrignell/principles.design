@@ -2,7 +2,7 @@
 title: 10 Principles For Design In The Age Of AI
 author: Yves Béhar
 overview:
-link: https://www.fastcodesign.com/3067632/10-principles-for-design-in-the-age-of-ai
+link: http://web.archive.org/web/20170624075744/https://www.fastcodesign.com/3067632/10-principles-for-design-in-the-age-of-ai
 principles:
 - principle: Design solves an important human problem
 - principle: Design is context specific (it doesn’t follow historical cliches)
