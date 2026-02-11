@@ -8,6 +8,7 @@ overview: |
 
     To achieve quality we follow these design principles:
 link: https://www.oxfordcc.co.uk/design-principles/
+link-dead: true
 principles:
 - principle: Meet users early and often
   summary: |

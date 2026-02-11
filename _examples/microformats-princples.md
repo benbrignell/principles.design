@@ -3,7 +3,7 @@ title: Microformats Principles
 author: microformats.org
 overview: |
   A key differentiating factor between microformats and other formats are the principles upon which microformats have been researched, designed, and developed.
-link: http://microformats.org/wiki/principles
+link: http://web.archive.org/web/20260115191150/http://microformats.org/wiki/principles
 principles:
 - principle: Solve a specific problem
 - principle: Start as simple as possible

@@ -2,7 +2,7 @@
 title: The Key Minimalist Graphic Design Fundamentals
 author: "Heury & Heury"
 overview:
-link: https://medium.com/@heuryandheury/minimalist-graphic-design-75fca132b380
+link: http://web.archive.org/web/20250816065325/https://medium.com/@heuryandheury/minimalist-graphic-design-75fca132b380
 principles:
 - principle: A simple design for a simple idea
   summary: |

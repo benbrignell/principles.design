@@ -9,7 +9,7 @@ overview: |
   Excitement for new technology should improve lives and not create more problems. To achieve this the team's principles were informed by user needs from the beginning.
 overview-author: |
   @benbrignell
-link: https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e
+link: http://web.archive.org/web/20250615163551/https://medium.com/design-ibm/blockchain-design-principles-599c5c067b6e
 principles:
 - principle: Design for trust
 - principle: Data exposure

@@ -3,7 +3,7 @@ title: Early Design Principles at Medium
 author: Medium
 overview: |
     When medium was small the team wrote down some initial principles. They created a framework that listed two positive thought-provoking words in opposition.
-link: https://medium.com/@dustin/thanks-for-writing-the-article-julie-8362fd235ae0
+link: http://web.archive.org/web/20250620083305/https://medium.com/@dustin/thanks-for-writing-the-article-julie-8362fd235ae0
 principles:
 - principle: Direction over Choice
   summary: This principle was often referred to while we were designing the Medium editor. We purposely traded layout, type, and color choices for guidance and direction. Direction was more appropriate for the product because we wanted people to focus on writing, and not get distracted by choice.

@@ -3,7 +3,7 @@ title: D.Mindsets
 author: d.school
 overview: |
 
-link: http://x.xplane.com/change-dna-overview
+link: http://web.archive.org/web/20181121041956/http://x.xplane.com:80/change-dna-overview
 principles:
 - principle: Show Don’t Tell
 - principle: Focus on Human Values

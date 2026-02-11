@@ -1,7 +1,7 @@
 ---
 layout: example
 title: Buildit | Wipro Digital's "Gravity" design system principles
-link: https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26
+link: http://web.archive.org/web/20210730022436/https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26
 overview: |
   Buildit, which is part of the digital transformation consultancy Wipro Digital, maintains its own design system called "Gravity". 
 overview-author: | 

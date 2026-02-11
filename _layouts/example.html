@@ -51,9 +51,15 @@ layout: default
             {% endif %}
 
             {% if page.link %}
-            <p><strong>Source:</strong><br>
-              <a href="{{page.link}}" class="wrap-string">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
-            </p>
+              {% if page["link-dead"] %}
+              <p><strong>Source no longer available:</strong><br>
+                <span class="wrap-string" style="color: #999;">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</span>
+              </p>
+              {% else %}
+              <p><strong>Source:</strong><br>
+                <a href="{{page.link}}" class="wrap-string">{{page.link | remove: 'https://' | remove: 'http://' | remove: 'www.' }}</a>
+              </p>
+              {% endif %}
             {% else %}
             {% assign missingSource = true %}
             {% endif %}

@@ -3,6 +3,7 @@ title: Telus Design Principles
 author: Telus
 overview:
 link: https://tds.telus.com/design/principles.html
+link-dead: true
 principles:
 - principle: Clear and simple designs
   summary: |

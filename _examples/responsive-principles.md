@@ -4,6 +4,7 @@ author: Paul Robert Lloyd
 overview: |
     We can start the work of building this framework, by agreeing upon a set design principles, each working in service of a broader goal, that of building a web that is and remains accessible to all.
 link: https://paulrobertlloyd.com/talks/2015/05/frontend_london
+link-dead: true
 principles:
  - principle: Start from the point of greatest adaptability
  - principle: Reflect the diversity of users within our practice

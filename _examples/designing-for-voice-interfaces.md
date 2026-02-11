@@ -2,7 +2,7 @@
 title: Designing for voice interfaces
 author: Brian Colcord
 overview:
-link: http://voysis.com/2017/08/28/designing-voice-interfaces/
+link: http://web.archive.org/web/20200225084055/http://voysis.com:80/2017/08/28/designing-voice-interfaces/
 principles:
 - principle: |
     Have a compelling reason to use voice:

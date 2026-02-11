@@ -2,7 +2,7 @@
 title: Pinterest Design Principles
 author: Pinterest
 overview:
-link: https://medium.com/@suprb/redesigning-pinterest-block-by-block-6040a00d80a3
+link: http://web.archive.org/web/20250208032624/https://medium.com/@suprb/redesigning-pinterest-block-by-block-6040a00d80a3
 principles:
 - principle: Lucid
   summary: |

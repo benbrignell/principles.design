@@ -3,6 +3,7 @@ title: Autodesk Principles
 author: Autodesk
 overview:
 link: https://hig.autodesk.com/principles
+link-dead: true
 principles:
 - principle: Put customers first
 - principle: Connected and interconnected

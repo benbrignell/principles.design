@@ -2,7 +2,7 @@
 title: Guiding Principles for Design Tools
 author: Patrick Hebron
 overview: Principles for the creation of open-ended design tools
-link: https://medium.com/intelligentdesign/guiding-principles-for-design-tools-8a9261bd5150
+link: http://web.archive.org/web/20250717164936/https://medium.com/intelligentdesign/guiding-principles-for-design-tools-8a9261bd5150
 principles:
 - principle: A tool should be easy to use, meeting the user at his or her point-of-view rather than requiring the user to gain expertise about the tool itself.
 - principle: A tool should be open-ended, allowing any possible output.

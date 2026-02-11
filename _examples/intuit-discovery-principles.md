@@ -2,7 +2,7 @@
 title: Intuit Discovery Principles
 author: Intuit
 overview:
-link: http://harmony.intuit.com/app-frameworks/discovery/
+link: http://web.archive.org/web/20170401073239/http://harmony.intuit.com/app-frameworks/discovery/
 principles:
 - principle: We make unbiased, personalized recommendations
 - principle: We’re teachers first

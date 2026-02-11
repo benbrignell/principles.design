@@ -2,7 +2,7 @@
 title: JDA NEXT Design Principles
 author: JDA Labs
 overview:
-link: https://blog.jda.com/jda-labs-discusses-7-design-principles-for-building-saas-applications/
+link: http://web.archive.org/web/20180223010032/https://blog.jda.com/jda-labs-discusses-7-design-principles-for-building-saas-applications/
 principles:
  - principle: Make it clear
  - principle: Keep it smart

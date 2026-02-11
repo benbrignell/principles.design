@@ -2,7 +2,7 @@
 title: Buzzfeed Product Design Principles
 author: Buzfeed Design
 overview: | 
-link: https://medium.com/buzzfeed-design/buzzfeeds-product-design-principles-e7d99b74c46e
+link: http://web.archive.org/web/20241011100511/https://medium.com/buzzfeed-design/buzzfeeds-product-design-principles-e7d99b74c46e
 principles:
 - principle: Delight with speed
   summary: |

@@ -5,3 +5,4 @@ _site/
 assets/css
 node_modules
 *.swp
+scripts/link-report.json

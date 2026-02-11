@@ -3,7 +3,7 @@ title: 10 Principles of Codecademy
 author: Codecademy.com
 overview: Codecademy spent three months developing this set of principles. The source contains additional contextual screenshots and videos.
 
-link: https://medium.com/about-codecademy/reimagining-codecademy-com-1ebd994e2c08
+link: http://web.archive.org/web/20250210201314/https://medium.com/about-codecademy/reimagining-codecademy-com-1ebd994e2c08
 principles:
 - principle: One Column
   summary: |

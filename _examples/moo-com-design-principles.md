@@ -2,7 +2,7 @@
 title: Moo.com UX rules
 author: Richard Pope
 overview: |
-link: https://blog.memespring.co.uk/2014/08/02/moo-ux-rules-circa-2008/
+link: http://web.archive.org/web/20200530004307/https://blog.memespring.co.uk/2014/08/02/moo-ux-rules-circa-2008/
 principles:
 - principle: Optimise for the common case
 - principle: Build tools that focus on meeting one simple need

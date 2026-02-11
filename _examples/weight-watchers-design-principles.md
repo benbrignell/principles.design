@@ -4,6 +4,7 @@ author: Weight Watchers
 overview: |
 
 link: https://www.wwstyleguide.com/overview-design-principles/
+link-dead: true
 principles:
 - principle: Personas
   summary: Design for Weight Watchers members illustrated by product personas

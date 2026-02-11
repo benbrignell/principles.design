@@ -2,7 +2,7 @@
 title: Etsy Design Principles
 author: Etsy Design
 overview: |
-link: https://medium.com/etsy-design/creating-etsys-design-principles-4faf31914be3
+link: http://web.archive.org/web/20260209024405/https://medium.com/etsy-design/creating-etsys-design-principles-4faf31914be3
 principles:
 - principle: Be effective
   summary: Excellent design means satisfying customer’s needs. It’s asking, ‘are we solving the right problems, in the best way, for the right people?’ Learn from feedback. Listen to your peers, team members, and customers. Open your mind, and have an empathetic heart.

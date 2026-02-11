@@ -1,6 +1,7 @@
 ---
 title: Mendeley Experience Principles
 link: https://blog.prototypr.io/designing-the-mendeley-experience-principles-a0059bcf3e52
+link-dead: true
 author: Mendeley
 principles:
 - principle: Empowered

@@ -3,6 +3,7 @@ title: 7 principles for designing a blockchain network to power and sustain your
 author: IBM Blockchain Dev Center
 overview:
 link: https://developer.ibm.com/blockchain/2017/01/01/7-principles-for-designing-a-blockchain-network-to-power-and-sustain-your-business/
+link-dead: true
 principles:
 - principle: Network participants must have control of their business
 - principle: The network must be extensible, with membership flexibility

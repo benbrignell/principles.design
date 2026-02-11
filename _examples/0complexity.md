@@ -2,7 +2,7 @@
 title: The Zero (0) Complexity Business IT Design principles
 author: Maikel Mardjan 
 overview: This 0CX (zero complexity) standard defines architecture and design principles to prevent complexity for new products.
-link: https://0complexity.readthedocs.io/en/latest/
+link: http://web.archive.org/web/20210619185058/https://0complexity.readthedocs.io/en/latest/
 principles:
 - principle: Put People first!
 - principle: Only use what you understand.

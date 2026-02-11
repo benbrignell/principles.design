@@ -3,7 +3,7 @@ title: Hubspot Design Principles
 author: Hubspot
 overview: HubSpot increased the size of their design team to redesign their platform and build a living, breathing design system. These design principles are taken from HubSpot's design language, HubSpot Canvas.
 overview-author: benbrignell
-link: https://medium.com/hubspot-product/people-over-pixels-b962c359a14d
+link: http://web.archive.org/web/20250815055923/https://medium.com/hubspot-product/people-over-pixels-b962c359a14d
 principles:
 - principle: Clear
   summary: |

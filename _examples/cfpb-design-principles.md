@@ -2,7 +2,7 @@
 title: CSPB Design Principles
 author: Consumer Financial Protection Bureau
 overview:
-link: https://cfpb.github.io/design-manual/best-practices/design-principles.html
+link: http://web.archive.org/web/20200602202356/https://cfpb.github.io/design-manual/best-practices/design-principles.html
 principles:
 - principle: Public service, public trust
 - principle: Give the user control

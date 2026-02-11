@@ -3,6 +3,7 @@ title: Design Principles of Android Wear
 author: Android Developers
 overview:
 link: https://designguidelines.withgoogle.com/android-wear/android-wear/creative-vision.html#creative-vision-easy-to-tap
+link-dead: true
 principles:
 - principle: Timely
   summary: Android Wear is designed around the core actions of suggest and demand. Wearables provide the right information at the right time, allowing users to be more connected to both the online and real worlds.

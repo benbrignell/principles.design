@@ -3,6 +3,7 @@ title: MapBox Design Principles
 author: Mapbox
 overview:
 link: https://blog.mapbox.com/redesigning-mapbox-com-28de18abd69f
+link-dead: true
 principles:
 - principle: Interaction is the basic unit of design.
   summary: Begin the design process by identifying the user’s origin point, their goal, and the steps in between. A successful design makes every step along the way clear while keeping the user focused on their goal.

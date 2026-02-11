@@ -2,7 +2,7 @@
 title: GDPR Principles
 author: Information Commissioner's Office
 overview: |
-link: https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/principles/
+link: http://web.archive.org/web/20181217125226/https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/principles/
 principles:
 - principle: Lawfulness, fairness and transparency
   summary: |

@@ -2,7 +2,7 @@
 title: Groww's 6 design principles
 author: Mai Khanh Pham To & team
 overview: Groww is a mobile gardening app, and these are 6 design principles the team decided on in the early days.
-link: https://more.groww.fr/en/groww-our-design-principles/
+link: http://web.archive.org/web/20230128025518/https://more.groww.fr/en/groww-our-design-principles/
 principles:
 - principle: Less is more
   summary: | 
