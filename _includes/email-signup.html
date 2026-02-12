@@ -38,6 +38,22 @@
   .formkit-form[data-uid="028011e050"] .formkit-powered-by-convertkit-container {
     display: none !important;
   }
+  .formkit-form[data-uid="028011e050"] .formkit-submit {
+    flex: 0 0 auto !important;
+    background: #388E3C !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 0.3em !important;
+    padding: 1em !important;
+    margin: 1em 0 !important;
+    font-weight: 500 !important;
+  }
+  /* Hide br tags in form on mobile */
+  @media (max-width: 768px) {
+    .formkit-form[data-uid="028011e050"] br {
+      display: none !important;
+    }
+  }
   .formkit-form[data-uid="028011e050"] .formkit-alert-success {
     background: #388E3C !important;
     color: white !important;

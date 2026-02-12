@@ -1,14 +1,23 @@
 <div style="background: #f7d708; padding: 2em 0;">
     <div class="wrapper">
       <div class="full" style="max-width: 32em;">
-        <h3 style="margin-top: 0; line-height: 1.2;">Practical guidance for<span style="display: none;"> </span><br style="display: none;" class="desktop-break">better design decisions</h3>
+        <h3 style="margin-top: 0; line-height: 1.2;">Practical guidance for<span class="mobile-space"> </span><br class="desktop-break">better design decisions</h3>
 <style>
 @media (min-width: 600px) {
   .desktop-break {
     display: block !important;
   }
-  .desktop-break + span {
+  .mobile-space {
     display: none !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .desktop-break {
+    display: none !important;
+  }
+  .mobile-space {
+    display: inline !important;
   }
 }
 </style>
