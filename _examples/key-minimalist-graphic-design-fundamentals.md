@@ -16,5 +16,5 @@ principles:
 - principle: Minimalism is a commitment
   summary: |
     In order to make minimalist design, a calm, considered, organized work is necessary. But it is something you can practice everyday and not just in design application. It is an attitude. Whatever you do, try to make it simple, without hysteria.
-tags: [specific, organisations]    
+tags: [universal, people]    
 ---

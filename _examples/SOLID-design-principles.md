@@ -14,5 +14,5 @@ principles:
   summary: Many client-specific interfaces are better than one general-purpose interface.
 - principle: Dependency Inversion Principle
   summary: One should depend upon abstractions, rather than concrete implementations.
-tags: [software, language]
+tags: [universal, software]
 ---

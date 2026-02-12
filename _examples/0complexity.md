@@ -15,4 +15,5 @@ principles:
 - principle: Make sure you can manage IT!
 - principle: Privacy by design.
 - principle: Never over engineer
+tags: [universal, software]
 ---

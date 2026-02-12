@@ -31,5 +31,5 @@ principles:
 - principle: Apply Principles Company Wide
   summary: |
     All parts of your company impact the design of your product. Consider how your internal culture, practices, and ethos, lead to the decisions and environments which affect what you make. Consider aspect such as leadership, recruitment, corporate culture, and investor relationships. Given their impact on how you operate, it is important to also include these values and principles across other parts of your organisation.
-tags: [specific,organisations]    
+tags: [specific, organisations, people]    
 ---

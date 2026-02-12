@@ -22,5 +22,6 @@ principles:
     We’re a multi-brand organisation. We need to be smarter in the way we think about design, re-using wherever possible to achieve more with less effort.
 - principle: Our values
   summary: |
-    We don’t just pay lip service to the concept of values we take our values seriously. They have real, practical relevance to your work and workplace.
+    We don't just pay lip service to the concept of values we take our values seriously. They have real, practical relevance to your work and workplace.
+tags: [specific, organisations]
 ---
