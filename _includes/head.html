@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.default_title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.description }}{% endif %}</title>
   <meta name="description" content="{% if page.overview %}{{ page.overview | strip_html | strip_newlines | truncate: 160 }}{% else %}A curated collection of design principles used as decision-making frameworks. Practical examples and guidance for teams building products.{% endif %}">
   <meta property="og:site_name" content="Design Principles">
 
