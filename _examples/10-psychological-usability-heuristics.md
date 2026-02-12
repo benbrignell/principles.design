@@ -34,4 +34,5 @@ principles:
 - principle: Visual System
   summary: |
     Information is grouped to help focus and avoid cluttered interfaces. Related objects are close together. Fonts are large enough and easy to read. The system takes peripheral vision into consideration; the visual environment of important objects in the interface is coherent with it. There is good color contrast; red text on a blue background or viceversa is not used. Pictures of objects are descriptive enough; usually they are better if they are slightly angled and have the perspective of being slightly above. When color is used to show things that go together,  another way to show the same information is used.
+tags: [universal, people]
 ---

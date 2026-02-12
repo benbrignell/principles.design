@@ -23,4 +23,5 @@ principles:
   - principle: Progressive
     summary: |
       Gravity is an opportunity for us to constantly try new things. New design directions. New technologies. New approaches towards designing and building user interfaces. We should take full advantage of this and strive to be a leader rather than a follower on all fronts.
+tags: [specific, organisations]
 ---

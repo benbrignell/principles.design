@@ -31,6 +31,7 @@ principles:
     Reinventing an industry requires innovative approaches, but in order to drive adoption of new paradigms, both their function and value must be easily understood.
       
       - Make the new feel familiar: Turn to proven patterns whenever possible. With novel interactions or concepts, consider adapting or enhancing existing mental models in unique ways.
-      - Design beyond the display: Appreciate a feature’s potential value over its functional interface, always seeking to leverage technology, automation, or other tools to streamline an experience.
+      - Design beyond the display: Appreciate a feature's potential value over its functional interface, always seeking to leverage technology, automation, or other tools to streamline an experience.
 
+tags: [specific, organisations]
 ---
