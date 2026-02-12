@@ -21,6 +21,20 @@
 
           {% include block-grid-featured.html%}
 
+        <hr style="border: none; border-top: 1px solid #333; margin: 2em 0 0 0;">
+        
+        <div style="background: #f5f5f5; padding: 1em 0;">
+          <div class="wrapper">
+            <div class="full">
+              <h2 class="h3 bold" style="margin-bottom: 0;">Latest article</h2>
+              {% assign latest_article = site.writing | sort: "date" | last %}
+              {% if latest_article %}
+                <h3 class="arrow" style="margin-top: 0;"><a href="{{ latest_article.url }}" style="text-decoration: underline; color: #333; font-weight: normal;">{{ latest_article.title }}</a></h3>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
     {% include footer.html %}
 
   </body>
