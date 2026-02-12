@@ -1,7 +1,8 @@
 # Site settings
 url: https://principles.design
 title: Design Principles
-description: An Open Source collection of Design Principles and methods
+description: Design principles — Tools for better decision making
+default_title: Design principles for better decision making
 twitter: "@dsgnprinciples"
 twitter:
   username: dsgnprinciples
