@@ -2,6 +2,7 @@
 title: Design Principles vs. The Principles of Design
 layout: page
 date: 2025-02-12
+overview: Design principles and the principles of design aren't the same. Learn the difference, decision-making tools vs visual fundamentals, and why it matters.
 ---
 
 Despite the title sounding like a battle that's about to commence on a whiteboard, there is an important distinction to be made.
