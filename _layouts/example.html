@@ -95,23 +95,34 @@ layout: default
 
 {% assign current = page %}
 {% assign tags = page.tags | default: empty %}
+{% assign related = '' | split: '' %}
 
-{% assign related = site.examples
-  | where_exp: "p", "p.url != current.url"
-  | where_exp: "p", "p.tags"
-  | where_exp: "p", "p.tags | intersection: tags | size > 0"
-%}
+{% for example in site.examples %}
+  {% if example.url != current.url and example.tags %}
+    {% assign has_common_tag = false %}
+    {% for tag in tags %}
+      {% if example.tags contains tag %}
+        {% assign has_common_tag = true %}
+      {% endif %}
+    {% endfor %}
+    {% if has_common_tag %}
+      {% assign related = related | push: example %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 {% assign related = related | sample: 5 %}
 
 {% if related.size > 0 %}
-<section style="margin-top: 2em; padding-top: 1em; border-top: 1px solid #eee;">
-  <h3 style="margin-bottom: 0.5em; font-size: 1.2em; color: #333;">Related principles</h3>
-  <ul style="list-style: none; padding: 0; margin: 0;">
-    {% for p in related %}
-      <li style="margin-bottom: 0.3em;"><a href="{{ p.url | relative_url }}" style="color: #333; text-decoration: none;">{{ p.title }}</a></li>
-    {% endfor %}
-  </ul>
-</section>
+<div class="full">
+  <section style="margin-top: 2em; padding-top: 1em; border-top: 1px solid #eee;">
+    <h3 style="margin-bottom: 0.5em; font-size: 1.2em; color: #333;">Related principles</h3>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      {% for p in related %}
+        <li style="margin-bottom: 0.3em;"><a href="{{ p.url | relative_url }}" style="text-decoration: underline;">{{ p.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
 {% endif %}
 </div>
