@@ -1,7 +1,7 @@
 ---
 title: Windows User Experience Design Principles
 author: Microsoft
-overview:
+overview: Microsoft's Windows UX framework emphasizing concept reduction, user confidence, control, and consistency to create intuitive, effective desktop user experiences.
 link: https://msdn.microsoft.com/en-us/library/windows/desktop/dn742491.aspx
 principles:
 - principle: Reduce concepts to increase confidence

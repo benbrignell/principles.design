@@ -1,7 +1,7 @@
 ---
 title: Spotify Design Principles
 author: Spotify
-overview: Spotify's Design Principles 
+overview: Spotify's design framework emphasizing relevance, human-centered experiences, and unified design to create personalized, intuitive music streaming experiences that feel coherent across all platforms. 
 link: https://spotify.design/article/introducing-spotifys-new-design-principles
 principles:
 - principle: Relevant 
