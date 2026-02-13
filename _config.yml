@@ -32,9 +32,9 @@ collections:
         permalink: /examples/:name
     components:
         output: false
-    writing:
+    articles:
         output: true
-        permalink: /writing/:name
+        permalink: /articles/:name
 
 defaults:
   - scope:
@@ -44,7 +44,7 @@ defaults:
       layout: "example"
   - scope:
       path: ""
-      type: "writing"
+      type: "articles"
     values:
       layout: "page"
 
