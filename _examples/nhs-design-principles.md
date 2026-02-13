@@ -3,12 +3,7 @@ title: NHS Design Principles
 author: NHS
 featured: true
 
-overview: | 
-        These principles guide all of our design. Use them to get started on a project and to help with making decisions.
-        
-        They're inspired by the <a href="https://www.gov.uk/government/publications/the-nhs-constitution-for-england/the-nhs-constitution-for-england">NHS Constitution</a> that's steered the NHS for 70 years.
-        
-        <a href="https://service-manual.nhs.uk/assets/nhs-design-principles.pdf">NHS Design Principles poster</a> (PDF, 177kb)
+overview: NHS Design Principles — a preserved set of principles from the NHS service manual, captured for reference with source links.
 
 
 link: http://web.archive.org/web/20200109200934/https://beta.nhs.uk/service-manual/design-principles/
