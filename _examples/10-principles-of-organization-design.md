@@ -1,7 +1,7 @@
 ---
 title: 10 Principles of Organization Design
 author: Gary L. Neilson, Jaime Estupiñán, and Bhushan Sethi
-overview:
+overview: Framework by Neilson, Estupiñán, and Sethi for redesigning organisational structures, focusing on moving beyond historical constraints, leveraging unique capabilities, and creating agile, people-centered organisations.
 link: https://www.strategy-business.com/article/00318
 principles:
 - principle: Declare amnesty for the past

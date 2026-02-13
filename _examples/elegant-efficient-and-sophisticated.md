@@ -1,7 +1,7 @@
 ---
 title: Elegant, efficient and sophisticated
 author: Jeff Gothelf
-overview:
+overview: Jeff Gothelf's design philosophy emphasizing elegance, efficiency, and sophistication in creating products that balance aesthetic appeal with functional effectiveness.
 link: http://www.jeffgothelf.com/blog/elegant-efficient-and-sophisticated-my-design-philosophy/
 principles:
 - principle: Elegant

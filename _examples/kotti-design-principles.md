@@ -1,7 +1,7 @@
 ---
 title: Kotti Design Principles
 author: Kotti
-overview: |
+overview: Kotti's user experience framework focusing on keen engagement, transparency, timeliness, and intuitive design that makes complex systems accessible and effective.
 link: https://3yourmind.github.io/kotti/
 principles:
 - principle: Keen

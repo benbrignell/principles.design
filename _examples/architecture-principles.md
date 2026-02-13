@@ -1,7 +1,7 @@
 ---
 title: Architecture Principles
 author: The Open Group
-overview:
+overview: The Open Group's foundational framework for enterprise architecture, providing guiding principles for designing technology solutions that deliver business value while ensuring compliance, security, and interoperability.
 link: http://pubs.opengroup.org/architecture/togaf8-doc/arch/chap29.html
 principles:
 - principle: Primacy of Principles

@@ -1,6 +1,7 @@
 ---
 title: Ten Rules for Web Startups
 author: Evan Williams
+overview: Evan Williams' practical guidance for web startup founders, focusing on simplicity, focus, and user-centric approaches to building successful online businesses with minimal resources.
 link:
 principles:
 - principle: Be narrow

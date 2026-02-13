@@ -1,7 +1,7 @@
 ---
 title: Eight Principles of Natural User Interfaces
 author: Rachel Hinman
-overview:
+overview: Rachel Hinman's framework for creating natural user interfaces that emphasize the joy of interaction over task completion, focusing on performance aesthetics and intuitive human-computer relationships.
 link: https://www.amazon.com/gp/product/1933820551/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1933820551&
 principles:
 - principle: Principle of Performance Aesthetics

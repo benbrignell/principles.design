@@ -1,7 +1,7 @@
 ---
 title: 37 Signals Principles
 author: 37 Signals
-overview:
+overview: 37 Signals' straightforward philosophy for building useful, customer-focused software with exceptional service, clarity, and honest business practices.
 link:
 principles:
 - principle: Useful is forever

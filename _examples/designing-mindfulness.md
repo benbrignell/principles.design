@@ -1,7 +1,7 @@
 ---
 title: Designing Mindfulness Principles
 author: Mindfulness Everywhere
-overview:
+overview: Mindfulness Everywhere's framework for creating technology that respects human attention, avoids dark patterns, and promotes digital wellbeing through mindful design practices.
 link: https://www.designingmindfulness.com/
 principles:
 - principle: Value Human Attention

@@ -1,7 +1,7 @@
 ---
 title: Ebay Experience Principles
 author: Ebay
-overview: |
+overview: eBay's experience framework for creating familiar yet original e-commerce experiences that balance innovation with consistency, focusing on user trust and intuitive interactions.
 
 link: http://web.archive.org/web/20210624115645/https://pages.ebay.com/design/about/
 principles:

@@ -1,7 +1,7 @@
 ---
 title: Firefox Design Values
 author: Firefox
-overview:
+overview: Firefox's core design philosophy that prioritises user privacy, community contribution, and interoperability while creating a browser that serves people's needs through thoughtful, accessible design.
 link:
 principles:
 - principle: Takes care of you

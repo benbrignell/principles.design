@@ -1,7 +1,7 @@
 ---
 title: Design Principles for Bing
 author: Microsoft
-overview: |
+overview: Microsoft's design framework for Bing search engine, focusing on user exploration, trust-building, and creating delightful search experiences while balancing commercial objectives with user needs.
 
 link: https://www.lukew.com/ff/entry.asp?1025
 principles:

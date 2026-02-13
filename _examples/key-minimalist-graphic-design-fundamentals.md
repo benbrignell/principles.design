@@ -1,7 +1,7 @@
 ---
 title: The Key Minimalist Graphic Design Fundamentals
 author: "Heury & Heury"
-overview:
+overview: Heury & Heury's framework for minimalist graphic design, emphasizing simplicity, clarity, and purposeful reduction while maintaining effective communication through strong visual hierarchy.
 link: http://web.archive.org/web/20250816065325/https://medium.com/@heuryandheury/minimalist-graphic-design-75fca132b380
 principles:
 - principle: A simple design for a simple idea

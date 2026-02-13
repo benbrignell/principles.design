@@ -1,7 +1,7 @@
 ---
 title: Trello Design Principles
 author: Trello
-overview:
+overview: Trello's design framework for creating an intuitive project management tool that works universally for all users while remaining personal, visual, and collaborative.
 link: https://design.trello.com/principles
 principles:
 - principle: Universal
