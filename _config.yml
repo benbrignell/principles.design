@@ -1,7 +1,7 @@
 # Site settings
 url: https://principles.design
 title: Design Principles
-description: Design principles — Tools for better decision making
+description: A curated collection of design principles used as decision-making frameworks. Practical examples and guidance for teams building products.
 twitter: "@dsgnprinciples"
 twitter:
   username: dsgnprinciples
@@ -52,6 +52,7 @@ exclude:
 - node_modules
 plugins:
 - jekyll-seo-tag
+
 
 liquid:
     error_mode: lax # because of featured loop on homepage throwing minor validation error

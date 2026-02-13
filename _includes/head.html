@@ -3,12 +3,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.description }}{% endif %}</title>
-  <meta name="description" content="{% if page.overview %}{{ page.overview | strip_html | strip_newlines | truncate: 160 }}{% else %}A curated collection of design principles used as decision-making frameworks. Practical examples and guidance for teams building products.{% endif %}">
-  <meta property="og:site_name" content="Design Principles">
-
   {% include css.html %}
-  {% seo %}
+  {% if page.layout == "home" %}
+    <title>Design Principles | Tools for Better Decision Making</title>
+  {% else %}
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% endif %}
+  
+  <meta name="description" content="{% if page.overview %}{{ page.overview | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="generator" content="Jekyll v3.8.7" />
+  
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.overview %}{{ page.overview | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:creator" content="@benbrignell" />
+  
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <meta property="og:image" content="https://principles.design/images/design-principles-og.png">
   <meta name="twitter:image:src" content="https://principles.design/images/design-principles-og.png">
