@@ -1,7 +1,7 @@
 ---
 title: Buzzfeed Product Design Principles
 author: Buzfeed Design
-overview: | 
+overview: BuzzFeed's product design framework focusing on speed, freshness, and delight in creating engaging content experiences that serve their global audience effectively. 
 link: http://web.archive.org/web/20241011100511/https://medium.com/buzzfeed-design/buzzfeeds-product-design-principles-e7d99b74c46e
 principles:
 - principle: Delight with speed

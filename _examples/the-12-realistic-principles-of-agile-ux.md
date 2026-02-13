@@ -1,7 +1,7 @@
 ---
 title: The 12 Realistic Principles of Agile UX
 author: Guiseppe Getto
-overview:
+overview: Guiseppe Getto's practical framework for integrating UX design into agile development processes, balancing customer experience, technological change, and team collaboration.
 link: https://jonyablonski.com/2015/design-principles-for-reducing-cognitive-load/
 principles:
 - principle: Customer experience (CX)

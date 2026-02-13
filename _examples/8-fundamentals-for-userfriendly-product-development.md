@@ -1,7 +1,7 @@
 ---
 title: 8 fundamentals for user friendly product development
 author: Devhouse Spindle / Luuk Hartsema
-overview:
+overview: Devhouse Spindle and Luuk Hartsema's framework for creating user-friendly products through consistency, functionality, engagement, focus, honesty, minimalism, and delightful interactions.
 link:
 principles:
 - principle: Consistency

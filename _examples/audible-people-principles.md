@@ -1,7 +1,7 @@
 ---
 title: Audible's People Principles
 author: Audible
-overview:
+overview: Audible's people-centric framework focusing on customer obsession, proactive innovation, rapid execution, and cultural awareness to create exceptional audio experiences for listeners.
 link: http://about.audible.com
 principles:
 - principle: Be Customer Obsessed

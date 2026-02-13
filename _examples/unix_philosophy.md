@@ -1,7 +1,7 @@
 ---
 title: UNIX philosophy
 author: Doug McIlroy
-overview: |
+overview: Doug McIlroy's foundational philosophy for Unix system design, emphasizing simplicity, modularity, and composability in creating powerful, elegant software tools.
 link: https://en.wikipedia.org/wiki/Unix_philosophy
 principles:
 - principle: Do One Thing and Do It Well.

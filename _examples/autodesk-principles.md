@@ -1,7 +1,7 @@
 ---
 title: Autodesk Principles
 author: Autodesk
-overview:
+overview: Autodesk's customer-focused framework for creating connected, adaptable design solutions that prioritize user needs while maintaining interconnected systems and continuous growth.
 link: https://hig.autodesk.com/principles
 link-dead: true
 principles:

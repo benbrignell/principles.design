@@ -1,7 +1,7 @@
 ---
 title: Australia DesignGov Principles
 author: DesignGov Australia
-overview: |
+overview: DesignGov Australia's framework for creating government services that are connected, courageous, and collaborative, emphasizing customer-centric approaches and co-design methodologies.
 
 link:
 principles:

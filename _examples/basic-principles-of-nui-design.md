@@ -1,7 +1,7 @@
 ---
 title: Basic Principles of NUI Design
 author: Dan Saffer
-overview:
+overview: Dan Saffer's foundational framework for natural user interface design, focusing on touch interactions, gesture recognition, and creating intuitive experiences that work with human physical behaviors.
 link: https://www.quora.com/Natural-User-Interface-NUI/What-are-the-basic-principles-of-NUI-Natural-User-Interface-design/answer/Dan-Saffer?srid=upNy&share=1
 link-dead: true
 principles:

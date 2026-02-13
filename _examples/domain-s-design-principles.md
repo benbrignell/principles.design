@@ -1,7 +1,7 @@
 ---
 title: Domain's Design Principles
 author: Domain
-overview:
+overview: Domain's problem-solving framework for designers, emphasizing clear problem definition, user empathy, and creating effective solutions through structured design thinking processes.
 link: https://medium.com/design-domain/how-our-new-design-principles-have-shaped-the-way-we-work-at-domain-68597b0a697f
 link-dead: true
 principles:

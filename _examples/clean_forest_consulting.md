@@ -1,7 +1,7 @@
 ---
 title: Clean Forest Consulting
 author: Noam Eppel
-overview:
+overview: Noam Eppel's consulting framework emphasizing usability, open-source solutions, and user-centered design principles for creating effective digital products.
 link: https://cleanforest.co/
 principles:
 - principle: |

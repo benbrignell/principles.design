@@ -1,7 +1,7 @@
 ---
 title: 20 Guiding Principles for Experience Design
 author: Whitney Hess
-overview: |
+overview: Whitney Hess' comprehensive framework for user experience design, emphasizing user empowerment, clarity, and respect while creating products that serve human needs effectively.
 
 link: http://whitneyhess.com/blog/2009/11/23/so-you-wanna-be-a-user-experience-designer-step-2-guiding-principles/
 principles:

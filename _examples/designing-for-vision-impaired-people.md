@@ -1,7 +1,7 @@
 ---
 title: Designing for vision impaired people
 author: Wayfindr
-overview: |
+overview: Wayfindr's accessibility framework for designing inclusive digital experiences for vision impaired users, focusing on user involvement, environmental context, and clear communication.
 link: https://www.wayfindr.net/open-standard/designing-for-vision-impaired-people/design-principles?version=candidate-recommendation-1-0
 principles:
 - principle: Involve users in the process

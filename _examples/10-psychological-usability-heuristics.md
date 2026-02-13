@@ -1,7 +1,7 @@
 ---
 title: 10 Psychological Usability Heuristics
 author: Susan Weinschenk and Jordi Sánchez
-overview:
+overview: Susan Weinschenk and Jordi Sánchez's psychological framework for designing intuitive interfaces that work with human cognitive limitations and natural behaviors rather than against them.
 link: https://uxmag.com/articles/psychological-usability-heuristics
 principles:
 - principle: People Don't Want to Work or Think More Than They Have To

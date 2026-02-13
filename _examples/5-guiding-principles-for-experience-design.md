@@ -1,7 +1,7 @@
 ---
 title: 5 Guiding Principles for Experience Designers
 author: Whitney Hess
-overview: |
+overview: Whitney Hess' essential framework for experience designers, focusing on problem understanding, ethical responsibility, and creating intuitive solutions that genuinely help people.
 
 link: http://whitneyhess.com/blog/2009/11/23/so-you-wanna-be-a-user-experience-designer-step-2-guiding-principles/
 principles:

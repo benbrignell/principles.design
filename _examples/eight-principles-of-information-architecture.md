@@ -1,7 +1,7 @@
 ---
 title: Eight Principles of Information Architecture
 author: Dan Brown
-overview: |
+overview: Dan Brown's foundational framework for information architecture, providing principles for organizing content effectively to create intuitive, user-centered digital experiences.
 link: https://www.asis.org/Bulletin/Aug-10/AugSep10_Brown.pdf
 principles:
 - principle: Principle of objects

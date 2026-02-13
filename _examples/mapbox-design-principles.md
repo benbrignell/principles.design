@@ -1,7 +1,7 @@
 ---
 title: MapBox Design Principles
 author: Mapbox
-overview:
+overview: Mapbox's interaction-focused design framework emphasizing user journeys, transitional interfaces, and delightful experiences that make map interactions intuitive and engaging.
 link: https://blog.mapbox.com/redesigning-mapbox-com-28de18abd69f
 link-dead: true
 principles:

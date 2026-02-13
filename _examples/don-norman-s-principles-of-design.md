@@ -1,7 +1,7 @@
 ---
 title: Don Norman's Principles of Design
 author: Don Norman
-overview: |
+overview: Don Norman's foundational design concepts from "The Design of Everyday Things" focusing on visibility, feedback, constraints, and mapping to create intuitive, user-friendly products.
 
 link: https://www.amazon.com/Design-Everyday-Things-Donald-Norman/dp/0465067107
 principles:

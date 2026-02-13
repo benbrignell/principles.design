@@ -1,7 +1,7 @@
 ---
 title: GEL Design Principles
 author: BBC
-overview:
+overview: BBC's Global Experience Language framework for creating inclusive, accessible digital experiences that respect individual needs while maintaining consistent quality across all BBC services.
 link: http://www.bbc.co.uk/gel/articles/what-is-gel
 principles:
 - principle: Respect everyone

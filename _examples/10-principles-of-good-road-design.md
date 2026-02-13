@@ -1,10 +1,7 @@
 ---
 title: 10 Principles of Good Road Design
 author: Highways England Strategic Design Panel
-overview: |
-    Design vision "We aim to put people at the heart of our work by designing an inclusive, resilient and sustainable road network; admired for its functional elegance and usefulness, reflecting in its design the beauty of the natural and built environment through which it passes, and enhancing it where possible."
-
-    Good road design:
+overview: Highways England Strategic Design Panel's framework for creating safe, inclusive, and sustainable road infrastructure that balances functional requirements with environmental and aesthetic considerations.
 link: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/645302/Design_Panel_progress_report.pdf#page=4
 featured: true
 principles:
