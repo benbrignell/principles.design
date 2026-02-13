@@ -1,7 +1,7 @@
 ---
 title: The Edenspiekermann Manifesto
 author: Edenspiekermann
-overview:
+overview: Edenspiekermann's design manifesto emphasizing customer focus, challenging complacency, continuous learning, and creating meaningful work through thoughtful design practices.
 link: https://www.edenspiekermann.com/manifesto/
 principles:
 - principle: We work for your customers.
