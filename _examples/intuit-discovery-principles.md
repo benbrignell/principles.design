@@ -1,7 +1,7 @@
 ---
 title: Intuit Discovery Principles
 author: Intuit
-overview:
+overview: Intuit's discovery framework for creating personalized, educational experiences that seamlessly integrate into users' financial lives through unbiased recommendations and teaching-first approaches.
 link: http://web.archive.org/web/20170401073239/http://harmony.intuit.com/app-frameworks/discovery/
 principles:
 - principle: We make unbiased, personalized recommendations

@@ -1,7 +1,7 @@
 ---
 title: Telus Design Principles
 author: Telus
-overview:
+overview: Telus's design framework for telecommunications services, emphasizing clarity, simplicity, and brand consistency to create intuitive and accessible customer experiences.
 link: https://tds.telus.com/design/principles.html
 link-dead: true
 principles:

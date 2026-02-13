@@ -1,7 +1,7 @@
 ---
 title: iOS User Experience Guidelines
 author: Apple
-overview:
+overview: Apple's comprehensive iOS UX framework emphasizing primary task focus, user control, clarity, and consistency to create intuitive, satisfying mobile experiences across all iOS platforms.
 link:
 principles:
 - principle: Focus on the Primary Task

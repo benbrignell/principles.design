@@ -3,7 +3,7 @@ title: Principles of Design
 author: Tim Berners Lee
 link: https://www.w3.org/DesignIssues/Principles.html
 featured: true
-overview:
+overview: Tim Berners-Lee's foundational web design principles emphasizing simplicity, universality, and interoperability for creating accessible, effective digital experiences.
 principles:
 - principle: Simplicity
   summary: |

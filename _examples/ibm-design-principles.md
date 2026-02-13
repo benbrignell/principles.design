@@ -1,7 +1,7 @@
 ---
 title: IBM Design Principles
 author: IBM Design
-overview:
+overview: IBM Design's comprehensive framework for creating enterprise software solutions, emphasizing domain expertise, user-centered design, and business process alignment for effective digital experiences.
 link:
 principles:
 - principle: Concepts from the product's subject domain (for example, systems management) should be central and apparent in the software design.

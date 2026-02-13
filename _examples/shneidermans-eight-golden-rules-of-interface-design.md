@@ -2,7 +2,7 @@
 title: |
   Shneiderman's "Eight Golden Rules of Interface Design"
 author: Ben Shneiderman
-overview:
+overview: Ben Shneiderman's foundational framework for creating intuitive interfaces, emphasizing consistency, shortcuts, feedback, and user control to design effective, user-friendly systems.
 link: https://www.amazon.com/gp/product/0321537351/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321537351&linkCode=as2&tag=inusabiwetrus-20
 principles:
 - principle: Strive for consistency

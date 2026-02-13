@@ -1,7 +1,7 @@
 ---
 title: Google's Conversation Principles
 author: Google
-overview:
+overview: Google's framework for designing conversational interfaces, emphasizing brevity, user recognition, helpfulness, and natural dialogue patterns to create effective voice and chat experiences.
 link: https://developers.google.com/actions/design/principles#principles_to_design_by
 principles:
 - principle: Keep it short

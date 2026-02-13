@@ -1,7 +1,7 @@
 ---
 title: JDA NEXT Design Principles
 author: JDA Labs
-overview:
+overview: JDA Labs' design framework for SaaS applications, emphasizing clarity, intelligence, trust-building, and consistent storytelling to create effective enterprise software experiences.
 link: http://web.archive.org/web/20180223010032/https://blog.jda.com/jda-labs-discusses-7-design-principles-for-building-saas-applications/
 principles:
  - principle: Make it clear

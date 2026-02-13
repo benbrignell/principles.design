@@ -1,6 +1,6 @@
 ---
 title: Principles of Product Design
-overview:
+overview: Joshua Porter's framework for creating successful products, emphasizing usefulness as the primary goal, experience-driven design, and user-centered approaches to product development.
 author: Joshua Porter
 link: http://bokardo.com/principles-of-product-design/
 principles:

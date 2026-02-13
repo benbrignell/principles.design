@@ -1,7 +1,7 @@
 ---
 title: GEL Westpac
 author: GEL Team @ Westpac
-overview:
+overview: Westpac's Global Experience Language framework adapted for banking services, emphasizing customer centricity, consistency, and user-centered design principles for financial experiences.
 link: https://gel.westpacgroup.com.au/principles/
 link-dead: true
 principles:

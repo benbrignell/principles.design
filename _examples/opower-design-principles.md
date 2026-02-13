@@ -1,7 +1,7 @@
 ---
 title: Opower - Design Principles
 author: Opower
-overview:
+overview: Opower's behavioral design framework for energy management, focusing on realistic user behavior, action-oriented design, and building long-term customer relationships through effective engagement.
 link:
 principles:
 - principle: Design for how people actually behave

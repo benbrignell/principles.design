@@ -1,7 +1,7 @@
 ---
 title: iOS 11 Design Principles
 author: Apple
-overview:
+overview: Apple's design framework for iOS 11, emphasizing clarity, deference to content, and depth to create intuitive, user-focused mobile experiences with enhanced functionality and visual hierarchy.
 link: https://developer.apple.com/ios/human-interface-guidelines/overview/themes/#//apple_ref/doc/uid/TP40006556-CH4-SW1
 principles:
 - principle: Aesthetic Integrity
