@@ -1,7 +1,7 @@
 ---
 title: Principles for Prototyping
 author: Todd Zaki Warfel
-overview:
+overview: Todd Zaki Warfel's framework for effective prototyping, emphasizing audience understanding, flexible planning, expectation management, and practical sketching techniques.
 link: http://rosenfeldmedia.com/books/prototyping/
 principles:
 - principle: Understand the audience and intent

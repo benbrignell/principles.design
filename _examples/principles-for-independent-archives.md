@@ -1,7 +1,7 @@
 ---
 title: Principles for Independent Archives
 author: Luke Bacon
-overview: |
+overview: Luke Bacon's framework for creating independent archives that prioritize open standards, long-term thinking, and universal accessibility while preserving original records.
 
 link: https://github.com/equivalentideas/independent-archive-principles/blob/master/independent-archive-principles.md
 principles:

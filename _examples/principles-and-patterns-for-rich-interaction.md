@@ -1,7 +1,7 @@
 ---
 title: Principles and Patterns for Rich Interaction
 author: Theresa Neil & Bill Scott
-overview: |
+overview: Theresa Neil and Bill Scott's framework for creating rich, interactive web experiences through direct manipulation, contextual interfaces, and engaging user interactions.
 
 link: http://designingwebinterfaces.com/explore
 principles:

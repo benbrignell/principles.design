@@ -1,7 +1,7 @@
 ---
 title: "Manifesto: Rules for standards-makers"
 author: Dave Winer
-overview: |
+overview: Dave Winer's manifesto for creating effective standards, emphasizing interoperability, simplicity, and practical solutions that work in real-world implementations.
 
 link: http://scripting.com/2017/05/09/rulesForStandardsmakers.html
 principles:

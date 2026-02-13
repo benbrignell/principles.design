@@ -1,7 +1,7 @@
 ---
 title: Moo.com UX rules
 author: Richard Pope
-overview: |
+overview: Richard Pope's UX rules for Moo.com focusing on optimizing for common cases, building simple tools, and creating effective business card design experiences.
 link: http://web.archive.org/web/20200530004307/https://blog.memespring.co.uk/2014/08/02/moo-ux-rules-circa-2008/
 principles:
 - principle: Optimise for the common case

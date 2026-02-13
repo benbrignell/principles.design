@@ -1,7 +1,7 @@
 ---
 title: Designing for Virtual Reality
 author: Google
-overview: |
+overview: Google's framework for virtual reality design, focusing on head tracking, comfort, immersion, and creating intuitive experiences for VR platforms like Cardboard.
 link: http://ustwo.com/blog/designing-for-virtual-reality-google-cardboard/
 link-dead: true
 principles:

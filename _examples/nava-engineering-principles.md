@@ -1,8 +1,7 @@
 ---
 title: Engineering Team Principles
 author: NAVA PBC
-overview: |
-
+overview: NAVA PBC's engineering framework emphasizing proactive system design, risk management, user experience focus, and valuing time, empathy, reliability, and simplicity in creating robust engineering solutions.
 link: https://blog.navapbc.com/defining-engineering-culture-engineering-principles-558d2b4c5950
 link-dead: true
 principles:

@@ -1,7 +1,7 @@
 ---
 title: Principles for 21st Century Government
 author: Code for America
-overview: |
+overview: Code for America's framework for modernizing government services through user-centered design, collaboration, and technology that serves citizens' needs effectively.
 
 link:
 principles:

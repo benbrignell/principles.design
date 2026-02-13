@@ -1,7 +1,7 @@
 ---
 title: The Four C's of Form Design
 author: Jessica Enders
-overview: |
+overview: Jessica Enders' framework for effective form design emphasizing clarity, convention, consistency, and cognitive load reduction to create user-friendly input experiences.
 
 link: http://web.archive.org/web/20231206053608/https://www.formulate.com.au/blog/what-makes-a-good-form
 principles:

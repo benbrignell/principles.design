@@ -1,7 +1,7 @@
 ---
 title: React Design Principles
 author: React
-overview: |
+overview: React's design philosophy emphasizing composition, escape hatches, and practical solutions for building maintainable, scalable user interfaces through component-based architecture.
 link: https://reactjs.org/docs/design-principles.html
 principles:
 - principle: Composition

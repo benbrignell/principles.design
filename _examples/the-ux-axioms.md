@@ -1,7 +1,7 @@
 ---
 title: The UX Axioms
 author: Erik Dahl
-overview: |
+overview: Erik Dahl's comprehensive framework of user experience axioms providing fundamental truths for creating people-centered design solutions across all digital products.
 link: http://www.uxaxioms.com
 principles:
 - principle: It's all about people, it's not about the object

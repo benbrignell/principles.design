@@ -1,7 +1,7 @@
 ---
 title: About Foodspotting
 author: Foodspotting
-overview: |
+overview: Foodspotting's framework for discovering dishes and restaurants through community recommendations, focusing on food discovery rather than just restaurant ratings.
 link: http://web.archive.org/web/20180403022557/http://www.foodspotting.com:80/about.html
 principles:
 - principle: It’s about dishes, not just restaurants.

@@ -1,7 +1,7 @@
 ---
 title: Six Universal IBM experiences
 author: IBM Design
-overview: |
+overview: IBM Design's framework for creating consistent user experiences across products and services, focusing on discovery, learning, creation, management, support, and growth.
 
 link:
 principles:

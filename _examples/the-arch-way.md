@@ -1,7 +1,7 @@
 ---
 title: The Arch Way
 author: Arch Linux
-overview: |
+overview: Arch Linux's philosophy emphasizing simplicity, code correctness, and user-centric design principles for creating a lightweight, efficient Linux distribution.
 link: https://wiki.archlinux.org/index.php/Arch_Linux#Principles
 principles:
 - principle: Simplicity
