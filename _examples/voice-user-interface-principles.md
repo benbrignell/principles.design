@@ -1,7 +1,7 @@
 ---
 title: Voice User Interface Principles
 author: Stephen Gay
-overview:
+overview: Stephen Gay's framework for creating conversational voice interfaces, emphasizing approachability, mutual understanding, and natural dialogue patterns for effective VUI design.
 link: https://www.slideshare.net/stephengay/vui-keynote-avios
 principles:
 - principle: Get to know each other

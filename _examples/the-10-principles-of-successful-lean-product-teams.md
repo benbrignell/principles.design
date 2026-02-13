@@ -1,7 +1,7 @@
 ---
 title: The 10 Principles of Successful Lean Product Teams
 author: Luxr
-overview:
+overview: Luxr's framework for creating effective lean product teams, emphasizing integrated collaboration, externalization, routine processes, and outcome-focused approaches to product development.
 link: http://luxr.co/10_principles_of_lean_user_experience
 principles:
 - principle: Development + Product Management + UX = 1 Product Team

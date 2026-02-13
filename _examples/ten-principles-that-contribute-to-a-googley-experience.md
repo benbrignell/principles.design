@@ -1,7 +1,7 @@
 ---
 title: Ten Principles that Contribute to a Googley Experience
 author: Google
-overview:
+overview: Google's design framework for creating fast, simple, and engaging experiences that serve people's real needs while attracting both beginners and experts.
 link:
 principles:
  - principle: Focus on people their lives, their work, their dreams.

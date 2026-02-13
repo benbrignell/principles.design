@@ -1,7 +1,7 @@
 ---
 title: Grommet Best Practices
 author: HP Enterprise
-overview:
+overview: HP Enterprise's Grommet framework best practices for creating accessible, user-centered React applications that serve diverse user needs through inclusive design principles.
 link: http://grommet.io/docs/best-practices/
 principles:
 - principle: Know your users

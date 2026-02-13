@@ -1,7 +1,7 @@
 ---
 title: Digital Service Standard
 author: Government Digital Service
-overview:
+overview: Government Digital Service's framework for creating user-centered digital services, emphasizing research, agile methods, and collaborative approaches to deliver effective public sector solutions.
 link: https://www.gov.uk/service-manual/service-standard
 principles:
 - principle: Understand user needs

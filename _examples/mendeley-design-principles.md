@@ -1,5 +1,6 @@
 ---
 title: Mendeley Experience Principles
+overview: Mendeley's design framework for research tools, empowering researchers through creative workflows, confident interactions, and streamlined academic content discovery experiences.
 link: https://blog.prototypr.io/designing-the-mendeley-experience-principles-a0059bcf3e52
 link-dead: true
 author: Mendeley

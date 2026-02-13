@@ -1,7 +1,7 @@
 ---
 title: Six Characteristics of Good APIs
 author: Google
-overview:
+overview: Google's framework for creating effective APIs, emphasizing minimalism, completeness, clear semantics, intuitiveness, memorability, and readable code for developer success.
 link:
 principles:
 - principle: Be minimal

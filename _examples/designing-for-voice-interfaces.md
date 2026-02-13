@@ -1,7 +1,7 @@
 ---
 title: Designing for voice interfaces
 author: Brian Colcord
-overview:
+overview: Brian Colcord's framework for creating effective voice interfaces, emphasizing compelling use cases, conversational design, and user-centered approaches to voice interaction design.
 link: http://web.archive.org/web/20200225084055/http://voysis.com:80/2017/08/28/designing-voice-interfaces/
 principles:
 - principle: |

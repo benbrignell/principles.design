@@ -1,7 +1,7 @@
 ---
 title: Principles for the Agile Architect
 author:
-overview:
+overview: Agile architect framework emphasizing people-centric design, effective communication, simplicity, and adaptability for creating flexible, responsive software architectures.
 link: http://www.agilearchitect.org/agile/principles.htm
 principles:
 - principle: Value People

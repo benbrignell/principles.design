@@ -1,7 +1,7 @@
 ---
 title: Design Principles of Android Wear
 author: Android Developers
-overview:
+overview: Android's design framework for wearable technology, emphasizing timely information delivery, glanceable interfaces, and zero-effort interactions to create seamless smartwatch experiences.
 link: https://designguidelines.withgoogle.com/android-wear/android-wear/creative-vision.html#creative-vision-easy-to-tap
 link-dead: true
 principles:

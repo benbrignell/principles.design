@@ -2,7 +2,7 @@
 title: |
     User Central (Dutch: Gebruiker Centraal)
 author: Actieteam Gebruiker Centraal
-overview:
+overview: Actieteam Gebruiker Centraal's Dutch framework for user-centered design, emphasizing human needs over technology, consistent experiences, and inclusive digital service design.
 link: https://www.gebruikercentraal.nl/ontwerpprincipes/
 principles:
 - principle: User central

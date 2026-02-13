@@ -1,7 +1,7 @@
 ---
 title: Google Calendar's design principles
 author: Google
-overview:
+overview: Google's design framework for Calendar, emphasizing speed, visual appeal, simplicity, and comprehensive life management through easy data entry and sharing capabilities.
 link:
 principles:
 - principle: Fast, visually appealing, and joyous to use

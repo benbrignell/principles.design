@@ -1,7 +1,7 @@
 ---
 title: NI Design Tenets
 author: National Instruments
-overview:
+overview: National Instruments' design framework emphasizing respect for design history, user trust, focused interactions, and careful interpretation of user intent for engineering software experiences.
 link: https://ni.github.io/design-system/design-tenets/
 principles:
 - principle: Respect the History

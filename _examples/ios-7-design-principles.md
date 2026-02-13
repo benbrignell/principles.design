@@ -1,7 +1,7 @@
 ---
 title: iOS 7 Design Principles
 author: Apple
-overview:
+overview: Apple's design framework for iOS 7, emphasizing aesthetic integrity, consistency, direct manipulation, user control, and feedback to create intuitive, cohesive mobile experiences.
 link:
 principles:
 - principle: Aesthetic Integrity

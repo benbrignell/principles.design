@@ -1,7 +1,7 @@
 ---
 title: Principles of Web Development
 author: Jens Oliver Meiert
-overview:
+overview: Jens Oliver Meiert's framework for creating quality web experiences, emphasizing user focus, simplicity, quality, and long-term thinking while avoiding development fads.
 link: https://meiert.com/en/blog/principles-of-web-development/
 principles:
  - principle: Focus on the User

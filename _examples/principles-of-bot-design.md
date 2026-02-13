@@ -1,7 +1,7 @@
 ---
 title: Principles of Bot Design
 author: Intercom
-overview:
+overview: Intercom's framework for creating honest, simple, and transparent bot experiences that respect user intelligence while providing clear, helpful conversational interfaces.
 link: https://blog.intercom.com/principles-bot-design/
 principles:
 - principle: Don’t pretend to be a human

@@ -1,7 +1,7 @@
 ---
 title: 10 Principles For Design In The Age Of AI
 author: Yves Béhar
-overview:
+overview: Yves Béhar's framework for creating AI-enhanced products that augment human capabilities rather than replace them, focusing on solving meaningful human problems while maintaining ethical considerations and user autonomy.
 link: http://web.archive.org/web/20170624075744/https://www.fastcodesign.com/3067632/10-principles-for-design-in-the-age-of-ai
 principles:
 - principle: Design solves an important human problem

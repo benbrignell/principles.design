@@ -1,7 +1,7 @@
 ---
 title: U.S. Web Design System
 author: Technology Transformation Services
-overview:
+overview: Technology Transformation Services' federal design system framework emphasizing accessibility, ease of use, and modern web practices for creating effective government digital services.
 link: https://designsystem.digital.gov/design-principles/
 principles:
 - principle: Make the best thing the easiest thing

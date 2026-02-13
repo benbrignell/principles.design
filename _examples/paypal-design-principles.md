@@ -1,7 +1,7 @@
 ---
 title: Paypal Design Principles
 author: Paypal
-overview:
+overview: PayPal's design framework emphasizing craftsmanship, simplification, connection, and commitment to creating trustworthy, user-focused financial experiences that enable global commerce.
 link:
 principles:
  - principle: We Craft
