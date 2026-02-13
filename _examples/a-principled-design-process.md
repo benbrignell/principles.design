@@ -1,7 +1,7 @@
 ---
 title: A principled design process
 author: Seek
-overview:
+overview: Seek's design process framework emphasizing empathy, transparency, and user-centered design principles to create trustworthy and effective digital experiences.
 link: https://seek-oss.github.io/seek-style-guide/
 principles:
 - principle: Design with empathy

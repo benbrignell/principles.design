@@ -1,7 +1,7 @@
 ---
 title: 7 principles for designing a blockchain network to power and sustain your business
 author: IBM Blockchain Dev Center
-overview:
+overview: IBM Blockchain Dev Center's guidance for creating enterprise blockchain networks that balance business control, security, and scalability while enabling participant autonomy and competitive advantage.
 link: https://developer.ibm.com/blockchain/2017/01/01/7-principles-for-designing-a-blockchain-network-to-power-and-sustain-your-business/
 link-dead: true
 principles:

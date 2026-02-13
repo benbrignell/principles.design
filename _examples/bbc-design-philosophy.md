@@ -1,7 +1,7 @@
 ---
 title: BBC Design Philosophy
 author: BBC
-overview:
+overview: BBC's design framework emphasizing universal accessibility, compelling storytelling, and authentic communication to create engaging, user-centered digital experiences for diverse audiences.
 link:
 principles:
 - principle: Universal

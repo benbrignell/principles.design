@@ -1,7 +1,7 @@
 ---
 title: HTC Hero
 author: HTC
-overview:
+overview: HTC's design philosophy for the Hero smartphone, emphasizing personalization, social connectivity, and intuitive user experiences through customizable interfaces and seamless communication features.
 link: http://rosenfeldmedia.com/books/prototyping/
 principles:
 - principle: Make It Mine
