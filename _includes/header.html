@@ -13,7 +13,7 @@
 
       {% assign authors =  site.examples | map: 'author' | uniq %}
       {% assign principles =  site.examples | map: 'principles' | join: '- principle:'  | split: '- principle:' | uniq %}
-      <p class="full h3 mtn">The collection contains:</p>
+      <p class="full h3 mtn">A growing library of real-world principles:</p>
       <div class="three-up">
         <p class="h1 bold mtn mbn">{{ site.examples.size }}</p>
         <p>Examples</p>
