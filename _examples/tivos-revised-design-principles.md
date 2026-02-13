@@ -1,7 +1,7 @@
 ---
 title: Tivo's Revised Design Principles
 author: Tivo
-overview:
+overview: TiVo's design framework for entertainment systems, emphasizing reliability, user control, ease of use, and intelligent assistance to create seamless media experiences.
 link: http://web.archive.org/web/20240705003536/https://www.pvrblog.com/2004/12/the_pvrblog_int.html
 principles:
 - principle: It is reliable.

@@ -1,7 +1,7 @@
 ---
 title: Willem Sandberg
 author: Willem Sandberg
-overview:
+overview: Willem Sandberg's poster design philosophy emphasizing joy, bold color use, viewer engagement, and social responsibility for creating impactful public visual communication.
 link:
 principles:
  - principle: A poster has to be joyous, unless it has to arouse compassion.
