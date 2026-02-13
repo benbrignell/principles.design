@@ -1,7 +1,7 @@
 ---
 title: Salesforce Lightning Design Principles
 author: Salesforce
-overview: |
+overview: Salesforce's Lightning design framework emphasizing clarity, efficiency, consistency, and innovation for creating enterprise-grade CRM experiences.
 
 link:
 principles:

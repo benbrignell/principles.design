@@ -1,7 +1,7 @@
 ---
 title: Intuit's Design Principles
 author: Intuit
-overview: |
+overview: Intuit's design framework focusing on simplicity, user guidance, and creating intuitive financial management experiences that help customers achieve their goals.
 
 link:
 principles:

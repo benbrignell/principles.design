@@ -1,7 +1,7 @@
 ---
 title: Etsy Design Principles
 author: Etsy Design
-overview: |
+overview: Etsy's design framework emphasizing effectiveness, craftsmanship, and human-centered design to create meaningful experiences for the global creative community.
 link: http://web.archive.org/web/20260209024405/https://medium.com/etsy-design/creating-etsys-design-principles-4faf31914be3
 principles:
 - principle: Be effective

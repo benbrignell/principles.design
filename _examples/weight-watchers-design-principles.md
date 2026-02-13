@@ -1,7 +1,7 @@
 ---
 title: Weight Watchers Design Principles
 author: Weight Watchers
-overview: |
+overview: Weight Watchers' design framework for creating supportive, motivating experiences that help users achieve their health and wellness goals through thoughtful design.
 
 link: https://www.wwstyleguide.com/overview-design-principles/
 link-dead: true

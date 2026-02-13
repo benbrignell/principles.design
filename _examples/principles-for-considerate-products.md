@@ -1,7 +1,7 @@
 ---
 title: Principles for Considerate Products
 author: Alan Cooper
-overview: |
+overview: Alan Cooper's framework for creating considerate products that take interest in users, are deferential to their needs, and create respectful, user-centered experiences.
 link:
 principles:
 - principle: Considerate products take an interest

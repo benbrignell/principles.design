@@ -1,7 +1,7 @@
 ---
 title: Principles for Designing Systems for Expert Users
 author: Natalia Rozycka
-overview: |
+overview: Natalia Rozycka's framework for creating systems that serve expert users effectively, emphasizing domain understanding, efficiency, and supporting professional workflows.
 
 link:
 principles:

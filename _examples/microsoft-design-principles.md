@@ -1,7 +1,7 @@
 ---
 title: Microsoft Design Principles
 author: Microsoft
-overview: |
+overview: Microsoft's design framework emphasizing craftsmanship, user-centered design, and creating polished experiences that balance functionality with aesthetic excellence.
 
 link:
 principles:

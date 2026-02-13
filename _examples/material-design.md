@@ -1,7 +1,7 @@
 ---
 title: Material Design
 author: Google
-overview: |
+overview: Google's comprehensive design system creating adaptive, material-based interfaces with meaningful motion, responsive interactions, and consistent visual hierarchy across platforms.
 
 link: https://material.io/guidelines/material-design/
 principles:

@@ -1,7 +1,7 @@
 ---
 title: IBM 6 UX Guidelines
 author: IBM Design
-overview: |
+overview: IBM Design's six essential UX guidelines covering discovery, learning, creation, management, support, and growth for creating comprehensive user experiences.
 
 link:
 principles:

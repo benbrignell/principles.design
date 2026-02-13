@@ -1,7 +1,7 @@
 ---
 title: MUJI Philosophy
 author: MUJI
-overview: |
+overview: MUJI's design philosophy emphasizing simplicity, functionality, and natural materials to create products that are rational, affordable, and free from unnecessary decoration.
 
 link:
 principles:
